@@ -202,7 +202,7 @@ def get_results(model_path, gt_dict, verbose=False):
 
 if __name__ == "__main__":
     test_json_path = "./data/test.json"
-    model_path = "./trained_models/roberta-base"
+    model_path = "./trained_models/qwen3-4b"
     save_dir = "./results"
     if not os.path.exists(save_dir): os.mkdir(save_dir)
 
