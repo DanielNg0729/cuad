@@ -23,6 +23,7 @@ from pydantic import Field, create_model # Langchain use pydantic object
 
 CHUNK_CHARS = 5000
 OVERLAP = 400
+CHUNK_STRATEGY = "section"   # one of: fixed | recursive | section
 MAX_CONCURRENCY = 1
 DEFAULT_MAX_TOKENS = 1200
 DESC_MAX_CHARS = 110
@@ -114,27 +115,139 @@ def build_schema(categories: dict[str,list[str]]):
     return create_model("ContractExtraction", **fields), field_to_label
 
 
-def build_chain(model: str, schema, max_token:int = DEFAULT_MAX_TOKENS):
+def build_chain(model: str, schema, max_tokens:int = DEFAULT_MAX_TOKENS):
     """
     prompt | ChatGroq.with_structured_output(schema)
     """
 
-    llm = ChatGroq(model = model, temperature=0, max_tokens= max_token).with_structured_output(schema)
+    llm = ChatGroq(model = model, temperature=0, max_tokens= max_tokens).with_structured_output(schema)
     prompt = ChatPromptTemplate.from_messages([("system", SYSTEM_PROMPT),("human",USER_PROMPT)])
 
     return prompt | llm
 
-def chunks(text: str, size: int = CHUNK_CHARS, overlap: int = OVERLAP):
-    """Yield overlapping windows so a span at a boundary still appears whole."""
+# ---------------------------------------------------------------------------
+# Chunking strategies
+#
+# A contract's `context` is one big string. How we cut it into LLM-sized pieces
+# matters a lot for span extraction: a fixed-width cut routinely splits a clause
+# in half (so neither chunk contains it whole and validate_span drops it) and
+# orphans section headers like "12. GOVERNING LAW" from the paragraph they label
+# — losing the single strongest signal for that category.
+#
+# All strategies respect `size` (the per-call char cap) so we never regress into
+# 413 "request too large" errors.
+# ---------------------------------------------------------------------------
+
+def _hard_split(text: str, size: int, overlap: int) -> list[str]:
+    """Original behaviour: blind overlapping fixed-width windows. Last resort
+    for a blob with no usable separators (e.g. a giant ASCII table)."""
     if len(text) <= size:
-        yield text
-        return
-    i = 0
+        return [text]
+    out, i = [], 0
     while i < len(text):
-        yield text[i:i + size]
+        out.append(text[i:i + size])
         if i + size >= len(text):
             break
         i += size - overlap
+    return out
+
+
+def _greedy_pack(pieces: list[str], size: int) -> list[str]:
+    """Concatenate consecutive pieces into chunks <= size WITHOUT ever splitting
+    an individual piece (so whole sections / paragraphs stay intact)."""
+    out, buf = [], ""
+    for p in pieces:
+        if buf and len(buf) + len(p) > size:
+            out.append(buf)
+            buf = p
+        else:
+            buf += p
+    if buf:
+        out.append(buf)
+    return out
+
+
+# Separator priority: paragraph -> line -> sentence -> word. We descend to the
+# next separator only for pieces that are still over `size`.
+_SEPARATORS = ("\n\n", "\n", ". ", " ")
+
+def _recursive_split(text: str, size: int, overlap: int,
+                     seps: tuple[str, ...] = _SEPARATORS) -> list[str]:
+    """Split on the highest-priority separator that exists, keeping the
+    separator attached to each piece, recursing into any piece still too big,
+    then greedily repacking so we don't emit a flood of tiny chunks."""
+    if len(text) <= size:
+        return [text]
+    for k, sep in enumerate(seps):
+        if sep not in text:
+            continue
+        raw = text.split(sep)
+        pieces = [p + sep for p in raw[:-1]] + [raw[-1]]
+        out: list[str] = []
+        for p in pieces:
+            if len(p) <= size:
+                out.append(p)
+            else:
+                out.extend(_recursive_split(p, size, overlap, seps[k + 1:]))
+        return _greedy_pack(out, size)
+    return _hard_split(text, size, overlap)
+
+
+# Contract section headers we split on. Matched against each stripped line:
+#   "ARTICLE IV" / "Section 12.3"  |  "1."  "1.1"  "12.3.4"  |  "(a)" "(iv)"
+#   "GOVERNING LAW" (an ALL-CAPS heading line)
+_HEADER_RE = re.compile(
+    r"^(?:"
+    r"(?:ARTICLE|Article|SECTION|Section)\s+[0-9IVXLCDM]+\b"
+    r"|[0-9]+(?:\.[0-9]+)*\.?(?:\s|$)"
+    r"|\([a-zA-Z0-9]{1,4}\)\s"
+    r"|[A-Z][A-Z0-9 ,;:'&/().\-]{3,}\s*$"
+    r")"
+)
+
+def _split_sections(text: str) -> list[str]:
+    """Break text at detected section headers, keeping each header glued to the
+    body beneath it."""
+    sections, cur = [], []
+    for ln in text.splitlines(keepends=True):
+        if cur and _HEADER_RE.match(ln.strip()):
+            sections.append("".join(cur))
+            cur = [ln]
+        else:
+            cur.append(ln)
+    if cur:
+        sections.append("".join(cur))
+    return sections
+
+
+def _section_split(text: str, size: int, overlap: int) -> list[str]:
+    """Section-aware: never split a section unless it alone exceeds `size`
+    (then recurse), and pack whole sections together up to the cap."""
+    out: list[str] = []
+    for sec in _split_sections(text):
+        if len(sec) > size:
+            out.extend(_recursive_split(sec, size, overlap))
+        else:
+            out.append(sec)
+    return _greedy_pack(out, size)
+
+
+def make_chunks(text: str, strategy: str = CHUNK_STRATEGY,
+                size: int = CHUNK_CHARS, overlap: int = OVERLAP) -> list[str]:
+    """Dispatch to the chosen chunking strategy. All return a list of chunks,
+    each <= `size` chars."""
+    if len(text) <= size:
+        return [text]
+    if strategy == "fixed":
+        return _hard_split(text, size, overlap)
+    if strategy == "recursive":
+        return _recursive_split(text, size, overlap)
+    if strategy == "section":
+        return _section_split(text, size, overlap)
+    raise SystemExit(
+        f"Unknown --chunk_strategy {strategy!r}. "
+        "Use fixed | recursive | section."
+    )
 
 def validate_span(span: Optional[str], chunk: str) -> Optional[str]:
     """Drop predictions that don't literally appear in the chunk. Even strong
@@ -270,10 +383,12 @@ async def extract_contract(chain, field_to_label, context: str,
                            all_labels: list[str],
                            concurrency: int,
                            chunk_chars: int = CHUNK_CHARS,
-                           overlap: int = OVERLAP) -> dict[str, list[str]]:
+                           overlap: int = OVERLAP,
+                           strategy: str = CHUNK_STRATEGY) -> dict[str, list[str]]:
     """Fire one LLM call per chunk in parallel (capped by `concurrency`).
     Each call retries reactively on 429 using Groq's own retry-after hint."""
-    chunk_list = list(chunks(context, size=chunk_chars, overlap=overlap))
+    chunk_list = make_chunks(context, strategy=strategy,
+                             size=chunk_chars, overlap=overlap)
     predictions = {label: [] for label in all_labels}
     sem = asyncio.Semaphore(concurrency)
 
@@ -332,8 +447,8 @@ async def run(args):
     est_per_call = chunk_tok_est + schema_tok_est + args.max_tokens + 100
     scope = "all 41 categories" if args.category.lower() == "all" else f"category {args.category!r}"
     print(f"  testing {scope} ({len(all_labels)} field schema), "
-          f"concurrency={args.concurrency}, chunk_chars={args.chunk_chars}, "
-          f"max_tokens={args.max_tokens}")
+          f"concurrency={args.concurrency}, chunk_strategy={args.chunk_strategy}, "
+          f"chunk_chars={args.chunk_chars}, max_tokens={args.max_tokens}")
     print(f"  est per-call reservation ~{est_per_call} tok "
           f"(must be < model's TPM cap or you'll get 413s)")
 
@@ -364,7 +479,8 @@ async def run(args):
                 break
             continue
 
-        n_chunks = sum(1 for _ in chunks(ctx, size=args.chunk_chars, overlap=args.overlap))
+        n_chunks = len(make_chunks(ctx, strategy=args.chunk_strategy,
+                                   size=args.chunk_chars, overlap=args.overlap))
         print(f"\n[{ci+1}/{len(contracts)}] {title[:60]}  "
               f"({len(ctx):,} chars, {n_chunks} chunks)")
 
@@ -373,6 +489,7 @@ async def run(args):
             predictions = await extract_contract(
                 chain, field_to_label, ctx, all_labels, args.concurrency,
                 chunk_chars=args.chunk_chars, overlap=args.overlap,
+                strategy=args.chunk_strategy,
             )
         except FatalAPIError as e:
             # Out of API budget or auth broke — save what we have and bail.
@@ -448,7 +565,16 @@ if __name__ == "__main__":
                          "For 6K-TPM models (llama-3.1-8b-instant, gpt-oss-20b) "
                          "use 4000-5000.")
     ap.add_argument("--overlap", type=int, default=OVERLAP,
-                    help=f"Chunk overlap in chars (default {OVERLAP}).")
+                    help=f"Chunk overlap in chars (default {OVERLAP}). Only the "
+                         "'fixed' strategy (and oversized-section fallback) use it.")
+    ap.add_argument("--chunk_strategy", default=CHUNK_STRATEGY,
+                    choices=["fixed", "recursive", "section"],
+                    help=f"How to cut a contract into LLM-sized pieces "
+                         f"(default {CHUNK_STRATEGY!r}). 'fixed'=blind windows "
+                         "(old behaviour); 'recursive'=split on paragraph/line/"
+                         "sentence boundaries; 'section'=split on contract "
+                         "headers (ARTICLE/Section/1.1/(a)/ALL-CAPS) and pack "
+                         "whole sections.")
     ap.add_argument("--category", default="all",
                     help='Which CUAD category to test: "all" (default, the full '
                          '41-field schema) or one category name, e.g. '
