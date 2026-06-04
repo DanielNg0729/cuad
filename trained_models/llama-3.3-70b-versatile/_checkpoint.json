@@ -1,0 +1,598 @@
+{
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Document Name": [
+    {
+      "text": "Exhibit 10.16 SUPPLY CONTRACT",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Parties": [
+    {
+      "text": "LOHA CO. LTD.",
+      "probability": 1.0
+    },
+    {
+      "text": "THE BUYER: THE SELLER",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Agreement Date": [
+    {
+      "text": "Date:",
+      "probability": 1.0
+    },
+    {
+      "text": "12/9/2019",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Effective Date": [
+    {
+      "text": "after signed by both parties",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Expiration Date": [
+    {
+      "text": "5 years",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Renewal Term": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Notice Period To Terminate Renewal": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Governing Law": [
+    {
+      "text": "the law of the People's Republic of China",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Most Favored Nation": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Non-Compete": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Exclusivity": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__No-Solicit Of Customers": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Competitive Restriction Exception": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__No-Solicit Of Employees": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Non-Disparagement": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Termination For Convenience": [
+    {
+      "text": "the Buyers shall have the right to cancel the Contract",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Rofr/Rofo/Rofn": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Change Of Control": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Anti-Assignment": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Revenue/Profit Sharing": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Price Restrictions": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Minimum Commitment": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Volume Restriction": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Ip Ownership Assignment": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Joint Ip Ownership": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__License Grant": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Non-Transferable License": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Affiliate License-Licensor": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Affiliate License-Licensee": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Unlimited/All-You-Can-Eat-License": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Irrevocable Or Perpetual License": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Source Code Escrow": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Post-Termination Services": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Audit Rights": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Uncapped Liability": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Cap On Liability": [
+    {
+      "text": "5% of the total value of the goods involved in the late delivery",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Liquidated Damages": [
+    {
+      "text": "0.5% for every seven days",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Warranty Duration": [
+    {
+      "text": "Within 7 days after the arrival of the goods at destination",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Insurance": [
+    {
+      "text": "To be covered by the Seller for 110% invoice value against All Risks and War Risk",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Covenant Not To Sue": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement__Third Party Beneficiary": [
+    {
+      "text": "SHENZHEN YICHANGTAI IMPORT AND EXPORT TRADE CO., LTD or SHENZHEN LEHEYUAN TRADING CO, LTD",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Document Name": [
+    {
+      "text": "WEB SITE HOSTING AGREEMENT",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Parties": [
+    {
+      "text": "Centrack International, a Florida corporation (\"the Customer\"), and i-on interactive, a Florida corporation (\"i-on\")",
+      "probability": 1.0
+    },
+    {
+      "text": "CENTRACK INTERNATIONAL, INC.            I-ON INTERACTIVE, INC.",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Agreement Date": [
+    {
+      "text": "this 6th day of April, 1999",
+      "probability": 1.0
+    },
+    {
+      "text": "April 1, 1999",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Effective Date": [
+    {
+      "text": "April 1, 1999",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Expiration Date": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Renewal Term": [
+    {
+      "text": "one (1) month periods",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Notice Period To Terminate Renewal": [
+    {
+      "text": "fifteen (15) days",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Governing Law": [
+    {
+      "text": "This Agreement was entered into in the State of Florida, and its validity, construction, interpretation, and legal effect shall be governed by the laws and judicial decisions of the State of Florida applicable to contracts entered into and performed entirely within the State of Florida.",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Most Favored Nation": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Non-Compete": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Exclusivity": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__No-Solicit Of Customers": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Competitive Restriction Exception": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__No-Solicit Of Employees": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Non-Disparagement": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Termination For Convenience": [
+    {
+      "text": "Either party may terminate this Agreement without cause at any time effective upon thirty (30) days' written notice.",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Rofr/Rofo/Rofn": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Change Of Control": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Anti-Assignment": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Revenue/Profit Sharing": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Price Restrictions": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Minimum Commitment": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Volume Restriction": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Ip Ownership Assignment": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Joint Ip Ownership": [
+    {
+      "text": "Nothing contained herein shall be deemed or construed to create a joint venture or partnership between the Customer and i-on.",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__License Grant": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Non-Transferable License": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Affiliate License-Licensor": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Affiliate License-Licensee": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Unlimited/All-You-Can-Eat-License": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Irrevocable Or Perpetual License": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Source Code Escrow": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Post-Termination Services": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Audit Rights": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Uncapped Liability": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Cap On Liability": [
+    {
+      "text": "i-on's liability for damages to the Customer for any cause whatsoever, regardless of the form of action, and whether in contract or in tort, including negligence, shall be limited to one (1) month's fees and the remaining portion of any prepaid fees.",
+      "probability": 1.0
+    },
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Liquidated Damages": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Warranty Duration": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Insurance": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Covenant Not To Sue": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ],
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT__Third Party Beneficiary": [
+    {
+      "text": "",
+      "probability": 0.0
+    }
+  ]
+}
