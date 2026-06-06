@@ -38,7 +38,8 @@ MAX_CONCURRENCY = 1
 DEFAULT_MAX_TOKENS = 1200
 DESC_MAX_CHARS = 110
 CATEGORY_CSV = "category_descriptions.csv"
-DEFAULT_DATA = "test_chunking.json"   # produced by chunking.py
+DEFAULT_DATA = "test_chunking.json"   # produced by chunking.py (chunks only)
+DEFAULT_GOLD = "test.json"            # original CUAD file: questions + gold answers
 
 # "Copy verbatim" / "null if absent" instructions live in the system prompt
 # once instead of being duplicated into all 41 field descriptions — that
@@ -323,14 +324,23 @@ async def run(args):
     all_labels = list(label_set)
     chain = build_chain(args.model, schema, max_tokens=args.max_tokens)
 
+    # Chunks come from chunking.py (text only, keyed by contract_id); the
+    # questions + gold answers stay in the original test.json and are joined
+    # back in here by contract_id. The ground truth is never co-located with
+    # the chunks fed to the LLM.
     chunk_file = json.loads(Path(args.data).read_text(encoding="utf-8"))
     meta = chunk_file.get("metadata", {})
-    contracts = chunk_file["data"]
-    if "chunks" not in (contracts[0] if contracts else {}):
+    chunk_entries = chunk_file["data"]
+    if "chunks" not in (chunk_entries[0] if chunk_entries else {}):
         raise SystemExit(
             f"{args.data!r} is not a chunk file. Run chunking.py first:\n"
             f"  python chunking.py --strategy section"
         )
+    chunks_by_id = {c["contract_id"]: c["chunks"] for c in chunk_entries}
+
+    # Original test file supplies qas (ids/questions/gold answers). We link the
+    # two files by contract_id == title == qa["id"].split("__")[0].
+    contracts = json.loads(Path(args.gold).read_text(encoding="utf-8"))["data"]
 
     # Rough per-call reservation (Groq counts input + max_tokens against TPM).
     # ~56 tokens of JSON scaffolding per schema field, measured. chunk_chars
@@ -358,8 +368,12 @@ async def run(args):
 
     for ci, contract in enumerate(contracts):
         title = contract["title"]
-        chunk_list = contract["chunks"]
-        qas = contract["qas"]
+        qas = contract["paragraphs"][0]["qas"]
+        chunk_list = chunks_by_id.get(title)
+        if chunk_list is None:
+            print(f"\n[{ci+1}/{len(contracts)}] {title[:60]}  "
+                  f"-- no chunks in {args.data} (re-run chunking.py); skipping")
+            continue
 
         # Only the QAs whose category we're testing (all 41, or just one).
         target_qas = [qa for qa in qas
@@ -436,8 +450,13 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--data",  default=DEFAULT_DATA,
                     help=f"Pre-chunked file from chunking.py (default "
-                         f"{DEFAULT_DATA!r}). Re-run chunking.py to change the "
+                         f"{DEFAULT_DATA!r}). Holds chunk text only, keyed by "
+                         "contract_id. Re-run chunking.py to change the "
                          "chunking strategy / size.")
+    ap.add_argument("--gold",  default=DEFAULT_GOLD,
+                    help=f"Original CUAD file with questions + gold answers "
+                         f"(default {DEFAULT_GOLD!r}), joined to the chunks by "
+                         "contract_id. Gold answers are never sent to the LLM.")
     ap.add_argument("--model", default="llama-3.3-70b-versatile",
                     help="Any Groq-hosted model id (llama-3.3-70b-versatile, "
                          "openai/gpt-oss-120b, deepseek-r1-distill-llama-70b, ...).")

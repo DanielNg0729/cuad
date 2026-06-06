@@ -20,10 +20,16 @@ Output schema (consumed by Groq.py):
       "metadata": {"strategy": ..., "chunk_chars": ..., "overlap": ...,
                    "source": ..., "num_contracts": ...},
       "data": [
-        {"title": ..., "chunks": ["...", ...], "qas": [<original qa objects>]},
+        {"contract_id": <title>, "chunks": ["...", ...]},
         ...
       ]
     }
+
+Only the chunk text is stored here -- no questions and no gold answers, so the
+ground truth is never duplicated alongside what gets fed to the LLM. Each entry
+keeps `contract_id` (the contract's title, which is also the prefix of every
+qa id in test.json: qa["id"].split("__")[0]), so this file links back to the
+original test.json by contract id whenever the questions / answers are needed.
 
 Usage:
     python chunking.py --strategy section            # default
@@ -36,7 +42,7 @@ import json
 import re
 from pathlib import Path
 
-CHUNK_CHARS = 5000
+CHUNK_CHARS = 5000 
 OVERLAP = 400
 CHUNK_STRATEGY = "section"   # one of: fixed | recursive | section
 OUTPUT_FILE = "test_chunking.json"
@@ -168,8 +174,9 @@ def make_chunks(text: str, strategy: str = CHUNK_STRATEGY,
 def build_chunk_file(data_path: str, strategy: str, chunk_chars: int,
                      overlap: int) -> dict:
     """Read the CUAD test JSON and return the test_chunking.json structure:
-    every contract carries its chunk list plus the untouched qas array (so
-    Groq.py never has to re-open the original test.json)."""
+    every contract carries only its `contract_id` (the title) and its chunk
+    list. Questions and gold answers are deliberately NOT copied here -- Groq.py
+    re-joins to the original test.json by contract_id when it needs them."""
     contracts = json.loads(Path(data_path).read_text(encoding="utf-8"))["data"]
 
     out_contracts = []
@@ -180,9 +187,8 @@ def build_chunk_file(data_path: str, strategy: str, chunk_chars: int,
                              size=chunk_chars, overlap=overlap)
         total_chunks += len(chunks)
         out_contracts.append({
-            "title": contract["title"],
+            "contract_id": contract["title"],   # == qa["id"].split("__")[0]
             "chunks": chunks,
-            "qas": para["qas"],          # ids, questions, gold answers, is_impossible
         })
 
     return {
