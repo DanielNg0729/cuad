@@ -1,21 +1,18 @@
 """
-Stage 1 of the Groq CUAD pipeline: cut every contract into LLM-sized chunks and
-write them to a single JSON file (test_chunking.json) that Groq.py then consumes.
+Step 1 of the Groq pipeline: chop each contract into LLM-sized pieces and dump
+them to test_chunking.json, which Groq.py reads next.
 
-Why split chunking off from the LLM call:
-  - chunking is deterministic and free; the LLM call is slow and rate-limited.
-    Running it once up front lets you eyeball / diff the chunks, and lets
-    Groq.py focus purely on "send chunk -> collect spans".
-  - the three strategies (fixed | recursive | section) can be generated and
-    compared without burning any API budget.
+I split this out from the actual LLM call for two reasons. Chunking is cheap and
+deterministic, so doing it once up front means I can open the file and actually
+look at the chunks before spending any API budget. And it lets me generate all
+three strategies and compare them without making a single request.
 
-How a contract is cut matters a lot for span extraction: a fixed-width cut
-routinely splits a clause in half (so neither chunk contains it whole and
-Groq.py's validate_span drops it) and orphans section headers like
-"12. GOVERNING LAW" from the paragraph they label. The 'section' and 'recursive'
-strategies exist to avoid exactly that.
+The way you cut a contract really does matter here. A naive fixed-width cut
+tends to slice a clause down the middle (so no chunk has it whole and Groq.py
+throws it away), and it strands headings like "12. GOVERNING LAW" from the text
+underneath them. The 'section' and 'recursive' strategies exist to avoid that.
 
-Output schema (consumed by Groq.py):
+Shape of the output file (what Groq.py expects):
     {
       "metadata": {"strategy": ..., "chunk_chars": ..., "overlap": ...,
                    "source": ..., "num_contracts": ...},
@@ -25,11 +22,11 @@ Output schema (consumed by Groq.py):
       ]
     }
 
-Only the chunk text is stored here -- no questions and no gold answers, so the
-ground truth is never duplicated alongside what gets fed to the LLM. Each entry
-keeps `contract_id` (the contract's title, which is also the prefix of every
-qa id in test.json: qa["id"].split("__")[0]), so this file links back to the
-original test.json by contract id whenever the questions / answers are needed.
+Note we only keep the chunk text here -- no questions, no gold answers. That
+keeps the ground truth out of the file we feed to the model. The contract_id is
+just the contract's title, which also happens to be the prefix of every qa id
+in test.json (qa["id"].split("__")[0]), so you can always join back to the
+original to get the questions and answers when you need them.
 
 Usage:
     python chunking.py --strategy section            # default
@@ -42,7 +39,7 @@ import json
 import re
 from pathlib import Path
 
-CHUNK_CHARS = 5000 
+CHUNK_CHARS = 5000
 OVERLAP = 400
 CHUNK_STRATEGY = "section"   # one of: fixed | recursive | section
 OUTPUT_FILE = "test_chunking.json"
@@ -51,14 +48,13 @@ OUTPUT_FILE = "test_chunking.json"
 # ---------------------------------------------------------------------------
 # Chunking strategies
 #
-# All strategies respect `size` (the per-call char cap) so we never produce a
-# chunk too large for the model to accept (which would later cause a 413
-# "request too large" from Groq).
+# Every strategy honors `size` (the char cap per chunk) so we never hand the
+# model a chunk it'll reject with a 413 "request too large".
 # ---------------------------------------------------------------------------
 
 def _hard_split(text: str, size: int, overlap: int) -> list[str]:
-    """Blind overlapping fixed-width windows. Last resort for a blob with no
-    usable separators (e.g. a giant ASCII table)."""
+    """Dumb fixed-width windows with a bit of overlap. Only used as a fallback
+    when there are no separators to work with (think a giant ASCII table)."""
     if len(text) <= size:
         return [text]
     out, i = [], 0
@@ -71,8 +67,8 @@ def _hard_split(text: str, size: int, overlap: int) -> list[str]:
 
 
 def _greedy_pack(pieces: list[str], size: int) -> list[str]:
-    """Concatenate consecutive pieces into chunks <= size WITHOUT ever splitting
-    an individual piece (so whole sections / paragraphs stay intact)."""
+    """Glue consecutive pieces together into chunks up to `size`, but never cut
+    a piece in half -- so whole sections / paragraphs stay in one piece."""
     out, buf = [], ""
     for p in pieces:
         if buf and len(buf) + len(p) > size:
@@ -85,15 +81,15 @@ def _greedy_pack(pieces: list[str], size: int) -> list[str]:
     return out
 
 
-# Separator priority: paragraph -> line -> sentence -> word. We descend to the
-# next separator only for pieces that are still over `size`.
+# Separators in order of preference: paragraph, then line, then sentence, then
+# word. We only drop to a finer one for pieces that are still too big.
 _SEPARATORS = ("\n\n", "\n", ". ", " ")
 
 def _recursive_split(text: str, size: int, overlap: int,
                      seps: tuple[str, ...] = _SEPARATORS) -> list[str]:
-    """Split on the highest-priority separator that exists, keeping the
-    separator attached to each piece, recursing into any piece still too big,
-    then greedily repacking so we don't emit a flood of tiny chunks."""
+    """Split on the best separator that's actually present, keep the separator
+    attached to each piece, recurse into anything still too big, then pack the
+    results back up so we don't end up with a pile of tiny chunks."""
     if len(text) <= size:
         return [text]
     for k, sep in enumerate(seps):
@@ -111,9 +107,9 @@ def _recursive_split(text: str, size: int, overlap: int,
     return _hard_split(text, size, overlap)
 
 
-# Contract section headers we split on. Matched against each stripped line:
+# What a section header looks like, checked against each stripped line:
 #   "ARTICLE IV" / "Section 12.3"  |  "1."  "1.1"  "12.3.4"  |  "(a)" "(iv)"
-#   "GOVERNING LAW" (an ALL-CAPS heading line)
+#   or just an ALL-CAPS heading line like "GOVERNING LAW"
 _HEADER_RE = re.compile(
     r"^(?:"
     r"(?:ARTICLE|Article|SECTION|Section)\s+[0-9IVXLCDM]+\b"
@@ -124,8 +120,8 @@ _HEADER_RE = re.compile(
 )
 
 def _split_sections(text: str) -> list[str]:
-    """Break text at detected section headers, keeping each header glued to the
-    body beneath it."""
+    """Cut the text wherever a section header shows up, keeping each header
+    stuck to the body underneath it."""
     sections, cur = [], []
     for ln in text.splitlines(keepends=True):
         if cur and _HEADER_RE.match(ln.strip()):
@@ -139,8 +135,9 @@ def _split_sections(text: str) -> list[str]:
 
 
 def _section_split(text: str, size: int, overlap: int) -> list[str]:
-    """Section-aware: never split a section unless it alone exceeds `size`
-    (then recurse), and pack whole sections together up to the cap."""
+    """Keep sections whole. Only split a section if it's bigger than `size` on
+    its own (then fall back to recursive), and pack the rest together up to the
+    cap."""
     out: list[str] = []
     for sec in _split_sections(text):
         if len(sec) > size:
@@ -152,8 +149,8 @@ def _section_split(text: str, size: int, overlap: int) -> list[str]:
 
 def make_chunks(text: str, strategy: str = CHUNK_STRATEGY,
                 size: int = CHUNK_CHARS, overlap: int = OVERLAP) -> list[str]:
-    """Dispatch to the chosen chunking strategy. All return a list of chunks,
-    each <= `size` chars."""
+    """Hand off to whichever strategy was picked. They all give back a list of
+    chunks, each no bigger than `size` chars."""
     if len(text) <= size:
         return [text]
     if strategy == "fixed":
@@ -173,10 +170,10 @@ def make_chunks(text: str, strategy: str = CHUNK_STRATEGY,
 
 def build_chunk_file(data_path: str, strategy: str, chunk_chars: int,
                      overlap: int) -> dict:
-    """Read the CUAD test JSON and return the test_chunking.json structure:
-    every contract carries only its `contract_id` (the title) and its chunk
-    list. Questions and gold answers are deliberately NOT copied here -- Groq.py
-    re-joins to the original test.json by contract_id when it needs them."""
+    """Load the CUAD test JSON and build the test_chunking.json structure. Each
+    contract keeps only its `contract_id` (the title) and its chunks. We leave
+    the questions and gold answers out on purpose -- Groq.py joins back to the
+    original test.json by contract_id when it needs them."""
     contracts = json.loads(Path(data_path).read_text(encoding="utf-8"))["data"]
 
     out_contracts = []
@@ -187,7 +184,7 @@ def build_chunk_file(data_path: str, strategy: str, chunk_chars: int,
                              size=chunk_chars, overlap=overlap)
         total_chunks += len(chunks)
         out_contracts.append({
-            "contract_id": contract["title"],   # == qa["id"].split("__")[0]
+            "contract_id": contract["title"],   # same as qa["id"].split("__")[0]
             "chunks": chunks,
         })
 

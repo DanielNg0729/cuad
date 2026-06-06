@@ -1,16 +1,16 @@
 """
-Stage 2 of the Groq CUAD pipeline.
+Step 2 of the Groq pipeline.
 
-Reads a pre-chunked file produced by chunking.py (default test_chunking.json),
-runs a Groq-hosted LLM (via LangChain) over each contract's chunks using a
-zero-shot structured-extraction prompt, and writes predictions in the nbest
-format consumed by evaluate.py.
+Takes the pre-chunked file from chunking.py (test_chunking.json by default),
+runs a Groq-hosted LLM over each contract's chunks with a zero-shot
+structured-extraction prompt, and writes the predictions in the nbest format
+that evaluate.py reads.
 
-Chunking now lives entirely in chunking.py — this file no longer cuts the
-contracts itself, it just sends the chunks it is given. To change the chunking
-strategy / size, re-run chunking.py and point --data at its output.
+All the chunking happens in chunking.py now -- this file doesn't cut anything,
+it just sends the chunks it's handed. If you want a different chunk strategy or
+size, re-run chunking.py and point --data at its output.
 
-This file can test a single category or all 41 categories at once.
+You can run it on a single category or all 41 at once.
 
 Pipeline:
     python chunking.py --strategy section          # -> test_chunking.json
@@ -41,9 +41,9 @@ CATEGORY_CSV = "category_descriptions.csv"
 DEFAULT_DATA = "test_chunking.json"   # produced by chunking.py (chunks only)
 DEFAULT_GOLD = "test.json"            # original CUAD file: questions + gold answers
 
-# "Copy verbatim" / "null if absent" instructions live in the system prompt
-# once instead of being duplicated into all 41 field descriptions — that
-# alone shaved ~1000 tokens off every call.
+# The "copy verbatim" / "null if absent" rules sit in the system prompt once
+# rather than getting repeated into all 41 field descriptions. That alone cut
+# about 1000 tokens off every call.
 
 SYSTEM_PROMPT = (
     "You are a legal contract analyst. For each schema field, return the "
@@ -138,8 +138,8 @@ def build_chain(model: str, schema, max_tokens:int = DEFAULT_MAX_TOKENS):
     return prompt | llm
 
 def validate_span(span: Optional[str], chunk: str) -> Optional[str]:
-    """Drop predictions that don't literally appear in the chunk. Even strong
-    models occasionally paraphrase — we want raw extractions only."""
+    """Throw away any prediction that isn't actually in the chunk word for word.
+    Even good models paraphrase now and then, and we only want raw extractions."""
     if not span:
         return None
     span = span.strip().strip('"').strip("'").strip()
@@ -153,15 +153,17 @@ def validate_span(span: Optional[str], chunk: str) -> Optional[str]:
     return None
 
 """
-API-error detection:
-- Treat rate-limit, quota, and auth errors as "Stop the whole run and save" rather than per-contract failure
-- Anything else (timeouts, parse errors,...) is just a skipped chunk
+How we sort API errors:
+- rate-limit, quota and auth errors mean "stop everything and save", not just a
+  failed contract
+- everything else (timeouts, parse errors, ...) is just a chunk we skip
 
 """
 
 class FatalAPIError(RuntimeError):
     """
-    Signal that Groq API is unusable. Caught by run() to checkpoint and exit cleanly
+    Means the Groq API is unusable. run() catches this, checkpoints, and exits
+    cleanly so you can resume later.
     """
 
 _FATAL_TYPES = {"RateLimitError", "AuthenticationError",
@@ -170,30 +172,30 @@ _FATAL_KEYWORDS = ("rate limit", "rate_limit", "quota", "insufficient_quota",
                    "invalid_api_key", "unauthorized", "429", "401", "403")
 
 def is_fatal_api_error(exc: BaseException) -> bool:
-    # True if the errors mean we should stop the run, not just skip a chunk
+    # True when the error means stop the run, not just skip a chunk
     if type(exc).__name__ in _FATAL_TYPES:
         return True
     msg = str(exc).lower()
     return any(k in msg for k in _FATAL_KEYWORDS)
 
-# Instead of pre-throttling based on estimates (which over-counts because Groq
-# only bills actual_output, not max_tokens), let Groq tell us when it's full.
-# Every 429 from Groq includes a "Please try again in <duration>" hint — we
-# parse it and sleep exactly that long. Durations come in two flavors:
+# Rather than guess ahead of time how much we can send (which overshoots, since
+# Groq bills actual output, not max_tokens), we let Groq tell us when it's full.
+# Every 429 carries a "Please try again in <duration>" hint, so we parse that and
+# sleep exactly that long. The duration shows up in two forms:
 #   - TPM (tokens/minute):  "try again in 8.594999999s"
-#   - TPD (tokens/day):     "try again in 34m12.864s"   (and rarely with hours)
+#   - TPD (tokens/day):     "try again in 34m12.864s"   (rarely with hours too)
 
 _RETRY_AFTER_RE = re.compile(
     r"try again in\s+(?:(\d+)h\s*)?(?:(\d+)m\s*)?([\d.]+)\s*s",
     re.IGNORECASE,
 )
-MAX_RETRIES = 5                # per-call attempts before giving up
-MAX_RETRY_WAIT_SECONDS = 3600 * 2   # 2h cap — anything longer = bail and resume later
+MAX_RETRIES = 5                # how many times we retry a call before giving up
+MAX_RETRY_WAIT_SECONDS = 3600 * 2   # 2h cap; longer than that, bail and resume later
 
 def _retry_seconds(exc: BaseException) -> Optional[float]:
-    """Pull the wait duration out of a 429 message and convert to seconds.
-    Handles 'Xs', 'Ym Zs', 'Wh Ym Zs' formats. Returns None if not a parseable
-    rate-limit hint."""
+    """Dig the wait time out of a 429 message and turn it into seconds. Handles
+    the 'Xs', 'Ym Zs' and 'Wh Ym Zs' shapes. Returns None if there's no
+    rate-limit hint to parse."""
     m = _RETRY_AFTER_RE.search(str(exc))
     if not m:
         return None
@@ -204,13 +206,13 @@ def _retry_seconds(exc: BaseException) -> Optional[float]:
     return total
 
 async def _sleep_with_eta(seconds: float, reason: str):
-    """Sleep, but tell the user upfront when we'll wake. For long waits print
-    a midway update so the run doesn't look hung."""
+    """Sleep, but say up front when we'll wake back up. On long waits print a
+    halfway update so it doesn't look like the run hung."""
     wake_at = time.time() + seconds
     wake_str = time.strftime("%H:%M:%S", time.localtime(wake_at))
     print(f"  {reason}: sleeping {seconds/60:.1f} min, resume at ~{wake_str}")
     if seconds > 600:
-        # Midway heartbeat for waits > 10 min so user can see the script is alive.
+        # Halfway heartbeat for waits over 10 min so you can tell it's alive.
         await asyncio.sleep(seconds / 2)
         remaining = wake_at - time.time()
         print(f"  ... still waiting, ~{remaining/60:.1f} min remaining")
@@ -223,19 +225,20 @@ _NON_RETRIABLE = {"AuthenticationError", "PermissionDeniedError",
 
 
 async def call_with_retry(chain, inputs: dict, max_retries: int = MAX_RETRIES):
-    """ainvoke + reactive backoff. Sleeps exactly as long as Groq asks (TPM or
-    TPD), then retries. Bails on auth errors or waits > MAX_RETRY_WAIT_SECONDS."""
+    """ainvoke with reactive backoff: sleep for exactly as long as Groq asks
+    (TPM or TPD), then try again. Gives up on auth errors or any wait longer
+    than MAX_RETRY_WAIT_SECONDS."""
     for attempt in range(max_retries + 1):
         try:
             return await chain.ainvoke(inputs)
         except Exception as e:
             msg_low = str(e).lower()
-            # Auth/quota/permission — no amount of waiting fixes these.
+            # Auth / quota / permission: waiting won't fix any of these.
             if type(e).__name__ in _NON_RETRIABLE:
                 raise FatalAPIError(str(e)) from e
-            # 413 "Request too large": a single call exceeds the TPM cap
-            # entirely. Retrying with the same payload always fails — bail
-            # immediately so the user can lower --chunk_chars / --max_tokens.
+            # 413 "Request too large": one call is over the TPM cap by itself.
+            # Resending the same payload will always fail, so bail right away and
+            # let the user lower --chunk_chars / --max_tokens.
             if "413" in msg_low or "request too large" in msg_low:
                 raise FatalAPIError(
                     f"Single request exceeds model's TPM cap (no retry can "
@@ -243,24 +246,24 @@ async def call_with_retry(chain, inputs: dict, max_retries: int = MAX_RETRIES):
                     f"resume.\n  {e}"
                 ) from e
             wait_s = _retry_seconds(e)
-            # Fallback for 429s without a parseable hint: wait 60s.
+            # If a 429 didn't come with a parseable hint, just wait 60s.
             if wait_s is None:
                 if "429" not in msg_low and "rate_limit" not in msg_low:
                     raise   # not a rate-limit error at all
                 wait_s = 60.0
-            # Cap: anything longer than the cap is better handled by exiting
-            # and letting the user resume tomorrow.
+            # If the wait is longer than our cap, it's better to quit and pick
+            # it back up tomorrow than to sit here.
             if wait_s > MAX_RETRY_WAIT_SECONDS:
                 raise FatalAPIError(
                     f"Groq asked to wait {wait_s/60:.0f}min "
                     f"(> {MAX_RETRY_WAIT_SECONDS/60:.0f}min cap). "
-                    f"Likely TPD exhausted — resume tomorrow."
+                    f"Probably out of daily tokens -- resume tomorrow."
                 ) from e
             if attempt >= max_retries:
                 raise FatalAPIError(
                     f"Rate-limited {max_retries}+ times in a row: {e}"
                 ) from e
-            sleep_s = wait_s + 0.5     # tiny cushion so we don't race the window
+            sleep_s = wait_s + 0.5     # small cushion so we don't race the window
             await _sleep_with_eta(
                 sleep_s,
                 f"rate-limited (attempt {attempt+1}/{max_retries})",
@@ -270,9 +273,9 @@ async def call_with_retry(chain, inputs: dict, max_retries: int = MAX_RETRIES):
 async def extract_contract(chain, field_to_label, chunk_list: list[str],
                            all_labels: list[str],
                            concurrency: int) -> dict[str, list[str]]:
-    """Fire one LLM call per chunk in parallel (capped by `concurrency`).
-    Each call retries reactively on 429 using Groq's own retry-after hint.
-    Chunks are produced upstream by chunking.py."""
+    """One LLM call per chunk, run in parallel up to `concurrency`. Each call
+    backs off on a 429 using Groq's own retry-after hint. The chunks come from
+    chunking.py."""
     predictions = {label: [] for label in all_labels}
     sem = asyncio.Semaphore(concurrency)
 
@@ -283,7 +286,7 @@ async def extract_contract(chain, field_to_label, chunk_list: list[str],
             except FatalAPIError:
                 raise
             except Exception as e:
-                return e   # transient — caller skips this chunk
+                return e   # transient -- the caller skips this chunk
 
     results = await asyncio.gather(
         *(process(c) for c in chunk_list),
@@ -294,7 +297,7 @@ async def extract_contract(chain, field_to_label, chunk_list: list[str],
         if isinstance(result, Exception):
             if is_fatal_api_error(result):
                 raise FatalAPIError(str(result)) from result
-            continue  # transient — skip this chunk
+            continue  # transient -- skip this chunk
         if result is None:
             continue
         for fname, label in field_to_label.items():
@@ -324,10 +327,10 @@ async def run(args):
     all_labels = list(label_set)
     chain = build_chain(args.model, schema, max_tokens=args.max_tokens)
 
-    # Chunks come from chunking.py (text only, keyed by contract_id); the
-    # questions + gold answers stay in the original test.json and are joined
-    # back in here by contract_id. The ground truth is never co-located with
-    # the chunks fed to the LLM.
+    # The chunks come from chunking.py -- text only, keyed by contract_id. The
+    # questions and gold answers live in the original test.json, and we join the
+    # two back together here by contract_id, so the ground truth never sits next
+    # to the chunks we feed the model.
     chunk_file = json.loads(Path(args.data).read_text(encoding="utf-8"))
     meta = chunk_file.get("metadata", {})
     chunk_entries = chunk_file["data"]
@@ -338,13 +341,15 @@ async def run(args):
         )
     chunks_by_id = {c["contract_id"]: c["chunks"] for c in chunk_entries}
 
-    # Original test file supplies qas (ids/questions/gold answers). We link the
-    # two files by contract_id == title == qa["id"].split("__")[0].
+    # The original test file gives us the qas (ids / questions / gold answers).
+    # The link between the two files is contract_id == title == the part of a
+    # qa id before "__".
     contracts = json.loads(Path(args.gold).read_text(encoding="utf-8"))["data"]
 
-    # Rough per-call reservation (Groq counts input + max_tokens against TPM).
-    # ~56 tokens of JSON scaffolding per schema field, measured. chunk_chars
-    # comes from the chunking.py metadata since chunking now happens upstream.
+    # Rough guess at what each call reserves (Groq counts input + max_tokens
+    # against the TPM limit). Measured at ~56 tokens of JSON scaffolding per
+    # field. chunk_chars comes from chunking.py's metadata now that chunking
+    # happens upstream.
     chunk_chars = meta.get("chunk_chars", 5000)
     chunk_tok_est = chunk_chars // 4
     schema_tok_est = 56 * len(all_labels) + 100
@@ -375,12 +380,12 @@ async def run(args):
                   f"-- no chunks in {args.data} (re-run chunking.py); skipping")
             continue
 
-        # Only the QAs whose category we're testing (all 41, or just one).
+        # Just the QAs for the category/categories we're testing (all 41, or one).
         target_qas = [qa for qa in qas
                       if qa["id"].split("__")[-1] in label_set]
 
-        # Resume: contracts are processed atomically, so if every target QA
-        # is already in nbest we can skip the whole contract.
+        # Resume support: we write a contract all at once, so if every target QA
+        # is already in nbest we can skip the whole thing.
         if target_qas and all(qa["id"] in nbest for qa in target_qas):
             n_qas_done += len(target_qas)
             if args.limit and n_qas_done >= args.limit:
@@ -397,20 +402,20 @@ async def run(args):
                 chain, field_to_label, chunk_list, all_labels, args.concurrency,
             )
         except FatalAPIError as e:
-            # Out of API budget or auth broke — save what we have and bail.
-            # The in-flight contract isn't in `nbest` yet, so resume re-tries it.
+            # Out of budget or auth broke: save what we've got and stop. The
+            # current contract isn't in `nbest` yet, so a resume will retry it.
             print(f"\n!! Groq API unusable: {e}")
             print(f"   Saved {len(nbest)} QAs to checkpoint. Re-run the same "
                   f"command to resume.")
             save_checkpoint(nbest, checkpoint_path)
             raise SystemExit(1)
         except Exception as e:
-            # Anything else: one weird contract can't kill the whole run.
+            # Anything else: don't let one odd contract take down the whole run.
             print(f"  contract failed: {e}")
             predictions = {label: [] for label in all_labels}
 
-        # Flatten to nbest: {qa_id: [{"text": ..., "probability": ...}, ...]}
-        # Only the categories under test get written.
+        # Flatten into nbest: {qa_id: [{"text": ..., "probability": ...}, ...]}.
+        # Only the categories we're testing get written.
         for qa in target_qas:
             label = qa["id"].split("__")[-1]
             spans = list(dict.fromkeys(predictions.get(label, [])))  # dedupe
@@ -436,6 +441,7 @@ async def run(args):
     print(f"\nWrote {len(nbest)} QA predictions to {final_path}")
     print(f"Total time: {(time.time() - t0) / 60:.1f} min")
 
+    # Finished cleanly, so we don't need the checkpoint anymore.
     if checkpoint_path.exists():
         checkpoint_path.unlink()
 
@@ -445,7 +451,7 @@ async def run(args):
 if __name__ == "__main__":
     load_dotenv()
     if not os.getenv("GROQ_API_KEY"):
-        raise SystemExit("GROQ_API_KEY missing — add it to .env or your shell.")
+        raise SystemExit("GROQ_API_KEY missing -- add it to .env or your shell.")
 
     ap = argparse.ArgumentParser()
     ap.add_argument("--data",  default=DEFAULT_DATA,
@@ -470,19 +476,19 @@ if __name__ == "__main__":
     ap.add_argument("--max_tokens", type=int, default=DEFAULT_MAX_TOKENS,
                     help=f"Per-call output token cap (default {DEFAULT_MAX_TOKENS}). "
                          "Groq reserves max_tokens against TPM, so lowering this "
-                         "shrinks per-call reservation. 41-field JSON is mostly "
-                         "nulls — 1500 is usually plenty.")
+                         "shrinks the per-call reservation. The 41-field JSON is "
+                         "mostly nulls, so 1500 is usually plenty.")
     ap.add_argument("--category", default="all",
                     help='Which CUAD category to test: "all" (default, the full '
-                         '41-field schema) or one category name, e.g. '
-                         '"License Grant". A single category yields a 1-field '
-                         'schema — far cheaper per call.')
+                         '41-field schema) or a single category name, e.g. '
+                         '"License Grant". One category means a 1-field schema, '
+                         'which is much cheaper per call.')
     args = ap.parse_args()
 
     if args.out is None:
         model_slug = args.model.replace(":", "-").replace("/", "_")
         args.out = f"trained_models/{model_slug}"
-        # Isolate single-category runs so they don't overwrite an "all" run.
+        # Keep single-category runs separate so they don't clobber an "all" run.
         if args.category.lower() != "all":
             cat_slug = re.sub(r"[^A-Za-z0-9]+", "_", args.category).strip("_")
             args.out += f"__{cat_slug}"
