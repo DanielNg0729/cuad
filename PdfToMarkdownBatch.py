@@ -85,8 +85,41 @@ def main():
     all_pdfs = [p for paths in idx.values() for p in paths]
 
     # Import + instantiate docling once (model load is the slow part).
-    from docling.document_converter import DocumentConverter
-    converter = DocumentConverter()
+    #
+    # Two settings here exist purely to stop the std::bad_alloc crashes that
+    # silently dropped pages from the first run (~half the contracts came out
+    # truncated):
+    #
+    #   1. backend = PyPdfiumDocumentBackend. docling's *default* backend
+    #      (docling-parse) blows up with std::bad_alloc in the page-preprocess
+    #      stage on many of these contracts -- it fails partway through a
+    #      document (e.g. from page 10 on) and drops every remaining page. The
+    #      pdfium backend parses the same PDFs cleanly start to finish.
+    #
+    #   2. do_ocr = False. These are digital PDFs with a real embedded text
+    #      layer, so docling reads the text directly. The OCR stage renders every
+    #      page to a high-res image and runs RapidOCR -- pure memory/time cost we
+    #      don't need. (A genuinely scanned, image-only contract would come out
+    #      near empty under this setting and would need OCR run on it on its own.)
+    #
+    # do_table_structure is off too: we only need text + headings for chunking,
+    # and the TableFormer model is the heaviest part of the pipeline.
+    from docling.document_converter import DocumentConverter, PdfFormatOption
+    from docling.datamodel.base_models import InputFormat
+    from docling.datamodel.pipeline_options import PdfPipelineOptions
+    from docling.backend.pypdfium2_backend import PyPdfiumDocumentBackend
+
+    pipeline_options = PdfPipelineOptions()
+    pipeline_options.do_ocr = False
+    pipeline_options.do_table_structure = False
+    converter = DocumentConverter(
+        format_options={
+            InputFormat.PDF: PdfFormatOption(
+                pipeline_options=pipeline_options,
+                backend=PyPdfiumDocumentBackend,
+            )
+        }
+    )
 
     ok = skipped = fallback = errors = 0
     t0 = time.time()
