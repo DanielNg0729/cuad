@@ -32,7 +32,7 @@ Usage:
     python chunking.py --strategy section            # default
     python chunking.py --strategy recursive --chunk_chars 4000
     python chunking.py --data test.json --strategy fixed --overlap 400
-    python chunking.py --strategy markdown           # chunk docling .md (## / **)
+    python chunking.py --strategy markdown           # chunk docling .md on ## headings
 """
 
 import argparse
@@ -149,30 +149,29 @@ def _section_split(text: str, size: int, overlap: int) -> list[str]:
     return _greedy_pack(out, size)
 
 
-# A Markdown divider line in a docling-converted contract: an ATX heading
-# ("## SUPPLY CONTRACT"), a bold run at line start ("**1.1** ..."), or a list
-# item docling uses for clauses ("1. ..." / "- ..."). Each starts a new chunk.
-_MD_DIVIDER_RE = re.compile(r"^(?:#{1,6}\s|\*\*|\d+(?:\.\d+)*\.\s|[-*]\s)")
+# A Markdown divider is *only* an ATX heading line ("## SUPPLY CONTRACT").
+# We deliberately do NOT split on docling's numbered list items ("1." / "2.")
+# or bold runs -- docling renders most of the contract body as a numbered list,
+# so splitting on those would cut every line. One chunk = one heading section.
+_MD_DIVIDER_RE = re.compile(r"^#{1,6}\s")
 
 def _split_markdown(md: str) -> list[str]:
-    """Cut a docling Markdown contract at every divider line, keeping the divider
-    stuck to the text underneath it. The leading "# <title>" line is dropped (the
-    title already lives in contract_id). Heading lines (#, ##, ...) are never left
-    on their own -- a "## PACKING" rides along with the first clause beneath it
-    instead of becoming a useless heading-only chunk."""
+    """Cut a docling Markdown contract at each heading line, keeping the heading
+    stuck to the body underneath it (everything down to the next heading). The
+    leading "# <title>" line is dropped (the title already lives in contract_id).
+    Consecutive headings with no body between them stay together, so we never
+    emit a useless heading-only chunk."""
     lines = md.splitlines(keepends=True)
     if lines and lines[0].lstrip().startswith("# "):
         lines = lines[1:]                       # drop the document-title heading
     sections, cur, cur_has_body = [], [], False
     for ln in lines:
-        stripped = ln.lstrip()
-        is_divider = bool(_MD_DIVIDER_RE.match(stripped))
-        is_heading = stripped.startswith("#")
-        if is_divider and cur and cur_has_body:
+        is_heading = bool(_MD_DIVIDER_RE.match(ln.lstrip()))
+        if is_heading and cur and cur_has_body:
             sections.append("".join(cur))
             cur, cur_has_body = [], False
         cur.append(ln)
-        if stripped.strip() and not is_heading:
+        if ln.strip() and not is_heading:
             cur_has_body = True
     if cur:
         sections.append("".join(cur))
@@ -274,7 +273,7 @@ def main():
                          "line/sentence boundaries; 'section'=split on contract "
                          "headers (ARTICLE/Section/1.1/(a)/ALL-CAPS) and pack "
                          "whole sections; 'markdown'=read the docling .md files "
-                         "and split on Markdown dividers (##/**/list items), "
+                         "and split on Markdown headings (#/##) only, "
                          "ignoring --chunk_chars/--overlap.")
     ap.add_argument("--chunk_chars", type=int, default=CHUNK_CHARS,
                     help=f"Characters per chunk (default {CHUNK_CHARS}). Smaller "
