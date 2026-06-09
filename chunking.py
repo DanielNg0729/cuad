@@ -15,9 +15,9 @@ underneath them. The 'section' and 'recursive' strategies exist to avoid that.
 Shape of the output file (what Groq.py expects):
     {
       "metadata": {"strategy": ..., "chunk_chars": ..., "overlap": ...,
-                   "source": ..., "num_contracts": ...},
+                   "max_chunk_chars": ..., "source": ..., "num_contracts": ...},
       "data": [
-        {"contract_id": <title>, "chunks": ["...", ...]},
+        {"contract_id": <title>, "num_chunks": <int>, "chunks": ["...", ...]},
         ...
       ]
     }
@@ -32,6 +32,7 @@ Usage:
     python chunking.py --strategy section            # default
     python chunking.py --strategy recursive --chunk_chars 4000
     python chunking.py --data test.json --strategy fixed --overlap 400
+    python chunking.py --strategy markdown           # split the .md files on ## / **
 """
 
 import argparse
@@ -41,8 +42,9 @@ from pathlib import Path
 
 CHUNK_CHARS = 5000
 OVERLAP = 400
-CHUNK_STRATEGY = "section"   # one of: fixed | recursive | section
+CHUNK_STRATEGY = "section"   # one of: fixed | recursive | section | markdown
 OUTPUT_FILE = "test_chunking.json"
+MARKDOWN_DIR = "markdown_contracts"   # where ConvertContextToMarkdown.py writes
 
 
 # ---------------------------------------------------------------------------
@@ -107,13 +109,18 @@ def _recursive_split(text: str, size: int, overlap: int,
     return _hard_split(text, size, overlap)
 
 
-# What a section header looks like, checked against each stripped line:
-#   "ARTICLE IV" / "Section 12.3"  |  "1."  "1.1"  "12.3.4"  |  "(a)" "(iv)"
-#   or just an ALL-CAPS heading line like "GOVERNING LAW"
+# What counts as a section header, checked against each stripped line:
+#   "ARTICLE IV" / "Section 12.3"
+#   numbered:  "1."  "1.1"  "12.3.4"   (the dot is required, so a bare page
+#                                        number like "1" is NOT a header)
+#   roman:     "I."  "II."  "IV."
+#   paren:     "(a)" "(iv)"
+#   ALL-CAPS heading line like "GOVERNING LAW"
 _HEADER_RE = re.compile(
     r"^(?:"
     r"(?:ARTICLE|Article|SECTION|Section)\s+[0-9IVXLCDM]+\b"
-    r"|[0-9]+(?:\.[0-9]+)*\.?(?:\s|$)"
+    r"|[0-9]+\.(?:[0-9]+\.?)*(?:\s|$)"
+    r"|[IVXLCDM]+\.(?:\s|$)"
     r"|\([a-zA-Z0-9]{1,4}\)\s"
     r"|[A-Z][A-Z0-9 ,;:'&/().\-]{3,}\s*$"
     r")"
@@ -134,31 +141,63 @@ def _split_sections(text: str) -> list[str]:
     return sections
 
 
-def _section_split(text: str, size: int, overlap: int) -> list[str]:
-    """Keep sections whole. Only split a section if it's bigger than `size` on
-    its own (then fall back to recursive), and pack the rest together up to the
-    cap."""
-    out: list[str] = []
-    for sec in _split_sections(text):
-        if len(sec) > size:
-            out.extend(_recursive_split(sec, size, overlap))
-        else:
-            out.append(sec)
-    return _greedy_pack(out, size)
+# A Markdown divider line, as produced by ConvertContextToMarkdown.py:
+#   "# Title" / "## 3. PACKING" / "### ..."   (ATX headings)
+#   "**1.1** This is ..." / "**4.** Specific order ..."  (bold clause numbers)
+# Each such line starts a fresh chunk; the body lines under it are glued on.
+_MD_DIVIDER_RE = re.compile(r"^(?:#{1,6}\s|\*\*)")
+
+def _split_markdown(md: str) -> list[str]:
+    """Cut a Markdown contract wherever a divider line shows up, keeping the
+    divider stuck to the text underneath it. The leading "# <title>" line is
+    dropped -- the title already lives in contract_id, so it'd be a dead chunk.
+
+    Heading lines (#, ##, ...) are never left on their own: a "## 1. PACKING"
+    rides along with the first clause/paragraph beneath it instead of becoming a
+    useless heading-only chunk. We only start a new chunk at a divider once the
+    current chunk already holds some body text."""
+    lines = md.splitlines(keepends=True)
+    if lines and lines[0].lstrip().startswith("# "):
+        lines = lines[1:]                       # drop the document-title heading
+    sections, cur, cur_has_body = [], [], False
+    for ln in lines:
+        stripped = ln.lstrip()
+        is_divider = bool(_MD_DIVIDER_RE.match(stripped))
+        is_heading = stripped.startswith("#")
+        if is_divider and cur and cur_has_body:
+            sections.append("".join(cur))
+            cur, cur_has_body = [], False
+        cur.append(ln)
+        if stripped.strip() and not is_heading:
+            cur_has_body = True                 # a ** clause or plain text line
+    if cur:
+        sections.append("".join(cur))
+    return [s.strip() for s in sections if s.strip()]
+
+
+def safe_filename(title: str) -> str:
+    """Mirror of ConvertContextToMarkdown.safe_filename so we can find the .md
+    file that belongs to a given contract title."""
+    name = re.sub(r'[<>:"/\\|?*]', "_", title).strip()
+    return (name[:180] if len(name) > 180 else name) + ".md"
 
 
 def make_chunks(text: str, strategy: str = CHUNK_STRATEGY,
                 size: int = CHUNK_CHARS, overlap: int = OVERLAP) -> list[str]:
-    """Hand off to whichever strategy was picked. They all give back a list of
-    chunks, each no bigger than `size` chars."""
+    """Hand off to whichever strategy was picked. 'fixed' and 'recursive' cap
+    each chunk at `size` chars; 'section' ignores size and overlap entirely and
+    just cuts on every header it finds, one section per chunk."""
+    if strategy == "section":
+        # Pure structural split: one chunk per section/article/numbered/roman/
+        # paren/ALL-CAPS header. No size cap, no overlap -- a section is a chunk
+        # no matter how big or small it is.
+        return _split_sections(text)
     if len(text) <= size:
         return [text]
     if strategy == "fixed":
         return _hard_split(text, size, overlap)
     if strategy == "recursive":
         return _recursive_split(text, size, overlap)
-    if strategy == "section":
-        return _section_split(text, size, overlap)
     raise SystemExit(
         f"Unknown --strategy {strategy!r}. Use fixed | recursive | section."
     )
@@ -169,36 +208,59 @@ def make_chunks(text: str, strategy: str = CHUNK_STRATEGY,
 # ---------------------------------------------------------------------------
 
 def build_chunk_file(data_path: str, strategy: str, chunk_chars: int,
-                     overlap: int) -> dict:
+                     overlap: int, markdown_dir: str = MARKDOWN_DIR) -> dict:
     """Load the CUAD test JSON and build the test_chunking.json structure. Each
-    contract keeps only its `contract_id` (the title) and its chunks. We leave
-    the questions and gold answers out on purpose -- Groq.py joins back to the
-    original test.json by contract_id when it needs them."""
+    contract keeps its `contract_id` (the title), a `num_chunks` count, and its
+    chunks. We leave the questions and gold answers out on purpose -- Groq.py
+    joins back to the original test.json by contract_id when it needs them.
+
+    The 'markdown' strategy ignores the raw context and instead reads the
+    structured .md file ConvertContextToMarkdown.py wrote for each contract,
+    splitting on Markdown dividers (headings and bold clause numbers)."""
     contracts = json.loads(Path(data_path).read_text(encoding="utf-8"))["data"]
+    md_dir = Path(markdown_dir)
 
     out_contracts = []
     total_chunks = 0
+    max_chunk_chars = 0
     for contract in contracts:
-        para = contract["paragraphs"][0]
-        chunks = make_chunks(para["context"], strategy=strategy,
-                             size=chunk_chars, overlap=overlap)
+        title = contract["title"]
+        if strategy == "markdown":
+            md_path = md_dir / safe_filename(title)
+            if not md_path.exists():
+                raise SystemExit(
+                    f"Missing Markdown file for {title!r}: {md_path}\n"
+                    f"Run `python ConvertContextToMarkdown.py` first to build "
+                    f"the {markdown_dir}/ folder."
+                )
+            chunks = _split_markdown(md_path.read_text(encoding="utf-8"))
+        else:
+            chunks = make_chunks(contract["paragraphs"][0]["context"],
+                                 strategy=strategy, size=chunk_chars,
+                                 overlap=overlap)
         total_chunks += len(chunks)
+        if chunks:
+            max_chunk_chars = max(max_chunk_chars, max(len(c) for c in chunks))
         out_contracts.append({
-            "contract_id": contract["title"],   # same as qa["id"].split("__")[0]
+            "contract_id": title,               # same as qa["id"].split("__")[0]
+            "num_chunks": len(chunks),
             "chunks": chunks,
         })
 
-    return {
-        "metadata": {
-            "strategy": strategy,
-            "chunk_chars": chunk_chars,
-            "overlap": overlap,
-            "source": data_path,
-            "num_contracts": len(out_contracts),
-            "total_chunks": total_chunks,
-        },
-        "data": out_contracts,
+    # 'section' and 'markdown' don't use the size cap or overlap, so record them
+    # as null rather than pretend they had any effect. max_chunk_chars is the
+    # real largest chunk we produced (Groq.py uses it to estimate per-call tokens).
+    structural = strategy in ("section", "markdown")
+    metadata = {
+        "strategy": strategy,
+        "chunk_chars": None if structural else chunk_chars,
+        "overlap": None if structural else overlap,
+        "max_chunk_chars": max_chunk_chars,
+        "source": markdown_dir if strategy == "markdown" else data_path,
+        "num_contracts": len(out_contracts),
+        "total_chunks": total_chunks,
     }
+    return {"metadata": metadata, "data": out_contracts}
 
 
 def main():
@@ -209,34 +271,56 @@ def main():
     ap.add_argument("--data", default="test.json",
                     help="CUAD test file to chunk (default test.json).")
     ap.add_argument("--strategy", default=CHUNK_STRATEGY,
-                    choices=["fixed", "recursive", "section"],
+                    choices=["fixed", "recursive", "section", "markdown"],
                     help=f"How to cut a contract into LLM-sized pieces "
                          f"(default {CHUNK_STRATEGY!r}). 'fixed'=blind "
                          "overlapping windows; 'recursive'=split on paragraph/"
-                         "line/sentence boundaries; 'section'=split on contract "
-                         "headers (ARTICLE/Section/1.1/(a)/ALL-CAPS) and pack "
-                         "whole sections.")
+                         "line/sentence boundaries; 'section'=split on every "
+                         "header (ARTICLE/Section/1./I./1.1/(a)/ALL-CAPS), one "
+                         "section per chunk; 'markdown'=read the structured .md "
+                         "files and split on Markdown dividers (##/**). 'section'"
+                         " and 'markdown' ignore --chunk_chars/--overlap.")
+    ap.add_argument("--markdown_dir", default=MARKDOWN_DIR,
+                    help=f"Folder of .md files for the 'markdown' strategy "
+                         f"(default {MARKDOWN_DIR!r}); built by "
+                         "ConvertContextToMarkdown.py.")
     ap.add_argument("--chunk_chars", type=int, default=CHUNK_CHARS,
                     help=f"Characters per chunk (default {CHUNK_CHARS}). Smaller "
-                         "chunks shrink per-call input but produce more chunks.")
+                         "chunks shrink per-call input but produce more chunks. "
+                         "Ignored by the 'section' strategy.")
     ap.add_argument("--overlap", type=int, default=OVERLAP,
                     help=f"Chunk overlap in chars (default {OVERLAP}). Only the "
-                         "'fixed' strategy (and oversized-section fallback) use it.")
+                         "'fixed' strategy uses it; ignored by 'section'.")
     args = ap.parse_args()
 
     result = build_chunk_file(args.data, args.strategy, args.chunk_chars,
-                              args.overlap)
+                              args.overlap, args.markdown_dir)
 
     Path(OUTPUT_FILE).write_text(
         json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8"
     )
 
     meta = result["metadata"]
-    print(f"Chunked {meta['num_contracts']} contracts from {args.data} "
-          f"using strategy={meta['strategy']!r} "
-          f"(chunk_chars={meta['chunk_chars']}, overlap={meta['overlap']})")
+    if meta["strategy"] in ("section", "markdown"):
+        how = ("split on headers only" if meta["strategy"] == "section"
+               else f"split on Markdown dividers from {args.markdown_dir}/")
+        print(f"Chunked {meta['num_contracts']} contracts "
+              f"using strategy={meta['strategy']!r} ({how}, no size cap; "
+              f"largest chunk {meta['max_chunk_chars']:,} chars)")
+    else:
+        print(f"Chunked {meta['num_contracts']} contracts from {args.data} "
+              f"using strategy={meta['strategy']!r} "
+              f"(chunk_chars={meta['chunk_chars']}, overlap={meta['overlap']})")
     print(f"  {meta['total_chunks']} chunks total "
           f"(~{meta['total_chunks'] / max(1, meta['num_contracts']):.1f} per contract)")
+
+    # With no size cap, a contract with few headers can yield one giant chunk
+    # that the model rejects with a 413. Flag it so it isn't a surprise later.
+    if meta["max_chunk_chars"] > 16000:
+        print(f"  !! largest chunk is {meta['max_chunk_chars']:,} chars "
+              f"(~{meta['max_chunk_chars'] // 4:,} tokens) -- may hit Groq's 413 "
+              f"'request too large' on small-context models.")
+
     print(f"Wrote {OUTPUT_FILE}")
     print(f"Next: python Groq.py --data {OUTPUT_FILE} --model <groq-model-id>")
 
