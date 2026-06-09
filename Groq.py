@@ -348,17 +348,18 @@ async def run(args):
 
     # Rough guess at what each call reserves (Groq counts input + max_tokens
     # against the TPM limit). Measured at ~56 tokens of JSON scaffolding per
-    # field. chunk_chars comes from chunking.py's metadata now that chunking
-    # happens upstream.
-    chunk_chars = meta.get("chunk_chars", 5000)
-    chunk_tok_est = chunk_chars // 4
+    # field. We size the estimate off the largest chunk chunking.py actually
+    # produced, which is what matters for the 'section' strategy (no size cap).
+    max_chunk_chars = meta.get("max_chunk_chars") or meta.get("chunk_chars") or 5000
+    chunk_tok_est = max_chunk_chars // 4
     schema_tok_est = 56 * len(all_labels) + 100
     est_per_call = chunk_tok_est + schema_tok_est + args.max_tokens + 100
     scope = "all 41 categories" if args.category.lower() == "all" else f"category {args.category!r}"
     print(f"  testing {scope} ({len(all_labels)} field schema), "
           f"concurrency={args.concurrency}, max_tokens={args.max_tokens}")
     print(f"  chunks from {args.data}: strategy={meta.get('strategy', '?')!r}, "
-          f"chunk_chars={chunk_chars}, {meta.get('total_chunks', '?')} chunks total")
+          f"largest chunk {max_chunk_chars:,} chars, "
+          f"{meta.get('total_chunks', '?')} chunks total")
     print(f"  est per-call reservation ~{est_per_call} tok "
           f"(must be < model's TPM cap or you'll get 413s)")
     print(f"  {len(contracts)} contracts loaded")

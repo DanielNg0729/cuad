@@ -17,7 +17,7 @@ Shape of the output file (what Groq.py expects):
       "metadata": {"strategy": ..., "chunk_chars": ..., "overlap": ...,
                    "source": ..., "num_contracts": ...},
       "data": [
-        {"contract_id": <title>, "chunks": ["...", ...]},
+        {"contract_id": <title>, "num_chunks": <int>, "chunks": ["...", ...]},
         ...
       ]
     }
@@ -32,6 +32,7 @@ Usage:
     python chunking.py --strategy section            # default
     python chunking.py --strategy recursive --chunk_chars 4000
     python chunking.py --data test.json --strategy fixed --overlap 400
+    python chunking.py --strategy markdown           # chunk docling .md (## / **)
 """
 
 import argparse
@@ -41,8 +42,9 @@ from pathlib import Path
 
 CHUNK_CHARS = 5000
 OVERLAP = 400
-CHUNK_STRATEGY = "section"   # one of: fixed | recursive | section
+CHUNK_STRATEGY = "section"   # one of: fixed | recursive | section | markdown
 OUTPUT_FILE = "test_chunking.json"
+MARKDOWN_DIR = "markdown_docling"   # docling .md files from PdfToMarkdownBatch.py
 
 
 # ---------------------------------------------------------------------------
@@ -147,6 +149,43 @@ def _section_split(text: str, size: int, overlap: int) -> list[str]:
     return _greedy_pack(out, size)
 
 
+# A Markdown divider line in a docling-converted contract: an ATX heading
+# ("## SUPPLY CONTRACT"), a bold run at line start ("**1.1** ..."), or a list
+# item docling uses for clauses ("1. ..." / "- ..."). Each starts a new chunk.
+_MD_DIVIDER_RE = re.compile(r"^(?:#{1,6}\s|\*\*|\d+(?:\.\d+)*\.\s|[-*]\s)")
+
+def _split_markdown(md: str) -> list[str]:
+    """Cut a docling Markdown contract at every divider line, keeping the divider
+    stuck to the text underneath it. The leading "# <title>" line is dropped (the
+    title already lives in contract_id). Heading lines (#, ##, ...) are never left
+    on their own -- a "## PACKING" rides along with the first clause beneath it
+    instead of becoming a useless heading-only chunk."""
+    lines = md.splitlines(keepends=True)
+    if lines and lines[0].lstrip().startswith("# "):
+        lines = lines[1:]                       # drop the document-title heading
+    sections, cur, cur_has_body = [], [], False
+    for ln in lines:
+        stripped = ln.lstrip()
+        is_divider = bool(_MD_DIVIDER_RE.match(stripped))
+        is_heading = stripped.startswith("#")
+        if is_divider and cur and cur_has_body:
+            sections.append("".join(cur))
+            cur, cur_has_body = [], False
+        cur.append(ln)
+        if stripped.strip() and not is_heading:
+            cur_has_body = True
+    if cur:
+        sections.append("".join(cur))
+    return [s.strip() for s in sections if s.strip()]
+
+
+def safe_filename(title: str) -> str:
+    """Mirror of PdfToMarkdownBatch.safe_filename, so we can find the .md file
+    that belongs to a given contract title."""
+    name = re.sub(r'[<>:"/\\|?*]', "_", title).strip()
+    return (name[:180] if len(name) > 180 else name) + ".md"
+
+
 def make_chunks(text: str, strategy: str = CHUNK_STRATEGY,
                 size: int = CHUNK_CHARS, overlap: int = OVERLAP) -> list[str]:
     """Hand off to whichever strategy was picked. They all give back a list of
@@ -160,7 +199,7 @@ def make_chunks(text: str, strategy: str = CHUNK_STRATEGY,
     if strategy == "section":
         return _section_split(text, size, overlap)
     raise SystemExit(
-        f"Unknown --strategy {strategy!r}. Use fixed | recursive | section."
+        f"Unknown --strategy {strategy!r}. Use fixed | recursive | section | markdown."
     )
 
 
@@ -169,31 +208,50 @@ def make_chunks(text: str, strategy: str = CHUNK_STRATEGY,
 # ---------------------------------------------------------------------------
 
 def build_chunk_file(data_path: str, strategy: str, chunk_chars: int,
-                     overlap: int) -> dict:
+                     overlap: int, markdown_dir: str = MARKDOWN_DIR) -> dict:
     """Load the CUAD test JSON and build the test_chunking.json structure. Each
-    contract keeps only its `contract_id` (the title) and its chunks. We leave
-    the questions and gold answers out on purpose -- Groq.py joins back to the
-    original test.json by contract_id when it needs them."""
+    contract keeps its `contract_id` (the title), a `num_chunks` count, and its
+    chunks. We leave the questions and gold answers out on purpose -- Groq.py
+    joins back to the original test.json by contract_id when it needs them.
+
+    The 'markdown' strategy ignores the raw context and instead reads the
+    docling-converted .md file for each contract (built by PdfToMarkdownBatch.py),
+    splitting on Markdown dividers (headings, bold runs, list items)."""
     contracts = json.loads(Path(data_path).read_text(encoding="utf-8"))["data"]
+    md_dir = Path(markdown_dir)
 
     out_contracts = []
     total_chunks = 0
     for contract in contracts:
-        para = contract["paragraphs"][0]
-        chunks = make_chunks(para["context"], strategy=strategy,
-                             size=chunk_chars, overlap=overlap)
+        title = contract["title"]
+        if strategy == "markdown":
+            md_path = md_dir / safe_filename(title)
+            if not md_path.exists():
+                raise SystemExit(
+                    f"Missing Markdown file for {title!r}: {md_path}\n"
+                    f"Run `python PdfToMarkdownBatch.py` first to build the "
+                    f"{markdown_dir}/ folder."
+                )
+            chunks = _split_markdown(md_path.read_text(encoding="utf-8"))
+        else:
+            chunks = make_chunks(contract["paragraphs"][0]["context"],
+                                 strategy=strategy, size=chunk_chars,
+                                 overlap=overlap)
         total_chunks += len(chunks)
         out_contracts.append({
-            "contract_id": contract["title"],   # same as qa["id"].split("__")[0]
+            "contract_id": title,               # same as qa["id"].split("__")[0]
+            "num_chunks": len(chunks),
             "chunks": chunks,
         })
 
+    # The 'markdown' strategy is structural -- chunk_chars/overlap don't apply.
+    markdown = strategy == "markdown"
     return {
         "metadata": {
             "strategy": strategy,
-            "chunk_chars": chunk_chars,
-            "overlap": overlap,
-            "source": data_path,
+            "chunk_chars": None if markdown else chunk_chars,
+            "overlap": None if markdown else overlap,
+            "source": markdown_dir if markdown else data_path,
             "num_contracts": len(out_contracts),
             "total_chunks": total_chunks,
         },
@@ -209,32 +267,43 @@ def main():
     ap.add_argument("--data", default="test.json",
                     help="CUAD test file to chunk (default test.json).")
     ap.add_argument("--strategy", default=CHUNK_STRATEGY,
-                    choices=["fixed", "recursive", "section"],
+                    choices=["fixed", "recursive", "section", "markdown"],
                     help=f"How to cut a contract into LLM-sized pieces "
                          f"(default {CHUNK_STRATEGY!r}). 'fixed'=blind "
                          "overlapping windows; 'recursive'=split on paragraph/"
                          "line/sentence boundaries; 'section'=split on contract "
                          "headers (ARTICLE/Section/1.1/(a)/ALL-CAPS) and pack "
-                         "whole sections.")
+                         "whole sections; 'markdown'=read the docling .md files "
+                         "and split on Markdown dividers (##/**/list items), "
+                         "ignoring --chunk_chars/--overlap.")
     ap.add_argument("--chunk_chars", type=int, default=CHUNK_CHARS,
                     help=f"Characters per chunk (default {CHUNK_CHARS}). Smaller "
                          "chunks shrink per-call input but produce more chunks.")
     ap.add_argument("--overlap", type=int, default=OVERLAP,
                     help=f"Chunk overlap in chars (default {OVERLAP}). Only the "
                          "'fixed' strategy (and oversized-section fallback) use it.")
+    ap.add_argument("--markdown_dir", default=MARKDOWN_DIR,
+                    help=f"Folder of docling .md files for the 'markdown' "
+                         f"strategy (default {MARKDOWN_DIR!r}); built by "
+                         "PdfToMarkdownBatch.py.")
     args = ap.parse_args()
 
     result = build_chunk_file(args.data, args.strategy, args.chunk_chars,
-                              args.overlap)
+                              args.overlap, args.markdown_dir)
 
     Path(OUTPUT_FILE).write_text(
         json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8"
     )
 
     meta = result["metadata"]
-    print(f"Chunked {meta['num_contracts']} contracts from {args.data} "
-          f"using strategy={meta['strategy']!r} "
-          f"(chunk_chars={meta['chunk_chars']}, overlap={meta['overlap']})")
+    if meta["strategy"] == "markdown":
+        print(f"Chunked {meta['num_contracts']} contracts from "
+              f"{args.markdown_dir}/ using strategy='markdown' "
+              f"(split on Markdown dividers, no size cap)")
+    else:
+        print(f"Chunked {meta['num_contracts']} contracts from {args.data} "
+              f"using strategy={meta['strategy']!r} "
+              f"(chunk_chars={meta['chunk_chars']}, overlap={meta['overlap']})")
     print(f"  {meta['total_chunks']} chunks total "
           f"(~{meta['total_chunks'] / max(1, meta['num_contracts']):.1f} per contract)")
     print(f"Wrote {OUTPUT_FILE}")
