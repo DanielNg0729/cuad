@@ -4,7 +4,7 @@
 
 ## SPONSORSHIP AGREEMENT
 
-This agreement (the "Agreement") is made effective this 1 st  day of April, 2018 ("Effective Date") between Fruit of Life Productions LLC , ("Promoter") and Eco Science Solutions, Inc .,("Sponsor"), 1135 Makawao Avenue, Suite 103-188, Makawao, Hawaii, 96768.
+This agreement (the "Agreement") is made effective this 1st day of April, 2018 ("Effective Date") between Fruit of Life Productions LLC , ("Promoter") and Eco Science Solutions, Inc.,("Sponsor"), 1135 Makawao Avenue, Suite 103-188, Makawao, Hawaii, 96768.
 
 ## Contribution by Sponsor:
 
@@ -82,9 +82,7 @@ Entire Agreement: This Agreement and its attachments constitute the entire agree
 
 Notice: All notices given under this Agreement shall be in writing, addressed to the parties at the addresses set forth below, and shall be deemed to have the duly given when delivered when sent by overnight courier, or certified mail (return receipt requested).
 
-Fruit of Life Productions LLC (Promoter)
-
-Address: 16115 SW 117 th  Ave. Suite 21-A Miami, Florida 33177
+Fruit of Life Productions LLC (Promoter) Address: 16115 SW 117th Ave. Suite 21-A Miami, Florida 33177
 
 EcoScience Solutions, Inc. (Sponsor) Address: 1135 Makawao Avenue, Suite 103-188
 
@@ -98,10 +96,8 @@ Sponsor: Eco Science Solutions, Inc.
 
 By: /s/Jeffery Taylor Name: Jeffery Taylor Title: CEO Date: 4/01/2018
 
-## Promoter:
+## Promoter: Fruit of Life Productions LLC:
 
-Fruit of Life Productions LLC:
-
-By :/s/Stella McLaughlan Name: Stella McLaughlan Title: Event Coordinator Date: 4/01/2018
+By:/s/Stella McLaughlan Name: Stella McLaughlan Title: Event Coordinator Date: 4/01/2018
 
 3

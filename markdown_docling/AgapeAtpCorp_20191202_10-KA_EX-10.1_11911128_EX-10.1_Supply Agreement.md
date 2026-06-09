@@ -2,25 +2,27 @@
 
 ## ODM - SUPPLY AGREEMENT
 
-BETWEEN: ORGANIC PREPARATIONS INC. 2 nd Floor, Transpacific Haus Lini Highway, Port Vila. Vanuatu 'the Manufacturer' -- AND -AGAPE ATP INTERNATIONAL HOLDING LIMITED Unit 05, 4F, Energy Plaza No. 92, Granville Road Tsim Sha Tsui East Kowloon, Hong Kong
-
-'the Customer'
+BETWEEN: ORGANIC PREPARATIONS INC. 2 nd Floor, Transpacific Haus Lini Highway, Port Vila. Vanuatu "the Manufacturer" -- AND -AGAPE ATP INTERNATIONAL HOLDING LIMITED Unit 05, 4F, Energy Plaza No. 92, Granville Road Tsim Sha Tsui East Kowloon, Hong Kong "the Customer"
 
 ## ODM SUPPLY AGREEMENT
 
-THIS AGREEMENT
+THIS AGREEMENT is made on the 15
 
-is made on the 15 th day of January 2018.
+th day of January 2018.
 
 BETWEEN:
 
-ORGANIC PREPARATIONS INC. 2 nd Floor, Transpacific Haus Lini Highway, Port Vila. Vanuatu ('the Manufacturer') of one part AGAPE ATP INTERNATIONAL HOLDING LIMITED Unit 05, 4F, Energy Plaza No. 92, Granville Road Tsim Sha Tsui East
+ORGANIC PREPARATIONS INC.
+
+2 nd Floor, Transpacific Haus
+
+Lini Highway, Port Vila. Vanuatu (‘the Manufacturer’) of one part AGAPE ATP INTERNATIONAL HOLDING LIMITED Unit 05, 4F, Energy Plaza No. 92, Granville Road Tsim Sha Tsui East
 
 AND:
 
 Kowloon, Hong Kong
 
-('the Customer') of the other part.
+(‘the Customer’) of the other part.
 
 ## RECITALS
 
@@ -53,21 +55,21 @@ Organic Preparations INC. &amp; Agape ATP International Holding Limited
 
 ## 2.1 Provision by the Manufacturer
 
-The Manufacturer agrees to supply to the Customer, within a reasonable period of time, all documentation and information relating to the Products and their Manufacture as is required for the registration of the Products in the Territories as listed in  Schedule C of this document. The party responsible for documentation fees and costs will be the Customer.
+The Manufacturer agrees to supply to the Customer, within a reasonable period of time, all documentation and information relating to the Products and their Manufacture as is required for the registration of the Products in the Territories as listed in Schedule C of this document. The party responsible for documentation fees and costs will be the Customer.
 
 ## 2.2 Provision by the Customer
 
-The  Customer agrees to supply to the Manufacturer at its own expense, within a reasonable period of time, all documentation and information as is reasonably required by or would be beneficial to the Manufacturer in the performance of its obligations  under this agreement.
+The Customer agrees to supply to the Manufacturer at its own expense, within a reasonable period of time, all documentation and information as is reasonably required by or would be beneficial to the Manufacturer in the performance of its obligations under this agreement.
 
 ## 3. COVENANTS BY THE MANUFACTURER
 
 ## 3.1 Compliance with Local Laws and Regulations
 
-The Manufacturer covenants that it is and will remain for the term of this agreement in compliance with any and all Local Laws  and Regulations. This includes without limitation laws relating to business practice, workplace relations, safety and taxation.
+The Manufacturer covenants that it is and will remain for the term of this agreement in compliance with any and all Local Laws and Regulations. This includes without limitation laws relating to business practice, workplace relations, safety and taxation.
 
 ## 3.2 Manufacturing standards
 
-The Manufacturer covenants that it is and will remain for the term of this agreement in compliance with all International standards  in production and manufacturing.
+The Manufacturer covenants that it is and will remain for the term of this agreement in compliance with all International standards in production and manufacturing.
 
 ## 3.3 Packaging
 
@@ -110,7 +112,7 @@ The Manufacturer covenants not to sell any product listed in this agreement, or 
 
 ## 4.1 Compliance with Local Laws and Regulations
 
-The  Customer covenants that it is and will remain for the term of this agreement in compliance with any and all Local Laws and Regulations. This includes without limitation laws relating to business practice, workplace relations, safety and taxation.
+The Customer covenants that it is and will remain for the term of this agreement in compliance with any and all Local Laws and Regulations. This includes without limitation laws relating to business practice, workplace relations, safety and taxation.
 
 ## 4.2 Ability to Perform
 
@@ -134,25 +136,25 @@ Products delivered pursuant to the terms of this Agreement shall be suitably pac
 
 ## 5.2 Guarantee of packaging quality
 
-The  Manufacturer further guarantees that the Products, when shipped, are packaged in such a way as to be protected from any foreseeable damage during shipment.
+The Manufacturer further guarantees that the Products, when shipped, are packaged in such a way as to be protected from any foreseeable damage during shipment.
 
 ## 5.3 Rejection of defective products
 
 The Customer shall inspect all Products promptly upon receipt thereof and may reject any defective Product, provided that the Customer shall within seven (7) days after receipt of such alleged defective Product, notify the Manufacturer of its rejection and either:
 
 - (i) request to destroy in field for credit of the value of the defective product and the associated shipping costs (with approval), or
-- (ii) request  a Return Material Authorization ('RMA') number and within seven (7) days of receipt of the RMA number from the Manufacturer return such rejected Product to the Manufacturer.
+- (ii) request a Return Material Authorization ("RMA") number and within seven (7) days of receipt of the RMA number from the Manufacturer return such rejected Product to the Manufacturer.
 
 Products not rejected within the foregoing time periods shall be deemed accepted by the Customer.
 
-In  the event that the Manufacturer determines that the returned Product is defective and properly rejected by the Customer, the Manufacturer shall credit to the Customer the value of the defective product and the associated shipping costs.
+In the event that the Manufacturer determines that the returned Product is defective and properly rejected by the Customer, the Manufacturer shall credit to the Customer the value of the defective product and the associated shipping costs.
 
 ## 5.4 Payment terms
 
 Unless separate payment terms are agreed to outside of this Agreement by both parties in writing, payment terms will be as follows:
 
 - (i) 50% of the Total Order Cost must be paid on placement of the customer's order.
-- (ii) The  remaining 50% of the total order cost must be paid prior to the goods leaving the warehouse of the manufacturer. The Manufacturer will notify the Customer when the goods are ready for shipment prior to the goods leaving the warehouse.
+- (ii) The remaining 50% of the total order cost must be paid prior to the goods leaving the warehouse of the manufacturer. The Manufacturer will notify the Customer when the goods are ready for shipment prior to the goods leaving the warehouse.
 
 ODM Supply Agreement
 
@@ -162,7 +164,7 @@ Organic Preparations INC. &amp; Agape ATP International Holding Limited
 
 ## 6. INDEMNITY / INSURANCE
 
-- 6.1 The Manufacturing Companies utilised by the Agent to manufacture the products listed in Schedule A of this agreement shall maintain throughout the term of this agreement product liability insurance issued by a reputable insurance company under standard terms  and conditions in the industry to cover the liability of the Customer and to indemnity the Customer from any costs, expenses, loss or damages resulting from any act, neglect or default of the company.
+- 6.1 The Manufacturing Companies utilised by the Agent to manufacture the products listed in Schedule A of this agreement shall maintain throughout the term of this agreement product liability insurance issued by a reputable insurance company under standard terms and conditions in the industry to cover the liability of the Customer and to indemnity the Customer from any costs, expenses, loss or damages resulting from any act, neglect or default of the company.
 - 6.2 The Customer shall at all times during the term of this agreement maintain product liability insurance, covering all products sold by the Manufacturer to the Customer and which policy shall name the Manufacturer as Additional Insured.
 
 ## 7. BREACH / TERMINATION
@@ -195,7 +197,7 @@ Organic Preparations INC. &amp; Agape ATP International Holding Limited
 
 The termination of this agreement shall be without prejudice to the rights of either party to payment or other claims due or accrued up to the termination of this agreement.
 
-For termination to be effective, written notice of termination must be served on the other party. Where valid, termination takes  effect immediately upon service.
+For termination to be effective, written notice of termination must be served on the other party. Where valid, termination takes effect immediately upon service.
 
 ## 8. ARBITRATION
 
@@ -205,7 +207,7 @@ For termination to be effective, written notice of termination must be served on
 
 ## 9. COSTS
 
-Each of the parties shall bare its own legal costs and expenses incurred by it in connection with this agreement and any stamp  duty payable under this agreement shall be borne by equally by both parties.
+Each of the parties shall bare its own legal costs and expenses incurred by it in connection with this agreement and any stamp duty payable under this agreement shall be borne by equally by both parties.
 
 ## 10. GOVERNING LAW
 
@@ -213,7 +215,7 @@ This agreement shall be governed by the Laws of England (English common and stat
 
 ## 11. INTELLECTUAL PROPERTY
 
-The Manufacturer is the owner of the intellectual Property pertaining to the products listed in schedule A of this agreement as well as to the book 'How to Achieve Super Health beyond 2000 - Advanced Edition'
+The Manufacturer is the owner of the intellectual Property pertaining to the products listed in schedule A of this agreement as well as to the book 'How to Achieve Super Health beyond 2000 – Advanced Edition'
 
 ODM Supply Agreement
 
@@ -238,15 +240,15 @@ Any notice to be served under this agreement must be served by sending it to the
 
 ## 14.2 Entire Agreement
 
-This  agreement contains the entire understanding of the parties with respect to the subject matter hereof and supersedes all prior agreements relating thereto, written or oral, between the parties. Amendments to this agreement must be in writing, signed by the duly authorized officers of the parties. The terms of any purchase order are expressly excluded
+This agreement contains the entire understanding of the parties with respect to the subject matter hereof and supersedes all prior agreements relating thereto, written or oral, between the parties. Amendments to this agreement must be in writing, signed by the duly authorized officers of the parties. The terms of any purchase order are expressly excluded
 
 ## 14.3 Conflicting Terms
 
-The  parties agree that the terms and conditions of this agreement shall prevail, notwithstanding contrary or additional terms,  in any purchase order, sales acknowledgment, confirmation or any other document issued by either party effecting the purchase and/or sale of Products.
+The parties agree that the terms and conditions of this agreement shall prevail, notwithstanding contrary or additional terms, in any purchase order, sales acknowledgment, confirmation or any other document issued by either party effecting the purchase and/or sale of Products.
 
 ## 14.4 Severability
 
-If  any provision of this agreement is held to be invalid by a court of competent jurisdiction, then the remaining provisions  will nevertheless remain in full force and effect. The parties agree to renegotiate in good faith those provisions so held to be invalid to be valid, enforceable provisions which provisions shall reflect as closely as possible the original intent of the parties, and further agree to be bound by the mutually agreed substitute provisions.
+If any provision of this agreement is held to be invalid by a court of competent jurisdiction, then the remaining provisions will nevertheless remain in full force and effect. The parties agree to renegotiate in good faith those provisions so held to be invalid to be valid, enforceable provisions which provisions shall reflect as closely as possible the original intent of the parties, and further agree to be bound by the mutually agreed substitute provisions.
 
 ODM Supply Agreement
 
@@ -266,7 +268,7 @@ The Manufacturer may not transfer or assign any of its rights or obligations und
 
 Neither party to this agreement is liable to the other for a breach of this agreement when the breach is as a result of the occurrence of one of the events below:
 
-- (i) The  outbreak of hostilities (whether or not accompanied by any formal declaration of war), riot, civil disturbance, or acts of terrorism; or
+- (i) The outbreak of hostilities (whether or not accompanied by any formal declaration of war), riot, civil disturbance, or acts of terrorism; or
 - (ii) The act of any government or competent authority (including the cancellation or revocation of any approval, authority or permit); or
 - (iii) Fire, explosion, flood, inclement weather, or natural disaster; or
 - (iv) The declaration of a state of emergency or the invocation of martial law having an effect on commerce generally; or
@@ -282,3 +284,92 @@ The Manufacturer agrees to maintain its focus on the design and formulation of n
 ODM Supply Agreement
 
 Organic Preparations INC. &amp; Agape ATP International Holding Limited
+
+## 14.9 Other products outside of the product range listed in schedule A of this document
+
+The Manufacturer agrees that the Customer has the right under this agreement to consider, source, promote, market and sell other product outside of the products listed in Schedule A of this agreement in line with the following assumptions:
+
+That they are non-competing products to the range of products or those products listed in schedule A of this agreement.
+
+## 14.10 HOW TO ACHIEVE SUPER HEALTH BEYOND 2000 – ADVANCED EDITION BOOK
+
+The Manufacturer has appointed the Customer the copyright holder of both the English and the Chinese version of the book How to achieve Super Health beyond 2000 – Advanced Edition, authored by Frank D.P. Ellis and Dr. Michael Tait M.D. This appointment shall be deemed valid provided the Customer fulfils and maintains the criteria of this agreement.
+
+The Customer will provide the Manufacturer with prior notification of printing runs of the book and the quantity of books to be printed in each run. The Customer will compensate the Manufacturer the amount of AUS $1.00 per book prior to printing.
+
+ODM Supply Agreement
+
+Organic Preparations INC. &amp; Agape ATP International Holding Limited
+
+10
+
+EQUITY HOLDINGS LIMITED by the duly authorised Officer:
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Common Seal of Organic Preparations INC. was hereunto affixed in the presence of
+
+Duly authorized to sign on behalf of Organic Preparations INC.
+
+Date 15 JANAURY, 2018 In the presence of: Witness Signature \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Date 15 JANAURY, 2018
+
+Witness Name Mercy Saula
+
+Address 2 nd Floor, Transpacific Hous, Port Vila, Vanuatu .
+
+Signed under common seal of Agape ATP International Holding Limited with authority of the board.
+
+Signature \_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Name How Kok Choong
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Common Seal of
+
+Agape ATP International Holding Limited
+
+Date 31 JANAURY, 2018
+
+In the presence of:
+
+Witness Signature
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Date 31 JANAURY, 2018
+
+Witness Name Ku Suat Hong
+
+Address 17-1, 17-2, 17-3, 17-4, Wisma Laxton, Jalan Desa,Taman Desa, Off Jalan Klang Lama, 58100 Kuala Lumpur .
+
+ODM Supply Agreement
+
+Organic Preparations INC. &amp; Agape ATP International Holding Limited
+
+11
+
+## SCHEDULE A – The Products at Commencement
+
+## Product names:
+
+ATP 1S Survivor Select ATP 2 Energized Mineral Concentrate ATP 3 Ionized Cal-Mag ATP 4 Omega Blend ATP 5 BetaMaxx AGP 1 Iron YFA Young Formula ORYC Organic Soap
+
+## SCHEDULE B – Minimum Annual Product Performance Requirements
+
+Performance targets have been discussed between the Manufacturer and the Customer to determine fair and reasonable performance targets. Minimum Annual Product Performance Requirements are listed below:
+
+| Product Name:  Agreed Quantity of Units to be purchased per Annum:  ATP 1 S Survivor Select  150gm packaged  15,000  ATP 2 Energized Mineral Concentrate  29.5mL packaged  20,000  ATP 3 Ionized Cal-Mag  114gm packaged  15,000  ATP 4 Omega Blend  250mL packaged  15,000  ATP 5 BetaMaxx  150gm packaged  15,000  AGP 1 Iron  29.5mL packaged  1000  YFA Young Formula  450gm packaged  3000  ORYC Organic Soap  150gm packaged  2500  ODM Supply Agreement   |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+Organic Preparations INC. &amp; Agape ATP International Holding Limited
+
+12
+
+ODM Supply Agreement
+
+13

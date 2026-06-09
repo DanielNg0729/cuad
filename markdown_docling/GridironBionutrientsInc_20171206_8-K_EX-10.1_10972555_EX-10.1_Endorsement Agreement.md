@@ -2,12 +2,12 @@
 
 ## ENDORSEMENT AGREEMENT
 
-This Endorsement Agreement ( 'Agreement') made October 30, 2017, between  National Football League Alumni Northern California Chapter ( 'NFLA-NC' ), a charitable corporation organized under the laws of California, having its principal office at 1311 Madison Avenue, Redwood CA 94061; National Football League Alumni, Inc. ( 'NFLA ') , a charitable corporation organized under the laws of Florida, having its principal office at 8000 Midlantic Drive, 130 S., Mount Laurel, NJ. 08054 and Food For Athletes, Inc. a corporation organized under the laws of California / Gridiron BioNutrients™, a corporation organized under the laws of Nevada having their principal office(s) at 1119 West 1st Ave., STE G, Spokane, WA 99201 (collectively the 'Company' ).
+This Endorsement Agreement ("Agreement") made October 30, 2017, between National Football League Alumni Northern California Chapter ("NFLA-NC"), a charitable corporation organized under the laws of California, having its principal office at 1311 Madison Avenue, Redwood CA 94061; National Football League Alumni, Inc. ("NFLA") , a charitable corporation organized under the laws of Florida, having its principal office at 8000 Midlantic Drive, 130 S., Mount Laurel, NJ. 08054 and Food For Athletes, Inc. a corporation organized under the laws of California / Gridiron BioNutrients™, a corporation organized under the laws of Nevada having their principal office(s) at 1119 West 1st Ave., STE G, Spokane, WA 99201 (collectively the "Company").
 
 ## RECITALS
 
 - A. Whereas, NFLA is a nationwide group of former National Football League players, coaches, and other employees whose mission is to serve, assist and inform players and their families. The association offers a variety of medical, financial and social programs to help members lead healthy, productive and connected lives.
-- B. Whereas, NFLA-NC is a local Chapter of the NFLA and supports the organizations 'Caring for Kids' initiative through fundraising for youth-related charities.
+- B. Whereas, NFLA-NC is a local Chapter of the NFLA and supports the organizations "Caring for Kids" initiative through fundraising for youth-related charities.
 - C. The Company desires to obtain the rights to use the Pro Football Legends Logo of the NFLA in connection with the advertisement and promotion of certain of its products. An image of the Pro Football Legends Logo is depicted in Exhibit A.
 - D. The NFLA agrees to license such rights to the Company.
 
@@ -17,19 +17,19 @@ In consideration of the matters described above, and of the mutual benefits and 
 
 As used in this Agreement, the following terms shall be defined as follows:
 
-- A. 'Contract Period' shall mean that period of time of three (3) years commencing on November 1st, 2017 and concluding November 2nd, 2020, unless terminated sooner or extended as provided in this Agreement.
-- B. 'Contract Territory' shall mean worldwide.
-- C. 'Contract Year' shall mean each of the consecutive 12-month periods beginning on the effective date of the Agreement of the Contract Period.
+- A. "Contract Period" shall mean that period of time of three (3) years commencing on November 1st, 2017 and concluding November 2nd, 2020, unless terminated sooner or extended as provided in this Agreement.
+- B. "Contract Territory" shall mean worldwide.
+- C. "Contract Year" shall mean each of the consecutive 12-month periods beginning on the effective date of the Agreement of the Contract Period.
 
-- D. 'Gross Sales' shall mean total revenues, under generally accepted accounting principles, from sales of the Licensed Products, but does not include any revenue from sales, use or other transaction taxes, duties, handling, graphics, embroidery or shipping.
-- E. 'Net Sales' shall mean Gross Sales less Product returns, trade discounts, samples, allowances, value added services, markdowns, customer charge backs and liquidation sales (substantially discounted and out of ordinary distribution channel) of Licensed Products.
-- F. 'Licensed Products' shall mean BlackMP Living Water, BlackMP Concentrate, Zezel Probiotic Water, Zayin Sports Water, Gridiron MVP™ and Gridiron MVP™ Concentrate using the Pro Football Legends Logo on the Licensed Products' affixed labels, hang-tags or packaging. Other products of the Company may be added to the list of Licensed Products during the Contract Period by written amendment to this Agreement. All amendments to this Agreement must be signed by all parties to this Agreement.
-- G. 'Products' shall mean goods manufactured, distributed or otherwise sold by the Company.
-- H. 'Licensed Marks' shall mean in connection with the rights and benefits granted to Company hereunder as set forth in General Terms. Company may utilize only the logo and other trademarks listed on Exhibit A (the 'Licensed Marks') during the Term and within the Territory solely in connection with advertising and promotional materials that identify Company as a sponsor of the Pro Football Legends, provided that NFLA first approves all such uses in writing. Any use of the Licensed Marks will bear the trademark and/or copyright notices required by NFLA to facilitate its trademark protection program and will be a 'work made for hire' for NFLA. All of Company's uses of the Licensed Marks shall inure to the benefit of the NFLA. After the expiration or termination of this Agreement, Company will refrain from further use of the Licensed Marks used pursuant to this Agreement. Company will not sublicense pass-through or otherwise grant to any third parties the rights granted to Company hereunder without the NFLA prior written consent, including but not limited to the right to use the Licensed Marks. Company acknowledges that this Agreement does not grant Company any rights with respect to any other NFLA Marks (defined below), the name, likeness, signature, or other attributes of any NFLA member or other individual, or any audio or video of any NFLA event. Company agrees that the quality of all services offered by Company under the Licensed Marks will conform to Licensor's written quality control standards and that Company will annually provide to NFLA samples of any advertising and marketing materials that use the Licensed Marks.
-- I. 'Trademark Protection' for the purposes of this agreement, 'NFLA MARKS' means the names, symbols, emblems, designs, and colors of the NFLA, including but not limited to the Licensed Marks. Company acknowledges and agrees that all right, title and interest in and to the NFLA marks belongs to the NFLA. Company agrees that NFLA marks possesses a special, unique and extraordinary character that makes difficult assessment of the monetary damages that would be sustained by their unauthorized use. Company recognizes that irreparable injury would be caused by unauthorized use of any of the NFLA marks, and agrees that injunctive and other equitable relief would be appropriate in the event of such unauthorized use, and that such remedy would not be exclusive of other legal remedies available to NFLA. Company recognizes that great value and goodwill associated with NFLA marks belongs to the NFLA and that the NFLA marks have secondary meaning.
+- D. "Gross Sales" shall mean total revenues, under generally accepted accounting principles, from sales of the Licensed Products, but does not include any revenue from sales, use or other transaction taxes, duties, handling, graphics, embroidery or shipping.
+- E. "Net Sales" shall mean Gross Sales less Product returns, trade discounts, samples, allowances, value added services, markdowns, customer charge backs and liquidation sales (substantially discounted and out of ordinary distribution channel) of Licensed Products.
+- F. "Licensed Products" shall mean BlackMP Living Water, BlackMP Concentrate, Zezel Probiotic Water, Zayin Sports Water, Gridiron MVP™ and Gridiron MVP™ Concentrate using the Pro Football Legends Logo on the Licensed Products' affixed labels, hang-tags or packaging. Other products of the Company may be added to the list of Licensed Products during the Contract Period by written amendment to this Agreement. All amendments to this Agreement must be signed by all parties to this Agreement.
+- G. "Products" shall mean goods manufactured, distributed or otherwise sold by the Company.
+- H. "Licensed Marks" shall mean in connection with the rights and benefits granted to Company hereunder as set forth in General Terms. Company may utilize only the logo and other trademarks listed on Exhibit A (the "Licensed Marks") during the Term and within the Territory solely in connection with advertising and promotional materials that identify Company as a sponsor of the Pro Football Legends, provided that NFLA first approves all such uses in writing. Any use of the Licensed Marks will bear the trademark and/or copyright notices required by NFLA to facilitate its trademark protection program and will be a "work made for hire" for NFLA. All of Company's uses of the Licensed Marks shall inure to the benefit of the NFLA. After the expiration or termination of this Agreement, Company will refrain from further use of the Licensed Marks used pursuant to this Agreement. Company will not sublicense pass-through or otherwise grant to any third parties the rights granted to Company hereunder without the NFLA prior written consent, including but not limited to the right to use the Licensed Marks. Company acknowledges that this Agreement does not grant Company any rights with respect to any other NFLA Marks (defined below), the name, likeness, signature, or other attributes of any NFLA member or other individual, or any audio or video of any NFLA event. Company agrees that the quality of all services offered by Company under the Licensed Marks will conform to Licensor's written quality control standards and that Company will annually provide to NFLA samples of any advertising and marketing materials that use the Licensed Marks.
+- I. "Trademark Protection" for the purposes of this agreement, "NFLA MARKS" means the names, symbols, emblems, designs, and colors of the NFLA, including but not limited to the Licensed Marks. Company acknowledges and agrees that all right, title and interest in and to the NFLA marks belongs to the NFLA. Company agrees that NFLA marks possesses a special, unique and extraordinary character that makes difficult assessment of the monetary damages that would be sustained by their unauthorized use. Company recognizes that irreparable injury would be caused by unauthorized use of any of the NFLA marks, and agrees that injunctive and other equitable relief would be appropriate in the event of such unauthorized use, and that such remedy would not be exclusive of other legal remedies available to NFLA. Company recognizes that great value and goodwill associated with NFLA marks belongs to the NFLA and that the NFLA marks have secondary meaning.
 
-- J. 'NFLA Identification' means the right to use, subject to the provisions of this Agreement, the NFLA name, and Pro Football Legends Logo and any other means of endorsement by the NFLA used in connection with the advertisement and promotion of the Company and the Licensed Products.
-- K. 'One (1) Unit' shall represent $0.05 (1 Unit = $0.05USD) for purposes of defining the monetary donation allocation of the Company's sold products to the NFLA-NC, specific to the terms of this Agreement. A Licensed Product in no circumstance shall be valued at less than one (1) full Unit and under no circumstance shall a Unit be fractionalized (if required rounded up to the nearest whole number).
+- J. "NFLA Identification" means the right to use, subject to the provisions of this Agreement, the NFLA name, and Pro Football Legends Logo and any other means of endorsement by the NFLA used in connection with the advertisement and promotion of the Company and the Licensed Products.
+- K. "One (1) Unit" shall represent $0.05 (1 Unit = $0.05USD) for purposes of defining the monetary donation allocation of the Company's sold products to the NFLA-NC, specific to the terms of this Agreement. A Licensed Product in no circumstance shall be valued at less than one (1) full Unit and under no circumstance shall a Unit be fractionalized (if required rounded up to the nearest whole number).
 
 ## SECTION TWO. GRANT OF RIGHTS
 
@@ -47,9 +47,8 @@ In consideration of the endorsement rights granted under this Agreement, Company
 - B. A one-time $10,000USD (Ten Thousand Dollars) promotional fee payable to NFLA. The $10,000 promotional fee shall be payable in four (4) quarterly payments beginning in 2018: Q1 ($2500); Q2 ($2500); Q3 ($2500); Q4 ($2500). Each payment shall be delivered by no later than the 10th day of the first month of each quarter.
 - C. A *donation of $0.05 per Unit sold of Licensed Products within the Contract Territory payable to the **NFL Alumni Northern California Chapter. Donated amounts will be allocated and dispersed to the Northern California Chapter beginning on the first full quarter [three (3) month period] of the Agreement and continue on a quarterly basis thereafter for the term of this Agreement. Where the following per Unit conversion shall apply for the term of this Agreement:
 - a. (1) Bottle of BlackMP Living Water = 1 Unit
-- b. ( 1 )   4 o z   b o t t l e   o f   B l a c k M P Concentrate = 30 Units
-- c. (1) Bottle of Zezel Probiotic = 1 Unit
-7. Water
+- b. (1) 4oz bottle of BlackMP Concentrate = 30 Units
+- c. (1) Bottle of Zezel Probiotic Water = 1 Unit
 - d. (1) Bottle of Zayin Sports Water = 1 Unit
 - e. (1) Bottle Gridiron MVP™ Water= 1 Unit
 - f. (1) 4oz bottle of Gridiron MVP™ Concentrate = 30 Units
@@ -58,8 +57,8 @@ In consideration of the endorsement rights granted under this Agreement, Company
 
 * The NFLA-NC will donate 15% of the above described proceeds to the NFLA.
 - ** The Company will provide to the NFLA-NC upon request the most recent quarterly sales report of the Company's Licensed Products.
-- D. Product Commitment. Up to Two-thousand (2,000) 4oz bottles of BlackMP Living Water Concentrate to be used as a 'value appeal' for annual membership renewal (up to a $220,000 value) allocated to the NFLA and provide a combination/assortment of bottle water to NFLA-NC for display and use though out the term of the Agreement at the NFLA-NC facilities. The Company agrees to pay for all shipping costs of the Products under the Product Commitment to the fulfillment center, currently Sharp Marketing, located in Fort Lauderdale, FL and to any subsequent fulfillment center that is contracted by the NFLA to provide distribution to existing and new NFLA members.
-- E. Affiliated Partnership Commitment. Company agrees to facilitate and provide in good-faith their affiliated partnership discount program benefits and access to applicable health and wellness research, information and protocols to NFLA members (Current partnership benefit includes providing NFLA members with a 15% discount on all Kraski's Nutrition Real Products For Real People) ; and
+- D. Product Commitment. Up to Two-thousand (2,000) 4oz bottles of BlackMP Living Water Concentrate to be used as a "value appeal" for annual membership renewal (up to a $220,000 value) allocated to the NFLA and provide a combination/assortment of bottle water to NFLA-NC for display and use though out the term of the Agreement at the NFLA-NC facilities. The Company agrees to pay for all shipping costs of the Products under the Product Commitment to the fulfillment center, currently Sharp Marketing, located in Fort Lauderdale, FL and to any subsequent fulfillment center that is contracted by the NFLA to provide distribution to existing and new NFLA members.
+- E. Affiliated Partnership Commitment. Company agrees to facilitate and provide in good-faith their affiliated partnership discount program benefits and access to applicable health and wellness research, information and protocols to NFLA members (Current partnership benefit includes providing NFLA members with a 15% discount on all Kraski's Nutrition Real Products For Real People); and
 - F. Marketing Commitment. Company agrees that it will continue in good-faith to produce and market Licensed Products in the same manner that it is currently producing and marketing such items as of September 2017, unless Company and the NFLA/NFLA-NC believe it is not commercially reasonable to continue to produce and market the Licensed Products.
 
 ## SECTION FIVE. SERVICES OF COMPANY
@@ -70,7 +69,7 @@ In consideration of the endorsement rights granted under this Agreement, Company
 
 - A. If Company desires to use the services of the NFLA-NC and/or any of its officers and members as a model in connection with Company advertising to promote its Products or as a part of a special promotional appearance for the Company, the NFLA-NC agrees, at the request of Company, to provide a good faith effort services of the officers or members of the NFLA for a reasonable amount of time as mutually agreed upon by all parties and at places reasonably convenient to each parties schedule. Each day shall not exceed a reasonable number of hours unless otherwise mutually agreed upon. The Company agrees that it will reimburse the NFLA-NC and if applicable the NFLA or its officers/members for all reasonable travel, lodging and meal expenses incurred by the NFLA / NFLA-NC or its officers/members in connection with such services. The Company understands that failure to use services of a member of the NFLA / NFLA-NC pursuant to this section shall not result in any reduction in payments to NFLA-NC under this Agreement. The obligations of the NFLA / NFLA-NC to provide services of its officers/members under this Agreement are subject to the condition that payments to NFLA-NC are current and up to date.
 - B. Should Company use any member of the NFLA-NC in television advertising to promote Company's Products, Company will make all applicable required union scale and pension and welfare payments.
-- C. During the Contract Period, NFLA-NC shall make a good faith effort to assure that its members shall wear Company Products at all professional and promotional events and at all media appearances where appropriate, and when not in conflict with its members existing agreements. It is agreed that the logo or name of Company (the 'Company Logo') shall be affixed to an appropriate location (i.e. shoulder-sleeve and/or back] of all Company Products that members of the NFLA-NC wear. Company agrees that it will be responsible for, and the cost of, affixing the Company Logo on all such Company Products. Company acknowledges that other locations on the NFLA-NC Products are reserved for NFLA-NC's other sponsors. Furthermore, Company understands that if the NFLA-NC or its Officers/members participate in a special team event where there is an official uniform, then representatives of the NFLA-NC are permitted to wear such uniform during such event.
+- C. During the Contract Period, NFLA-NC shall make a good faith effort to assure that its members shall wear Company Products at all professional and promotional events and at all media appearances where appropriate, and when not in conflict with its members existing agreements. It is agreed that the logo or name of Company (the "Company Logo") shall be affixed to an appropriate location (i.e. shoulder-sleeve and/or back] of all Company Products that members of the NFLA-NC wear. Company agrees that it will be responsible for, and the cost of, affixing the Company Logo on all such Company Products. Company acknowledges that other locations on the NFLA-NC Products are reserved for NFLA-NC's other sponsors. Furthermore, Company understands that if the NFLA-NC or its Officers/members participate in a special team event where there is an official uniform, then representatives of the NFLA-NC are permitted to wear such uniform during such event.
 - D. The NFLA shall list the Company as a sponsor on all of its promotional materials, websites or other electronic media. The NFLA shall allow the Company to participate in local and national NFLA functions (i.e. Super Bowl Parties, Award Ceremonies, Banquets, etc…) at the Company's own expense.
 - E. The NFLA shall promote Company and Company's products to NFLA database and audience by deliverables listed in Exhibit B.
 
@@ -80,7 +79,7 @@ All payments shall be made by wire transfer drawn to the account of NFLA-NC no l
 
 $0.05 per Unit as described herein of Company's Products sold in the Contract Territory payable to NFLA-NC. Donated amounts will be allocated and dispersed to the NFLA-NC beginning on the first full quarter (three month period) of the Agreement and continue on a quarterly basis thereafter for the term of this Agreement.
 
-Past due payments under this Agreement shall bear interest at the rate of: (a) 1 % per month; or (b) the maximum interest rate permissible under law, whichever is less. All amounts in this section are in United States dollars.
+Past due payments under this Agreement shall bear interest at the rate of: (a) 1% per month; or (b) the maximum interest rate permissible under law, whichever is less. All amounts in this section are in United States dollars.
 
 ## SECTION EIGHT. AUTHORIZED AGENT
 
@@ -126,3 +125,71 @@ Company shall have the right to terminate this Agreement, upon written notice to
 ## SECTION FIFTEEN. CONTRACT EXTENSION
 
 Due to long product development lead times, Company and NFLA-NC agree to begin discussions for the renewal of this Agreement by no later than June 1 st , 2020. All terms of this Agreement will automatically commence on November 1 st , 2017, and expire on November 2 nd , 2020.
+
+## SECTION SIXTEEN. LIMITED LIABILITY
+
+Notwithstanding anything to the contrary in this Agreement, if Company incurs any expenses, damages or other liabilities (including but not limited to reasonable attorney's fees) in connection with the performance or nonperformance of any term or provision of this Agreement, NFLA's liability to Company shall not exceed the remuneration, excluding reimbursement of expenses, actually paid to NFLA by Company. In no event will NFLA be liable for any indirect, incidental, reliance, special or consequential damages arising out of the performance or nonperformance of this Agreement, whether or not NFLA had been advised of the possibility of such damages.
+
+## SECTION SEVENTEEN. WAIVER
+
+The failure of either party at any time or times to demand strict performance by the other party of any of the terms, covenants or conditions set forth in this Agreement shall not be construed as a continuing waiver or relinquishment of the same and each party may at any time demand strict and complete performance by the other party of such terms, covenants and conditions. Any waiver of such rights must be set forth in writing.
+
+## SECTION EIGHTEEN. SEVERABILITY
+
+If any provision of this Agreement shall be declared illegal, invalid, void or unenforceable by any judicial or administrative authority, the validity of any other provision and of the entire Agreement shall not be affected by such declaration.
+
+## SECTION NINETEEN. ASSIGNMENT
+
+This Agreement shall bind and inure to the benefit of Company and NFLA and their respective successors and assigns.
+
+## SECTION TWENTY. GOVERNING LAW; ARBITRATION
+
+This Agreement shall be governed by, and its provisions enforced in accordance with, the laws of California without regard to its principles of conflicts of laws. If a dispute arises under this Agreement which cannot be resolved, such dispute shall be submitted to arbitration and resolved by a single arbitrator (who shall be a lawyer not employed by or associated with either party to this Agreement) in accordance with the Commercial Arbitration Rules of the American Arbitration Association then in effect. All such arbitration shall take place at the office of the American Arbitration Association located within 225 miles of Hayward, California. Each party is entitled to depose one fact witness and all expert witnesses retained by the other party, and to conduct such other discovery as the arbitrator deems appropriate. The award or decision rendered by the arbitrator shall be final, binding and conclusive and judgment may be entered upon such award by any court.
+
+## SECTION TWENTY-ONE. HEADINGS
+
+Section headings contained in this Agreement are solely for the purpose of aiding in speedy location of subject matter and are not in any sense to be given weight in the construction of this Agreement. Accordingly, in case of any question with respect to the construction of this Agreement, it is to be construed as though such section headings had been omitted.
+
+## SECTION TWENTY-TWO. NO JOINT VENTURE
+
+This Agreement does not constitute and shall not be construed as constituting an association, partnership, joint venture or relationship of principal and agent, or employer and employee, between NFLA and Company. Neither party shall have any right to obligate or bind the other party in any manner whatsoever except as expressly set forth in this Agreement, nothing contained in this Agreement shall give, or is intended to give, any rights of any kind to any person.
+
+## SECTION TWENTY-THREE. ENTIRE AGREEMENT
+
+This writing constitutes the entire agreement between the parties to this Agreement and may not be changed or modified except by a writing signed by the party or parties to be charged by such change or modification.
+
+The parties have executed this Agreement on October 30, 2017.
+
+## Food For Athletes, Inc. / Gridiron BioNutrients™
+
+By:
+
+/s/ Darren Long
+
+Darren Long - CEO
+
+The National Football League Alumni, Inc.
+
+By: /s/ Elvis Gooden
+
+Elvis Gooden - President
+
+NFL Alumni - Northern California Chapter
+
+By:
+
+/s/ Eric Price
+
+Eric Price - President
+
+EXHIBIT A PRO FOOTBALL LEGENDS LOGO
+
+<!-- image -->
+
+## EXHIBIT B
+
+NFLA agrees to promote Company and Company's products to NFLA database by:
+
+1. E-blasts: NFLA to send a minimum of two (2) dedicated e-blasts per year to NFLA database. All e-blast communications must be approved in writing by Company;
+2. Newsletter: NFLA to feature Company in Weekly Newsletter "Partner Spotlight" a minimum of four (4) times per year. All newsletter communications must be approved in writing by Company; and
+3. Social Media: NFLA to feature Company on all social media channels a minimum of four (4) times per year. All newsletter communications must be approved in writing by Company.

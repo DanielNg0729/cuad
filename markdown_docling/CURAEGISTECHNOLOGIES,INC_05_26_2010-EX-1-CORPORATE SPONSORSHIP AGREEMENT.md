@@ -4,7 +4,7 @@
 
 ## CORPORATE SPONSORSHIP AGREEMENT
 
-This agreement (the ' Agreement ' ) is entered into as of May 18, 2010, (the ' Effective Date ' ) by and between Phoenix Performance, LLC, 481 Schuylkill Road, Phoenixville, PA 19460 ( ' Vendor ' ) and Torvec Inc.., a New York corporation with its principal place of business located at 1999 Mt Read Blvd, Building 3, Rochester, NY. 14615 (Torvec).
+This agreement (the " Agreement " ) is entered into as of May 18, 2010, (the " Effective Date " ) by and between Phoenix Performance, LLC, 481 Schuylkill Road, Phoenixville, PA 19460 ( " Vendor " ) and Torvec Inc.., a New York corporation with its principal place of business located at 1999 Mt Read Blvd, Building 3, Rochester, NY. 14615 (Torvec).
 
 ## RECITALS
 
@@ -14,7 +14,7 @@ NOW, THEREFORE, for and in consideration of the mutual covenants, rights and obl
 
 ## 1. Term
 
-The term of this Agreement (the ' Term ' ) shall commence on the Effective Date and conclude on October 31, 2010, unless renewed by agreement or sooner terminated in accordance with this Agreement.
+The term of this Agreement (the " Term " ) shall commence on the Effective Date and conclude on October 31, 2010, unless renewed by agreement or sooner terminated in accordance with this Agreement.
 
 ## 2. Termination
 
@@ -58,11 +58,11 @@ Torvec will provide to Vendor the use of up to 2 Differential units to be used i
 
 ## 6. Grant of License
 
-Each party shall have a non-exclusive, royalty free, non-transferable license to use the name, logo, any item used in connection with that name or logo, and the registered symbols and trademarks of the other party (the ' Trademarks ' ) only for the purposes set forth in this Agreement. Neither party will use the other ' s Trademarks without obtaining the prior approval of the other party. Any materials using Trademarks which are submitted to one party by the other are deemed to be approved if the receiving party has not disapproved the material in writing within ten (10) business days after it receives a request for approval. The parties shall not unreasonably disapprove any material. If any material is disapproved by one party, it will advise the other of the specific reasons for the disapproval. Once materials are approved by one party, the other party may make multiple uses of those approved materials and any images, likenesses, and photographs contained therein in the same or substantially similar media without seeking the other party ' s further approval.
+Each party shall have a non-exclusive, royalty free, non-transferable license to use the name, logo, any item used in connection with that name or logo, and the registered symbols and trademarks of the other party (the " Trademarks " ) only for the purposes set forth in this Agreement. Neither party will use the other ' s Trademarks without obtaining the prior approval of the other party. Any materials using Trademarks which are submitted to one party by the other are deemed to be approved if the receiving party has not disapproved the material in writing within ten (10) business days after it receives a request for approval. The parties shall not unreasonably disapprove any material. If any material is disapproved by one party, it will advise the other of the specific reasons for the disapproval. Once materials are approved by one party, the other party may make multiple uses of those approved materials and any images, likenesses, and photographs contained therein in the same or substantially similar media without seeking the other party ' s further approval.
 
 The approval by a party to use its registered symbols or trademarks does not convey any rights, title or interest to the other party in and to such registered symbols and trademarks. The party receiving permission to use a registered symbol or trademark will (i) follow all reasonable instructions from the
 
-owner regarding that symbol or trademark; and (ii) take all reasonable steps to protect it, including, when appropriate, using the symbols '®' or '™' . The rights granted under this Section 6 cease upon the expiration or termination of this Agreement.
+owner regarding that symbol or trademark; and (ii) take all reasonable steps to protect it, including, when appropriate, using the symbols " ® " or " ™" . The rights granted under this Section 6 cease upon the expiration or termination of this Agreement.
 
 ## 7. Confidentiality
 
@@ -84,12 +84,8 @@ Vendor represents and warrants to Torvec the following: (i) it has the authority
 
 All notices provided herein shall be in writing and are effective upon receipt if hand delivered, sent by overnight courier (with ability to confirm receipt), by fax or by registered or certified mail, return receipt requested, addressed to the respective parties hereto as follows:
 
-| If to Vendor(s):         | If to Torvec:        |
-|--------------------------|----------------------|
-| Phoenix Performance, LLC | Torvec, Inc..        |
-| 481 Schuylkill Road      | 1999 Mt Read Blvd    |
-| Phoenixville, PA 19460   | Building 3           |
-| ATTN: JOE AQUILANTE      | Rochester, NY. 14615 |
+| If to Vendor(s): Phoenix Performance, LLC 481 Schuylkill Road Phoenixville, PA 19460 ATTN: JOE AQUILANTE Fax: 610.482.0142  If to Torvec: Torvec, Inc.. 1999 Mt Read Blvd Building 3 Rochester, NY. 14615   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 Either party may change its address for notice by giving written notice to the other party.
 
@@ -99,7 +95,7 @@ This Agreement shall not be altered or amended, nor any rights hereunder waived,
 
 ## 12. Assignment
 
-Neither party may assign its rights or powers under this Agreement without the express written consent of the other, which consent shall not be unreasonably withheld. Any attempt to assign without the other party ' s consent will be null and void and will afford the non-assigning party the right to immediately cancel and terminate this Agreement.
+Neither party may assign its rights or powers under this Agreement without the express written consent of the other, which consent shall not be unreasonably withheld. Any attempt to assign without the other party ' s consent will be null and void and will afford the non -assigning party the right to immediately cancel and terminate this Agreement.
 
 ## 13. No Joint Venture
 
@@ -143,7 +139,5 @@ The rule of construction to the effect that any drafting ambiguities are to be r
 
 IN WITNESS WHEREOF, and intending to be legally bound hereby, the parties have caused this Agreement to be executed and delivered by their proper and duly authorized officers or representatives as of the date first above written.
 
-| Signature Signature FORVENDOR:       | FORTORVEC.:                          |
-|--------------------------------------|--------------------------------------|
-| Joseph F. Aquilante, President       | Keith E. Gleasman, President         |
-| Print Name and Title of person above | Print Name and Title of person above |
+| Signature Signature  FOR VENDOR:  FOR TORVEC.:  Joseph F. Aquilante, President Print Name and Title of person above  Keith E. Gleasman, President Print Name and Title of person above   |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

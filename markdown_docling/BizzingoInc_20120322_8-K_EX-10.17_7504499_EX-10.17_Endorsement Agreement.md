@@ -2,7 +2,7 @@
 
 ## CELEBRITY ENDORSEMENT AGREEMENT
 
-THIS AGREEMENT is made as of this March 14, 2012 but effective as of March 1, 2012 ( ' Effective Date ' ) by and between Bizzingo, Inc., a Nevada corporation with offices at 63 Main Street, Suite 202, Flemington, NJ 08822 ( ' Bizzingo ' ) and Joseph Theismann, an individual whose address is 21495 Ridgetop Circle, Suite 304A, Sterling Virginia 20166 ( ' Theismann ' ) (collectively the ' Parties ' ).
+THIS AGREEMENT is made as of this March 14, 2012 but effective as of March 1, 2012 ( " Effective Date " ) by and between Bizzingo, Inc., a Nevada corporation with offices at 63 Main Street, Suite 202, Flemington, NJ 08822 ( " Bizzingo " ) and Joseph Theismann, an individual whose address is 21495 Ridgetop Circle, Suite 304A, Sterling Virginia 20166 ( " Theismann " ) (collectively the " Parties " ).
 
 ## WITNESSETH:
 
@@ -10,7 +10,7 @@ WHEREAS, Theismann is recognized and widely known throughout the world as a reti
 
 WHEREAS, Theismann ' s name, by virtue of his ability and experience, has acquired a meaning in the mind of the purchasing public important to the advertising, promotion, and sale of services and merchandise; and
 
-WHEREAS, Bizzingo has developed a B2B interactive platform which engages in business social media including mobile and Internet applications ( ' Network ' ); and
+WHEREAS, Bizzingo has developed a B2B interactive platform which engages in business social media including mobile and Internet applications ( "N "Network ") "); and
 
 WHEREAS, Bizzingo is desirous of acquiring the rights to utilize Theismann ' s name in connection with the advertisement, promotion, and sale of the Network as provided herein and Theismann is willing to grant such right
 
@@ -22,16 +22,16 @@ Bizzingo agrees that any use of the Property for advertising, promotional or sal
 
 Except as stated herein, no other rights or privileges are granted to Bizzingo by Theismann.
 
-' Property ' as stated herein shall mean Theismann ' s name (including ' Joe Theismann ' , ' Theismann ' ' J. Theismann ' ), nicknames, initials, autograph, facsimile signature, photograph, image, likeness, voice, video portrayals, biographical data, character, symbols, and/or other endorsement, and any variations or deviations thereof.
+" Property " as stated herein shall mean Theismann ' s name (including " Joe Theismann " , " Theismann "" J. Theismann " ), nicknames, initials, autograph, facsimile signature, photograph, image, likeness, voice, video portrayals, biographical data, character, symbols, and/or other endorsement, and any variations or deviations thereof.
 
-' Territory ' as stated herein shall mean worldwide.
+" Territory " as stated herein shall mean worldwide.
 
-2. TERM. Unless sooner terminated under the provisions hereof, this Agreement shall commence on the Effective Date and continue for a period of one (1) year ( ' Term ' ). provided however, that the Parties may extend the Term for an additional year period by entering into an written addendum of the Agreement extending such term.
+2. TERM. Unless sooner terminated under the provisions hereof, this Agreement shall commence on the Effective Date and continue for a period of one (1) year ( " Term " ). provided however, that the Parties may extend the Term for an additional year period by entering into an written addendum of the Agreement extending such term.
 
 ## 3. COMPENSATION.
 
-- a. In consideration for the rights granted hereunder and for the promotional appearances provided herein, Bizzingo, subject to the other terms and conditions herein, agrees to pay to Theismann during the Term the royalty recited in Schedule A (the ' Royalty ' ). In addition, concurrent with the execution hereof, Bizzingo will pay Theismann the Initial Bonus described in Schedule A.
-- b. The Royalty owed Theismann shall be calculated on a quarterly calendar basis ( ' Royalty Period") commencing on the first (1st) day of June, September, December, and March, except that the first and last calendar quarters may be "short" depending on the effective date of this Agreement. Payment of the Royalty shall be made no later than 45 days after the termination of the preceding full calendar quarter. The foregoing notwithstanding, if this Agreement is terminated in accordance with the provisions herein during a Royalty Period, the Royalty shall be calculated up to and including the Termination Date and payment of the Royalty shall be made as provided herein.
+- a. In consideration for the rights granted hereunder and for the promotional appearances provided herein, Bizzingo, subject to the other terms and conditions herein, agrees to pay to Theismann during the Term the royalty recited in Schedule A (the " Royalty " ). In addition, concurrent with the execution hereof, Bizzingo will pay Theismann the Initial Bonus described in Schedule A.
+- b. The Royalty owed Theismann shall be calculated on a quarterly calendar basis ( " Royalty Period") commencing on the first (1st) day of June, September, December, and March, except that the first and last calendar quarters may be "short" depending on the effective date of this Agreement. Payment of the Royalty shall be made no later than 45 days after the termination of the preceding full calendar quarter. The foregoing notwithstanding, if this Agreement is terminated in accordance with the provisions herein during a Royalty Period, the Royalty shall be calculated up to and including the Termination Date and payment of the Royalty shall be made as provided herein.
 - c. For each Royalty Period, Bizzingo shall provide Theismann with a written royalty statement in a form acceptable to Theismann certified by a duly authorized officer of Bizzingo.
 - d. Theismann shall be responsible for all federal, state and local taxes related to the Royalty.
 
@@ -102,8 +102,68 @@ All books and records relative to Bizzingo's obligations hereunder shall be main
 - ii. Totally retires from the entertainment or sports industry; or
 - iii. Upon Theismann's death.
 - c. In addition to as stated in (a) or (b) above, either party may terminate this Agreement in the event of a breach of any provision of this Agreement by the other by providing thirty (30) days* prior written notice to the breaching party, provided that, during the 30day period, the breaching party fails to cure such breach.
-- d. Theismann shall have the right to terminate this Agreement at any time upon thirty (30) days' written notice to Bizzingo, such termination to become effective at the conclusion of such 30-day period.
+- d. Theismann shall have the right to terminate this Agreement at any time upon thirty (30) days' written notice to Bizzingo, such termination to become effective at the conclusion of such 30 -day period.
 
 Upon termination of this Agreement as provided in this Section 10 (each a "Termination Date") or upon the expiration of the Term, Bizzingo shall cease using the Property in any way, and Theismann shall not be entitled to the Royalty, in each case from and after the Termination Date.
 
 11. RELATIONSHIP OF THE PARTIES. Theismann's performance of services for Bizzingo hereunder is in his or her capacity as an independent contractor. Accordingly, nothing contained in this Agreement shall be construed as establishing an employer/employee, a partnership, or a joint venture relationship between Theismann and Bizzingo.
+
+12. FORCE MAJEURE. Neither party will be liable for, or will be considered to be in breach of or default under this Agreement on account of, any delay or failure to perform as required by this Agreement as a result of any causes or conditions that are beyond such Party's reasonable control and that such Party is unable to overcome through the exercise of commercially reasonable diligence. If any force majeure event occurs, the affected Party will give prompt written notice to the other Party and will use commercially reasonable efforts to minimize the impact of the event.
+
+13. JURISDICTION/DISPUTES. The Parties hereby agree that all disputes related to this Agreement shall be settled by arbitration pursuant to the rules and regulations of the American Arbitration Association. Parties all consent to the jurisdiction of such courts, agree to accept service of process by mail, and hereby waive any jurisdictional or venue defenses otherwise available to it
+
+14. AGREEMENT BINDING ON SUCCESSORS. The provisions of the Agreement shall be binding upon and shall inure to the benefit of the Parties hereto, their heirs, administrators, successors and assigns.
+
+15. ASSIGNABILITY. Neither party may assign this Agreement or the rights and obligations thereunder to any third party without the prior express written approval of the other party which shall not be unreasonably withheld.
+
+16. WAIVER. No waiver by either party of any default shall be deemed as a waiver of prior or subsequent default of the same of other provisions of this Agreement.
+
+17. SEVERABILITY. If any term, clause or provision hereof is held invalid or unenforceable by a court of competent jurisdiction, such invalidity shall not affect the validity or operation of any other term, clause or provision and such invalid term, clause or provision shall be deemed to be severed from the Agreement.
+
+18. INTEGRATION. This Agreement constitutes the entire understanding of the Parties, and revokes and supersedes all prior agreements between the Parties and is intended as a final expression of their Agreement. It shall not be modified or amended except in writing signed by the Parties hereto and specifically referring to this Agreement. This Agreement shall take precedence over any other documents which may conflict with this Agreement.
+
+19. CONFIDENTIALITY AND NON -DISPARAGEMENT AGREEMENT. Concurrent with the execution of this agreement, the parties will execute a mutually acceptable Confidentiality and Non-Disparagement Agreement.
+
+IN WITNESS WHEREOF, the Parties hereto, intending to be legally bound hereby, have each caused to be affixed hereto its or his/her hand on the day indicated above.
+
+<!-- image -->
+
+<!-- image -->
+
+Theismann
+
+Bizzingo, Inc.
+
+Joseph Theismann
+
+Douglas Toth President
+
+## SCHEDULE A
+
+(Attached to and made a part of the Celebrity Endorsement Agreement dated March 14, 2012 by and between Bizzingo, Inc. and Joseph Theismann)
+
+## I
+
+## Background
+
+Bizzingo expects to populate its Network with Activated Users (as defined herein) through two distinct methods.
+
+## Method 1 .
+
+(a). Bizzingo will acquire basic business information for a prospective user of the Network, which will include all or part of the following; business name and address, telephone number, email address or website. This basic business information will be acquired through (i) arrangements with specific groups, clubs, networks, or associations, such as Chambers of Commerce, Universities, or trade organization, to acquire member information, or (ii) through purchase or license arrangements with content providers. In either case, once Bizzingo obtains information for a specific user, it will use that information to create or seed a separate user profile in its database for that prospective user ( " Seeded Profile " ). As of the date of this Agreement, Bizzingo has arrangements with content providers and associations to provide the basic business information for over 6,000,000 prospective users which will be seeded by Bizzingo. For clarification purposes, at this point in the process, a Seeded Profile is not an " Activated User. "
+
+(b). In order to activate a Seeded Profile, Bizzingo will contact a prospective user informing them of the existence of their Seeded Profile on the Network, and the prospective user is then required to: (i) search and locate the Bizzingo database for its Seeded Profile and (ii) claim the Seeded Profile by editing or adding content to the Seeded Profile. Once the steps set forth in the immediately preceding sentence has been completed by a user, that user will be deemed to be an " Activated User " and the Network will identify that user as an Activated User.
+
+Method 2. A prospective user independently (from Method 1) may create its own user profile on the Network. This user will be deemed an Activated User and the Network will identify that user as an " Activated User. "
+
+## II
+
+## Royalty and Initial Bonus
+
+1. Royalty. The Royalty payable under the Agreement shall be in the form of one (1) common stock purchase warrant of Bizzingo (as further described herein) for each Activated User (as defined above) that occurs during a Royalty Period determined on the last day of each Royalty Period during the Term. It being the intent of the parties that no more than one (1) common stock purchase warrant shall be issued per Activated User, and by way of example, if on the last day of the first and second Royalty Periods, the Network has 500,000 and 1,500,000 Activated Users, respectively, Theismann shall receive 500,000 common stock purchase warrants for the first Royalty Period and an additional 1,000,000 common stock purchase warrants for the second Royalty Period. Each common stock purchase warrant shall enable Theismann to acquire one (1) share of common stock of Bizzingo at an exercise price of $0.15 per share during a term of five (5) years from the end of the applicable Royalty Period. The form of the warrant is attached hereto as Schedule A -l and shall be referred to as the " Royalty Warrant."
+
+2. Initial Bonus. Concurrent with the execution hereof, Bizzingo will issue Theismann, as a one time bonus, a common stock purchase warrant to purchase 1,000,000 shares of common stock of Bizzingo at a purchase price of $0.15 per share during a term of five (5) years. The form of warrant is attached hereto as Schedule A -II and shall be referred to as the " Bonus Warrant."
+
+3. Restrictive Legend. The restricted legend for purposes of any certificate representing the Royalty Warrant and Bonus Warrant, and the stock certificate for shares underlying the Royalty Warrant or Bonus Warrant is as follows:
+
+The securities represented by this certificate have not been registered under the United States Securities Act of 1933, as amended (the "Act") or any state securities law. These shares have been acquired for investment and may not be offered for sale, hypothecated, sold or transferred, nor will any assignee or transferee thereof be recognized by the Company as having any interest in such shares, in the absence of(i) an effective registration statement with respect to the shares under the Act, and any other applicable state law, or (ii) an opinion of counsel satisfactory to the Company that such shares will be offered for sale, hypothecated, sold or transferred only in a transaction which is exempt under or is otherwise in compliance with the applicable securities laws.

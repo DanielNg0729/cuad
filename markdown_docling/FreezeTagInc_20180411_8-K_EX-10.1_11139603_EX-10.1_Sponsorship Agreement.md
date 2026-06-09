@@ -6,14 +6,14 @@
 
 ## Between American Diabetes Association and Freeze Tag, Inc.
 
-This Agreement ("Agreement") is made effective March 22, 2018, by and between Freeze Tag Inc., a Delaware Corporation ("Company"), with its principal place of business located at 1720 Bray Central Drive, McKinney, TX 75069 and the American Diabetes Association, Inc. ("Association"), an Ohio not-for profit corporation, with its principal place of business located at 2451 Crystal Drive, Suite 900, Arlington, VA 22202. ADA and/or Company may be referred to as a 'Party' or collectively as the 'Parties.'
+This Agreement ("Agreement") is made effective March 22, 2018, by and between Freeze Tag Inc., a Delaware Corporation ("Company"), with its principal place of business located at 1720 Bray Central Drive, McKinney, TX 75069 and the American Diabetes Association, Inc. ("Association"), an Ohio not-for profit corporation, with its principal place of business located at 2451 Crystal Drive, Suite 900, Arlington, VA 22202. ADA and/or Company may be referred to as a "Party" or collectively as the "Parties."
 
-1. Purpose : The purpose of this Agreement is to benefit the Association and advance its not-for-profit mission through a National Sponsorship of Get Fit Don't Sit DayTM. Company desires to assist the Association to carry out its mission and agrees to provide the support described in this Agreement. Company understands that as a not-for-profit charitable organization Association cannot promote or endorse Company's products or services, either explicitly or implicitly. The Association may require that a disclaimer stating that Company's participation in this Agreement does not convey or imply the Association's approval, endorsement, certification, acceptance, or referral of any product or service of Company.
-2. Scope: The Association agrees to identify and acknowledge Company as a supporter of the organization and the diabetes cause, as permitted in connection with qualified sponsorship payments and royalties under Section 513(i) and Section 512 of the Internal Revenue Code and Treasury regulations thereunder ('Code'). Company agrees not to knowingly take any actions that would jeopardize the tax-exempt status of Association under section 501(c)(3) of the Code. Company agrees to inform its business partners about Association's tax-exempt status. Company agrees to provide its services, as defined in Attachment A, in accordance with all applicable laws and in accordance with standards of decorum and taste so as not to adversely reflect upon the Association or its mission.
-3. Term: This Agreement shall commence on March 15, 2018 and will expire on March 14, 2020 unless terminated earlier pursuant to Section 13 of the Agreement (the 'Term').
-4. Intellectual Property: The Association is the sole and exclusive owner of its name and logos, with or without accompanying words, and has the legal right to enter into this Agreement. In addition, any materials provided by or developed by the Association remain the property of the Association. The Association's names, logos, and various marks, are 'the Association Marks', as listed in Attachment B. The Association's ownership of the Association Marks is or shall be secured through registration, or under common law, or both. Company's use of the Association Marks does not create ownership rights in the Association Marks for Company. Company shall not, during the period of this Agreement, or any time thereafter, challenge Association's exclusive ownership or registration of Association's Marks, including any and all moral rights.
+1. Purpose: The purpose of this Agreement is to benefit the Association and advance its not-for-profit mission through a National Sponsorship of Get Fit Don't Sit DayTM. Company desires to assist the Association to carry out its mission and agrees to provide the support described in this Agreement. Company understands that as a not-for-profit charitable organization Association cannot promote or endorse Company's products or services, either explicitly or implicitly. The Association may require that a disclaimer stating that Company's participation in this Agreement does not convey or imply the Association's approval, endorsement, certification, acceptance, or referral of any product or service of Company.
+2. Scope: The Association agrees to identify and acknowledge Company as a supporter of the organization and the diabetes cause, as permitted in connection with qualified sponsorship payments and royalties under Section 513(i) and Section 512 of the Internal Revenue Code and Treasury regulations thereunder ("Code"). Company agrees not to knowingly take any actions that would jeopardize the tax-exempt status of Association under section 501(c)(3) of the Code. Company agrees to inform its business partners about Association's tax-exempt status. Company agrees to provide its services, as defined in Attachment A, in accordance with all applicable laws and in accordance with standards of decorum and taste so as not to adversely reflect upon the Association or its mission.
+3. Term: This Agreement shall commence on March 15, 2018 and will expire on March 14, 2020 unless terminated earlier pursuant to Section 13 of the Agreement (the "Term").
+4. Intellectual Property: The Association is the sole and exclusive owner of its name and logos, with or without accompanying words, and has the legal right to enter into this Agreement. In addition, any materials provided by or developed by the Association remain the property of the Association. The Association's names, logos, and various marks, are "the Association Marks", as listed in Attachment B. The Association's ownership of the Association Marks is or shall be secured through registration, or under common law, or both. Company's use of the Association Marks does not create ownership rights in the Association Marks for Company. Company shall not, during the period of this Agreement, or any time thereafter, challenge Association's exclusive ownership or registration of Association's Marks, including any and all moral rights.
 
-Company is the sole and exclusive owner of its name, logos, and marks (the 'Company Marks'), which include, without limitation, the names, logos, and marks listed in Attachment B as Company Marks.
+Company is the sole and exclusive owner of its name, logos, and marks (the "Company Marks"), which include, without limitation, the names, logos, and marks listed in Attachment B as Company Marks.
 
 <!-- image -->
 
@@ -40,15 +40,15 @@ The Company grants the Association a non-exclusive, limited, revocable and condi
 16. Force Majeure: Neither Party shall be in breach of this Agreement if Program or Event activities are cancelled as a result of forces beyond the Party's reasonable control, such as unusually severe weather, fire, explosion, civil disturbance, terrorism or act of God. Whenever possible, any schedule for performance stated above shall be extended as necessary to overcome the effects of such force majeure, or the company promotion shall be transferred to another Association program or event.
 17. Liability: Company and Association agree that each is responsible for its own business activities and for its action or inaction relating to the specific Program or Event activities under this Agreement. Company shall be responsible for securing any necessary release forms from participants in any Company activity not held at the Association's Program or Event activity.
 18. Non-Assignment: This Agreement shall be between the Parties only, and does not grant rights to any other party. This Agreement may not be assigned by either Party without the prior written consent of the other Party. Any amendment of this Agreement must be in writing signed by authorized representatives of each of the Parties.
-19. Confidentiality . The provisions of this Agreement shall be maintained by the Parties as confidential during the Term and thereafter. In addition, any and all aspects of Company's business, including without limitation all non-public information or trade secrets directly or indirectly related thereto, that Association becomes exposed to during the Term, and extensions or renewals, of this Agreement shall be maintained as confidential, and shall not be further disclosed by Association, or used by Association for any purpose other than performing hereunder during the Term or thereafter. Company shall at all times retain full ownership in and to all information respecting its business, and shall be the sole and exclusive owner of all materials created by or for the Company hereunder, with the exception of the Association Marks.
-20. Independence . Nothing in this Agreement shall create a partnership, joint venture or establish the relationship of principal and agent or any other relationship of a similar nature between the Parties. The Parties to this Agreement shall be considered independent contractors and neither Party is granted the right or authority to assume or create any obligation on behalf of or in the name of the other.
-21. Survival . Any and all warranties, provisions, rights and obligations of the Parties herein described and agreed to be performed subsequent to the termination of this Agreement, including but not limited to obligations respecting confidentiality and indemnification, shall survive the termination of this Agreement.
-22. Successors and Assigns . This Agreement shall be binding on the parties, and on their successors and assigns, without regard to whether it is expressly acknowledged in any instrument of succession or assignment. However, Company may only assign its responsibilities under this Agreement with Association's prior written approval as provided in Section 18.
+19. Confidentiality. The provisions of this Agreement shall be maintained by the Parties as confidential during the Term and thereafter. In addition, any and all aspects of Company's business, including without limitation all non-public information or trade secrets directly or indirectly related thereto, that Association becomes exposed to during the Term, and extensions or renewals, of this Agreement shall be maintained as confidential, and shall not be further disclosed by Association, or used by Association for any purpose other than performing hereunder during the Term or thereafter. Company shall at all times retain full ownership in and to all information respecting its business, and shall be the sole and exclusive owner of all materials created by or for the Company hereunder, with the exception of the Association Marks.
+20. Independence. Nothing in this Agreement shall create a partnership, joint venture or establish the relationship of principal and agent or any other relationship of a similar nature between the Parties. The Parties to this Agreement shall be considered independent contractors and neither Party is granted the right or authority to assume or create any obligation on behalf of or in the name of the other.
+21. Survival. Any and all warranties, provisions, rights and obligations of the Parties herein described and agreed to be performed subsequent to the termination of this Agreement, including but not limited to obligations respecting confidentiality and indemnification, shall survive the termination of this Agreement.
+22. Successors and Assigns. This Agreement shall be binding on the parties, and on their successors and assigns, without regard to whether it is expressly acknowledged in any instrument of succession or assignment. However, Company may only assign its responsibilities under this Agreement with Association's prior written approval as provided in Section 18.
 23. Entire Agreement. This Agreement, including any attachments, if applicable, and any other documents and agreements contemplated herein, constitute the entire agreement between the Parties with regard to the subject matter. This Agreement supersedes all previous agreements between or among the Parties respecting such, and there are no other agreements or understandings between or among the Parties other than as set forth herein.
 
 <!-- image -->
 
-24. Amendment . No amendment, alteration, modification of or addition to this Agreement, and no waiver of rights or remedies hereunder, shall be valid or binding unless expressed in writing and signed by the Party to be bound thereby.
+24. Amendment. No amendment, alteration, modification of or addition to this Agreement, and no waiver of rights or remedies hereunder, shall be valid or binding unless expressed in writing and signed by the Party to be bound thereby.
 25. Compliance with Anti-discrimination Laws and Policies. Company states that it is its practice to adhere to all applicable federal, state and local laws relating to discrimination in the workplace and Company does not have any rule or policy that automatically excludes a person with diabetes from employment in any position with Company.
 26. Notice: All written notices required to be given pursuant to the terms set forth in this Agreement shall be deemed given on the day notice is either delivered personally, or by fax or overnight or certified delivery or deposited in the mail addressed as specified below:
 
@@ -114,16 +114,16 @@ The following outlines the type of acknowledgment that has been agreed upon by t
 
 Products/Brand covered by this Agreement: Freeze Tag App Products, ZeeTour App
 
-## Sponsorship Type: National Get Fit Don't Sit Day TM  Sponsor
+## Sponsorship Type: National Get Fit Don't Sit Day TM Sponsor
 
 As a National Sponsor, Company shall participate in and receive recognition for the following activities, for the Term, as agreed upon by Company and the Association. The Association shall review with Company on a semi-annual basis the recognition of Company's participation in the activities outlined below.
 
-## Use of Association Intellectual Property- Association Name and Logo ('Association Mark'):
+## Use of Association Intellectual Property- Association Name and Logo ("Association Mark"):
 
-The Association hereby grants Company the right to use the Association Name and Logo ('the Association Marks') on educational, promotional and or advertising materials throughout the Term (see Attachment 'B'). All materials containing the Association Marks are subject to advance review and written approval by the Association and Company acknowledges that the Association is the final arbiter in determining whether or not its Marks are suitable to appear on materials. Any display of Association Mark must be accompanied by one of the following relationship statements:
+The Association hereby grants Company the right to use the Association Name and Logo ("the Association Marks") on educational, promotional and or advertising materials throughout the Term (see Attachment "B"). All materials containing the Association Marks are subject to advance review and written approval by the Association and Company acknowledges that the Association is the final arbiter in determining whether or not its Marks are suitable to appear on materials. Any display of Association Mark must be accompanied by one of the following relationship statements:
 
-- a. 'Freeze Tag is a national sponsor of Get Fit Don't Sit Day TM , a wellness engagement day of American Diabetes Association®'
-- b. 'Freeze Tag is a national sponsor of American Diabetes Association®'
+- a. "Freeze Tag is a national sponsor of Get Fit Don't Sit Day TM M, a wellness engagement day of American Diabetes Association®"
+- b. "Freeze Tag is a national sponsor of American Diabetes Association®"
 
 ## A. 2018 National Get Fit Don't Sit Day TM
 
@@ -175,7 +175,7 @@ Company shall be mentioned as the national sponsor of National Get Fit Don't Sit
 
 ## B. Company Pin Pad/POS Donation Campaign for Tour de Cure® and Step Out (2018-2019)
 
-In 2018 Company shall commit to developing a customized version of its ZeeTour app to support Tour de Cure® and Step Out Walk to Stop Diabetes® events across the US. By way of the ZeeTour app, Company agrees to ask their customers to participate in a voluntary pin pad/POS donation campaign to support the Association's events. The pin pad campaign donation levels are to be mutually determined by Company and Association. (See Attachment 'C' for volunteer donations guidelines)
+In 2018 Company shall commit to developing a customized version of its ZeeTour app to support Tour de Cure® and Step Out Walk to Stop Diabetes® events across the US. By way of the ZeeTour app, Company agrees to ask their customers to participate in a voluntary pin pad/POS donation campaign to support the Association's events. The pin pad campaign donation levels are to be mutually determined by Company and Association. (See Attachment "C" for volunteer donations guidelines)
 
 Company shall provide all tracking reports to Association which shall include total participants and funds raised through the pin pad/POS campaign per event site for the duration of the Term. For the purposes of this Agreement, funds raised through the pin pad/POS donation campaign shall be applied towards Company's total sponsorship of $150,000 for the Term.
 
@@ -200,9 +200,9 @@ Description: 3-4 lines that outline the relationship with Association and co-ven
 
 Audience: Shoppers and purchasers from Association (ShopD.org website), DiabetesForecast e-news subscribers, excludes donors in December.
 
-Circulation : 510,000; Frequency : Quarterly.
+Circulation: 510,000; Frequency: Quarterly.
 
-Description : Photo/graphic, headline, and 20-25 word blurb with link to Promotions That Give Back webpage.
+Description: Photo/graphic, headline, and 20-25 word blurb with link to Promotions That Give Back webpage.
 
 A final schedule determining the dates and activities shall be mutually agreed to by the parties.
 
@@ -212,7 +212,7 @@ The Association agrees to provide the following additional rights and benefits:
 
 - Explore additional opportunities to be presented throughout the duration of this agreement
 - If requested, a quote from the Association for Company to use in a press release(s)
-- Recognition on the ' Corporate Supporter National Sponsors' web pages of diabetes.org that includes a paragraph describing Company's relationship and commitment to the Association
+- Recognition on the "Corporate Supporter - National Sponsors" web pages of diabetes.org that includes a paragraph describing Company's relationship and commitment to the Association
 - Opportunity to work with Association local market offices to encourage awareness for Company's support, which may include but is not limited to engaging in Company's social media posts via Facebook or Twitter, where appropriate
 - Single account executive for all Association-related communications
 - Strategy meeting(s) with account executive to guide relationship or as needed
@@ -255,3 +255,26 @@ Date
 Date
 
 9
+
+<!-- image -->
+
+## Use of the Association's Marks
+
+Any use of the Association's Marks requires the review and approval of the Association. Any modification to taglines or to the 'locked up' imagery (Association brand and Cause brand) also requires review and written approval by the Association to ensure that with any modification, there is prominent proximity between the brands.
+
+Approved Association Cause or Activity Marks: "American Diabetes Association Stop Diabetes®" and "Tour de Cure®" and "Tour de Cure 'year'®" - as logos change, attachments shall be added to this contract
+
+<!-- image -->
+
+## ATTACHMENT B
+
+<!-- image -->
+
+## DONATION AT CHECKOUT
+
+- a. Definition Invitation to consumer to make a voluntary donation, separate and apart from the purchase price of any product or service.
+- b. Legal Requirements The company must not either: (a) keep any of the donated money, or (b) be compensated in any way by the Association. A signed contract between the company and the Association is required. Check with the Legal Department.
+- c. Tracking Funds. A reliable system must be implemented to keep track of all consumer donations and to assure that 100% of the donated funds are delivered to the Association on a regular and timely basis.
+- d. Disclosures Several states have special disclosure requirements when consumers are asked to make donations. Check with Company Legal Department for required disclosures.
+
+## ATTACHMENT C CAUSE MARKETING COMPLIANCE GUIDELINES

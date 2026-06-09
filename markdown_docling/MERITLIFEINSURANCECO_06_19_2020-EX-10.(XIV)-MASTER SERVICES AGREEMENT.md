@@ -1,6 +1,20 @@
 # MERITLIFEINSURANCECO_06_19_2020-EX-10.(XIV)-MASTER SERVICES AGREEMENT
 
-THIS MASTER SERVICES AGREEMENT ('Agreement'), dated as of 09/24/2018 (the 'Effective Date'), is between Clear Capital (the "Company") and RadialSpark, LLC (the "Contractor").
+<!-- image -->
+
+## MASTER SERVICES AGREEMENT
+
+Between
+
+RadialSpark, LLC
+
+and
+
+Clear Capital Exhibit 10(xiv)
+
+Page 1 of 10
+
+THIS MASTER SERVICES AGREEMENT ("Agreement"), dated as of 09/24/2018 (the "Effective Date"), is between Clear Capital (the "Company") and RadialSpark, LLC (the "Contractor").
 
 WHEREAS, Company desires from time to time to retain Contractor to perform certain management consulting services for Company; and
 
@@ -10,7 +24,7 @@ NOW THEREFORE, in consideration of the foregoing premises, and the mutual covena
 
 ## 1. PURPOSE OF ENGAGEMENT.
 
-(a) Company agrees to retain Contractor to perform the consulting services for Company, on a task by task basis (the "Services"), and Contractor agrees to furnish the Services on the terms and subject to the conditions set forth in this Agreement. During the term of this Agreement, Company and Contractor will develop and agree upon statements of work defining the Services and work product to be provided by Contractor, Contractor's compensation, additional terms and conditions, if any, applicable to a particular engagement and such other details as the parties deem appropriate (each a 'Statement of Work'). A Statement of Work may provide specifications for deliverables to be provided thereunder (the "Specifications"). Statements of Work that are from time to time agreed upon shall reference this Agreement, and shall be executed by the parties and attached hereto and shall form a part hereof. In all instances of a conflict, between the provisions of this Agreement and the specific provisions set forth in a Statement of Work, the provisions of this Agreement shall control.
+(a) Company agrees to retain Contractor to perform the consulting services for Company, on a task by task basis (the "Services"), and Contractor agrees to furnish the Services on the terms and subject to the conditions set forth in this Agreement. During the term of this Agreement, Company and Contractor will develop and agree upon statements of work defining the Services and work product to be provided by Contractor, Contractor's compensation, additional terms and conditions, if any, applicable to a particular engagement and such other details as the parties deem appropriate (each a "Statement of Work"). A Statement of Work may provide specifications for deliverables to be provided thereunder (the "Specifications"). Statements of Work that are from time to time agreed upon shall reference this Agreement, and shall be executed by the parties and attached hereto and shall form a part hereof. In all instances of a conflict, between the provisions of this Agreement and the specific provisions set forth in a Statement of Work, the provisions of this Agreement shall control.
 
 (b) Contractor shall provide sufficient qualified personnel to perform the Services in a professional and workmanlike manner in accordance with industry standards. A Statement of Work may designate certain individuals as "Key Personnel" for an engagement, and the parties subsequently may agree in writing that additional individuals are Key Personnel for such engagement. If there are Key Personnel for an engagement, Contractor shall provide the Services through those personnel and such additional personnel of Contractor as Contractor may from time to time determine to be required for the performance of the Services. Company shall have the right to interview and approve such additional personnel at Company's request. If one or more Key Personnel terminate their employment with Contractor or otherwise become unavailable to work on an engagement for reasons beyond Contractor's reasonable control, Contractor may provide the Services through other personnel with comparable training and experience. If Company becomes dissatisfied with any of Contractor's personnel providing the Services, Company may notify Contractor of the details of its dissatisfaction, and the parties shall cooperate to remedy the problem as soon as possible. If Company reasonably requests, Contractor shall reassign the individual who is the subject of Company's dissatisfaction and replace that person with other personnel in accordance with this Agreement.
 
@@ -54,16 +68,44 @@ NOW THEREFORE, in consideration of the foregoing premises, and the mutual covena
 
 ## 6. TERMINATION.
 
-(a) At any time that there is no uncompleted Statement of Work outstanding, either party may terminate this Agreement for any or no reason upon fifteen (15) days advance notice to the other.
+(a) At any time that there is no uncompleted Statement of Work outstanding, either party may terminate this Agreement for any or no reason upon fifteen
 
 (b) In addition, either party may terminate this Agreement or any outstanding Statement of Work, upon fifteen (15) days written notice to the other party, in the event such other party breaches a material term of this Agreement or any Statement of Work and such breach remains uncured at the end of such fifteen (15) day period. Upon any such termination, Contractor will be paid all fees and expenses that have been incurred or earned in connection with the performance of the Services through the effective date of such termination. Contractor shall provide to Company, and hereby assigns to Company, all right, title and interest to any Works in progress.
 
-(a) EXCEPT WITH RESPECT TO CONTRACTOR'S OBLIGATIONS PURSUANT TO PARAGRAPH 9 HEREOF, CONTRACTOR'S MAXIMUM LIABILITY TO COMPANY ARISING FOR ANY REASON RELATING TO CONTRACTOR'S PERFORMANCE OF SERVICES UNDER A STATEMENT OF WORK SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR FOR THE PERFORMANCE OF SUCH SERVICES. COMPANYS' MAXIMUM LIABILITY TO CONTRACTOR FOR ANY REASON ARISING OUT OF THIS AGREEMENT SHALL BE LIMITED TO THE AMOUNT OF
+(15) days advance notice to the other. 7. LIMITATIONS OF LIABILITY; INDEMNIFICATION OF CONTRACTOR.
 
-7. LIMITATIONS OF LIABILITY; INDEMNIFICATION OF CONTRACTOR. FEES PAID TO CONTRACTOR.
+(a) EXCEPT WITH RESPECT TO CONTRACTOR'S OBLIGATIONS PURSUANT TO PARAGRAPH 9 HEREOF, CONTRACTOR'S MAXIMUM LIABILITY TO COMPANY ARISING FOR ANY REASON RELATING TO CONTRACTOR'S PERFORMANCE OF SERVICES UNDER A STATEMENT OF WORK SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR FOR THE PERFORMANCE OF SUCH SERVICES. COMPANYS' MAXIMUM LIABILITY TO CONTRACTOR FOR ANY REASON ARISING OUT OF THIS AGREEMENT SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR.
 
 (b) NEITHER PARTY SHALL HAVE ANY LIABILITY TO THE OTHER PARTY FOR ANY LOST PROFITS OR SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES, EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
 (c) IN ANY SUIT ARISING FROM THIS AGREEMENT EACH PARTY SHALL BE RESPONSIBLE FOR ITS OWN ATTORNEYS FEES. COMPANY AND CONTRACTOR HEREBY WAIVE ANY CLAIM TO AWARD OF ATTORNEYS FEES IN SUCH A SUIT.
 
-8. CONFIDENTIAL INFORMATION. 'Confidential Information' means all documents, software, reports, data, records, forms, conversations and other materials obtained by Contractor from Company in the course of performing any Services (including, but not limited to, Company records and information). Notwithstanding the foregoing, Confidential Information does not include information which: (i) is or becomes publicly known through no wrongful act of Contractor; or (ii) is independently developed by Contractor without benefit of Company's
+8. CONFIDENTIAL INFORMATION. "Confidential Information" means all documents, software, reports, data, records, forms, conversations and other materials obtained by Contractor from Company in the course of performing any Services (including, but not limited to, Company records and information). Notwithstanding the foregoing, Confidential Information does not include information which: (i) is or becomes publicly known through no wrongful act of Contractor; or (ii) is independently developed by Contractor without benefit of Company's Confidential Information. Contractor shall not use or disclose to any person, firm or entity any Confidential Information without Company's express, prior written permission; provided, however, that notwithstanding the foregoing, Contractor may disclose Confidential Information to the extent that it is required to be disclosed pursuant to a statutory or regulatory provision or court order.
+
+9. INDEPENDENT CONTRACTOR. Contractor is performing the Services as an independent contractor and not as an employee of Company and none of Contractor's personnel shall be entitled to receive any compensation, benefits or other incidents of employment from Company. Subject to Section 3(c), Contractor shall be responsible for all taxes and other expenses arising from the employment or independent contractor relationship between Contractor and its personnel and the rendition of Services hereunder by such personnel to Company. Nothing in this Agreement shall be deemed to constitute a partnership or joint venture between Company and Contractor, nor shall anything in this Agreement be deemed to constitute Contractor or Company the agent of the other. Neither Contractor nor Company shall be or become liable or bound by any representation, act or omission whatsoever of the other. 10. NONASSIGNABILITY. Neither party shall assign, transfer, or subcontract this Agreement or any of its obligations hereunder without the other party's express, prior written consent, which will not be unreasonably withheld.
+
+11. SEVERABILITY; GOVERNING LAW. In the event that any term or provision of this Agreement shall be held to be invalid, void or unenforceable, then the remainder of this Agreement shall not be affected, impaired or invalidated, and each such term and provision of this Agreement shall be valid and enforceable to the fullest extent permitted by law. This Agreement shall be governed by and construed in accordance with the laws of the Arizona, without regard to the conflict of laws provisions thereof.
+
+(c) In the event of termination under either section 6(a) or 6(b) of this agreement, Contractor shall be paid all fees and expenses that have been incurred or earned in connection with the performance of the Services through the effective date of such termination. Upon receipt of final payment Contractor shall provide to Company, and will assigns to Company, all right, title and interest to any Works in progress.
+
+12. INTEGRATION. This Agreement, including The Mutual Non-Disclosure Agreement and, any Statements of Work entered into pursuant hereto, constitutes the entire agreement of the parties hereto with respect to its subject matter and supersedes all prior and contemporaneous representations, proposals, discussions, and communications, whether oral or in writing. This Agreement may be modified only in writing and shall be enforceable in accordance with its terms when signed by each of the parties hereto. 13. NON-SOLICITATION OF EMPLOYEES. Neither party shall, during the term of this Agreement and for one (1) year after its termination, solicit for hire as an employee, consultant or otherwise any of the other party's personnel who have had direct involvement with the Services, without such other party's express written consent, which shall not be unreasonably withheld.
+
+14. INSURANCE. Throughout the term of this Agreement, Contractor shall maintain workers compensation insurance in the amount required by statute, comprehensive general liability insurance with coverage of at least one million dollars ($1,000,000) and professional errors and omissions insurance for bodily injury, property damage or other losses with coverage of at least one million dollars ($1,000,000), in connection with the provision of Services by Contractor pursuant to the terms of this Agreement. At Company's request, Contractor shall provide Company with certificates or other acceptable evidence of insurance or self-insurance evidencing the above coverage and shall provide Company with prompt written notice of any material change. 15. Force Majeure. Except for payment obligations hereunder, nonperformance by either party shall be excused to the extent that performance is rendered impossible by strike, acts of God, governmental acts or restrictions, failure of suppliers, or any other reason where failure to perform is beyond the control of the nonperforming party.
+
+16. Counterparts. This Agreement may be signed in any number of counterparts, each of which shall be an original, with the same effect as if the signatures thereto and hereto were upon the same instrument.
+
+17. Entire Agreement. This Agreement constitutes the complete and exclusive agreement between Company and Consultant concerning the work on this project, and it supersedes all other prior agreements, proposals, and representations, whether stated orally or in writing.
+
+18. Severability. If any provision of this Agreement is invalid, illegal, or unenforceable, the remainder of this Agreement will remain in full force and effect. 19. Arbitration. Except as otherwise specified below, all actions, disputes, claims and controversies under common law, statutory law or in equity of any type or nature whatsoever, whether arising before or after the date of this Agreement, and whether directly or indirectly relating to: (a) this Agreement and/or any amendments and addenda hereto, or the breach, invalidity or termination hereof; (b) any previous or subsequent agreement between the parties; and/or (c) any other relationship, transaction or dealing between the parties (collectively the "Disputes"), will be subject to and resolved by binding arbitration pursuant to the Arbitration Rules of U.S. Arbitration &amp; Mediation, (www.usam.com). Any award or order rendered by the arbitrator may be confirmed as a judgment or order in any state or federal court of competent jurisdiction, which includes within the federal judicial district of the residence of the party against whom such award or order was entered.
+
+IN WITNESS WHEREOF, the parties hereto have caused this Agreement to be executed by their duly authorized representatives as of the Effective Date.
+
+/s/ Michael Rockford
+
+/s/ John Marcum
+
+for RadialSpark, LLC
+
+for Clear Capital
+
+Page 10 of 10

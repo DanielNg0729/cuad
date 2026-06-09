@@ -1,12 +1,10 @@
 # HALITRON,INC_03_01_2005-EX-10.15-SPONSORSHIP AND DEVELOPMENT AGREEMENT
 
-EXHIBIT 10.15
-
 ## SPONSORSHIP AND DEVELOPMENT AGREEMENT
 
 This Agreement is made as of August 6, 2004 (the "Effective Date") by and between TEKNIK DIGITAL ARTS INC., a Nevada corporation with offices at 7377 E. Doubletree Ranch Road, Suite 270, Scottsdale, Arizona 85258 ("TDA") and RICK SMITH ENTERPRISES ("Smith"), c/o GAYLORD SPORTS MANAGEMENT, 14646 N. Kierland Blvd., Suite 230, Scottsdale, Arizona 85254 Attention: Steve Loy.
 
-RECITALS
+## RECITALS
 
 TDA is in the business of developing and publishing interactive entertainment software products. TDA desires to have Smith assist in the development, endorsement and publicizing of TDA's golf instruction related software products.
 
@@ -165,15 +163,11 @@ TEKNIK DIGITAL ARTS INC.                   RICK SMITH
 
 By: /s/ John Ward                          By: /s/ Rick Smith
 
---------------------------                 ---------------------------------
+-----------------------------------------------------------
 
 Name: John Ward Title: Chairman
 
 Date: August 6, 2004                       Date:    August 6, 2004
-
-6
-
-AMENDMENT
 
 ## 4.    COMPENSATION
 
@@ -204,4 +198,4 @@ This Section Amended:  December 10, 2004
 
 ------------------
 
-7
+## AMENDMENT

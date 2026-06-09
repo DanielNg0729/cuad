@@ -40,21 +40,31 @@ General Counsel
 
 THE VÄRDE FUND VI-A, L.P.
 
-By: Värde Investment Partners G.P., LLC, its General Partner By: Värde Investment Partners UGP, LLC, its General Partner By: Värde Partners, L.P., its Managing Member By: Värde Partners, Inc., its General Partner
+By: Värde Investment Partners G.P., LLC, its General Partner By: Värde Investment Partners UGP, LLC, its General Partner By: Värde Partners, L.P., its Managing Member
+
+By: Värde Partners, Inc., its General Partner
 
 By:
+
+/s/ David A. Marple
 
 Name:
 
 Title:
 
-/s/ David A. Marple
-
 David A. Marple
 
 General Counsel
 
-VÄRDE INVESTMENT PARTNERS, L.P. By: Värde Investment Partners G.P., LLC, its General Partner By: Värde Investment Partners UGP, LLC, its General Partner By: Värde Partners, L.P., its Managing Member By: Värde Partners, Inc., its General Partner By: /s/ David A. Marple Name: David A. Marple Title: General Counsel VÄRDE INVESTMENT PARTNERS (OFFSHORE) MASTER, L.P. By: Värde Investment Partners G.P., LLC, its General Partner By: Värde Investment Partners UGP, LLC, its General Partner By: Värde Partners, L.P., its Managing Member By: Värde Partners, Inc., its General Partner By: /s/ David A. Marple Name: David A. Marple Title: General Counsel VÄRDE INVESTMENT PARTNERS G.P., LLC By: Värde Investment Partners UGP, LLC, its General Partner By: Värde Partners, L.P., its Managing Member By: Värde Partners, Inc., its General Partner By: /s/ David A. Marple Name: David A. Marple Title: General Counsel VÄRDE INVESTMENT PARTNERS UGP, LLC By: Värde Partners, L.P., its Managing Member By: Värde Partners, Inc., its General Partner By: /s/ David A. Marple Name: David A. Marple Title: General Counsel
+## VÄRDE INVESTMENT PARTNERS, L.P.
+
+By: Värde Investment Partners G.P., LLC, its General Partner
+
+By: Värde Investment Partners UGP, LLC, its General Partner By: Värde Partners, L.P., its Managing Member By: Värde Partners, Inc., its General Partner By: /s/ David A. Marple Name: David A. Marple Title: General Counsel VÄRDE INVESTMENT PARTNERS (OFFSHORE) MASTER, L.P. By: Värde Investment Partners G.P., LLC, its General Partner By: Värde Investment Partners UGP, LLC, its General Partner By: Värde Partners, L.P., its Managing Member By: Värde Partners, Inc., its General Partner By: /s/ David A. Marple Name: David A. Marple Title: General Counsel VÄRDE INVESTMENT PARTNERS G.P., LLC By: Värde Investment Partners UGP, LLC, its General Partner By: Värde Partners, L.P., its Managing Member By: Värde Partners, Inc., its General Partner By: /s/ David A. Marple Name: David A. Marple Title: General Counsel VÄRDE INVESTMENT PARTNERS UGP, LLC By: Värde Partners, L.P., its Managing Member By: Värde Partners, Inc., its General Partner By: /s/ David A. Marple Name: David A. Marple
+
+Title:
+
+General Counsel
 
 ## THE VÄRDE SKYWAY MASTER FUND, L.P.
 
@@ -84,7 +94,9 @@ Name:
 
 David A. Marple
 
-Title: General Counsel
+Title:
+
+General Counsel
 
 ## THE VÄRDE SKYWAY FUND UGP, LLC
 
@@ -122,7 +134,11 @@ General Counsel
 
 By: The Värde Fund XII UGP, LLC, its General Partner By: Värde Partners, L.P., its Managing Member By: Värde Partners, Inc., its General Partner
 
-By: /s/ David A. Marple Name: David A. Marple Title: General Counsel
+By: /s/ David A. Marple Name: David A. Marple
+
+Title:
+
+General Counsel
 
 THE VÄRDE FUND XII UGP, LLC
 
@@ -138,7 +154,11 @@ By: Värde Credit Partners G.P., LLC, its General Partner By: Värde Credit Part
 
 By: Värde Partners, Inc., its General Partner
 
-By: /s/ David A. Marple Name: David A. Marple Title: General Counsel
+By: /s/ David A. Marple Name: David A. Marple
+
+Title:
+
+General Counsel
 
 ## VÄRDE CREDIT PARTNERS G.P., LLC
 
@@ -176,11 +196,9 @@ General Counsel
 
 ## VÄRDE SFLT, L.P.
 
-By: The Värde Specialty Finance Fund G.P., L.P., its General
+By: The Värde Specialty Finance Fund G.P., L.P., its General Partner
 
-Partner General Partner
-
-By: The Värde Specialty Finance Fund U.G.P., LLC, its
+By: The Värde Specialty Finance Fund U.G.P., LLC, its General Partner
 
 By: Värde Partners, L.P., its Managing Member
 
@@ -200,9 +218,9 @@ General Counsel
 
 ## THE VÄRDE SPECIALTY FINANCE FUND G.P., L.P.
 
-By: The Värde Specialty Finance Fund U.G.P., LLC, its
+By: The Värde Specialty Finance Fund U.G.P., LLC, its General Partner
 
-General Partner By: Värde Partners, L.P., its Managing Member
+By: Värde Partners, L.P., its Managing Member
 
 By: Värde Partners, Inc., its General Partner
 

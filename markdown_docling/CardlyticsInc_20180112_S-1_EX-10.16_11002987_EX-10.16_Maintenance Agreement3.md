@@ -30,7 +30,7 @@ Addendum Effective Date
 
 March 3, 2011
 
-This Schedule ('Schedule') is made as of the effective date set forth above to that Software License, Customization, and Maintenance Agreement, by and between Cardlytics, Inc. ('Supplier') and Bank of America, N. A, ('Bank of America'), dated November 5, 2010, as amended ('SLCMA'). Each capitalized term used but not defined herein shall have the meaning assigned in the SLCMA.
+This Schedule ("Schedule") is made as of the effective date set forth above to that Software License, Customization, and Maintenance Agreement, by and between Cardlytics, Inc. ("Supplier") and Bank of America, N. A, ("Bank of America"), dated November 5, 2010, as amended ("SLCMA"). Each capitalized term used but not defined herein shall have the meaning assigned in the SLCMA.
 
 WHEREAS, Bank of America and Supplier entered into the SLCMA in order to set forth the terms and conditions pursuant to which Supplier provides certain Software to Bank of America,
 
@@ -44,11 +44,11 @@ The attached Schedule [A] is hereby incorporated into the SLCMA describing the O
 
 ## Cardlytics, Inc.
 
-('Supplier')
+(“Supplier”)
 
 ## Bank of America, N.A.
 
-('Bank of America')
+(“Bank of America”)
 
 By:
 
@@ -62,7 +62,7 @@ Name:
 
 Scott Grimes
 
-Name:  Chandra Torrence
+Name: Chandra Torrence
 
 Title:
 
@@ -76,6 +76,8 @@ Date:
 
 3/4/11
 
-Date:   3/3/11
+Date:
+
+3/3/11
 
 1.

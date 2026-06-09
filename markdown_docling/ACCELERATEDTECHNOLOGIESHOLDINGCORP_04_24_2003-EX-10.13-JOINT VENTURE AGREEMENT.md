@@ -1,7 +1,5 @@
 # ACCELERATEDTECHNOLOGIESHOLDINGCORP_04_24_2003-EX-10.13-JOINT VENTURE AGREEMENT
 
-EXHIBIT 10.13
-
 ## JOINT VENTURE AGREEMENT
 
 Collectible Concepts Group, Inc. ("CCGI") and Pivotal Self Service Tech, Inc. ("PVSS"), (the "Parties" or "Joint Venturers" if referred to collectively, or the "Party" or Joint Venturer" if referred to singularly), by this Agreement associate themselves as business associates, and not as partners, in the formation of a joint venture (the "Joint Venture"), for the purpose of engaging generally in the business provided for by terms and provisions of this Agreement.
@@ -81,5 +79,3 @@ Date: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 - 2)   Provision any additional Products deemed by the Joint Venturers to be salable through the channels established by CCGI
 - 3)   Negotiate such favorable pricing and terms with the suppliers of the Products so as to assure the viability of the Joint Venture offerings and the continuity of Product availability to the customers of the Joint Venture
 - 4)   Provide alternate fulfillment and distribution services of the Products as backup to those provided by CCGI
-
-40

@@ -10,4 +10,4 @@ This amendment to Section 2 (titled "Term"), Part B of the Co-Branding Agreement
 
 AGREED TO BY:
 
-/s/ Steven Malin /s/ Howard Meltzer ------------------------------------------------------------A.B. Watley, Inc. PC Quote, Inc. Mr. Steven Malin Mr. Howard Meltzer Director President Date:  12/5/96 Date:   12/12/96 ------------------------------
+/s/ Steven Malin /s/ Howard Meltzer - -----------------------------------------------------------A.B. Watley, Inc. PC Quote, Inc. Mr. Steven Malin Mr. Howard Meltzer Director President Date: 12/5/96 Date: 12/12/96 ------------------------------

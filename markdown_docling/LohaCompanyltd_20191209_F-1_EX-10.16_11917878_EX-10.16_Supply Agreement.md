@@ -17,17 +17,19 @@ The seller:
 The Contract is concluded and signed by the Buyer and Seller on , in Hong Kong.
 
 1. General provisions
-2. 1.1 This is a framework agreement, the terms and conditions are applied to all purchase orders which signed by this agreement (hereinafter referred to as the 'order').
+2. 1.1 This is a framework agreement, the terms and conditions are applied to all purchase orders which signed by this agreement (hereinafter referred to as the "order").
 3. 1.2 If the provisions of the agreement are inconsistent with the order, the order shall prevail. Not stated in order content will be subject to the provisions of agreement. Any modification, supplementary, give up should been written records, only to be valid by buyers and sellers authorized representative signature and confirmation, otherwise will be deemed invalid.
 2. The agreement and order
-5. 2.1 During the validity term of this agreement, The buyer entrust SHENZHEN YICHANGTAI IMPORT AND EXPORT TRADE CO., LTD or SHENZHEN LEHEYUAN TRADING CO, LTD (hereinafter referred to as the 'entrusted party' or 'YICHANGTAI' or 'LEHEYUAN'), to purchase the products specified in this agreement from the seller in the form of orders.
+5. 2.1 During the validity term of this agreement, The buyer entrust SHENZHEN YICHANGTAI IMPORT AND EXPORT TRADE CO., LTD or SHENZHEN LEHEYUAN TRADING CO, LTD (hereinafter referred to as the "entrusted party" or "YICHANGTAI" or "LEHEYUAN"), to purchase the products specified in this agreement from the seller in the form of orders.
 6. 2.2 The seller shall be confirmed within three working days after receipt of order. If the seller finds order is not acceptable or need to modify, should note entrusted party in two working days after receipt of the order, If the seller did not confirm orders in time or notice not accept orders or modifications, the seller is deemed to have been accepted the order. The orders become effective once the seller accepts, any party shall not unilaterally cancel the order before the two sides agreed .
 
 2.3 If the seller puts forward amendments or not accept orders, the seller shall be in the form of a written notice to entrusted party, entrusted party accept the modified by written consent, the modified orders to be taken effect.
 
 2.4 Seller's note, only the buyer entrust the entrusted party issued orders, the product delivery and payment has the force of law.
 
-Contract No: Date:
+Contract No:
+
+Date:
 
 ## 3. GOODS AND COUNTRY OF ORIGIN:
 
@@ -35,7 +37,7 @@ Contract No: Date:
 
 The products quantity, unit price, specifications, delivery time and transportation, specific content shall be subject to the purchase order issued by entrusted party which is commissioned the buyer.
 
-5. PACKING: To be packed in new strong wooden case(s) /carton(s), suitable for long distance transportation and for the change of climate, well protected against rough handling, moisture, rain, corrosion, shocks, rust, and freezing. The seller shall be liable for any damage and loss of the commodity, expenses incurred on account of improper packing, and any damage attributable to inadequate or improper protective measures taken by the seller in regard to the packing. One full set of technical All wooden material of shipping package must be treated as the requirements of Entry-Exit Inspection and Quarantine Bureau of China, by the agent whom is certified by the government where the goods is exported. And the goods must be marked with the IPPC stamps, which are certified by the government agent of Botanical-Inspection and Quarantine Bureau. 6. SHIPPING MARK: The Sellers shall mark on each package with fadeless paint the package number, gross weight, net weight, measurements and the wordings: 'KEEP AWAY FROM MOISTURE','HANDLE WITH CARE' 'THIS SIDE UP' etc. and the shipping mark on each package with fadeless paint.
+5. PACKING: To be packed in new strong wooden case(s) /carton(s), suitable for long distance transportation and for the change of climate, well protected against rough handling, moisture, rain, corrosion, shocks, rust, and freezing. The seller shall be liable for any damage and loss of the commodity, expenses incurred on account of improper packing, and any damage attributable to inadequate or improper protective measures taken by the seller in regard to the packing. One full set of technical All wooden material of shipping package must be treated as the requirements of Entry–Exit Inspection and Quarantine Bureau of China, by the agent whom is certified by the government where the goods is exported. And the goods must be marked with the IPPC stamps, which are certified by the government agent of Botanical–Inspection and Quarantine Bureau. 6. SHIPPING MARK: The Sellers shall mark on each package with fadeless paint the package number, gross weight, net weight, measurements and the wordings: "KEEP AWAY FROM MOISTURE","HANDLE WITH CARE" "THIS SIDE UP" etc. and the shipping mark on each package with fadeless paint.
 
 7. DATE OF SHIPMENT: According to specific order by YICHANGTAI or LEHEYUAN.
 

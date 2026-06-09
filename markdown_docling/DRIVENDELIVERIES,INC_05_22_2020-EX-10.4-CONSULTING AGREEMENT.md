@@ -2,13 +2,13 @@
 
 ## CONSULTING AGREEMENT
 
-This Consulting Agreement ('Agreement') is made and entered into as of May 1, 2019 ('Effective Date') by and between Driven Deliveries, Inc. ('Company'), a Nevada corporation, and TruckThat LLC ('Consultant'). Company and Consultant shall sometimes be referred to herein singularly as a 'Party' or collectively as the 'Parties' to this Agreement.
+This Consulting Agreement ("Agreement") is made and entered into as of May 1, 2019 ("Effective Date") by and between Driven Deliveries, Inc. ("Company"), a Nevada corporation, and TruckThat LLC ("Consultant"). Company and Consultant shall sometimes be referred to herein singularly as a "Party" or collectively as the "Parties" to this Agreement.
 
 WHEREAS, the Company desires to retain Consultant as an independent contractor to perform consulting services for the Company, and Consultant is willing to perform such services on the terms set forth below.
 
 In consideration of the mutual promises contained here, the Parties hereby agree as follows:
 
-## 1. Services and Compensation.
+## 1. Services and Compensation .
 
 - 1.1. Services. Consultant shall perform the following services:
 - -The Consultant will provide the Company services as a Strategic Marketing &amp; Fundraising Consultant.
@@ -19,7 +19,7 @@ In consideration of the mutual promises contained here, the Parties hereby agree
 - Social
 - Brand
 - -These Services will include updates to investor decks, customer sales decks and other marketing material available to the public
-- -The  Company will provide the Consultant with the appropriate level of resources and information to perform such duties, and the Consultant shall be reimbursed for fees and expenses approved by the Company.
+- -The Company will provide the Consultant with the appropriate level of resources and information to perform such duties, and the Consultant shall be reimbursed for fees and expenses approved by the Company.
 - -The Consultant will report directly to the CEO of the and will keep the CEO informed of all matters concerning the Services as requested by the CEO from time to time.
 - -The Consultant acknowledges that he may be required to travel in order to provide the Services.
 
@@ -29,9 +29,9 @@ In consideration of the mutual promises contained here, the Parties hereby agree
 
 TruckThat LLC Consulting Agreement Page 1 of 7
 
-## 2. Confidentiality.
+## 2. Confidentiality .
 
-2.1. Definition of Confidential Information. 'Confidential Information' means any nonpublic information that relates to the actual or anticipated business and/or products, research or development of the Company, its affiliates or subsidiaries, or to the Company's, its affiliates' or subsidiaries' technical data, trade secrets, or know-how, including, but not limited to, research, product plans, or other information regarding the Company's, its affiliates' or subsidiaries' products or services and markets therefore, customer lists and customers (including, but not limited to, customers of the Company on whom Consultant called or with whom Consultant became acquainted during the term of this Agreement), software, developments, inventions, processes, formulas, technology, designs, drawings, engineering, hardware configuration information, marketing, finances, and other business information disclosed by the Company, its affiliates or subsidiaries, either directly or indirectly, in writing, orally or by drawings or inspection of premises, parts, equipment, or other property of Company, its affiliates or subsidiaries. Notwithstanding the foregoing, Confidential Information shall not include any such information which Consultant can establish (i) was publicly known or made generally available prior to the time of disclosure to Consultant; (ii) becomes publicly known or made generally available after disclosure to Consultant through no wrongful action or inaction of Consultant; or (iii) is in the rightful possession of Consultant, without confidentiality obligations, at the time of disclosure as shown by Consultant's then-contemporaneous written records.
+2.1. Definition of Confidential Information. "Confidential Information" means any nonpublic information that relates to the actual or anticipated business and/or products, research or development of the Company, its affiliates or subsidiaries, or to the Company's, its affiliates' or subsidiaries' technical data, trade secrets, or know-how, including, but not limited to, research, product plans, or other information regarding the Company's, its affiliates' or subsidiaries' products or services and markets therefore, customer lists and customers (including, but not limited to, customers of the Company on whom Consultant called or with whom Consultant became acquainted during the term of this Agreement), software, developments, inventions, processes, formulas, technology, designs, drawings, engineering, hardware configuration information, marketing, finances, and other business information disclosed by the Company, its affiliates or subsidiaries, either directly or indirectly, in writing, orally or by drawings or inspection of premises, parts, equipment, or other property of Company, its affiliates or subsidiaries. Notwithstanding the foregoing, Confidential Information shall not include any such information which Consultant can establish (i) was publicly known or made generally available prior to the time of disclosure to Consultant; (ii) becomes publicly known or made generally available after disclosure to Consultant through no wrongful action or inaction of Consultant; or (iii) is in the rightful possession of Consultant, without confidentiality obligations, at the time of disclosure as shown by Consultant's then-contemporaneous written records.
 
 2.2. Nonuse and Nondisclosure. During and after the term of this Agreement, Consultant will hold in the strictest confidence, and take all reasonable precautions to prevent any unauthorized use or disclosure of Confidential Information, and Consultant will not (i) use the Confidential Information for any purpose whatsoever other than as necessary for the performance of the Services on behalf of the Company, or (ii) disclose the Confidential Information to any third party without the prior written consent of an authorized representative of Company. Consultant shall not copy, transfer, or otherwise transmit Confidential Information to non-company electronic devices, including but not limited to computers, data storage devices, and disks. Consultant may disclose Confidential Information to the extent compelled by applicable law; provided however, prior to such disclosure, Consultant shall provide prior written notice to Company and seek a protective order or such similar confidential protection as may be available under applicable law at Company's expense. In any event, Consultant shall only disclose that Confidential Information required to be disclosed and shall maintain its confidentiality for all other purposes. Consultant agrees that no ownership of Confidential Information is conveyed to the Consultant. Without limiting the foregoing, Consultant shall not use or disclose any Company property, intellectual property rights, trade secrets or other proprietary know-how of the Company to invent, author, make, develop, design, or otherwise enable others to invent, author, make, develop, or design identical or substantially similar designs as those developed under this Agreement for any third party. Consultant agrees that Consultant's obligations under this Section 2.2 shall continue after the termination of this Agreement.
 
@@ -39,15 +39,15 @@ TruckThat LLC Consulting Agreement Page 1 of 7
 
 2.4. Third Party Confidential Information. Consultant recognizes that the Company has received, and in the future will receive, from third parties their confidential or proprietary information subject to a duty on the Company's part to maintain the confidentiality of such information and to use it only for certain limited purposes. Consultant agrees that at all times during the term of this Agreement and thereafter, Consultant owes the Company and such third parties a duty to hold all such confidential or proprietary information in the strictest confidence and not to use it or to disclose it to any person, firm, corporation, or other third party except as necessary in carrying out the Services for the Company consistent with the Company's agreement with such third party.
 
-## 3. Ownership.
+## 3. Ownership .
 
-3.1. Assignment of Inventions. Consultant agrees that all right, title, and interest in and to any material, notes, records, drawings, designs, inventions, improvements, developments, discoveries and trade secrets conceived, discovered, authored, invented, developed or reduced to practice by Consultant, solely or in collaboration with others, whether or not patentable or copyrightable, during the term of this Agreement and arising out of, or in connection with, performing the Services under this Agreement and any copyrights, patents, trade secrets, mask work rights or other intellectual property rights relating to the foregoing (collectively, 'Inventions'), are the sole property of the Company. Consultant also agrees to promptly make full written disclosure to the Company of any Inventions and to deliver and assign (or cause to be assigned) and irrevocably assigns fully to the Company all right, title and interest in and to the Inventions. Without limiting the foregoing, all Inventions shall be deemed Confidential Information of the Company.
+3.1. Assignment of Inventions. Consultant agrees that all right, title, and interest in and to any material, notes, records, drawings, designs, inventions, improvements, developments, discoveries and trade secrets conceived, discovered, authored, invented, developed or reduced to practice by Consultant, solely or in collaboration with others, whether or not patentable or copyrightable, during the term of this Agreement and arising out of, or in connection with, performing the Services under this Agreement and any copyrights, patents, trade secrets, mask work rights or other intellectual property rights relating to the foregoing (collectively, "Inventions"), are the sole property of the Company. Consultant also agrees to promptly make full written disclosure to the Company of any Inventions and to deliver and assign (or cause to be assigned) and irrevocably assigns fully to the Company all right, title and interest in and to the Inventions. Without limiting the foregoing, all Inventions shall be deemed Confidential Information of the Company.
 
 TruckThat LLC Consulting Agreement Page 2 of 7
 
-3.2. Pre-Existing Materials. Subject to Section 3.1, Consultant agrees that if, in the course of performing the Services, Consultant incorporates into any Invention or utilizes in the performance of the Services any pre-existing invention, discovery, original works of authorship, development, improvements, trade secret, concept, or other proprietary information or intellectual property right owned by Consultant or in which Consultant has an interest ('Prior Inventions'), (i) Consultant will provide the Company with prior written notice and (ii) the Company is hereby granted a nonexclusive, royalty-free, perpetual, irrevocable, transferable, worldwide license (with the right to grant and authorize sublicenses) to make, have made, use, import, offer for sale, sell, reproduce, distribute, modify, adapt, prepare derivative works of, display, perform, and otherwise exploit such Prior Inventions, without restriction, including, without limitation, as part of or in connection with such Invention, and to practice any method related thereto. Consultant will not incorporate any invention, improvement, development, concept, discovery, work of authorship or other proprietary information owned by any third party into any Invention without Company's prior written permission, including without limitation any free software or open source software.
+3.2. Pre-Existing Materials. Subject to Section 3.1, Consultant agrees that if, in the course of performing the Services, Consultant incorporates into any Invention or utilizes in the performance of the Services any pre-existing invention, discovery, original works of authorship, development, improvements, trade secret, concept, or other proprietary information or intellectual property right owned by Consultant or in which Consultant has an interest ("Prior Inventions"), (i) Consultant will provide the Company with prior written notice and (ii) the Company is hereby granted a nonexclusive, royalty-free, perpetual, irrevocable, transferable, worldwide license (with the right to grant and authorize sublicenses) to make, have made, use, import, offer for sale, sell, reproduce, distribute, modify, adapt, prepare derivative works of, display, perform, and otherwise exploit such Prior Inventions, without restriction, including, without limitation, as part of or in connection with such Invention, and to practice any method related thereto. Consultant will not incorporate any invention, improvement, development, concept, discovery, work of authorship or other proprietary information owned by any third party into any Invention without Company's prior written permission, including without limitation any free software or open source software.
 
-3.3. Moral Rights. Any assignment to the Company of Inventions includes all rights of attribution, paternity, integrity, modification, disclosure and withdrawal, and any other rights throughout the world that may be known as or referred to as 'moral rights,' 'artist's rights,' 'droit moral,' or the like (collectively, 'Moral Rights'). To the extent that Moral Rights cannot be assigned under applicable law, Consultant hereby waives and agrees not to enforce any and all Moral Rights, including, without limitation, any limitation on subsequent modification, to the extent permitted under applicable law.
+3.3. Moral Rights. Any assignment to the Company of Inventions includes all rights of attribution, paternity, integrity, modification, disclosure and withdrawal, and any other rights throughout the world that may be known as or referred to as "moral rights," "artist's rights," "droit moral," or the like (collectively, "Moral Rights"). To the extent that Moral Rights cannot be assigned under applicable law, Consultant hereby waives and agrees not to enforce any and all Moral Rights, including, without limitation, any limitation on subsequent modification, to the extent permitted under applicable law.
 
 3.4. Maintenance of Records. Consultant agrees to keep and maintain adequate, current, accurate, and authentic written records of all Inventions made by Consultant (solely or jointly with others) during the term of this Agreement, and for a period of three (3) years thereafter. The records will be in the form of notes, sketches, drawings, electronic files, reports, or any other format that is customary in the industry and/or otherwise specified by the Company. Such records are and remain the sole property of the Company at all times and upon Company's request, Consultant shall deliver (or cause to be delivered) the same.
 
@@ -57,11 +57,11 @@ TruckThat LLC Consulting Agreement Page 2 of 7
 
 TruckThat LLC Consulting Agreement Page 3 of 7
 
-## 4. Consultant Obligations.
+## 4. Consultant Obligations .
 
 - 4.1. Representations and Warranties. Consultant represents and warrants that:
 - (a) Consultant has no agreements, relationships, or commitments to any other person or entity that conflict with the provisions of this Agreement, Consultant's obligations to the Company under this Agreement, and/or Consultant's ability to perform the Services and Consultant will not enter into any such conflicting agreement during the term of this Agreement;
-- (b) In  the course of performing the Services and providing the deliverables hereunder, neither it nor Consultant's employees  or contractors will violate or infringe any proprietary rights of any third party, including, without limitation, confidential relationships, trade secrets, patents, trademarks or copyrights;
+- (b) In the course of performing the Services and providing the deliverables hereunder, neither it nor Consultant's employees or contractors will violate or infringe any proprietary rights of any third party, including, without limitation, confidential relationships, trade secrets, patents, trademarks or copyrights;
 - (c) The Services provided shall be performed in a timely, professional and workmanlike manner of a high grade, nature, and quality, and in accordance with any deadlines agreed between Consultant and Company; and
 - (d) Consultant has in place and/or will obtain written agreements with its employees and contractors sufficient to protect Company's Confidential Information in accordance with the terms of this Agreement and to allow Consultant to provide the assignments and licenses to intellectual property rights developed by such parties in connection with the performance of the Services.
 
@@ -71,17 +71,17 @@ TruckThat LLC Consulting Agreement Page 3 of 7
 
 4.4 Non-Circumvention. Consultant expressly agrees that he will not pursue or engage in any transaction to which he was first introduced through his consulting and/or any other business or employment relationship with the Company, or to contact directly or indirectly any party of interest related to such transactions, without the prior written consent of the Company.
 
-## 5. Return of Company Materials.
+## 5. Return of Company Materials .
 
 Upon the termination of this Agreement, or upon Company's earlier request, Consultant will immediately deliver to the Company, and will not keep in Consultant's possession, recreate, or deliver to anyone else, any and all Company property, including, but not limited to, Confidential Information, tangible embodiments of the Inventions, all devices and equipment belonging to the Company, all electronically-stored information and passwords to access such property, those records maintained pursuant to Section 3.4 and any reproductions of any of the foregoing items that Consultant may have in Consultant's possession or control.
 
-## 6. Reports.
+## 6. Reports .
 
 Consultant agrees that Consultant will periodically keep the Company advised as to Consultant's progress in performing the Services under this Agreement. Consultant further agrees that Consultant will, as requested by the Company, prepare written reports with respect to such progress. The Company and Consultant agree that the reasonable time expended in preparing such written reports will be considered time devoted to the performance of the Services.
 
 TruckThat LLC Consulting Agreement Page 4 of 7
 
-## 7. Term and Termination.
+## 7. Term and Termination .
 
 7.1. Term. The initial term of this Agreement shall be the sooner of six (6) months from the Effective Date, or replacement of this Agreement with a subsequent agreement between the Parties.
 
@@ -92,27 +92,27 @@ TruckThat LLC Consulting Agreement Page 4 of 7
 - (a) The Company will pay, within thirty (30) days after the effective date of termination, all amounts owing to Consultant for Services completed and accepted by the Company prior to the termination date and related reimbursable expenses, if any, submitted in accordance with the Company's policies and in accordance with the provisions of Article 1 of this Agreement; and
 - (b) Article 2 (Confidentiality), Article 3 (Ownership), Section 4.2 (Covenant Not to Compete), Section 4.3 (Non-Solicitation), Section 4.4 (Non-Circumvention), Article 5 (Return of Company Materials), Article 7 (Term and Termination), Article 8 (Independent Contractor Relationship), Article 9 (Indemnification), Article 10 (Limitation of Liability), Article 11 (Arbitration and Equitable Relief), and Article 12 (Miscellaneous) will survive termination or expiration of this Agreement in accordance with their terms.
 
-## 8. Independent Contractor Relationship.
+## 8. Independent Contractor Relationship .
 
 It is the express intention of the Company and Consultant that Consultant will perform the Services as an independent contractor to the Company. Nothing in this Agreement shall in any way be construed to constitute Consultant as an agent, employee or representative of the Company. Without limiting the generality of the foregoing, Consultant is not authorized to bind the Company to any liability or obligation or to represent that Consultant has any such authority. Consultant agrees to furnish all tools and materials necessary to accomplish this Agreement and shall incur all expenses associated with performance. Consultant acknowledges and agrees that Consultant is obligated to report as income all compensation received by Consultant pursuant to this Agreement.
 
-## 9. Indemnification.
+## 9. Indemnification .
 
 Consultant agrees to indemnify and hold harmless the Company and its affiliates and subsidiaries and their respective directors, officers and employees from and against all taxes, losses, damages, liabilities, costs and expenses, including attorneys' fees and other legal expenses, arising directly or indirectly from or in connection with (i) any negligent, reckless or intentionally wrongful act of Consultant or Consultant's assistants, employees, contractors or agents, (ii) performance of the Services or any breach by the Consultant or Consultant's assistants, employees, contractors or agents of any of the covenants contained in this Agreement, (iii) any failure of Consultant to perform the Services in accordance with all applicable laws, rules and regulations, (iv) any violation or claimed violation of a third party's rights resulting in whole or in part from the Company's use of the Inventions or other deliverables of Consultant under this Agreement, or (v) any amounts Company is required to pay by any court or governmental authority in any country based on a finding that Consultant's employees or contractors engaged in the performance of the Services are employees of Company or the failure of Consultant to file documents with respect to such employees or contractors or to pay any tax or similar fee or assessment in any country.
 
 TruckThat LLC Consulting Agreement Page 5 of 7
 
-## 10. Limitation of Liability.
+## 10. Limitation of Liability .
 
 IN NO EVENT SHALL COMPANY BE LIABLE TO CONSULTANT OR TO ANY OTHER PARTY FOR ANY INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES, OR DAMAGES FOR LOST PROFITS OR LOSS OF BUSINESS, HOWEVER CAUSED AND UNDER ANY THEORY OF LIABILITY, WHETHER BASED IN CONTRACT, TORT (INCLUDING NEGLIGENCE) OR OTHER THEORY OF LIABILITY, REGARDLESS OF WHETHER COMPANY WAS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND NOTWITHSTANDING THE FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY. IN NO EVENT SHALL COMPANY'S AGGREGATE LIABILITY ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT EXCEED THE AMOUNTS PAID BY COMPANY TO CONSULTANT UNDER THIS AGREEMENT FOR THE SERVICES, DELIVERABLES OR INVENTION GIVING RISE TO SUCH LIABILITY.
 
-## 11. Arbitration and Equitable Relief.
+## 11. Arbitration and Equitable Relief. f.
 
 11.1. Arbitration. Except as described in Section 11.2 below, any dispute or controversy between Company and the Consultant and/or its employees or staff, including, but not limited to, those involving the construction or application of any of the terms, provisions or conditions of this Agreement or otherwise arising out of or relating to this Agreement, shall be settled by binding arbitration in accordance with the then-current commercial arbitration rules of the American Arbitration Association, and judgment on the award rendered by the arbitrator(s) may be entered by any court of competent jurisdiction. Company and the Consultant (or its employees as applicable) shall share the costs of the arbitrator equally but shall each bear their own costs and legal fees associated with the arbitration. The location of the arbitration shall be in the County of San Diego, California.
 
 11.2. Availability of Injunctive Relief. Consultant acknowledges that any breach of its obligations under Articles 2 or 3 of this Agreement may result in irreparable injury for which Company shall have no adequate remedy at law. Accordingly, if Consultant breaches or threatens to breach Articles 2 or 3 of this Agreement, Company shall be entitled to seek, without proving or showing any actual damage sustained, a temporary restraining order, preliminary injunction, permanent injunction and/or order compelling specific performance to prevent or cease the breach of Articles 2 or 3 of this Agreement. Nothing in this Agreement shall be interpreted as prohibiting Company from obtaining any other remedies otherwise available to it for such breach or threatened breach, including the recovery of damages.
 
-## 12. Miscellaneous.
+## 12. Miscellaneous .
 
 12.1. Governing Law; Consent to Personal Jurisdiction. This Agreement shall be governed by the laws of the State of California, without regard to the conflicts of law provisions of any jurisdiction. To the extent that any lawsuit is permitted under this Agreement, the Parties hereby expressly consent to the personal and exclusive jurisdiction and venue of the state and federal courts located in the County of San Diego, California.
 
@@ -140,7 +140,7 @@ If to Consultant:
 
 IN WITNESS, the Parties have executed this Consulting Agreement as of the date first-written above.
 
-'Company'
+"Company"
 
 DRIVEN DELIVERIES, INC.
 
@@ -150,7 +150,7 @@ By:
 
 BRIAN HAYEK, President
 
-'Consultant'
+"Consultant"
 
 TruckThat LLC
 

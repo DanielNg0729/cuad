@@ -1,9 +1,5 @@
 # BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT
 
-1
-
-EXHIBIT 10.13
-
 ## BIOPURE CORPORATION AGENCY AGREEMENT
 
 This "Agency" Agreement is made as of March 29, 1999, by and between Biopure Corporation, a Delaware corporation (the "Company") and the Agent named on the signature page hereof (the "Agent").
@@ -34,7 +30,7 @@ No compensation will be earned by the Agent for sales generated from customers i
 
 (b) use its reasonable best efforts to market and promote the sale of the Products to Customers throughout those portions of the Territory in which the Agent has field sales representatives on and after the Agent Launch Date, through direct sales calls, advertising and other appropriate means (all such marketing and promotional activities to be in accordance with the Business Plan or as otherwise expressly proposed by the Agent and approved in writing by the Company);
 
--3-
+5
 
 (c) immediately forward to the Company's Technical Service Department for response, in accordance with any procedures described in the Business Plan and in a mutually agreed upon format, (i) all complaints and inquiries relating to the Products (including, but not limited to, Product safety, quality and packaging, Customer satisfaction and Customer services) received by the Agent from Customers and consumers within the Territory except inquiries relating solely to Product availability, pricing, billing and/or delivery and (ii) all other inquiries relating to the Products received by the Agent from outside the Territory;
 
@@ -47,8 +43,6 @@ No compensation will be earned by the Agent for sales generated from customers i
 (g) at least thirty (30) days prior to use or distribution of any sales, promotion or training materials relating to the Products (other than materials provided to the Agent by the Company for such purpose), submit such materials to the Company for review, give due consideration to any comments received from the Company with respect to such materials, and not use or distribute any such materials without the express prior written consent of the Company (which consent will not be unreasonably withheld or delayed); and
 
 (h) make all field sales personnel of the Agent available for at least four (4) hours, and telesales personnel available for at least one (1) hour, of initial Products sales and marketing training by the Company, and for such supplemental training by the Company as the Company may deem appropriate from time to time, in each case, at such times and locations as may be mutually agreed upon by the Company and the Agent.
-
-5
 
 -4-
 
@@ -68,7 +62,7 @@ No compensation will be earned by the Agent for sales generated from customers i
 
 (a) use its reasonable best efforts to fill and ship all accepted orders for Products received from the Agent on a daily basis so as to be shipped no later than the next business day. Orders received on Fridays or the day before holidays will not be shipped until the next business day unless special arrangements have been made at the customers expense. The Company will supply a list confirming such order shipments to the Agent by the end of the next business day. If orders exceed the available inventory levels, the Company will use reasonable efforts to inform the Agent and ship the remaining inventory in a manner that the Company deems as being fair and equitable. If product becomes available during a backorder, the Company will ship orders on a first-come, first-serve basis, but can, at its
 
--5-
+7
 
 own discretion, give partial shipments to large orders. In no event will the Company be obligated to provide Products to the Agent in excess of one hundred and twenty percent (120%) of any maximum quantity specified in the applicable Business Plan;
 
@@ -79,8 +73,6 @@ own discretion, give partial shipments to large orders. In no event will the Com
 (d) compensate the Agent through a discount of eight (8) percent off of the current price of the Product times the total monthly units shipped at that price to the Customer in the Agent's Territory excluding any taxes, and/or shipping and handling charges incurred by the Company. The Company will compensate the Agent an additional two (2) percent through a discount off of the current price or promotional price of the Product times the total monthly units shipped at that price to the Customer excluding any taxes, and/or shipping and handling charges incurred by the Company, so as to compensate the Agent's sales representatives. Therefore, a total of ten (10) percent discount off of the current price list or promotional price times the total monthly units shipped at that price to the Customer will be applied as payment for services from the Agent including, but not limited to, the promotion, sales, and collection of payment from the Customer for Product shipped by the Company. In addition the Company will compensate the Agent quarterly an additional two (2) percent commission (incentive), exclusive of taxes, and /or shipping and handling charges incurred by the Company, based upon the attainment of mutually agreed upon quarterly goals. One (1) percent of this incentive is additional compensation for the Agent, and one (1) percent is for additional compensation of the Agency sales force. In the event the Agent fails to achieve these goals during any given quarter yet is able to achieve the overall annual goals, then the Agent will receive the incentive commission for that quarter at the conclusion of the fiscal year. These goals are outlined in exhibit B.
 
 (e) will replace, any unit of Product to the Customer which has outdated (provided the Product is not outdated more than ninety (90) days) with equal Product.
-
-7
 
 -6-
 
@@ -112,7 +104,9 @@ THE COMPANY MAKES NO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR P
 
 3.2. Trademarks. The Agent will promote and sell the Products to Customers in the Territory only under such trademarks, copyrights, brand names and product names as the Company may have registered, or as the Company has otherwise requested be used on or in respect of Products sold within the Territory (together, the "Trademarks"). The Agent will use the Trademarks only in such fashion as has been expressly authorized by the Company in writing. Such use will not give the Agent any interest in the Trademarks, except the right to display the Trademarks as expressly provided herein. The Agent will not use any Trademark in connection with any products other than the Products. Upon the expiration or any termination of this Agreement, the Agent will immediately cease all use of the Trademarks.
 
-3.3. Insurance. The Company and the Agent will each maintain, at their own expense, insurance with reputable insurers, such insurance to be in such form and amounts as are customary in the case of entities of established reputation engaged in the same or similar businesses and similarly situated, provided that such insurance will in any event include commercial general liability and umbrella liability insurance (including product liability coverage) for property damage, bodily injury and personal injury in an amount not less than Five Million Dollars ($5,000,000) combined single amount per occurrence and in the aggregate. Each such liability insurance policy of the Agent will name the Company (as its interest may appear) as an additional insured under the policy and provide for at least thirty (30) days prior written notice to the Company of any cancellation, modification or amendment of the policy. Each product liability insurance policy of the Company will name the Agent (as its interest may appear) as an additional insured under the policy and provide for at least thirty (30) days prior written notice to the Agent of any cancellation, modification, or amendment of this policy. Each party will furnish to the other upon request a Certificate of Insurance or other documentation reasonably satisfactory to the other evidencing compliance with this Paragraph 3.3. 10
+3.3. Insurance. The Company and the Agent will each maintain, at their own expense, insurance with reputable insurers, such insurance to be in such form and amounts as are customary in the case of entities of established reputation engaged in the same or similar businesses and similarly situated, provided that such insurance will in any event include commercial general liability and umbrella liability insurance (including product liability coverage) for property damage, bodily injury and personal injury in an amount not less than Five Million Dollars ($5,000,000) combined single amount per occurrence and in the aggregate. Each such liability insurance policy of the Agent will name the Company (as its interest may appear) as an additional insured under the policy and provide for at least thirty (30) days prior written notice to the Company of any cancellation, modification or amendment of the policy. Each product liability insurance policy of the Company will name the Agent (as its interest may appear) as an additional insured under the policy and provide for at least thirty (30) days prior written notice to the Agent of any cancellation, modification, or amendment of this policy. Each party will furnish to the other upon request a Certificate of Insurance or other documentation reasonably satisfactory to the other evidencing compliance with this Paragraph 3.3.
+
+10
 
 -9-
 
@@ -122,11 +116,11 @@ THE COMPANY MAKES NO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR P
 
 (a) Subject to Subparagraph (c) below, the Agent will indemnify the Company (and its officers, directors, employees, agents and affiliates) and hold it (and them) harmless from and against all loss, damage, liability, cost or expense of any nature whatsoever, including, without limitation, any and all reasonable attorneys fees and court costs (together, a "Loss"), arising out of or in connection with (i) the inaccuracy or breach of any representation, warranty or obligation of the Agent hereunder and/or (ii) the activities of the Agent in connection with the promotion, sale or collection of payment of the Products in violation of this Agreement, law or any other duty or obligation of the Agent. In no way should the Agent be liable for incidental or consequential damages.
 
+11
+
 (b) Subject to Subparagraph (c) below, the Company will indemnify the Agent (and its officers, directors, employees, agents and affiliates) and hold it (and them) harmless from and against any Loss arising out of or in connection with the inaccuracy or breach of any representation, warranty or obligation of the Company hereunder.
 
 (c) Each party (the "Notifying Party") will promptly notify the other party (the "Indemnifying Party") of the existence of any third party claim, demand or other action giving rise to a claim for indemnification under this Paragraph 3.5 (a "Third Party Claim") and will give the Indemnifying Party a reasonable opportunity to defend the same at its own expense and with its own counsel provided that the Notifying Party will at all times have the right to participate in such defense at its own expense. If, within thirty (30) days after receipt of a notice of a Third Party Claim the Indemnifying Party fails to undertake to so defend, the Notifying Party will have the right, but not the obligation, to defend and to compromise or settle (exercising reasonable business judgment) the Third Party Claim for the account and at the risk and expense of the Indemnifying Party subject to the Indemnifying Party's prior written approval (such approval not to be unreasonably withheld or delayed). Each party will make available to the other, at the other's reasonable expense, such information and assistance as
-
-11
 
 -10-
 
@@ -134,7 +128,9 @@ the other may reasonably request in connection with the defense of a Third Party
 
 3.6. Assistance with Claims. Subject to Paragraph 3.5 hereof, each party will, at the request and expense of the other, furnish such reasonable assistance as may be required to enable the other party to defend itself against third party claims threatened or filed in connection with the manufacture, distribution, sale or use of the Products.
 
-3.7. Confidential Information and Publicity. From time to time during the term of this Agreement either party may disclose or make available to the other Confidential Information (as defined below) in connection with activities contemplated hereunder. Except as may be required by law or as may be reasonably necessary to enforce rights hereunder, each party agrees that during the term of this Agreement and thereafter (a) it will use Confidential Information belonging to the other solely for the purpose(s) of this Agreement and (b) it will not disclose Confidential Information belonging to the other to any third party (other than its employees and/or consultants reasonably requiring such Confidential Information for purposes of this Agreement who are bound by obligations of nondisclosure and limited use at least as stringent as those contained herein) without the express prior written consent of the disclosing party. Each party further agrees that except as reasonably necessary for performance hereunder or otherwise expressly required by law, it will not publicly announce or otherwise disclose any of the terms and conditions of this Agreement without the express prior written consent of the other. Except as may be otherwise expressly provided in the Business Plan, or as may be required by law or reasonably necessary to enforce rights hereunder, neither party will use the name of the other in any advertising, promotional or sales materials relating to the Products, in any press release, or in any other manner whatsoever without the express prior written consent of the other. Each party will promptly return to the other upon request any Confidential Information of the other party then in its possession or under its control. The provisions of this Paragraph 3.7 will survive the expiration or any termination of this Agreement. For purposes of this Agreement, "Confidential Information" means, with respect to either party, any and all information (including, but not limited to, financial data and information concerning products, customers and business operations) in any form belonging to such party except information which at the relevant time is (a) known to the public through no act or omission in violation of this Agreement, (b) furnished to the receiving party by a third party having the lawful right to do so, (c) known to the receiving party prior to disclosure hereunder (as established by written documentation thereof) or (d) independently developed by the receiving party without reference to the Confidential Information. 12
+3.7. Confidential Information and Publicity. From time to time during the term of this Agreement either party may disclose or make available to the other Confidential Information (as defined below) in connection with activities contemplated hereunder. Except as may be required by law or as may be reasonably necessary to enforce rights hereunder, each party agrees that during the term of this Agreement and thereafter (a) it will use Confidential Information belonging to the other solely for the purpose(s) of this Agreement and (b) it will not disclose Confidential Information belonging to the other to any third party (other than its employees and/or consultants reasonably requiring such Confidential Information for purposes of this Agreement who are bound by obligations of nondisclosure and limited use at least as stringent as those contained herein) without the express prior written consent of the disclosing party. Each party further agrees that except as reasonably necessary for performance hereunder or otherwise expressly required by law, it will not publicly announce or otherwise disclose any of the terms and conditions of this Agreement without the express prior written consent of the other. Except as may be otherwise expressly provided in the Business Plan, or as may be required by law or reasonably necessary to enforce rights hereunder, neither party will use the name of the other in any advertising, promotional or sales materials relating to the Products, in any press release, or in any other manner whatsoever without the express prior written consent of the other. Each party will promptly return to the other upon request any Confidential Information of the other party then in its possession or under its control. The provisions of this Paragraph 3.7 will survive the expiration or any termination of this Agreement. For purposes of this Agreement, "Confidential Information" means, with respect to either party, any and all information (including, but not limited to, financial data and information concerning products, customers and business operations) in any form belonging to such party except information which at the relevant time is (a) known to the public through no act or omission in violation of this Agreement, (b) furnished to the receiving party by a third party having the lawful right to do so, (c) known to the receiving party prior to disclosure hereunder (as established by written documentation thereof) or (d) independently developed by the receiving party without reference to the Confidential Information.
+
+12
 
 -11-
 
@@ -148,6 +144,8 @@ the other may reasonably request in connection with the defense of a Third Party
 
 (b) In the event of any material change in the organization, ownership, management or control of the business of the Agent, the Company may, at its option, terminate this Agreement upon giving written notice of termination to the Agent. The Agent will promptly advise the Company in writing of any event described in this Paragraph 4.2(b).
 
+13
+
 (c) Either party may, at its option, terminate this Agreement without cause, effective at any time after January 31, 1999, upon giving at least ninety (90) days prior written notice of such termination to the other party.
 
 (d) If after exercise of good faith efforts, the parties fail to timely agree upon a Business Plan for any Contract Year before the start of such year (with respect to the Business Plan for Contract Year ending October 31, 1999, at least thirty (30) days or on a mutually agreed upon date after the Agent Launch Date), this Agreement may be terminated by either party upon giving at least thirty (30) days prior written notice of such termination to the other party.
@@ -155,8 +153,6 @@ the other may reasonably request in connection with the defense of a Third Party
 (e) In the event of any publicity concerning the Agent which the Company reasonably believes to have a material adverse affect upon the status or reputation of the Agent and/or the Products, the Company may, at its option, terminate this Agreement upon giving at least five (5) days prior written notice of such termination to the Agent.
 
 (f) In the event the Company terminates, sells or otherwise transfers its veterinary products business in its entirety, the Company may
-
-13
 
 -12-
 
@@ -204,29 +200,29 @@ regulations of any jurisdiction, such provision will be replaced, to the extent 
 
 Signed, sealed and delivered by a duly authorized representative of each party hereto as of the date first written above.
 
-THE BUTLER COMPANY                         BIOPURE CORPORATION
+THE BUTLER COMPANY BIOPURE CORPORATION
 
-By:                                        By:
+By: By:
 
---------------------------------            --------------------------------
+-------------------------------- --------------------------------
 
-Andrew W. Wright, Title:                                         Vice President, Veterinary
+Andrew W. Wright, Title: Vice President, Veterinary
 
------------------------------            Products
+----------------------------- Products
 
-Address:                                   Address: 11 Hurley Street
+Address: Address: 11 Hurley Street
 
----------------------------                 Cambridge, MA 02141
+--------------------------- Cambridge, MA 02141
 
 Telecopy No.: (617) 234-6507
 
----------------------------
-
----------------------------
+EXHIBIT A
 
 16
 
-EXHIBIT A
+---------------------------
+
+---------------------------
 
 BIOPURE CORPORATION
 
@@ -234,10 +230,13 @@ Oxyglobin(R) Brand Products Price List (Introductory Promotional Pricing*)
 
 Each Box contains two 125 ml bags of Oxyglobin(R) Brand Veterinary Product.
 
-|                   | Retail Price ------------   | Retail Price Per Bag --------------------   |
-|-------------------|-----------------------------|---------------------------------------------|
-| 1 Box of 2 Bags   | $279.90                     | $139.95                                     |
-| 2 Boxes of 2 Bags | $499.80                     | $124.95                                     |
-| 3 Boxes of 2 Bags | $749.70                     | $124.95                                     |
-| 4 Boxes of 2 Bags | $999.60                     | $124.95                                     |
-| 5 Boxes of 2 Bags | $1099.50                    | $109.95                                     |
+| Retail Price Retail Price Per Bag  ------------ --------------------  1 Box of 2 Bags $279.90 $139.95  2 Boxes of 2 Bags $499.80 $124.95  3 Boxes of 2 Bags $749.70 $124.95  4 Boxes of 2 Bags $999.60 $124.95  5 Boxes of 2 Bags $1099.50 $109.95   |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+- ----------
+
+*May be changed with 30 days written notice.
+
+Effective Date: January 5, 1999
+
+17 EXHIBIT B OXYGLOBIN(R) BUSINESS PLAN FISCAL YEAR 1999 (Nov 1, 1998 through Oct 31, 1999) AGENT: THE BUTLER COMPANY FY: 1999 QUARTERLY GOALS 1st Quarter (Nov 1 - Jan 31): N/A units 2nd Quarter (Feb 1 - Apr 30): 3,500 units 3rd Quarter (May 1 - Jul 31): 7,000 units 4th Quarter (Aug 1 - Oct 31): 8,400 units Fiscal Year Total: 18,900 units Unit = 1 Bag of Oxyglobin Solution 125 ml PROMOTIONAL ACTIVITIES Sales Meetings: Anticipated Dates \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Ride Withs (# Per Quarter) 1st Qtr \_\_\_\_\_\_\_\_\_\_\_\_ 2nd Qtr \_\_\_\_\_\_\_\_\_\_\_\_ 3rd Qtr \_\_\_\_\_\_\_\_\_\_\_\_ 4th Qtr \_\_\_\_\_\_\_\_\_\_\_\_ Total for Year \_\_\_\_\_\_\_\_\_\_\_\_ 18 Conferences with Display of Biopure Product:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Agent Monthly Flyer, Catalog, Other \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Other Activities (Dinner Meeting Support, Advertising, Mailings, etc)\_\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ THE BUTLER COMPANY: BIOPURE CORPORATION: - ---------------------------- ---------------------------- Name Name - ---------------------------- ---------------------------- Title Title - ---------------------------- ---------------------------- Date Date

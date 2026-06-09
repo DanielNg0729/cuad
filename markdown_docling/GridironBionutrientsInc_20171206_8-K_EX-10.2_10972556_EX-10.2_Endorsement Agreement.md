@@ -2,23 +2,22 @@
 
 ## ENDORSEMENT AGREEMENT ADDENDUM I
 
-This Endorsement Agreement Addendum I (the 'Addendum') is made and effective November 7, 2017 ,
+This Endorsement Agreement Addendum I (the "Addendum") is made and effective November 7, 2017 ,
 
-| BETWEEN:   | National Football League Alumni - Northern California Chapter ( 'NFLA-NC' ), a charitable corporation organized under the laws of California, having its principal office at 1311 Madison Avenue, Redwood CA 94061; National Football League Alumni, Inc. ( 'NFLA ') , a charitable corporation organized under the laws of Florida, having its principal office at 8000 Midlantic Drive, 130 S., Mount Laurel, NJ. 08054.   |
-|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| AND:       | Food For Athletes, Inc. a corporation organized under the laws of California / Gridiron BioNutrients™, a corporation organized under the laws of Nevada having their principal office(s) at 1147 N Roseburg CT, STE A/B Visalia, CA93291 (collectively the 'Company' ).                                                                                                                                                      |
+| BETWEEN:  National Football League Alumni - Northern California Chapter (“NFLA-NC”), a charitable corporation organized under the laws of California, having its principal office at 1311 Madison Avenue, Redwood CA 94061; National Football League Alumni, Inc. (“NFLA”) , a charitable corporation organized under the laws of Florida, having its principal office at 8000 Midlantic Drive, 130 S., Mount Laurel, NJ. 08054.  AND:  Food For Athletes, Inc. a corporation organized under the laws of California / Gridiron BioNutrients™, a corporation organized under the laws of Nevada having their principal office(s) at 1147 N Roseburg CT, STE A/B Visalia, CA 93291 (collectively the “Company”).   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ## RECITALS
 
-The NFLA, NFLA-NC and the Company (collectively the 'Parties') agree that this Addendum I shall be affixed and be enforceable under the terms of the Endorsement Agreement executed by the Parties on October 30, 2017.
+The NFLA, NFLA-NC and the Company (collectively the "Parties") agree that this Addendum I shall be affixed and be enforceable under the terms of the Endorsement Agreement executed by the Parties on October 30, 2017.
 
-Parties agree to the addition of Gridiron CBD H2O Probiotic™ Water to 'Licensed Products' as follows:
+Parties agree to the addition of Gridiron CBD H2O Probiotic™ Water to "Licensed Products" as follows:
 
 ## SECTION ONE. DEFINITIONS
 
 As used in this Agreement, the following terms shall be defined as follows:
 
-- F. 'Licensed Products' shall mean BlackMP Living Water, BlackMP Concentrate, Zezel Probiotic Water, Zayin Sports Water, Gridiron CBD H2O Probiotics™ Water , Gridiron MVP™ and Gridiron MVP™ Concentrate using the Pro Football Legends Logo on the Licensed Products' affixed labels, hang-tags or packaging. Other products of the Company may be added to the list of Licensed Products during the Contract Period by written amendment to this Agreement. All amendments to this Agreement must be signed by all parties to this Agreement.
+- F. "Licensed Products" shall mean BlackMP Living Water, BlackMP Concentrate, Zezel Probiotic Water, Zayin Sports Water, Gridiron CBD H2O Probiotics™ Water, Gridiron MVP™ and Gridiron MVP™ Concentrate using the Pro Football Legends Logo on the Licensed Products' affixed labels, hang-tags or packaging. Other products of the Company may be added to the list of Licensed Products during the Contract Period by written amendment to this Agreement. All amendments to this Agreement must be signed by all parties to this Agreement.
 
 Endorsement Agreement Addendum I
 
@@ -34,9 +33,7 @@ Page 1 of 2
 
 - (1) 4oz bottle of BlackMP
 
-- c. = 1 Unit
-
-- (1) Bottle of Zezel Probiotic
+- c. (1) Bottle of Zezel Probiotic = 1 Unit
 
 - Water
 
@@ -46,9 +43,7 @@ Page 1 of 2
 
 - f. (1) Bottle Gridiron CBD H20 Probiotics™ Water = 1 Unit
 
-- g. (1) 4oz bottle of Gridiron MVP™ = 30 Units
-
-- Concentrate
+- g. (1) 4oz bottle of Gridiron MVP™ Concentrate = 30 Units
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_
 

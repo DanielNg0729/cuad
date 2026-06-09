@@ -2,7 +2,7 @@
 
 ## ENDORSEMENT AGREEMENT
 
-THIS ENDORSEMENT AGREEMENT ( ' Agreement ' ) by and between GENO AURIEMMA ( ' Auriemma ' ) and BERKSHIRE BANK , a Massachusetts savings bank with its principal place of business at 24 North Street, Pittsfield, MA 01210 ( ' Berkshire ' )(Each or both of which shall hereinafter be referred to as the ' PARTY ' or ' PARTIES, ' respectively).
+THIS ENDORSEMENT AGREEMENT ( " Agreement " ) by and between GENO AURIEMMA ( " Auriemma " ) and BERKSHIRE BANK, a Massachusetts savings bank with its principal place of business at 24 North Street, Pittsfield, MA 01210 ( " Berkshire " )(Each or both of which shall hereinafter be referred to as the " PARTY " or " PARTIES, " respectively).
 
 ## RECITALS:
 
@@ -18,24 +18,24 @@ NOW, THEREFORE for and in consideration of the foregoing, and the mutual covenan
 
 The following terms shall be defined in the Agreement as follows:
 
-- a) ' CONTRACT PERIOD ' means that period of time commencing upon the full execution of this Agreement by both Parties and terminating on May 31, 2016 unless sooner terminated under this Agreement.
-- b) ' SERVICES PERIOD ' means that period of time commencing upon the full execution of this Agreement by both Parties and terminating on May 31, 2014 unless sooner terminated under this Agreement.
-- b) ' CONTRACT TERRITORY ' shall be any State in which Berkshire currently, or at any time during the Contract Period, offers Banking Services.
-- c) ' FINANCIAL SERVICES ' shall mean banking, lending, financial and wealth management products and services offered by Berkshire and insurance products and services offered by Berkshire ' s affiliate Berkshire Insurance Group, Inc.
-- d) ' AURIEMMA IDENTIFICATION ' shall mean any words, symbols, photographic or graphic representations, statements by Auriemma or any combination thereof which identify Auriemma such as, for example, Auriemma ' s name, voice, nickname, likeness, and anything else that identifies Auriemma. The Auriemma
+- a) " CONTRACT PERIOD " means that period of time commencing upon the full execution of this Agreement by both Parties and terminating on May 31, 2016 unless sooner terminated under this Agreement.
+- b) " SERVICES PERIOD " means that period of time commencing upon the full execution of this Agreement by both Parties and terminating on May 31, 2014 unless sooner terminated under this Agreement.
+- b) " CONTRACT TERRITORY " shall be any State in which Berkshire currently, or at any time during the Contract Period, offers Banking Services.
+- c) " FINANCIAL SERVICES " shall mean banking, lending, financial and wealth management products and services offered by Berkshire and insurance products and services offered by Berkshire ' s affiliate Berkshire Insurance Group, Inc.
+- d) " AURIEMMA IDENTIFICATION " shall mean any words, symbols, photographic or graphic representations, statements by Auriemma or any combination thereof which identify Auriemma such as, for example, Auriemma ' s name, voice, nickname, likeness, and anything else that identifies Auriemma. The Auriemma
 
 Identification shall not include any reference to the University of Connecticut, UConn, the use of the University of Connecticut logos or trademarks, Auriemma ' s position as head women ' s basketball coach for the University of Connecticut. If during the Contract Period Berkshire desires to make reference to University of Connecticut, UConn, or to use of the University of Connecticut logos or trademarks, or to refer to Auriemma ' s position as head women ' s basketball coach for the University of Connecticut, Auriemma agrees to use reasonable efforts to obtain the necessary consents from the State of Connecticut and the University of Connecticut in order to permit Berkshire to do so, it being understood by Berkshire that Auriemma makes no representation or warrantees that he will be able to obtain such consents and that the time required to obtain such consents is wholly outside of the control of Auriemma.
 
-- e) ' RIGHTS ' shall mean all of the endorsement rights, services and other rights and benefits granted to Berkshire in this Agreement.
-- g) ' BERKSHIRE COMPETITOR ' is any person or entity that in any way competes with Berkshire ' s financial services.
-- h) ' BERKSHIRE PARTIES ' is Berkshire, and any affiliates of Berkshire, as defined herein. For purposes of this Agreement, ' AFFILIATES ' means any other person or entity that directly or indirectly through one or more intermediaries, controls, is controlled by or is under common control with, Berkshire.
-- i) ' $ ' shall mean the lawful currency of the United States of America unless otherwise specified.
+- e) " RIGHTS " shall mean all of the endorsement rights, services and other rights and benefits granted to Berkshire in this Agreement.
+- g) " BERKSHIRE COMPETITOR " is any person or entity that in any way competes with Berkshire ' s financial services.
+- h) " BERKSHIRE PARTIES " is Berkshire, and any affiliates of Berkshire, as defined herein. For purposes of this Agreement, " AFFILIATES " means any other person or entity that directly or indirectly through one or more intermediaries, controls, is controlled by or is under common control with, Berkshire.
+- i) " $ " shall mean the lawful currency of the United States of America unless otherwise specified.
 
 ## 2. ENDORSEMENT AND GRANT OF RIGHTS. During the Contract Period:
 
-a) Subject to the terms of Paragraph 6 below, Auriemma will make the appearances and provide to Berkshire during the Services Period the services, initiatives and programs described in Schedule A attached hereto (the ' Endorsement Services ' ); and
+a) Subject to the terms of Paragraph 6 below, Auriemma will make the appearances and provide to Berkshire during the Services Period the services, initiatives and programs described in Schedule A attached hereto (the " Endorsement Services " ); and
 
-- b) Auriemma grants to Berkshire the exclusive right and license (the ' License Rights ' ) to use the Auriemma Identification during the Contract Period and throughout the Contract Territory solely in connection with the advertisement and promotion of Berkshire and the Financial Services;
+- b) Auriemma grants to Berkshire the exclusive right and license (the " License Rights " ) to use the Auriemma Identification during the Contract Period and throughout the Contract Territory solely in connection with the advertisement and promotion of Berkshire and the Financial Services;
 - c) The License Rights are exclusive to Berkshire and may not be assigned or in any way conveyed by Berkshire without Auriemma ' s express written consent, except in the event of a merger by Berkshire with another entity offering Banking Services.
 
 ## 3. EXCLUSIVITY. Auriemma expressly agrees and undertakes that:
@@ -54,7 +54,7 @@ d) Nothing herein shall grant Auriemma any rights to use any of Berkshire ' s tr
 
 (b) Berkshire will make four (4) equal cash payments to Auriemma in the amount of Ninety Thousand and 00/100 Dollars ($90,000.00) on June 1, 2012, June 1, 2013, June 1, 2014, and June 1, 2015.
 
-(c) Berkshire will cause to be issued to Auriemma on June 1, 2012, June 1, 2013, June 1, 2014, and June 1, 2015, (each an ' issuance date ' ) four (4) blocks of shares of unrestricted common stock of Berkshire ' s parent corporation, Berkshire Hills Bancorp, Inc. (BHLB), each of which as of its respective issuance date shall have a value of Thirty Thousand and 00/100 Dollars ($30,000.00), based upon the closing price of BHLB common shares at the end of the last trading day immediately preceding the issuance date.
+(c) Berkshire will cause to be issued to Auriemma on June 1, 2012, June 1, 2013, June 1, 2014, and June 1, 2015, (each an " issuance date " ) four (4) blocks of shares of unrestricted common stock of Berkshire ' s parent corporation, Berkshire Hills Bancorp, Inc. (BHLB), each of which as of its respective issuance date shall have a value of Thirty Thousand and 00/100 Dollars ($30,000.00), based upon the closing price of BHLB common shares at the end of the last trading day immediately preceding the issuance date.
 
 5. PAYMENTS. Auriemma may elect to have cash payments due Auriemma hereunder made by check, wire transfer, or bank transfer. Unless such election is made in writing, all cash payments shall be made by check, drawn to the order of Auriemma or its designated entity or entities and delivered to the address first stated above. Past due cash payments (i.e., payments due more than thirty (30) days after Berkshire ' s receipt of the applicable invoice) shall bear interest at the rate of one (1%) percent per month.
 
@@ -82,15 +82,15 @@ b) Berkshire agrees that all use of the Auriemma Identification in connection wi
 
 ## 10. TERMINATION AND DEFAULT.
 
-a) TERMINATION FOR BREACH . Either Party shall have the right, without prejudice to any other rights it may have, to terminate this Agreement if the other Party materially breaches its obligation hereunder and such breach remains uncured.
+a) TERMINATION FOR BREACH. Either Party shall have the right, without prejudice to any other rights it may have, to terminate this Agreement if the other Party materially breaches its obligation hereunder and such breach remains uncured.
 
 A material breach occurs if either Party (i) fails to make any payment, or (ii) fails to observe or perform any of the covenants, agreements, or obligations (other than payments of money).
 
 Upon the breach of either of the above conditions, the non-defaulting party may terminate this Agreement as follows: (A) as to a default under clause (i) above, if payment is not made within ten (10) days after the defaulting party shall have received written notice of such failure to make payment; or (B) as to a default under clause (ii) above, if such default is not cured within thirty (30) days after the defaulting party shall have received written notice specifying in reasonable detail the nature of such default and such action the defaulting party must take in order to cure each such item of default.
 
-b) TERMINATION DUE TO INSOLVENCY . If either Party (the ' Bankrupt Party ' ), (i) commences or becomes the subject of any case or proceeding under the bankruptcy or insolvency laws; (ii) has appointed for it or for any substantial part of its property a court-appointed receiver, liquidator, assignee, trustee, custodian, sequestrator or other similar official; (iii) makes an assignment or the benefit of its credits; (iv) fails generally to pay its debts as they become due; or (v) takes corporate action in furtherance of any of the foregoing (collectively, herein referred to as ' Events of Insolvency ' ), then, in each case, the Bankrupt Party shall immediately give notice of such event to the other Party. Whether or not such notice is given, the other Party shall have the right, to the fullest extent permitted under applicable law, following the occurrence of any Event of Insolvency and without prejudice to any other rights it may have, at any time thereafter to terminate this Agreement, effective immediately upon giving notice to the Bankrupt Party.
+b) TERMINATION DUE TO INSOLVENCY. If either Party (the " Bankrupt Party " ), (i) commences or becomes the subject of any case or proceeding under the bankruptcy or insolvency laws; (ii) has appointed for it or for any substantial part of its property a court-appointed receiver, liquidator, assignee, trustee, custodian, sequestrator or other similar official; (iii) makes an assignment or the benefit of its credits; (iv) fails generally to pay its debts as they become due; or (v) takes corporate action in furtherance of any of the foregoing (collectively, herein referred to as " Events of Insolvency " ), then, in each case, the Bankrupt Party shall immediately give notice of such event to the other Party. Whether or not such notice is given, the other Party shall have the right, to the fullest extent permitted under applicable law, following the occurrence of any Event of Insolvency and without prejudice to any other rights it may have, at any time thereafter to terminate this Agreement, effective immediately upon giving notice to the Bankrupt Party.
 
-c) EFFECT OF TERMINATION . Upon the expiration or termination of this Agreement for any reason (i) all payments that have accrued prior to the termination or expiration of this Agreement will be payable in full within thirty (30) days thereof, but any obligations to make further payments due, or that may have come due, under this Agreement shall become null and void; (ii) except as otherwise provided herein, the Services Period and the Contract Period shall end immediately and Berkshire shall promptly cease all use of the Auriemma Identification including any displays, documents, artwork, symbols, logos trademarks, trade names, photographic or graphic representations, depictions and/or other materials (including, but not limited to, advertising and/or promotional materials), which in any way or form (hard copy, electronic or otherwise) use the Auriemma Identification (collectively, ' Materials ' ), except as otherwise set forth herein; and (iii) except as otherwise provided herein, Berkshire shall promptly remove all links and references to Auriemma and Materials from its website. Notwithstanding the foregoing, if the Agreement is terminated for any reason other than Berkshire ' s material breach, then for thirty (30) days following such termination, Berkshire may continue to use any printed material already produced under this Agreement. At the conclusion of this period, Berkshire ' s use of the printed material will cease.
+c) EFFECT OF TERMINATION. Upon the expiration or termination of this Agreement for any reason (i) all payments that have accrued prior to the termination or expiration of this Agreement will be payable in full within thirty (30) days thereof, but any obligations to make further payments due, or that may have come due, under this Agreement shall become null and void; (ii) except as otherwise provided herein, the Services Period and the Contract Period shall end immediately and Berkshire shall promptly cease all use of the Auriemma Identification including any displays, documents, artwork, symbols, logos trademarks, trade names, photographic or graphic representations, depictions and/or other materials (including, but not limited to, advertising and/or promotional materials), which in any way or form (hard copy, electronic or otherwise) use the Auriemma Identification (collectively, " Materials " ), except as otherwise set forth herein; and (iii) except as otherwise provided herein, Berkshire shall promptly remove all links and references to Auriemma and Materials from its website. Notwithstanding the foregoing, if the Agreement is terminated for any reason other than Berkshire ' s material breach, then for thirty (30) days following such termination, Berkshire may continue to use any printed material already produced under this Agreement. At the conclusion of this period, Berkshire ' s use of the printed material will cease.
 
 ## 11. TERMINATION BY BERKSHIRE.
 
@@ -112,15 +112,15 @@ If to Auriemma: Geno Auriemma
 
 With a copy to: Kahan, Kerensky &amp; Capossela, LLP Attn: Sol Kerensky &amp; Justin L. Murphy 45 Hartford Turnpike Vernon, CT 06066
 
-If to Berkshire: Berkshire Bank Attn:Sean A. Gray, EVP -Retail Banking 24 North Street P.O. Box 1308 Pittsfield, MA 01202-1308
+If to Berkshire: Berkshire Bank Attn:Sean A. Gray, EVP — Retail Banking 24 North Street P.O. Box 1308 Pittsfield, MA 01202 -1308
 
 With a copy to: Berkshire Bank Attn: Wm. Gordon Prescott, VP and General Counsel
 
-24 North Street P.O. Box 1308 Pittsfield, MA 01202-1308
+24 North Street P.O. Box 1308 Pittsfield, MA 01202 -1308
 
 ## 15. FORCE MAJEUR.
 
-Notwithstanding anything else contained in this Agreement, neither Party will be liable for any delay in the performance of any of its obligations if such delay is caused by any reason wholly outside the control of the Party so delaying (a ' Force Majeur Event ' ) subject to the obligation of the Party so delaying promptly notifying the other Party in writing of the reasons for the delay and the likely duration of the delay. The performance of such Party ' s obligations will be suspended during the period that the Force Majeur Event persists and such Party will be granted an extension of time for performance equal to the period of the delay. If the delay referred to above exceeds sixty (60) days (or such other reasonable period taking into consideration the nature and cause of the delay), either Party may forthwith terminate this Agreement whereupon the Parties shall cease to be bound by their respective obligations under this Agreement in respect granted under this Agreement shall cease.
+Notwithstanding anything else contained in this Agreement, neither Party will be liable for any delay in the performance of any of its obligations if such delay is caused by any reason wholly outside the control of the Party so delaying (a " Force Majeur Event " ) subject to the obligation of the Party so delaying promptly notifying the other Party in writing of the reasons for the delay and the likely duration of the delay. The performance of such Party ' s obligations will be suspended during the period that the Force Majeur Event persists and such Party will be granted an extension of time for performance equal to the period of the delay. If the delay referred to above exceeds sixty (60) days (or such other reasonable period taking into consideration the nature and cause of the delay), either Party may forthwith terminate this Agreement whereupon the Parties shall cease to be bound by their respective obligations under this Agreement in respect granted under this Agreement shall cease.
 
 ## 16. ENTIRE AGREEMENT.
 
@@ -139,3 +139,81 @@ Nothing contained in this Agreement shall be construed as establishing an employ
 a) Auriemma represents and warrants to Berkshire that:
 
 (i) Auriemma has full authority to enter into and perform under this Agreement subject only to approval by the University of Connecticut department of athletics and consulting office;
+
+(ii) by entering into and performing under this Agreement, Auriemma is not, and shall not be in conflict with any prior obligations to third parties;
+
+(iii) that Auriemma will not assign or transfer any of the License Rights described in Paragraph 2.
+
+b) Berkshire represents and warrants to Auriemma that:
+
+- (i) it has full authority to enter into and perform under this Agreement;
+
+(ii) by entering into and performing under this Agreement, it is not, and shall not be in conflict with any prior obligations to third parties.
+
+20. INDEMNITY AND INSURANCE. Berkshire shall indemnify and hold Auriemma harmless from and against any and all claims, actions, suits, proceedings, losses, damages and expenses (including, without limitation, reasonable attorneys ' , consultants ' and experts ' fees) (collectively, " Claims " ) arising out of or relating to any inaccuracy or breach of Berkshire ' s representations, warranties, covenants or any claim or other cause of action arising out of or in connection with this Agreement, including actions based upon gross negligence of Berkshire under this Agreement, provided that Berkshire shall be given prompt notice of any such action or claim.
+
+## 21. WAIVER.
+
+The failure of Auriemma or Berkshire at any time or times to demand strict performance by the other of any of the terms, covenants or conditions set forth herein shall not be construed as a continuing waiver or relinquishment thereof and either may at any time demand strict and complete performance by the other of said terms, covenants and conditions.
+
+## 22. ASSIGNMENT.
+
+This Agreement shall bind and inure to the benefit of Auriemma and his successors and permitted assigns. Nothing herein shall prevent Auriemma from assigning the monetary benefits (but not the obligations) of this Agreement, as he may so desire. Berkshire may not assign this Agreement, in whole or in part, without Auriemma ' s written consent. In the case of reorganization, merger, consolidation, or sale of all or substantially all of its assets, any attempt to assign this Agreement other than as permitted above will be null and void.
+
+## 23. SIGNIFICANCE OF HEADINGS.
+
+Paragraph headings contained in this Agreement are solely for the purpose of aiding speedy location of subject matter and are not in any sense to be given weight in the construction of this Agreement. Accordingly, in case of any question with respect to the construction of this Agreement, it is to be construed as though such paragraph headings had been omitted.
+
+## 24. INVALIDITY.
+
+If any term, covenant, condition or provision of this Agreement or the application thereof to any person or circumstance, shall to any extent be held to be invalid, illegal, or unenforceable in any respect, the remainder of this Agreement, or application of such term or provision to a person or circumstance other than to those as to which it is held invalid, illegal, or unenforceable, shall not be affected thereby, and each term, covenant, condition or provision of this Agreement shall be valid and shall be enforced to the fullest extent provided by law.
+
+## 25. COUNTERPARTS.
+
+This Agreement may be executed in any number of counterparts, each of which shall be deemed an original and all of which will constitute together a single document.
+
+## 26. CONSTRUCTION.
+
+The Parties acknowledge that this Agreement was negotiated between them and shall not be construed against either Party on the grounds of authorship.
+
+## 27. ARBITRATION.
+
+Any dispute or difference between the parties hereto arising out of or relating to this Agreement shall be settled by arbitration in accordance with the Commercial Rules of the American Arbitration Association by a panel of three qualified arbitrators. Berkshire and Auriemma shall each choose an arbitrator and the two (2) arbitrators so chosen shall choose the third. If either BERKSHIRE or Auriemma fails to choose an arbitrator within 30 days after notice of commencement of arbitration or if the two arbitrators fail to choose a third arbitrator within thirty (30) days after their appointment, the American Arbitration Association shall, upon the request of any party to the dispute or difference, appoint the arbitrator or arbitrators to constitute or complete the panel as the case may be. Arbitration proceedings hereunder may be initiated by either BERKSHIRE or Auriemma making a written request to the American Arbitration Association, together with any appropriate filing fee, at the office of the American Arbitration Association in the county in which proceedings are to be held pursuant to the terms of the following sentence. All arbitration proceedings or litigation (to the extent the remedy requested is not, by law, available through arbitration [e.g., injunctive relief]) relating to any claims or disputes arising under or relating to this Agreement shall be brought in the county in which the principal executive office of the party not initiating such action or proceeding defendant or responding party) is located. The parties irrevocably submit and consent to the exercise of subject matter jurisdiction and personal jurisdiction over each of the parties by the federal and/or state courts in such jurisdiction (the " Selected Jurisdiction " ). The parties hereby irrevocably waive any and all objections that any party may now or hereafter have to the exercise of personal and subject matter jurisdiction in the Selected Jurisdiction and to the laying of venue of any such proceeding or action brought in the Selected Jurisdiction. Any order or determination of the arbitral tribunal upon the parties to the arbitration and may be entered in any court having jurisdiction.
+
+IN WITNESS WHEREOF, the Parties execute this Agreement intending to be legally bound.
+
+/s/ Geno Auriemma
+
+5/17/12
+
+GENO AURIEMMA
+
+Date
+
+BERKSHIRE BANK
+
+By: /s/ Sean A. Gray
+
+5/14/12
+
+Sean A. Gray
+
+Date
+
+Executive Vice President — Retail Banking
+
+## SCHEDULE A
+
+1. Auriemma will act as the spokesperson for Berkshire and its Affiliates.
+2. Auriemma will participate in one (1) recording session annually during the Services Period of not more than two (2) hours, not including travel time, to record a radio advertising spot at a date and location to be mutually agreed upon;
+3. Auriemma will participate in one (1) production session annually during the Services Period of not more than three (3) hours, not including travel time, to record a television advertising spot at a date and location to be mutually agreed upon;
+4. Auriemma will participate in one (1) photo session annually during the Services Period of not more than two (2) hours, not including travel time, at a date and location to be mutually agreed upon;
+5. Auriemma will be available for two (2) appearances annually during the Services Period within the Contract Territory, the date and location to be mutually agreed upon, each not more than one (1) hour in duration, where Auriemma will meet, greet and pose for photos.
+
+6. Auriemma will be available one (1) time per calendar quarter during the Services Period to meet and address Berkshire ' s small business customer groups.
+
+7. Auriemma will sign 100 items per year during the Services Period for Berkshire provided all items are to be obtained at Berkshire ' s cost, provided, however, that Berkshire shall not sell any items autographed by Auriemma and Auriemma will not be required to sign any item that is manufactured by a competitor of Nike and subject to Nike ' s right to disapprove any items.
+
+8. Auriemma will permit Berkshire to place a link on its website (Berkshirebank.com) throughout the Contract Period, directing website viewers to a landing page promoting Berkshire ' s product or brand containing the Auriemma Identification.
+
+9. Berkshire may utilize Auriemma and the Auriemma Identification throughout the Contract Period in all approved materials including billboards, subway/bus ads, direct mail, stand-ups, counter cards, posters, etc.

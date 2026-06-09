@@ -1,8 +1,8 @@
 # HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement
 
-## OUTSOURCE TECHNOLOGY DEVELOPMENT A GREEMENT
+## OUTSOURCE TECHNOLOGY DEVELOPMENT AGREEMENT
 
-This Outsource Technology Development Agreement (this 'Agreement') is entered into and effective as of this 1 st  day of March, 2018 (the 'Effective Date') by and between Document Security Systems, Inc., a corporation organized and existing under the laws of the State of New York ('DSS'), and HotApp International Ltd., a corporation organized and existing under the laws of Hong Kong ('Developer').
+This Outsource Technology Development Agreement (this "Agreement") is entered into and effective as of this 1st day of March, 2018 (the "Effective Date") by and between Document Security Systems, Inc., a corporation organized and existing under the laws of the State of New York ("DSS"), and HotApp International Ltd., a corporation organized and existing under the laws of Hong Kong ("Developer").
 
 ## RECITALS:
 
@@ -16,21 +16,21 @@ NOW, THEREFORE, for good and valuable consideration, the receipt and sufficiency
 
 Capitalized terms contained herein shall have the meanings ascribed to them herein, or in Schedule 1 which is annexed hereto and made a part of this Agreement.
 
-## 1. Development License and Fees.
+## 1. Development License and Fees .
 
-- 1.1. Development License. Subject to the terms and conditions set forth herein, DSS hereby grants to Developer, and Developer accepts from DSS, for the Term, a non-exclusive, limited, and non-transferable license to install and use the Technology for the sole purpose of developing the Improvements (as defined hereunder) thereto for the benefit of DSS (the 'Technology Development Services License').
-- 1.2. Development Fees . As payment for Developer's satisfactory performance of the services set forth in Schedule 1 hereto (the 'Technology Development Services'), DSS shall pay Developer the sum of US $23,000 per month, for the duration of the Term hereof, with payments to commence on March 1, 2018.
+- 1.1. Development License. Subject to the terms and conditions set forth herein, DSS hereby grants to Developer, and Developer accepts from DSS, for the Term, a non-exclusive, limited, and non-transferable license to install and use the Technology for the sole purpose of developing the Improvements (as defined hereunder) thereto for the benefit of DSS (the "Technology Development Services License").
+- 1.2. Development Fees . As payment for Developer's satisfactory performance of the services set forth in Schedule 1 hereto (the "Technology Development Services"), DSS shall pay Developer the sum of US $23,000 per month, for the duration of the Term hereof, with payments to commence on March 1, 2018.
 
-## 2. Term and Termination.
+## 2. Term and Termination .
 
-- 2.1. Term. The initial term of this Agreement shall commence on the Effective Date, and shall continue thereafter for a period of twelve (12) months (the 'Initial Term'). The Initial Term shall automatically renew for one-month periods thereafter unless either party provides 30days advance notice of termination, unless earlier terminated pursuant to Section 2.2 hereof. For purposes hereof, the Initial Term, together with any extension or renewal terms, shall hereinafter be collectively referred to as the 'Term'.
+- 2.1. Term. The initial term of this Agreement shall commence on the Effective Date, and shall continue thereafter for a period of twelve (12) months (the "Initial Term"). The Initial Term shall automatically renew for one-month periods thereafter unless either party provides 30days advance notice of termination, unless earlier terminated pursuant to Section 2.2 hereof. For purposes hereof, the Initial Term, together with any extension or renewal terms, shall hereinafter be collectively referred to as the "Term".
 
-## 2.2. Early Termination.
+## 2.2. Early Termination .
 
 - 2.2.1. Either party may terminate this Agreement prior to expiration of the Term: (i) upon thirty (30) days prior written notice, or (ii) immediately upon written notice to the other party if: (a) the other party declares or a petition is filed in any court for insolvency or bankruptcy and such petition is not dismissed in thirty (30) days; (b) the other party reorganizes under the relevant bankruptcy act or any similar statute in such party's jurisdiction of incorporation; (c) the other party consents to the appointment of a trustee in bankruptcy or a receiver or similar entity; or (d) the Developer breaches DSS's Technology or Intellectual Property rights contained herein.
 - 2.2.2. Upon the expiration or termination of this Agreement, (i) the Technology Development Services License granted to Developer hereunder shall immediately cease, and (ii) Developer shall immediately cease use of all proprietary technology files heretofore delivered by DSS and shall deliver to DSS all such proprietary files along with any and all Improvements completed to date by Developer.
 
-## 3. Proprietary Rights.
+## 3. Proprietary Rights .
 
 3.1. Subject to Developer's expressly granted rights under this Agreement, Developer acknowledges and agrees that DSS shall own all right, title, and interest in and to the Technology, the Improvements, its Intellectual Property, and all future derivative works derived therefrom or developed hereunder. Developer agrees that it will not at any time (i) do or cause to be done any act or thing contesting or in any way impairing any part of such right, title and interest or (ii) represent, expressly or by implication that it has any right, title or interest in or to any of the foregoing other than as expressly set forth herein.
 
@@ -38,17 +38,17 @@ Capitalized terms contained herein shall have the meanings ascribed to them here
 
 4. Definitions. For purposes of this Agreement, the following capitalized terms shall have the meanings set forth below.
 
-'Improvements' shall mean technical improvements, modifications or enhancements relating to the Technology that are developed by the Developer pursuant to this Agreement.
+" Improvements" shall mean technical improvements, modifications or enhancements relating to the Technology that are developed by the Developer pursuant to this Agreement.
 
-'Intellectual Property' shall mean, but shall not be limited to, all of DSS's (i) issued and pending patents, trademarks, trade names, service marks, designs, logos, and copyrights, and all pending applications for registration thereof; (ii) know-how, inventions, improvements, methods, operation manuals and procedures, trade secrets, technical information, formulas; (iii) computer software and programs, and related documentation, updates, and data, whether in object or source code form, and (vi) other similar proprietary and intellectual rights, whether or not registered.
+" Intellectual Property " shall mean, but shall not be limited to, all of DSS's (i) issued and pending patents, trademarks, trade names, service marks, designs, logos, and copyrights, and all pending applications for registration thereof; (ii) know-how, inventions, improvements, methods, operation manuals and procedures, trade secrets, technical information, formulas; (iii) computer software and programs, and related documentation, updates, and data, whether in object or source code form, and (vi) other similar proprietary and intellectual rights, whether or not registered.
 
-'Person' shall mean any individual, corporation, partnership, limited liability company, association, trust or any other entity or organization of any kind or character, including a governmental authority or agency.
+" Person" shall mean any individual, corporation, partnership, limited liability company, association, trust or any other entity or organization of any kind or character, including a governmental authority or agency.
 
-'Technology' shall collectively mean (i) DSS's proprietary AuthentiGuard® technology (including DSS's related patents and patent applications, inventions, software, trademarks, trade names, service marks, technology marks, designs, logos, copyrights, know-how, trade secrets and any other DSS owned intellectual property relating thereto), consisting of a unique application of the AuthentiGuard® patent coupled with next generation technology and software which enables and end-to-end brand protection solution for product authentication, counterfeit deterrence and data tracking via embedded customized technology marks with hidden codes placed in products which can be read an authenticated via an application loaded on various devices along with necessary hardware and DSS's portal, (ii) DSS's Prism Viewer technology comprised of a custom covert Prism image imbedded in a customer's products that is viewed and authenticated through the use of DSS's propriety smart phone application, and (iii) DSS's AuthentiSite technology suite comprised of an embedded digital Prism image coupled with a cloud-based security server and a smart phone verification application for website authentication.
+" Technology" shall collectively mean (i) DSS's proprietary AuthentiGuard® technology (including DSS's related patents and patent applications, inventions, software, trademarks, trade names, service marks, technology marks, designs, logos, copyrights, know-how, trade secrets and any other DSS owned intellectual property relating thereto), consisting of a unique application of the AuthentiGuard® patent coupled with next generation technology and software which enables and end-to-end brand protection solution for product authentication, counterfeit deterrence and data tracking via embedded customized technology marks with hidden codes placed in products which can be read an authenticated via an application loaded on various devices along with necessary hardware and DSS's portal, (ii) DSS's Prism Viewer technology comprised of a custom covert Prism image imbedded in a customer's products that is viewed and authenticated through the use of DSS's propriety smart phone application, and (iii) DSS's AuthentiSite technology suite comprised of an embedded digital Prism image coupled with a cloud-based security server and a smart phone verification application for website authentication.
 
-5. Confidentiality; Non-Disclosure. The parties acknowledge that they have entered into that certain Mutual Non-Disclosure Agreement dated as of January 18, 2018 (the 'NDA'), a copy of which is attached hereto as Exhibit A. The terms of the NDA shall be deemed to be incorporated by reference into this Agreement, mutatis mutandis. During the Term of this Agreement and thereafter for a period of five (5) years, the parties shall be bound by all of the protective terms and conditions of the NDA.
+5. Confidentiality; Non-Disclosure. The parties acknowledge that they have entered into that certain Mutual Non-Disclosure Agreement dated as of January 18, 2018 (the "NDA"), a copy of which is attached hereto as Exhibit A. The terms of the NDA shall be deemed to be incorporated by reference into this Agreement, mutatis mutandis. During the Term of this Agreement and thereafter for a period of five (5) years, the parties shall be bound by all of the protective terms and conditions of the NDA.
 
-## 6. Developer Liability.
+## 6. Developer Liability .
 
 6.1. Developer Liability for Damages. Developer shall be fully liable, without limitation, for money damages resulting from its improper or unauthorized use, modification, alteration, licensing or transfer of the Technology or Improvements, or resulting from its failure to provide functional and merchantable Improvements hereunder, which failure shall be deemed a material breach of this Agreement by Developer.
 
@@ -57,12 +57,12 @@ Capitalized terms contained herein shall have the meanings ascribed to them here
 - 7.1. Power and Authority. DSS represents and warrants that it has the right, power and authority to enter into this Agreement and that the signatory on behalf of such party to this Agreement has full authority to enter into and bind the party to the obligations set forth in this Agreement.
 - 7.2. Right to Technology. DSS represents and warrants to Developer (i) that the Technology is the sole and exclusive property of DSS (ii) that DSS possesses all legal right, title and interest in and to the Technology necessary to grant Developer the rights provided herein, and (iii) that nothing contained in this Agreement conflicts with any other obligation or agreement of DSS.
 
-## 8. Developer's Representations, Warranties and Covenants.
+## 8. Developer's Representations, Warranties and Covenants .
 
-- 8.1            Power and Authority. Developer represents and warrants that it has the right, power and authority to enter into this Agreement and that the signatory on behalf of such party to this Agreement has full authority to enter into and bind the party to the obligations set forth in this Agreement.
-- 8.2            Reverse Engineering. Developer covenants that it shall not attempt, directly or indirectly, during the term of this Agreement or at any time thereafter, (i) to reverse engineer, by any means whatsoever, the Technology or other Intellectual Property provided to Developer hereunder, for any unauthorized purpose, and further acknowledges that such Technology and Intellectual Property has been provided hereunder by DSS solely for the purpose of enabling Developer to fully perform its legal duties and obligations hereunder, (ii) to forensically, graphically or otherwise physically analyze the Technology or Intellectual Property provided to Developer hereunder for any unauthorized purpose, or (iii) to compile/assemble, decrypt, or create any derivative works based upon the Technology or Intellectual Property of DSS, for any unauthorized purpose. Any violation of this clause shall be deemed a material breach of this Agreement by the Developer.
+- 8.1 Power and Authority. Developer represents and warrants that it has the right, power and authority to enter into this Agreement and that the signatory on behalf of such party to this Agreement has full authority to enter into and bind the party to the obligations set forth in this Agreement.
+- 8.2 Reverse Engineering. Developer covenants that it shall not attempt, directly or indirectly, during the term of this Agreement or at any time thereafter, (i) to reverse engineer, by any means whatsoever, the Technology or other Intellectual Property provided to Developer hereunder, for any unauthorized purpose, and further acknowledges that such Technology and Intellectual Property has been provided hereunder by DSS solely for the purpose of enabling Developer to fully perform its legal duties and obligations hereunder, (ii) to forensically, graphically or otherwise physically analyze the Technology or Intellectual Property provided to Developer hereunder for any unauthorized purpose, or (iii) to compile/assemble, decrypt, or create any derivative works based upon the Technology or Intellectual Property of DSS, for any unauthorized purpose. Any violation of this clause shall be deemed a material breach of this Agreement by the Developer.
 
-## 9. Miscellaneous.
+## 9. Miscellaneous .
 
 - 9.1. Assignment. Developer may not assign or transfer this Agreement, nor its rights and obligations hereunder, by operation of law or otherwise, to any third party without the prior express written approval of DSS. Any purported assignment without the consent of DSS shall be void. The provisions of this Agreement shall be binding upon, and shall inure to, the benefit of the parties, their legal representatives, permitted successors and permitted assigns. The rights of Developer under this Agreement shall immediately cease and be terminated upon the sale or transfer of all or substantially all of the assets of Developer unless an assignment of such rights pursuant to such sale or transfer has been previously approved in writing by DSS. The rights of Developer under this Agreement shall immediately cease and be terminated upon the sale or transfer of no less than a majority of, or a controlling interest in or over, the voting capital or ownership capital of Developer unless an assignment of such rights pursuant to such sale or transfer has been previously approved in writing by DSS.
 - 9.2. Remedies Cumulative; Waiver. The rights and remedies provided in this Agreement, and all other rights and remedies available to either party at law or in equity are, to the extent permitted by law, cumulative and not exclusive of any other right or remedy now or hereafter available at law or in equity. A party's failure to assert any right or remedy shall not constitute a waiver of that right or remedy. No waiver by either party of any default shall be deemed as a waiver of prior or subsequent default of the same or other provisions of this Agreement.
@@ -75,29 +75,18 @@ Capitalized terms contained herein shall have the meanings ascribed to them here
 
 9.8. Notice. All notices sent under this Agreement shall be in writing and shall be deemed effectively given (i) upon personal delivery to the party to be notified; (ii) when sent by e-mail PDF or confirmed facsimile, if sent during normal business hours of the recipient, if not, then on the next business day; (iii) three (3) days after having been sent by registered or certified mail, return receipt requested, postage prepaid; or (iv) two (2) days after deposit with an internationally recognized overnight courier, specifying two (2) day delivery, with written verification of receipt. Notices shall be sent to the Parties at the following addresses or fax numbers or such other addresses or fax numbers as the parties subsequently may provide in accordance with this Section 9.8:
 
-| If to DSS:                      | With e-mail PDF copy to:                       |
-|---------------------------------|------------------------------------------------|
-| Document Security Systems, Inc. | Document Security Systems, Inc.                |
-| 200 Canal View Blvd., Suite 300 | 200 Canal View Blvd., Suite 300                |
-| Rochester, New York 14623       | Rochester, New York 14614                      |
-| USA                             | USA                                            |
-| Attn: Chief Executive Officer   | Attn: General Counsel (jdangelo@dsssecure.com) |
-| If to Developer:                | With a copy to:                                |
-| HotApp International Ltd.       |                                                |
-| 17B, Greatmany Centre           |                                                |
-| 109-111 Queen's Road East       |                                                |
-| Hong Kong                       |                                                |
-| Attn: Chief Executive Officer   |                                                |
+| If to DSS:  Document Security Systems, Inc. 200 Canal View Blvd., Suite 300 Rochester, New York 14623 USA Attn: Chief Executive Officer  With e-mail PDF copy to:  Document Security Systems, Inc. 200 Canal View Blvd., Suite 300 Rochester, New York 14614 USA Attn: General Counsel (jdangelo@dsssecure.com)  If to Developer:  HotApp International Ltd. 17B, Greatmany Centre 109-111 Queen’s Road East Hong Kong Attn: Chief Executive Officer  With a copy to:   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 9.9. Force Majeure. Notwithstanding any provision herein, the parties may be discharged from all liabilities if the failure to perform or improper performance of this Agreement is the result of Force Majeure, provided that the party subject to the Force Majeure provides notice of such Force Majeure, as soon as possible after such party became subject to such Force Majeure.
 
 9.10. Governing Law; Jurisdiction. This Agreement shall be governed in accordance with the laws of the State of New York without regard to conflict of laws principles. It is hereby irrevocably agreed that legal jurisdiction and venue for any proceeding arising out of this Agreement shall be in the state or federal courts located in the County of Monroe, State of New York, United States.
 
-9.11. Entire Agreement. This Agreement and the Schedules and Exhibits hereto contain the entire agreement between the parties with respect to the transactions described herein, and supersede all prior agreements, written or oral, with respect thereto, provided, however, that notwithstanding any provision herein, the NDA shall remain in full force and effect.
+9.11. Entire Agreement. This Agreement and the Schedules and Exhibits hereto contain the entire agreement between the parties with respect to the transactions described herein, and supersede all prior agreements, written or oral, with respect thereto, provided , however, that notwithstanding any provision herein, the NDA shall remain in full force and effect.
 
 9.12. Counterparts; Facsimile Signatures. This Agreement may be executed in counterparts, each of which shall be deemed to be original but all of which together shall constitute a single instrument. The signatures required for execution may be transmitted electronically to the other party via e-mail PDF, and such signatures shall be deemed original signatures.
 
-[Remainder of Page Intentionally Left Blank - Signature Page Follows]
+[Remainder of Page Intentionally Left Blank – Signature Page Follows]
 
 IN WITNESS WHEREOF, the parties hereto have caused this Agreement to be executed by their respective duly authorized officers as of the date first set forth above.
 
@@ -125,7 +114,7 @@ Title: Chief Executive Officer
 
 ## Technology Development Services
 
-Deliverables from March 1 st  to May 31 st
+Deliverables from March 1st to May 31st
 
 1. To conduct thorough testing of AuthentiGuard App for specificclients provided by DSS for every releases in Android and iOS as instructed by DSS.
 2. To development Android Mobile App for core scanning modulewith improvement of scanning accuracy for major Android Phones (Samsung S7, S8 in particular)
@@ -133,6 +122,12 @@ Deliverables from March 1 st  to May 31 st
 4. To establish the standard testing procedure for all clients AuthentiGuard Mobile App testing
 5. To develop Proof of Concept for AuthentiSite
 
-Note: Detail Scope of Work to be agreed during the meeting with HotApp on March 20-24 th , 2018.
+Note: Detail Scope of Work to be agreed during the meeting with HotApp on March 20-24th, 2018.
 
 Deliverable for subsequent 3 months will be mutually agreed by end of May.
+
+## EXHIBIT A
+
+## MUTAL NON-DISCLOSURE AGREEMENT
+
+(Attached)

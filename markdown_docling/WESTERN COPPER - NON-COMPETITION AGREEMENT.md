@@ -2,37 +2,35 @@
 
 ## NON COMPETITION AGREEMENT AND RIGHT OF FIRST OFFER
 
-THIS AGREEMENT
-
-is dated May 3,2006.
+THIS AGREEMENT is dated May 3,2006.
 
 ## BETWEEN:
 
-GLAMIS GOLD LTD., a company incorporated under the laws of the Province of British Columbia, having an office at 310-5190 Neil Road, Reno, Nevada 89502
+GLAMIS GOLD LTD., a company incorporated under the laws ofthe Province of British Columbia, having an office at 310-5190 Neil Road, Reno, Nevada 89502
 
-('Glam is')
+(“Glamis ” )
 
 ## AND:
 
 WESTERN COPPER CORPORATION, a company incorporated under the laws of the Province of British Columbia, having an office at 2050-1111 West Georgia Street, Vancouver. B.C. V6E 4M3
 
-('Western Copper')
+( “ Western Copper ” )
 
 ## WHEREAS:
 
-- (A) Glamis, Western Copper and Western Silver Corporation ('Western Silver') are parties to an arrangement agreement dated as of February 23, 2006 (the 'Arrangement Agreement'), pursuant to which, among other things, Western Copper will acquire certain assets of Western Silver and Glamis will become the sole shareholder of Western Silver and the indirect owner, through Western Silver, of certain corporations and mineral properties in Mexico (the 'Arrangement'); and
+- (A) Glamis, Western Copper and Western Silver Corporation ( " Western Silver " ) are parties to an arrangement agreement dated as of February 23, 2006 (the " Arrangement Agreement " ), pursuant to which, among other things, Western Copper will acquire certain assets of Western Silver and Glamis will become the sole shareholder of Western Silver and the indirect owner, through Western Silver, of certain corporations and mineral properties in Mexico (the " Arrangement " ); and
 - (B) It is an obligation under the Arrangement Agreement that Western Copper agree not to compete with Glamis in certain areas of Mexico and that Glamis grant Western Copper a right of first offer with respect to the proposed disposition by Glamis of mineral properties or legal interests therein located in Mexico that Glamis acquired under the Arrangement.
 
-NOW THEREFORE TIHS AGREEMENT WITNESSES that in consideration of the mutual covenants and agreements contained herein and other good and valuable consideration, the receipt and sufficiency of which is hereby acknowledged, the parties hereto covenant and agree as follows: (Scheme B. mca)
+NOW THEREFORE TIHS AGREEMENT WITNESSES that in consideration ofthe mutual covenants and agreements contained herein and other good and valuable consideration, the receipt and sufficiency of which is hereby acknowledged, the parties hereto covenant and agree as follows: (Scheme B. mca)
 
 ## Definitions
 
 - 1.1 In this Agreement, including the recitals, except as expressly provided or unless the context otherwise requires,
-- (a) Affiliate means, in respect of a party hereto, a corporation which is the subsidiary of the party or vice versa or where each of the party and the corporation is controlled by the same person,
+- (a) Affiliate means, in respect of a party hereto, a corporation which is the subsidiary ofthe party or vice versa or where each ofthe party and the corporation is controlled by the same person,
 - (b) Area of Non-Competition means the State of Zacatecas, Mexico and the area extending 20 kilometers in all directions from the external boundary of each mineral property owned or controlled by Western Silver or in which Western Silver holds any legal interest, in Mexico, as at the Effective Date,
 - (c) Business Day means a day which is not a Saturday, Sunday or a civic or statutory holiday in Reno, Nevada and Vancouver, British Columbia,
 - (d) Closing means the completion of the transactions contemplated by the Arrangement Agreement,
-- (e) Designated Mineral Property means a mineral property or individual mineral concession within a mineral property, that is owned or controlled by Western Silver or in which Western Silver holds any legal interest in Mexico as of the Effective Date,
+- (e) Designated Mineral Property means a mineral property or individual mineral concession within a mineral property, that is owned or controlled by Western Silver or in which Western Silver holds any legal interest in Mexico as ofthe Effective Date,
 - (f) Effective Date means May 3, 200ri or such later date as determined under the Arrangement Agreement,
 - (g) Mining Activities means any acquisition of mineral rights or any mineral exploration or development activities, in any manner whatsoever, and
 - (h) Person means an individual, corporation, body corporate, firm, limited liability company, parmership, syndicate, joint venture, society, association, trust or unincorporated organization.
@@ -40,7 +38,7 @@ NOW THEREFORE TIHS AGREEMENT WITNESSES that in consideration of the mutual coven
 ## Interpretation
 
 - 1.2 In this Agreement, except as otherwise expressly provided or unless the context otherwise requires,
-- (a) the terms 'this Agreement', 'hereof', 'herein', 'hereunder' and similar expressions refer to this Agreement as from time to time supplemented or amended by one or more agreements entered into pursuant to the applicable provisions of this Agreement and not to any particular section or other portion,
+- (a) the terms " this Agreement " , " hereof' f' , " herein " , "hereunder " and similar expressions refer to this Agreement as from time to time supplemented or amended by one or more agreements entered into pursuant to the applicable provisions of this Agreement and not to any particular section or other portion,
 
 ## PART I
 
@@ -48,11 +46,11 @@ NOW THEREFORE TIHS AGREEMENT WITNESSES that in consideration of the mutual coven
 
 i 162967.3
 
-(b) a reference to a Part means a Part of this Agreement and the symbol § followed by a number or some combination of numbers and letters refers to the provision of this Agreement so designated and the symbol § followed by a letter within a provision refers to a clause within such provision,
+(b) a reference to a Part means a Part ofthis Agreement and the symbol § followed by a number or some combination of numbers and letters refers to the provision of this Agreement so designated and the symbol § followed by a letter within a provision refers to a clause within such provision,
 
-(c) the headings used in this Agreement are for convenience only and do not form a part of this Agreement and are not intended to interpret, define or limit the scope, extent or intent of this Agreement or any provision hereof,
+(c) the headings used in this Agreement are for convenience only and do not form a part ofthis Agreement and are not intended to interpret, define or limit the scope, extent or intent ofthis Agreement or any provision hereof,
 
-(d) the word 'including', when following any general statement, term or matter, is not to be construed to limit such general statement, term or matter to the specific items or matters set forth immediately following such word or to similar items or matters, whether or not non-limiting language (such as "without limitation' or 'but not limited to' or words of similar import) is used with reference thereto, but rather is to be construed to permit such general statement, term or matter to refer to all other items or matters that could reasonably fall within its broadest possible scope,
+(d) the word " including " , when following any general statement, term or matter, is not to be construed to limit such general statement, term or matter to the specific items or matters set forth immediately following such word or to similar items or matters, whether or not non-limiting language (such as "without limitation " or " but not limited to " or words ofsimilar import) is used with reference thereto, but rather is to be construed to permit such general statement, term or matter to refer to all other items or matters that could reasonably fall within its broadest possible scope,
 
 (c) if any date on which any action is required to be taken hereunder by any of the parties is not a Business Day, such action will be required to be taken on the next succeeding day which is a Business Day. and
 
@@ -60,7 +58,7 @@ i 162967.3
 
 ## Subsidiaries and Affiliates
 
-1.3 Bach of the parties hereto agree that all of their covenants, agreements and obligations hereunder shall extend to and be binding upon and may be enforced against any and all of their respective subsidiaries and other Affiliates, as well as against the parties themselves, as the case may be, and that the names of Glamis and Western Copper will herein be deemed to refer collectively to Glamis and all of its subsidiaries and other Affiliates and to Western Copper and all of its subsidiaries and other Affiliates, respectively.
+1.3 Bach of the parties hereto agree that all of their covenants, agreements and obligations hereunder shall extend to and be binding upon and may be enforced against any and all oftheir respective subsidiaries and other Affiliates, as well as against the parties themselves, as the case may be, and that the names ofGlamis and Western Copper will herein be deemed to refer collectively to Glamis and all of its subsidiaries and other Affiliates and to Western Copper and all ofits subsidiaries and other Affiliates, respectively.
 
 ## PART 2
 
@@ -68,33 +66,33 @@ i 162967.3
 
 ## Non-Competition by Western Copper
 
-2.1 Western Copper covenants and agrees with Glamis that, for a period of 2 years after the Effective Date, it will not, directly or indirectly, either individually or in partnership or jointly or in conjunction with any Person, which will include being a principal, agent, shareholder, or advisor of such Person or in any other manner whatsoever,
+2.1 Western Copper covenants and agrees with Glamis that, for a period of 2 years after the Effective Date, it will not, directly or indirectly, either individually or in partnership or jointly or in conjunction with any Person, which will include being a principal, agent, shareholder, or advisor ofsuch Person or in any other manner whatsoever,
 
 - (a) carry on or be engaged in Mining Activities, or
 
 (b) advise, lend money to, guarantee the debts or obligations of or permit its name to be used by any Person who carries on or is engaged in Mining Activities,
 
-in the Area of Non-Competition.
+in the Area ofNon-Competition.
 
-## Right of First Offer
+## Right ofFirst Offer
 
-2.2 Glamis covenants and agrees with Western Copper that if at any time it intends to dispose of a Designated Mineral Property for cash consideration or by abandonment, it will give Western Copper notice (the ' Disposition Notice') of the intended disposition. For a period of 30 days from the time of delivery of the Disposition Notice Glamis will, if requested by Western Silver, entertain an offer from Western Copper to acquire the Designated Mineral Property. In the ease of a Designated Mineral Property that Glamis intends to dispose of for cash consideration, the parties will negotiate in good faith to reach a mutually agreeable agreement for the sale to Western Copper of the [Designated Mineral Property. If Glamis and Western Copper are unable to negotiate an acceptable agreement with respect to the Designated Mineral Property within the 30 day period, Glamis may thereafter dispose of the Designated Mineral Property as it sees til in its absolute discretion. If Glamis does not dispose of the Designated Mineral Property within a period of 3 months from the first to occur of the date that Glamis and Western Copper acknowledge failure to negotiate an acceptable agreement with respect to the Designated Mineral Property and the end of the 30 day period, the provisions of this section 2.2 will once again apply to any intended disposition of the Designated Mineral Property by Glamis. In the case of a Designated Mineral Property that Glamis intends to abandon, Glamis wall, if requested by Western Copper, transfer such Designated Mineral Property to Western Copper at no cost save and except for the reasonable costs of transfer incurred by Glamis.
+2.2 Glamis covenants and agrees with Western Copper that if at any time it intends to dispose of a Designated Mineral Property for cash consideration or by abandonment, it will give Western Copper notice (the ' Disposition Notice " ) of the intended disposition. For a period of 30 days from the time of delivery ofthe Disposition Notice Glamis will, ifrequested by Western Silver, entertain an offer from Western Copper to acquire the Designated Mineral Property. In the ease of a Designated Mineral Property that Glamis intends to dispose of for cash consideration, the parties will negotiate in good faith to reach a mutually agreeable agreement for the sale to Western Copper ofthe [Designated Mineral Property. If Glamis and Western Copper are unable to negotiate an acceptable agreement with respect to the Designated Mineral Property within the 30 day period, Glamis may thereafter dispose ofthe Designated Mineral Property as it sees til in its absolute discretion. If Glamis does not dispose ofthe Designated Mineral Property within a period of 3 months from the first to occur ofthe date that Glamis and Western Copper acknowledge failure to negotiate an acceptable agreement with respect to the Designated Mineral Property and the end ofthe 30 day period, the provisions of this section 2.2 will once again apply to any intended disposition of the Designated Mineral Property by Glamis. In the case of a Designated Mineral Property that Glamis intends to abandon, Glamis wall, if requested by Western Copper, transfer such Designated Mineral Property to Western Copper at no cost save and except for the reasonable costs oftransfer incurred by Glamis.
 
 ## PARTS
 
 ## ENFORCEMENT
 
-## Glamis' Remedies for Breach
+## Glamis ' Remedies for Breach
 
-3.1 Western Copper acknowledges and agrees that a breach of its covenants contained in this Agreement would result in damage to Glamis that could not adequately be compensated for by monetary award alone, Accordingly, Western Copper agrees that in the event of any such breach, in addition to any other remedies available to Glamis at law or otherwise, Glamis will be entitled, as a matter of right and without the need to prove damage, to apply to a court of competent jurisdiction for relief by way of injunction, restraining order, decree or otherwise as may be appropriate to ensure compliance by Western Copper with the provisions of this Agreement and to restrain any breach of this Agreement by Western Copper, Any remedy expressly set forth in this §3.1 wall be in addition to and not inclusive of or dependent upon the exercise of any other remedy available to Glamis at law or otherwise.
+3.1 Western Copper acknowledges and agrees that a breach ofits covenants contained in this Agreement would result in damage to Glamis that could not adequately be compensated for by monetary award alone, Accordingly, Western Copper agrees that in the event of any such breach, in addition to any other remedies available to Glamis at law or otherwise, Glamis will be entitled, as a matter of right and without the need to prove damage, to apply to a court of competent jurisdiction for relief by way of injunction, restraining order, decree or otherwise as may be appropriate to ensure compliance by Western Copper with the provisions of this Agreement and to restrain any breach of this Agreement by Western Copper, Any remedy expressly set forth in this §3.1 wall be in addition to and not inclusive of or dependent upon the exercise of any other remedy available to Glamis at law or otherwise.
 
-## Western Copper's Remedies for Breach
+## Western Copper ' s Remedies for Breach
 
 3.2 Glamis acknowledges and agrees that a breach of its covenants contained in this Agreement would result in damage to Western Copper that could not adequately be compensated
 
 1162967.3
 
-ibr by monetary award alone. Accordingly, Glamis agrees that in the event of any such breach, in addition to any other remedies available to Western Copper at law or otherwise, Western Copper will be entitled, as a matter of right and without the need to prove damage, to apply to a court of competent jurisdiction for relief by way of injunction, restraining order, decree or otherwise as may be appropriate to ensure compliance by Glamis with the provisions of this Agreement and to restrain any breach of this Agreement by Glamis. Any remedy expressly set forth in this §3.2 will be in addition to and not inclusive of or dependent upon the exercise of any other remedy available to Western Copper at law or otherwise
+ibr by monetary award alone. Accordingly, Glamis agrees that in the event of any such breach, in addition to any other remedies available to Western Copper at law or otherwise, Western Copper will be entitled, as a matter ofright and without the need to prove damage, to apply to a court of competent jurisdiction for relief by way of injunction, restraining order, decree or otherwise as may be appropriate to ensure compliance by Glamis with the provisions of this Agreement and to restrain any breach of this Agreement by Glamis. Any remedy expressly set forth in this §3.2 will be in addition to and not inclusive ofor dependent upon the exercise of any other remedy available to Western Copper at law or otherwise
 
 ## Restrictions Reasonable
 
@@ -104,57 +102,49 @@ ibr by monetary award alone. Accordingly, Glamis agrees that in the event of any
 
 3.4 No remedy provided for in this Agreement is intended to be exclusive of any other remedy and each such remedy will be cumulative and will be in addition to every other remedy given hereunder or available at law or in equity,
 
-## Western Copper's Right of Termination
+## Western Copper ' s Right ofTermination
 
 3.5 W'estem Copper may, at its option, terminate this Agreement by written notice to Glamis, effective immediately upon delivery of the notice, should Glamis cease conducting business in the normal course, become insolvent, make a general assignment for the benefit of creditors, suffer or permit the appointment of a receiver for its business or assets or avail itself of, or become subject to, any proceedings under the Bankruptcy and Insolvency Act (Canada) or any other statute of any province or state relating to insolvency or the protection of rights of creditors.
 
-## Glamis' Right of TerminaHon
+## Glamis ' Right ofTerminaHon
 
 3.6 Glamis may, at its option, terminate this Agreement by written notice to Western Copper, effective immediately upon delivery of the notice, should Western Copper cease conducting business in the normal course, become insolvent, make a general assignment for the benefit of creditors, suffer or permit the appointment of a receiver for its business or assets or avail itself of, or become subject to, any proceedings under the Bankruptcy and Insolvency Act (Canada) or any other statute of any province or state relating to insolvency or the protection of rights of creditors.
 
-1 ! 62967.3
+1!62967.3
 
 ## Time of Essence
 
-4.1
-
-Time is of the essence in the performance of all obligations under this Agreement.
+4.1 Time is ofthe essence in the performance of all obligations under this Agreement.
 
 ## Notices
 
+## PART4
+
+## GENERAL PROVISIONS
+
 - (a) Any notice or other communication required or permitted to be delivered pursuant to this Agreement will be deemed to have been well and sufficiently given if in writing and delivered or transmitted by facsimile addressed as follows:
-- (i) if to Glamis:
+- (i) ifto Glamis:
 
 Suite 310-5190 Neil Road Reno, Nevada 89502
 
-Telecopier:
+Telecopier: (775) 827-5044
 
-(775) 827-5044
+Attention: Charles A. Jeannes
 
-Attention:
-
-Charles A. Jeannes
-
-- (ii) if to Western Copper:
+- (ii) ifto Western Copper:
 
 Suite 2050-1111 West Georgia Street Vancouver, B.C, V6E 4M3
 
-Telecopier:
-
-(604) 669-2926
+Telecopier: (604) 669-2926
 
 Attention:
 
 F. Dale Corman
 
-- (b) Any such notice, direction or other instrument, whether delivered or transmitted by facsimile transmission, will be deemed to have been given at the time and on the date on which it was delivered to or received in the office of the addressee, as the case may be, if delivered or transmitted prior to 5:00 p.m. (Pacific time) on a Business Day or at 9:00 a.m. (Pacific time) on the next succeeding Business Day if delivered or transmitted subsequent to such time;
+- (b) Any such notice, direction or other instrument, whether delivered or transmitted by facsimile transmission, will be deemed to have been given at the time and on the date on which it was delivered to or received in the office ofthe addressee, as the case may be, if delivered or transmitted prior to 5:00 p.m. (Pacific time) on a Business Day or at 9:00 a.m. (Pacific time) on the next succeeding Business Day if delivered or transmitted subsequent to such time;
 - (c) Either party hereto may change its address for service from time to time by notice given to the other party hereto in accordance with the foregoing; and
-- (d) Any notice, direction or other instrument delivered under this Agreement will be signed by one or more duly authorized officers of the party delivering it.
+- (d) Any notice, direction or other instrument delivered under this Agreement will be signed by one or more duly authorized officers ofthe party delivering it.
 - 4.2 The delivery of any notice, direction or other instrument, or a copy thereof, to a party hereunder will be deemed to constitute the representation and warranty of the party who has delivered it to the other party that such delivering party' is authorized to deliver such notice, direction or other instrument at such time under this Agreement (unless the receiving party has
-
-## PART4
-
-## GENERAL PROVISIONS
 
 actual knowledge lo the contrary) and the receiving party will not be required to make any inquiry to confirm such authority.
 
@@ -164,7 +154,7 @@ actual knowledge lo the contrary) and the receiving party will not be required t
 
 ## Amendments
 
-- 4.4 No alteration or amendment of this Agreement will lake effect unless the same is in writing duly executed by each of the parties in the same manner as this Agreement.
+- 4.4 No alteration or amendment ofthis Agreement will lake effect unless the same is in writing duly executed by each ofthe parties in the same manner as this Agreement.
 
 ## Waiver
 
@@ -172,7 +162,7 @@ actual knowledge lo the contrary) and the receiving party will not be required t
 
 ## Further Assurances
 
-- 4.6 Each party hereto covenants and agrees with each other party hereto that it will at all times hereafter execute and deliver, at the request of the other, all such further documents, deeds and instruments, and will do and perform all such acts as may be necessary to give full effect to the intent and meaning of this Agreement.
+- 4.6 Each party hereto covenants and agrees with each other party hereto that it will at all times hereafter execute and deliver, at the request of the other, all such further documents, deeds and instruments, and will do and perform all such acts as may be necessary to give full effectto the intent and meaning ofthis Agreement.
 
 ## Successors and Assigns
 
@@ -180,11 +170,11 @@ actual knowledge lo the contrary) and the receiving party will not be required t
 
 ## Governing Law and Attornment
 
-- 4.8 This Agreement will be governed exclusively by and construed in accordance with the laws of the Province of British Columbia, and the parties attorn to the exclusive jurisdiction of the Courts of British Columbia.
+- 4.8 This Agreement will be governed exclusively by and construed in accordance with the laws of the Province of British Columbia, and the parties attorn to the exclusive jurisdiction ofthe Courts ofBritish Columbia.
 
 ## Severability
 
-- 4.9 The parties covenant and agree that if any part of this Agreement is determined to be void or unenforceable, such determination will not be deemed to affect or impair the validity of any other part of this Agreement.
+- 4.9 The parties covenant and agree that if any part ofthis Agreement is determined to be void or unenforceable, such determination will not be deemed to affect or impair the validity of any other part ofthis Agreement.
 
 ## Termination
 

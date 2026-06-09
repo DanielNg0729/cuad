@@ -6,9 +6,9 @@ Effective Dates: September 1, 2006, August 31, 2007
 
 Watchit agrees to provide Oceanic Time Warner Cable the following content:
 
-- Watchit Gaming Guides
+- – Watchit Gaming Guides
 
-- Lunchtime with Ira segments every week
+- – Lunchtime with Ira segments every week
 
 Watchit will provide the content on BetaSp format and reserves the right to modify the content to reflect sponsorship by an advertiser and advertisers.
 
@@ -18,9 +18,9 @@ Oceanic Time Warner Cable will use the content solely on channel 777,
 
 In the event that Oceanic Time Warner Cable removes the above content and or terminates this agreement prior to December 31, 2006, Oceanic Time Warner Cable agrees to pay a cancellation fee of Five Thousand Dollars ($5,000) per month multiplied by the number of months remain on the agreement.
 
-Watchit shall have the exclusive right to sell third party advertising as sponsors of their content and will have the right to brand the content under the Watchit brand and place a 'bug' on the screen identifying the content with a Watchit trademark.
+Watchit shall have the exclusive right to sell third party advertising as sponsors of their content and will have the right to brand the content under the Watchit brand and place a “bug” on the screen identifying the content with a Watchit trademark.
 
-Oceanic Time Warner Cable will include the following disclaimer on the Watchit Content: 'The materials shown are for entertainment purposes only and does not provide any guarantees of winning or improving your odds of winning on this program. The rules of the games as shown may not apply to all properties and may change from time to time.'
+Oceanic Time Warner Cable will include the following disclaimer on the Watchit Content: “The materials shown are for entertainment purposes only and does not provide any guarantees of winning or improving your odds of winning on this program. The rules of the games as shown may not apply to all properties and may change from time to time.”
 
 Ocean Time Warner Cable will provide Watchit with data on viewership to both Channel 777 and specifically to the content provided by Watchit.
 

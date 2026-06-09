@@ -1,18 +1,18 @@
 # EMERALDHEALTHTHERAPEUTICSINC_06_10_2020-EX-4.5-CONSULTING AGREEMENT - DR. GAETANO MORELLO N.D. INC.
 
-AND:
+## CONSULTING AGREEMENT -DR. GAETANO MORELLO N.D. INC.
 
-## CONSULTING AGREEMENT - DR. GAETANO MORELLO N.D. INC.
-
-THIS AGREEMENT made effective the 10 day of January 2019 (the 'Effective Date'),
+THIS AGREEMENT made effective the 10 day of January 2019 (the "Effective Date"),
 
 BETWEEN:
 
-EMERALD HEALTH NATURALS, INC. , a company having its registered and records office at 7860 Venture Street, Burnaby, BC V5A 1V3
+AND:
 
-('Emerald' or the 'Company')
+EMERALD HEALTH NATURALS, INC., a company having its registered and records office at 7860 Venture Street, Burnaby, BC V5A 1V3
 
-DR. GAETANO MORELLO N.D. INC. , Businessperson, having an office at 2975 East 4th Avenue, Vancouver, B.C. V5M 1L1
+("Emerald" or the "Company")
+
+DR. GAETANO MORELLO N.D. INC., Businessperson, having an office at 2975 East 4th Avenue, Vancouver, B.C. V5M 1L1
 
 (the "Contractor")
 
@@ -27,7 +27,7 @@ IN CONSIDERATION of the mutual agreements in this Agreement and subject to the t
 ## 2. Scope of Engagement
 
 - 2.1 Position. The Company hereby engages the Contractor as an independent contractor and the Contractor hereby agrees to such engagement.
-- 2.2  Services. The Company engages the Contractor to fulfill the services (the 'Services') as described on Schedule 'B' on the terms and conditions of this Agreement. The Services may be replaced, amended, superseded, or supplemented from time to time by agreement between the Company and the Contractor.
+- 2.2 Services. The Company engages the Contractor to fulfill the services (the "Services") as described on Schedule "B" on the terms and conditions of this Agreement. The Services may be replaced, amended, superseded, or supplemented from time to time by agreement between the Company and the Contractor.
 - 2.3 Reporting and Oversight Responsibility. The Contractor will report to and take instructions from Avtar Dhillon, President and Executive Chair.
 - 2.4 Commitment of the Contractor. The Contractor will devote sufficient time and attention to the business and affairs of Emerald to provide the Services, use his or her best efforts to promote the interests of Emerald, and will carry out his or her Services honestly, in good faith and in the best interests of Emerald.
 - 2.5 Not Employment. The parties acknowledge and agree that the relationship created by operation of this Agreement is not an employment relationship.
@@ -36,7 +36,7 @@ IN CONSIDERATION of the mutual agreements in this Agreement and subject to the t
 
 - 3.1 Fee. The Company will pay to the Contractor an annual fee (the "Fee") of $240,000. per year plus plus GST and applicable taxes, if any.
 
-3.2  Reimbursement of Expenses. Emerald will reimburse the Contractor for all reasonable expenses incurred in the performance of his or her Services, provided that the Contractor provides a written expense account in a form satisfactory to the Lead Director of the Company.
+3.2 Reimbursement of Expenses. Emerald will reimburse the Contractor for all reasonable expenses incurred in the performance of his or her Services, provided that the Contractor provides a written expense account in a form satisfactory to the Lead Director of the Company.
 
 3.3 Deductions and Remittances. Emerald shall not be obliged to deduct or retain from the Fees due to the Contractor, nor shall it be obliged to remit same to the required governmental authority, any amounts that may be required by law or regulation to be deducted, retained and remitted including, without limitation, Federal and Provincial or State Income Tax, Workers' Compensation and Pension Plan deductions and remittances. All such remittances and other payments are entirely the responsibility of the Contractor and the Contractor hereby indemnifies and saves Emerald and its Board members and officers harmless from any liability of any kind whatsoever that they may incur as a result of the Contractor's failure to make such remittances or payments.
 
@@ -44,19 +44,19 @@ IN CONSIDERATION of the mutual agreements in this Agreement and subject to the t
 
 ## 4. Secondment
 
-4.1 Although the Contractor is being hired as an independent contractor to Emerald, it is acknowledged and agreed that the Contractor will generally best promote the interests of Emerald by being seconded, or providing material advice and support, to one or more of Emerald's subsidiaries, Affiliates or associates (the 'Portfolio Companies').
+4.1 Although the Contractor is being hired as an independent contractor to Emerald, it is acknowledged and agreed that the Contractor will generally best promote the interests of Emerald by being seconded, or providing material advice and support, to one or more of Emerald's subsidiaries, Affiliates or associates (the "Portfolio Companies").
 
 4.2 While the Contractor is seconded to Portfolio Company, the Contractor may be paid his or her Fee in whole or in part by such Portfolio Company, at the discretion of Emerald.
 
 ## 5. Term and Termination
 
-5.1 Term. The term of this Agreement shall commence on January 10th, 2019 and shall expire on the day that is twenty-four (24) months from that date (the " Term of Engagement ") unless terminated earlier in accordance with this Agreement. The parties may mutually agree to extend this Agreement in writing and all terms and conditions hereof shall remain in effect during any extension unless the parties agree otherwise.
+5.1 Term. The term of this Agreement shall commence on January 10th, 2019 and shall expire on the day that is twenty-four (24) months from that date (the "Term of Engagement") unless terminated earlier in accordance with this Agreement. The parties may mutually agree to extend this Agreement in writing and all terms and conditions hereof shall remain in effect during any extension unless the parties agree otherwise.
 
 5.2 Contractor's Right to Terminate Agreement for any Reason. The Contractor may terminate this Agreement and his or her engagement for any reason at any time upon providing 30 days advance notice in writing to Emerald. Termination will be effective, at Emeralds' election, on a date which is no earlier than the date such notice is received and no later than the date which is 30 days following that date.
 
 5.3 Emeralds' Right to Terminate this Agreement for Cause. The Company may terminate this Agreement and the Contractor's engagement for Cause at any time on written notice to the Contractor. The date of termination will be the date specified in the written notice and may be, in the sole discretion of the Company, the same day the notice is given to the Contractor, or such later date as the Company may decide.
 
-5.4  Emeralds' Right to Terminate this Agreement without Cause. The Company may terminate this Agreement and the engagement of the Contractor without Cause at any time on 30 days prior written notice. The date of termination will be the date specified in the written notice and must be a date, which is not earlier than the required notice period.
+5.4 Emeralds' Right to Terminate this Agreement without Cause. The Company may terminate this Agreement and the engagement of the Contractor without Cause at any time on 30 days prior written notice. The date of termination will be the date specified in the written notice and must be a date, which is not earlier than the required notice period.
 
 5.5 Consequences of Termination of Agreement. All obligations of the Company to the Contractor hereunder shall immediately terminate and cease as of the date of the termination of the Contractor's engagement. The Company shall only be obliged to pay the Fees agreed to but not yet paid as of the date of termination, with such payment to be made within 30 days of the date of termination. The Company may terminate all access of the Contractor to the Company's premises and property as of that date.
 
@@ -66,7 +66,7 @@ IN CONSIDERATION of the mutual agreements in this Agreement and subject to the t
 
 6.1 Prior Confidential Information. The Contractor represents and warrants to Emerald that he or she has not used or brought, and he or she will not use or bring, to Emerald any confidential information of any kind whatsoever of any prior party (the "Prior Business") with whom the Contractor was previously involved, whether such involvement was as an employee, director or officer of that Prior Business, an investor in that Prior Business, a employee in that Prior Business, a consultant to that Prior Business or other relationship to that Prior Business (the "Prior Involvement"). The parties acknowledge and agree that Emerald is not engaging the Contractor to obtain such confidential information, and the Contractor acknowledges that Emerald has advised the Contractor to comply with any legal obligations of any kind whatsoever the Contractor may have to such Prior Business. The Contractor will hold Emerald harmless from any and all claims and damages of any kind whatsoever that Emerald may suffer as a result of the Contractor breaching any of his or her obligations to such Prior Business in any regard.
 
-6.2  Confidentiality. "Confidential Information" means information disclosed to the Contractor as a consequence of or through its, his or her position as a director, officer, employee or consultant of Emerald, which information is not generally known in the industry in which Emerald operates. All Confidential Information will, during the Term of this Agreement and for a period of five years thereafter, be held by the Contractor in a fiduciary capacity for Emerald, in the strictest confidence, and will be used by the Contractor solely for the benefit of Emerald, and will not be used by the Contractor, directly or indirectly, for any purpose other than for the benefit of Emerald, nor will the Contractor divulge or communicate, directly or indirectly, such verbally, in writing or otherwise to any party.
+6.2 Confidentiality. "Confidential Information" means information disclosed to the Contractor as a consequence of or through its, his or her position as a director, officer, employee or consultant of Emerald, which information is not generally known in the industry in which Emerald operates. All Confidential Information will, during the Term of this Agreement and for a period of five years thereafter, be held by the Contractor in a fiduciary capacity for Emerald, in the strictest confidence, and will be used by the Contractor solely for the benefit of Emerald, and will not be used by the Contractor, directly or indirectly, for any purpose other than for the benefit of Emerald, nor will the Contractor divulge or communicate, directly or indirectly, such verbally, in writing or otherwise to any party.
 
 6.3 Copying and Delivery of Records. The Contractor will not, either during the Term of this Agreement or for a period of five years thereafter, directly or indirectly, cause or permit any Confidential Information to be copied or reproduced unless expressly authorized to do so by the Company. The Contractor will promptly return to Emerald all written and electronic information, disks, tapes, memory devices and all copies of any of Confidential Information forthwith upon Emerald request, at any time, to do so.
 
@@ -95,18 +95,6 @@ IN WITNESS WHEREOF the parties have hereunto set their hands and seals effective
 ## EMERALD HEALTH NATURALS, INC.
 
 DR. GAETANO MORELLO N.D. INC.
-
-DocuSigned by:
-
-C38D38CCF275449
-
-Authorized Signatory
-
-DocuSigned by:
-
-Dr.Gatanb Morello
-
-Signature of Contractor
 
 ## SCHEDULE "A" - DEFINITIONS
 
@@ -152,3 +140,21 @@ other than a reduction in the Contractor's Fee or Perks implemented by the Compa
 - (h) "Intellectual Property" is used in its broadest sense and means and includes any statutory, common law, equitable, contractual or proprietary interest, recognized currently or in future, in knowledge received or transmitted through investigation, observation, experience, study, instruction, discovery, creation, improvement, or publication, regardless of the form or medium in which the knowledge is embodied and whether or not patentable or copyrightable in respect of the Intellectual Property. The term Intellectual Property includes the following:
 - (i) knowledge and its embodiments including:
 - (A) technical information, including meeting and collaboration notes, contents of laboratory notebooks, data, formulae, drawings, diagrams, blueprints, know-how,
+
+concepts, processes, product plans, service plans, computer software, flowcharts, specifications, design documents, and models; and
+
+- (B) business information including data, databases, business models, market research and forecasts; and customer lists;
+- (ii) interests currently recognized including rights of confidence in information, ideas, concepts and know-how, patent rights in inventions, copyrights in artistic, literary, dramatic, musical, and neighbouring works, design rights in designs, and trademark rights in reputations, marks and domain names;
+- (iii) copyrightable works of authorship including, without limitation, any technical descriptions for products, user guides, illustrations, advertising materials, computer programs (including the contents of read only memories) and any contribution to such materials; and
+- (iv) all trademarks, trade names, business names, patents, inventions, know-how, copyrights, software, source code, object code, service marks, brand names, industrial designs and all other industrial or intellectual property and all applications therefore and all goodwill connected therewith, including, without limitation, all licenses, registered user agreements and all like rights of any kind whatsoever, that may be developed, owned or licensed by the Company or its Affiliates or otherwise relating to the business of the Company or any other business in which the Company or its Affiliates may become engaged.
+
+## SCHEDULE "B" -DESCRIPTION OF SERVICES
+
+The Chief Executive Officer of Emerald Health Naturals will:
+
+- Lead all aspects of the business in terms of strategic planning, product development and operational execution on its annual and long-term objectives.
+- Will actively manage the companies P&amp;L performance to ensure that its financial performance is in line with its budget projections and will enact any necessary changes to ensure that the business meets or exceeds such projections.
+- Help to capture, analyze and report key performance metrics (customer satisfaction, quality, operating activities, etc.) and market feedback on a monthly, quarterly and annual basis. He/she will direct the processes that monitor, measure, evaluate and report on KPIs and budgets in order to assess and improve performance.
+- Help build and ensure that the appropriate organizational structure and personnel are in place to achieve the company's objectives.
+- Build strategic partnerships and foster customer relationships that can add value to company.
+- Help to ensure that there is good understanding of the capabilities and unique aspects of the company's products, scientific knowledge and capabilities in the external market and with shareholders &amp; investors.

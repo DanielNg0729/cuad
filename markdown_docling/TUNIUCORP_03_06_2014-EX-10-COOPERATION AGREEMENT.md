@@ -4,10 +4,10 @@
 
 ## (2014 Amendment)
 
-This Cooperation Agreement (2014 Amendment) (this ' Agreement ') is entered into on January 24, 2014 in Beijing by and between:
+This Cooperation Agreement (2014 Amendment) (this "Agreement") is entered into on January 24, 2014 in Beijing by and between:
 
-- (1) Nanjing Tuniu Technology Co., Ltd., with its registered address at 3-5/F Building No.6, Southeast University Science Park, 6 Changjianghou Street, Xuanwu District, Nanjing and its legal representative being Yu Dunde (' Party A ');
-- (2) Beijing Tuniu Technology Co., Ltd., with its registered address at R1006 10/F Building No.4, Yard No.1 of Shangdishi Street, Haidian District, Beijing and its legal representative being Yu Dunde (' Party B ').
+- (1) Nanjing Tuniu Technology Co., Ltd., with its registered address at 3-5/F Building No.6, Southeast University Science Park, 6 Changjianghou Street, Xuanwu District, Nanjing and its legal representative being Yu Dunde ("Party A");
+- (2) Beijing Tuniu Technology Co., Ltd., with its registered address at R1006 10/F Building No.4, Yard No.1 of Shangdishi Street, Haidian District, Beijing and its legal representative being Yu Dunde ("Party B").
 
 ## WHEREAS
 
@@ -15,7 +15,7 @@ This Cooperation Agreement (2014 Amendment) (this ' Agreement ') is ente
 2. Party B is a limited liability company incorporated under the laws of the People's Republic of China, mainly engaged in research and development of computer software technology, technology transfer, technical consultancy and technical services, computer technology training, technical services and business consultancy services in relation to the internet-based sale and promotion of tour products.
 3. Party A intends to authorize Party B to provide to Party A and its subsidiaries the technical services and business consultancy services in relation to the internet-based sale and promotion of tour products, including but not limited to development, operation, maintenance of internet technology platform as well as consultancy services relating to sale and promotion of tour products or cooperation provided by Party B in other forms as required under this Agreement, and Party B agrees to accept such authorization.
 4. After an amiable consideration, the Parties unanimously agree that the establishment of a long-term and close cooperation relationship is in the best interests of the Parties and their beneficiaries.
-5. The Parties have entered into the Cooperation Agreement on September 17, 2008 in respect of the aforementioned cooperative matters (the ' Original Cooperation Agreement ').
+5. The Parties have entered into the Cooperation Agreement on September 17, 2008 in respect of the aforementioned cooperative matters (the " Original Cooperation Agreement").
 
 The Parties unanimously agree to amend and restate the Original Cooperation Agreement through friendly negotiation and the Original Cooperation Agreement is amended and restated as follows:
 
@@ -31,7 +31,7 @@ Party A and Party B unanimously agree that the proposed cooperation s
 
 ## 3. Party B's Services
 
-Party B undertakes to provide the following technical consultancy and services to Party A and its subsidiaries in respect of the cooperative business (collectively referred to as ' Party B's Services '):
+Party B undertakes to provide the following technical consultancy and services to Party A and its subsidiaries in respect of the cooperative business (collectively referred to as "Party B's Services"):
 
 - 3.1 Research, development, production, test, operation and maintenance, upgrade and other services of relevant technology;
 - 3.2 Development, construction, operation and maintenance, upgrade and other services of relevant internet platform and system;
@@ -47,7 +47,7 @@ Party A shall cause its subsidiaries to accept Party B's Services. Th
 
 - 4.1 Party A and Party B unanimously agree that they will allocate the proceeds generated from cooperation in accordance with the following provisions:
 
-Party B shall have the right to charge, on a quarterly basis, the service fee (' Service Fee ') from Party A or its subsidiaries who have accepted Party B's Services, or designate another person to charge Service Fee from Party A or its subsidiaries who have accepted Party B's Services. The total sum of Service Fee shall be equal to the amount of profits gained by Party A or its subsidiaries who have accepted Party B's Services. Party B shall have the right to adjust the amount of Service Fee at its own discretion, without the prior consent of Party A or its subsidiaries.
+Party B shall have the right to charge, on a quarterly basis, the service fee ("Service Fee") from Party A or its subsidiaries who have accepted Party B's Services, or designate another person to charge Service Fee from Party A or its subsidiaries who have accepted Party B's Services. The total sum of Service Fee shall be equal to the amount of profits gained by Party A or its subsidiaries who have accepted Party B's Services. Party B shall have the right to adjust the amount of Service Fee at its own discretion, without the prior consent of Party A or its subsidiaries.
 
 Party A shall cause its subsidiaries to pay the Service Fee in respect of Party B's Services provided to such subsidiaries.
 
@@ -56,7 +56,7 @@ Party A shall cause its subsidiaries to pay the Service Fee in respe
 
 ## 5. Term of Cooperation
 
-Party A and Party B agree and confirm that the term of cooperation under this Agreement shall commence from the execution date hereof and end on the expiration date of the operation term of Party B ('Term of Cooperation ').
+Party A and Party B agree and confirm that the term of cooperation under this Agreement shall commence from the execution date hereof and end on the expiration date of the operation term of Party B ("Term of Cooperation").
 
 ## 6. Termination
 
@@ -103,7 +103,7 @@ The force majeure hereunder shall mean the natural disaster, war, poli
 
 - 12.1 This Agreement shall take effect as of the date when the authorized representatives of the Parties sign hereon. The Parties agree and confirm that this Agreement shall constitute all understanding, interpretation and intentions of the Parties in respect of the cooperative business. This Agreement shall be taken as an amendment and restatement of the Original Cooperation Agreement and supersede the Original Cooperation Agreement in all respects.
 - 12.2 The rights and obligations of each Party under this Agreement shall not be transferred, except for the transfer by Party B to its affiliates.
-- 12.3 The Parties agree that any and all intellectual property researched and developed, created and invented by the Parties (including their employees) in the course of performance of this Agreement shall be owned by Party B. For the purpose of this Article 12.3, ' Intellectual Property ' means the patent, patent application right, trademark, service mark, logo, image, trade name, internet domain name, design right, copyright (including copyright of computer software) and moral rights, database right, right of semiconductor design drawing, utility model, proprietary technology and other intellectual property that are registered and unregistered including those that have applied for registration, as well as all other rights or protection methods with same or similar effect on a global scope.
+- 12.3 The Parties agree that any and all intellectual property researched and developed, created and invented by the Parties (including their employees) in the course of performance of this Agreement shall be owned by Party B. For the purpose of this Article 12.3, "Intellectual Property" means the patent, patent application right, trademark, service mark, logo, image, trade name, internet domain name, design right, copyright (including copyright of computer software) and moral rights, database right, right of semiconductor design drawing, utility model, proprietary technology and other intellectual property that are registered and unregistered including those that have applied for registration, as well as all other rights or protection methods with same or similar effect on a global scope.
 - 12.4 To the extent permitted under the laws of the People's Republic of China, the failure or delay of performance of any right under this Agreement by any Party shall not be deemed as a waive of such right, and any single or partial exercise of any right shall not preclude the further exercise of such right in the future.
 - 12.5 This Agreement shall constitute an entire agreement between the Parties in respect of the subject matter of this Agreement and supersede any and all prior expression of intention or understanding reached by the Parties in relation to this Agreement. This Agreement shall not be amended or modified unless the authorized representatives of the Parties sign a written agreement thereof.
 - 12.6 This Agreement shall be executed in two (2) copies, each of which shall have the same legal effect.
@@ -127,9 +127,7 @@ In witness whereof, this Agreement has been executed by the duly auth
 
 Party A: Nanjing Tuniu Technology Co., Ltd.
 
-By:
-
-/s/ Yu Dunde
+By: /s/ Yu Dunde
 
 Name: Yu Dunde
 
@@ -137,9 +135,7 @@ Title: Chairman
 
 Party B: Beijing Tuniu Technology Co., Ltd.
 
-By:
-
-/s/ Yu Dunde
+By: /s/ Yu Dunde
 
 Name: Yu Dunde
 

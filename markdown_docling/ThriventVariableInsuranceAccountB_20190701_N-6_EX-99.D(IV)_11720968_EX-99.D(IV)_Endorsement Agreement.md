@@ -6,7 +6,7 @@
 
 Effective Date: July 1, 2019
 
-Thrivent Life Insurance Company has been dissolved. (Thrivent Life Insurance Company was formerly known as Lutheran Brotherhood Variable Insurance Products Company.) All assets and related liabilities of Thrivent Life Insurance Company have been transferred to Thrivent Financial for Lutherans. That includes contracts of insurance, separate accounts, and cash and investment securities. Thrivent Financial for Lutherans now has all obligations under this contract. It is the same as if Thrivent Financial for Lutherans had originally issued the contract. All references to 'Thrivent Life Insurance Company' are amended to read 'Thrivent Financial for Lutherans.' All benefits and other terms of this contract remain unchanged except as described below.
+Thrivent Life Insurance Company has been dissolved. (Thrivent Life Insurance Company was formerly known as Lutheran Brotherhood Variable Insurance Products Company.) All assets and related liabilities of Thrivent Life Insurance Company have been transferred to Thrivent Financial for Lutherans. That includes contracts of insurance, separate accounts, and cash and investment securities. Thrivent Financial for Lutherans now has all obligations under this contract. It is the same as if Thrivent Financial for Lutherans had originally issued the contract. All references to "Thrivent Life Insurance Company" are amended to read "Thrivent Financial for Lutherans." All benefits and other terms of this contract remain unchanged except as described below.
 
 You may direct inquiries to:
 
@@ -42,7 +42,7 @@ The following provisions of this contract are amended:
 
 The DEFINITIONS section of the contract is amended to include the following:
 
-Service Center . Where this contract is administered. Our Service Center address is 4321 North Ballard Road, Appleton, WI 54919-0001.
+Service Center. Where this contract is administered. Our Service Center address is 4321 North Ballard Road, Appleton, WI 54919-0001.
 
 And in the DEFINITIONS section, the definition:
 
@@ -54,7 +54,7 @@ We, Our, Us. Thrivent Life Insurance Company.
 
 Is amended to read:
 
-We, we, Our, our, Us, us, Society . Thrivent Financial for Lutherans.
+We, we, Our, our, Us, us, Society. Thrivent Financial for Lutherans.
 
 ## ENTIRE CONTRACT
 
@@ -86,7 +86,9 @@ Contract Number:
 
 <!-- image -->
 
-The following words or phrases in this contract are amended as follows. Any reference to:
+The following words or phrases in this contract are amended as follows.
+
+Any reference to:
 
 Is amended to read:
 
@@ -118,11 +120,9 @@ Home Office.
 
 Service Center
 
-Nonparticipating
+Nonparticipating Signed for Thrivent Financial for Lutherans
 
 Eligible for annual dividends
-
-Signed for Thrivent Financial for Lutherans
 
 President
 

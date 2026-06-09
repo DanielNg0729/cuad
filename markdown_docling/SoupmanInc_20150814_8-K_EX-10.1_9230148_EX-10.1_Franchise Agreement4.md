@@ -18,9 +18,5 @@ Neither the Franchisor, its affiliate, its predecessor, officers, or ge
 
 IN WITNESS WHEREOF, the parties hereto have duly executed, sealed and delivered this Addendum dated this \_\_\_\_\_\_ day of \_\_\_\_\_\_\_\_\_\_\_\_\_\_, 2015.
 
-| ATTEST   | KIOSKCONCEPTS,INC.:                          |
-|----------|----------------------------------------------|
-| Witness  | Name: Title:                                 |
-|          | MASTERFRANCHISEE: THEGRILLEDCHEESETRUCK,INC. |
-|          | By: Name: Title:                             |
-| Witness  |                                              |
+| ATTEST  KIOSK CONCEPTS, INC.:  By:  Witness  Name:  Title:  MASTER FRANCHISEE: THE GRILLED CHEESE TRUCK, INC.  By:  Name:  Title:  Witness   |
+|----------------------------------------------------------------------------------------------------------------------------------------------|

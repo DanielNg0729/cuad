@@ -2,35 +2,35 @@
 
 ## Strategic Alliance Agreement
 
-THIS AGREEMENT is made this 15 th  day of July, 2010 ('Effective Date') by and between IMedicor, Inc, a Nevada Corporation whose address is 523 Avalon Gardens Drive, Nanuet, New York 10954, USA ("IMedicor") and USA Managed Care Organization (USA MCO) A Texas Corporation whose address is 916 South Capital of Texas highway, Austin Texas.
+THIS AGREEMENT is made this 15th day of July, 2010 ("Effective Date") by and between IMedicor, Inc, a Nevada Corporation whose address is 523 Avalon Gardens Drive, Nanuet, New York 10954, USA ("IMedicor") and USA Managed Care Organization (USA MCO) A Texas Corporation whose address is 916 South Capital of Texas highway, Austin Texas.
 
-## WITNESSETH :
+## WITNESSETH:
 
-WHEREAS , iMedicor is a secure, HIPAA compliant online portal that creates a virtual healthcare community amongst physicians and other medical professionals for the purpose of real-time Health Information Exchange. Physicians are provided with a secure HIPPA compliant transport account(s), similar to e-mail with attachments, that enable them to share patient specific personal health information with other participating physicians. iMedicor also provides the ability to create social communities for the purpose of peer collaboration and the extension of referral networks. iMedicor's portal also provides physicians with an extensive catalogue of Continuing Medical Education (CME), skill development and product specific educational resources;
+WHEREAS, iMedicor is a secure, HIPAA compliant online portal that creates a virtual healthcare community amongst physicians and other medical professionals for the purpose of real-time Health Information Exchange. Physicians are provided with a secure HIPPA compliant transport account(s), similar to e-mail with attachments, that enable them to share patient specific personal health information with other participating physicians. iMedicor also provides the ability to create social communities for the purpose of peer collaboration and the extension of referral networks. iMedicor's portal also provides physicians with an extensive catalogue of Continuing Medical Education (CME), skill development and product specific educational resources;
 
-WHEREAS , USA MCO represents a network of physicians through which USA MCO provides products and services for the medical industry that: generate additional revenue Streams; provide cost savings, streamline workflow; help patients save time, money and doctors achieve better outcomes; and assist physicians and medical practices to find ways to enhance patient satisfaction;
+WHEREAS, USA MCO represents a network of physicians through which USA MCO provides products and services for the medical industry that: generate additional revenue Streams; provide cost savings, streamline workflow; help patients save time, money and doctors achieve better outcomes; and assist physicians and medical practices to find ways to enhance patient satisfaction;
 
-WHEREAS , both parties are interested in forming a strategic and marketing alliance beneficial to both organizations.
+WHEREAS, both parties are interested in forming a strategic and marketing alliance beneficial to both organizations.
 
-NOW, THEREFORE , for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties agree as follows:
+NOW, THEREFORE, for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties agree as follows:
 
 ## 1. OBLIGATIONS OF THE PARTIES
 
-- ●Initiate a multi tiered marketing approach, by mutual consent of both parties, to integrate the iMedicor HIPAA Compliant transport network as a communications network throughout the USA MCO user base,
-- ●The overall project would also include the ClearLobby pharmaceutical and medical device marketing platform and other value added services as mutually agreed into the future, as a Phase II activity.
-- ●A phased in approach for each of the components listed above with the first being the introduction of the core iMedicor, HIPAA compliant communication / transport system into the USA MCO network.
-- ●The integrated service will generate revenue sharing opportunities for both companies.
-- ●USA MCO will allow access to their network to distribute promotional and educational material highlighting the value proposition of the iMedicor / USA MCO alliance.
-- ●Access will only be through, and controlled by USA MCO
-- ●Communication will be, but not limited to e-mail promotion, direct mail, bill stuffers, web site, newsletter or any other normal communication between USA MCO and their network of physicians and other healthcare providers upon mutual consent of both parties
-- ●All material must be approved by USA MCO prior to any distribution to the USA MCO network.
-- ●Once a physician or other healthcare provider enrolls in iMedicor they will become part of the regular internal iMedicor communications system.
-- ●Every physician that enrolls in iMedicor, including those physicians or other qualified registrants into the iMedicor network that are invited into USA MCO physician communities, through the efforts of USA MCO will be tagged as originating from that source (the USA MCO network).
-- ●Monthly reports detailing revenue generated through subscriptions, ClearLobby or other methods will be detailed in the monthly reports.
-- ●All revenue sharing will be reconciled monthly and funds distributed by the 20th of each month by wire transfer for all net collected revenues for the previous month (net of returns and refunds, if any).
-- ●IMedicor will make its records available for audit purposes at any time by USA MCO during regular business hours at the headquarters of iMedicor.
-- ●USA MCO will not be responsible for any direct sales of the iMedicor communications system; USA MCO will not handle any customer service issues. All such activity will be referred to iMedicor.
-- ●Initially iMedicor will provide the three main attributes of the iMedicor network to the USA MCO provider base, physicians and other healthcare providers.
+- Initiate a multi tiered marketing approach, by mutual consent of both parties, to integrate the iMedicor HIPAA Compliant transport network as a communications network throughout the USA MCO user base,
+- The overall project would also include the ClearLobby pharmaceutical and medical device marketing platform and other value added services as mutually agreed into the future, as a Phase II activity.
+- A phased in approach for each of the components listed above with the first being the introduction of the core iMedicor, HIPAA compliant communication / transport system into the USA MCO network.
+- The integrated service will generate revenue sharing opportunities for both companies.
+- USA MCO will allow access to their network to distribute promotional and educational material highlighting the value proposition of the iMedicor / USA MCO alliance.
+- Access will only be through, and controlled by USA MCO
+- Communication will be, but not limited to e-mail promotion, direct mail, bill stuffers, web site, newsletter or any other normal communication between USA MCO and their network of physicians and other healthcare providers upon mutual consent of both parties
+- All material must be approved by USA MCO prior to any distribution to the USA MCO network.
+- Once a physician or other healthcare provider enrolls in iMedicor they will become part of the regular internal iMedicor communications system.
+- Every physician that enrolls in iMedicor, including those physicians or other qualified registrants into the iMedicor network that are invited into USA MCO physician communities, through the efforts of USA MCO will be tagged as originating from that source (the USA MCO network).
+- Monthly reports detailing revenue generated through subscriptions, ClearLobby or other methods will be detailed in the monthly reports.
+- All revenue sharing will be reconciled monthly and funds distributed by the 20th of each month by wire transfer for all net collected revenues for the previous month (net of returns and refunds, if any).
+- IMedicor will make its records available for audit purposes at any time by USA MCO during regular business hours at the headquarters of iMedicor.
+- USA MCO will not be responsible for any direct sales of the iMedicor communications system; USA MCO will not handle any customer service issues. All such activity will be referred to iMedicor.
+- Initially iMedicor will provide the three main attributes of the iMedicor network to the USA MCO provider base, physicians and other healthcare providers.
 - ●Those attributes are:
 
 oA HIPAA compliant transport system for digital / electronic records and images,
@@ -43,28 +43,28 @@ oAccess to educational resources, certified, skill level and product /�
 
 ## 2. COMPENSATION
 
-- ●IMedicor will charge a subscription fee to participating USA MCO providers. The suggested monthly subscription would be $19.95 per month per subscriber. USA MCO would receive one third of the monthly subscription price, per month, per subscriber (approximately $6.65). All revenue sharing opportunities will be calculated for all parties after any credit card or other third party processing fees are deducted from the gross sale.
-- ●USA MCO will be responsible for the marketing and initial / ongoing communication to their network highlighting the features of iMedicor, the value proposition, and their support of the project. This will not be a direct sales requirement for USA MCO, but only an agreement to provide access to the USA MCO user base
-- ●Within 30 days of the execution of this agreement both companies agree to finalize a marketing plan that would detail they promotional activity to the USA MCO network, promotional deliverables, frequency of communication with the USA MCO network and other activities normally found in a strategic marketing plan
-- ●Both companies agree to publish a press release, upon mutual agreement of content, in regard to the execution of this agreement and periodic updates of the success of this Strategic Alliance
-- ●It is understood that iMedicor is a public company and is obligated to make certain SEC required filings that from time to time will include mention of the Strategic Alliance between iMedicor and USA MCO
-- ●IMedicor shall provide access to the iMedicor system, training and customer support as required.
-- ●USA MCO will have the option to take all or part of its revenue share in equity up to a maximum of 4.9% ownership in iMedicor on a fully diluted basis. For the purposes of this proposal, fully diluted means all issued and outstanding stock warrants priced at 15 times the average 5 day closing price at the day previous to reconciliation of revenues, which will be the 20th of the month for the prior calendar month.
+- IMedicor will charge a subscription fee to participating USA MCO providers. The suggested monthly subscription would be $19.95 per month per subscriber. USA MCO would receive one third of the monthly subscription price, per month, per subscriber (approximately $6.65). All revenue sharing opportunities will be calculated for all parties after any credit card or other third party processing fees are deducted from the gross sale.
+- USA MCO will be responsible for the marketing and initial / ongoing communication to their network highlighting the features of iMedicor, the value proposition, and their support of the project. This will not be a direct sales requirement for USA MCO, but only an agreement to provide access to the USA MCO user base
+- Within 30 days of the execution of this agreement both companies agree to finalize a marketing plan that would detail they promotional activity to the USA MCO network, promotional deliverables, frequency of communication with the USA MCO network and other activities normally found in a strategic marketing plan
+- Both companies agree to publish a press release, upon mutual agreement of content, in regard to the execution of this agreement and periodic updates of the success of this Strategic Alliance
+- It is understood that iMedicor is a public company and is obligated to make certain SEC required filings that from time to time will include mention of the Strategic Alliance between iMedicor and USA MCO
+- IMedicor shall provide access to the iMedicor system, training and customer support as required.
+- USA MCO will have the option to take all or part of its revenue share in equity up to a maximum of 4.9% ownership in iMedicor on a fully diluted basis. For the purposes of this proposal, fully diluted means all issued and outstanding stock warrants priced at 15 times the average 5 day closing price at the day previous to reconciliation of revenues, which will be the 20th of the month for the prior calendar month.
 
 ## 3. TERM
 
-This Agreement shall commence on the Effective Date of this Agreement and shall remain in effect for a period of 5 years ('Initial Term'). Thereafter, this Agreement shall be renewed automatically on a five (5) year basis, unless one party notifies the other of its desire to terminate this Agreement at least sixty 90 days prior to the expiration of the Initial Term or then current renewal term, as applicable, or unless a new Agreement is signed between the USA MCO and IMedicor which will then invalidate this Agreement.
+This Agreement shall commence on the Effective Date of this Agreement and shall remain in effect for a period of 5 years ("Initial Term"). Thereafter, this Agreement shall be renewed automatically on a five (5) year basis, unless one party notifies the other of its desire to terminate this Agreement at least sixty 90 days prior to the expiration of the Initial Term or then current renewal term, as applicable, or unless a new Agreement is signed between the USA MCO and IMedicor which will then invalidate this Agreement.
 
 In such an instance, all compensation will continue for a extended period of five years from the date of termination for all subscriptions tagged as USA MCO.
 
-- ●The iMedicor bookkeeping system will detail the payment option prior to releasing any funds or commitment of stock in order for USA MCO to determine how payment is to be reconciled. It is anticipated that said report will be available by the 15th of the month for previous activity, returned to iMedicor by the 19th in order to effect a timely disbursement of funds and or stock
-- ●It is understood that the issuance of stock certificates can take up to four weeks but the issue date will be the 20th of the month of reconcile.
-- ●Equity payout will be priced at the average 10 day trading day closing from the day previous to the monthly reconciliation.
-- ●IMedicor will provide a warrant to purchase 2 million shares of common stock to USA MCO to offset any up-front marketing expense incurred by USA MCO in this project. The value of the Warrants will be determined by the average 10 day closing price of iMedicor stock eliminating the two lowest days and the two highest days for the period as of the day before the actual execution of the final agreement.
-- ●The Warrants will be issued as a non-cash-transaction upon exercise of the Warrant, and, USA MCO will have up to five years from the date of issuance to exe4cute. USA MCO will also have the option to purchase the Warrant for the face value if it deemed the purchase option to be more favorable to the cashless transaction.
-- ●In addition to the subscription fees, iMedicor would offer a 17% revenue share (cash payout only) through revenues generated with its ClearLobby program. Clearlobby represents the Pharma / Medical Device marketing division inside iMedicor that will expose physicians and other providers within the USA MCO provider network to new products and services in a non-invasive, opt-in manner. ClearLobby will be the Phase II part of the relationship.
-- ●iMedicor will inform USA MCO of all ClearLobby activity as new products and services are introduced into the system
-- ●IMedicor will, from time to time make available upgrade services to its members. In this event, USA MCO will receive a revenue share to be determined on a case by case basis.
+- The iMedicor bookkeeping system will detail the payment option prior to releasing any funds or commitment of stock in order for USA MCO to determine how payment is to be reconciled. It is anticipated that said report will be available by the 15th of the month for previous activity, returned to iMedicor by the 19th in order to effect a timely disbursement of funds and or stock
+- It is understood that the issuance of stock certificates can take up to four weeks but the issue date will be the 20th of the month of reconcile.
+- Equity payout will be priced at the average 10 day trading day closing from the day previous to the monthly reconciliation.
+- IMedicor will provide a warrant to purchase 2 million shares of common stock to USA MCO to offset any up-front marketing expense incurred by USA MCO in this project. The value of the Warrants will be determined by the average 10 day closing price of iMedicor stock eliminating the two lowest days and the two highest days for the period as of the day before the actual execution of the final agreement.
+- The Warrants will be issued as a non-cash-transaction upon exercise of the Warrant, and, USA MCO will have up to five years from the date of issuance to exe4cute. USA MCO will also have the option to purchase the Warrant for the face value if it deemed the purchase option to be more favorable to the cashless transaction.
+- In addition to the subscription fees, iMedicor would offer a 17% revenue share (cash payout only) through revenues generated with its ClearLobby program. Clearlobby represents the Pharma / Medical Device marketing division inside iMedicor that will expose physicians and other providers within the USA MCO provider network to new products and services in a non-invasive, opt-in manner. ClearLobby will be the Phase II part of the relationship.
+- iMedicor will inform USA MCO of all ClearLobby activity as new products and services are introduced into the system
+- IMedicor will, from time to time make available upgrade services to its members. In this event, USA MCO will receive a revenue share to be determined on a case by case basis.
 
 ## 4. INTELLECTUAL PROPERTY
 
@@ -72,7 +72,7 @@ Each party shall exclusively own its respective trademarks and service�
 
 ## 5. TERMINATION
 
-A. Termination Without Cause. Both parties may terminate this Agreement upon ninety ('90') days written notice to the other party at the address stated in this Agreement as per section 3 above.
+A. Termination Without Cause . Both parties may terminate this Agreement upon ninety ("90") days written notice to the other party at the address stated in this Agreement as per section 3 above.
 
 B. Both parties shall have the right to include this Agreement as an asset of their Company.
 
@@ -145,3 +145,33 @@ For the USA MCO:
 George Bogle, CEO / President USA MCO Solutions Corp, 916 South Capital of Texas Highway Austin, TX 78746
 
 Either party may change the address or entity to which notice or payment is to be sent by written notice to the other party pursuant to the provisions of this paragraph.
+
+## 14. JURISDICTION DISPUTES
+
+A. This Agreement shall be governed by the internal laws State of New York.
+
+B. All disputes hereunder shall be resolved in the applicable state or federal courts in County of Rockland in the State of New York. The parties consent to the jurisdiction of such courts, agree to accept service of process by mail, and waive any jurisdictional or venue defenses otherwise available.
+
+## 15. AGREEMENT BINDING ON SUCCESSORS
+
+This Agreement shall be binding upon and shall inure to the benefit of the parties hereto, their heirs, administrators, successors and assigns.
+
+## 16. WAIVER
+
+No waiver by either party of any default shall be deemed as a waiver of any prior or subsequent default of the same or other provisions of this Agreement.
+
+## 17. SEVERABILITY
+
+If any provision hereof is held invalid or unenforceable by a court of competent jurisdiction, such invalidity shall not affect the validity or operation of any other provision and such invalid provision shall be deemed to be severed from the Agreement.
+
+## 18. ASSIGNABILITY
+
+The license granted hereunder is specific to the USA MCO and may not be assigned by any act of the USA MCO or by operation of law unless with the written consent of IMedicor.
+
+## 19. INTEGRATION
+
+This Agreement constitutes the entire understanding of the parties, and revokes and supersedes all prior Agreements between the parties and is intended as a final expression of their Agreement. It shall not be modified or amended except in a writing signed by the parties hereto and specifically referring to this Agreement. This Agreement shall take precedence over any other documents which may be in conflict therewith.
+
+IN WITNESS WHEREOF, the parties hereto, intending to be legally bound hereby, have each executed this agreement on the day indicated. USA MCO IMedicor, Inc. By: /s/George Bogle By: /s/Fred Zolla George Bogle, CEO / Fred Zolla, CEO
+
+President

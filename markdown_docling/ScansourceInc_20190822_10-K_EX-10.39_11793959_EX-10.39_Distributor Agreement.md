@@ -1,10 +1,10 @@
 # ScansourceInc_20190822_10-K_EX-10.39_11793959_EX-10.39_Distributor Agreement
 
-## IN ACCORDANCE WITH ITEM 601(b) OF REGULATION S-K, CERTAIN IDENTIFIED INFORMATION (THE 'CONFIDENTIAL INFORMATION') HAS BEEN EXCLUDED FROM THIS EXHIBIT BECAUSE IT IS BOTH (I) NOT MATERIAL AND (II) WOULD LIKELY CAUSE COMPETITIVE HARM IF PUBLICLY DISCLOSED. THE CONFIDENTIAL INFORMATION IS DENOTED HEREIN BY [*****].
+## IN ACCORDANCE WITH ITEM 601(b) OF REGULATION S-K, CERTAIN IDENTIFIED INFORMATION (THE "CONFIDENTIAL INFORMATION") HAS BEEN EXCLUDED FROM THIS EXHIBIT BECAUSE IT IS BOTH (I) NOT MATERIAL AND (II) WOULD LIKELY CAUSE COMPETITIVE HARM IF PUBLICLY DISCLOSED. THE CONFIDENTIAL INFORMATION IS DENOTED HEREIN BY [*****].
 
 ## AMENDMENT NO. 3 TO THE NONEXCLUSIVE VALUE ADDED DISTRIBUTOR AGREEMENT
 
-This Amendment No. 3 ('Amendment No. 3") to the Nonexclusive Value Added Distributor Agreement, as amended ("Agreement''), by and between Cisco Systems, Inc. ("Cisco"), a California corporation having Its principal place of business at 170 West Tasman Drive, San Jose, CA, 95134, and ScanSource, Inc. ("Distributor"), a South Carolina corporation with a place of business at 6 Logue Court, Greenville, South Carolina, 29615, is effective as of the date last signed below ("Amendment Effective Date'). All capitalized terms contained herein shall have the same meaning as the terms defined in the Agreement unless specifically modified in this Amendment.
+This Amendment No. 3 ("Amendment No. 3") to the Nonexclusive Value Added Distributor Agreement, as amended ("Agreement''), by and between Cisco Systems, Inc. ("Cisco"), a California corporation having Its principal place of business at 170 West Tasman Drive, San Jose, CA, 95134, and ScanSource, Inc. ("Distributor"), a South Carolina corporation with a place of business at 6 Logue Court, Greenville, South Carolina, 29615, is effective as of the date last signed below ("Amendment Effective Date"). All capitalized terms contained herein shall have the same meaning as the terms defined in the Agreement unless specifically modified in this Amendment.
 
 WHEREAS, Cisco and Distributor have previously entered into the Agreement dated January 22, 2007, and
 
@@ -12,7 +12,7 @@ WHEREAS, Cisco and Distributor wish to renew and update certain terms and condit
 
 NOW WHEREFORE, the parties agree to further amend the Agreement as follows:
 
-1. The Term of the Agreement is hereby extended to January 20, 2012 unless sooner terminated as provided for in the Agreement. If the Agreement expired prior to the Amendment Effective Date, any orders received and Products and Services purchased between the date of expiration and the Amendment Effective Date shall be in all respects deemed made under the Agreement as in effect prior to this Amendment. The parties further agree that if Distributor places Purchase Orders after the expiration of the Agreement, and Cisco accepts such Purchase Orders, then any such Purchase Orders shall be governed by the terms and conditions of the Agreement; provided, however that acceptance by Cisco of any Purchase Order placed after the Agreement has expired will not be considered as an extension of the term of the  Agreement  nor  a  renewal  thereof. Notwithstanding Cisco's right to extend the term of the Agreement, each party acknowledges that the Agreement shall always be interpreted as being limited in duration to a definite term and that the other party has made no commitments whatsoever regarding the renewal of the Agreement beyond those expressly agreed in writing.
+1. The Term of the Agreement is hereby extended to January 20, 2012 unless sooner terminated as provided for in the Agreement. If the Agreement expired prior to the Amendment Effective Date, any orders received and Products and Services purchased between the date of expiration and the Amendment Effective Date shall be in all respects deemed made under the Agreement as in effect prior to this Amendment. The parties further agree that if Distributor places Purchase Orders after the expiration of the Agreement, and Cisco accepts such Purchase Orders, then any such Purchase Orders shall be governed by the terms and conditions of the Agreement; provided, however that acceptance by Cisco of any Purchase Order placed after the Agreement has expired will not be considered as an extension of the term of the Agreement nor a renewal thereof. Notwithstanding Cisco's right to extend the term of the Agreement, each party acknowledges that the Agreement shall always be interpreted as being limited in duration to a definite term and that the other party has made no commitments whatsoever regarding the renewal of the Agreement beyond those expressly agreed in writing.
 
 2. Section 6.0 ("Payment") of the Agreement is modified by adding the following new Section 6.7: 6.7 [*****]
 3. Section 12 ("Inventory Balance") is deleted in its entirety and hereby replaced with the following:
@@ -29,7 +29,7 @@ shipped to Distributor, net of credits, less returns to Cisco, in the preceding 
 
 12.2.2 [*****]
 
-12.2.3  Distributor shall bear all shipping and handling charges to the Cisco designated site set forth ln Cisco's published Return Materials Authorization ("RMA') Policy for Product returned for credit;
+12.2.3 Distributor shall bear all shipping and handling charges to the Cisco designated site set forth ln Cisco's published Return Materials Authorization ("RMA") Policy for Product returned for credit;
 
 12.2.4 Distributor shall obtain an RMA number prior to returning any Product to Cisco. Distributor shall follow Cisco's then-current RMA process; and
 
@@ -41,7 +41,7 @@ shipped to Distributor, net of credits, less returns to Cisco, in the preceding 
 
 21.1 In connection with the sale or distribution of Cisco Products or Services, or otherwise in carrying out its obligations under this Agreement, Distributor represents and warrants the following:
 
-(a) Distributor will comply with all country, federal, state and local laws, ordinances, codes, regulations, rules, policies and procedures, Including, without limitation, all anti-corruption laws, Including, the U.S. Foreign Corrupt Practices Act (Applicable Laws). Distributor can find more information about the Foreign Corrupt Practices Act at the following URL:  http://www.usdoj.gov/criminal/fraud/docs/dojdocb.html,  o r   b y contacting publicsectorcompllance@cisco.com.
+(a) Distributor will comply with all country, federal, state and local laws, ordinances, codes, regulations, rules, policies and procedures, Including, without limitation, all anti-corruption laws, Including, the U.S. Foreign Corrupt Practices Act (Applicable Laws). Distributor can find more information about the Foreign Corrupt Practices Act at the following URL: http://www.usdoj.gov/criminal/fraud/docs/dojdocb.html, or by contacting publicsectorcompllance@cisco.com.
 
 (b) Distributor shall not take any action or permit or authorize any action in violation of the Applicable Laws;
 
@@ -52,11 +52,11 @@ shipped to Distributor, net of credits, less returns to Cisco, in the preceding 
 - (iii) Candidates for political office; or
 - (iii) Any person, while knowing that all or a portion of such money or thing of value will be offered, given or promised, directly or indirectly to any of the above identified persons or organizations.
 
-(d)  Distributor remains responsible for undertaking appropriate and reasonable measures to ensure that its own relevant subcontractors, consultants, agents or representatives who interact with government affiliated organizations comply with applicable anti-corruption laws;
+(d) Distributor remains responsible for undertaking appropriate and reasonable measures to ensure that its own relevant subcontractors, consultants, agents or representatives who interact with government affiliated organizations comply with applicable anti-corruption laws;
 
 (e) Distributor's key personnel who directly support Cisco's account have or will have completed training (provided by Distributor, Cisco Cisco's on-line anti-corruption training is available in numerous languages and is free of charge for up to five of Distributor's personnel at http://corpedia.com/clients/cisco/pre\_reg.asp?lid-300446001., or another third party) on compliance with applicable anti-corruption laws within the past 12 months (from the date when this Agreement becomes effective);
 
-(f)  Distributor's record-keeping obligations, set forth In the "Audit" provision herein, shall apply equally to Distributor's representations and warranties In this section, Cisco's audit rights, as set forth herein, and Distributor's compliance with the Applicable Laws;
+(f) Distributor's record-keeping obligations, set forth In the "Audit" provision herein, shall apply equally to Distributor's representations and warranties In this section, Cisco's audit rights, as set forth herein, and Distributor's compliance with the Applicable Laws;
 
 (g) In no event shall Cisco be obligated under this Agreement to take any action or omit to take any action that Cisco believes, in good faith, would cause it to be In violation of any laws of the Territory(ies) identified in this Agreement or the Applicable Laws;
 
@@ -74,9 +74,9 @@ shipped to Distributor, net of credits, less returns to Cisco, in the preceding 
 
 (n) Notwithstanding any other provision in this Agreement, Cisco may terminate this Agreement immediately upon written notice if Distributor breaches any of the representations and warranties set forth in this section.
 
-(o) Distributor can report to Cisco any concerns it may have regarding any business practices by emailing ethics@cisco.com, or by calling Cisco's Helpline toll free number In North America 1- 877-571-1700 or worldwide  number  (reverse  calling charges to Cisco)  001-770-776-5611.  Contact ethics@cisco.com for other Cisco) 001-770-776-5611. Contact ethics@cisco.com for other available regional hotline numbers;
+(o) Distributor can report to Cisco any concerns it may have regarding any business practices by emailing ethics@cisco.com, or by calling Cisco's Helpline toll free number In North America 1- 877-571-1700 or worldwide number (reverse calling charges to Cisco) 001-770-776-5611. Contact ethics@cisco.com for other Cisco) 001-770-776-5611. Contact ethics@cisco.com for other available regional hotline numbers;
 
-(p) Distributor has read Cisco's "Compliance with Global Anticorruption Laws by Cisco' Partners", published at  http://www.cisco.com/legal/anti corruption.html.
+(p) Distributor has read Cisco's "Compliance with Global Anticorruption Laws by Cisco' Partners", published at http://www.cisco.com/legal/anti corruption.html.
 
 5.0 All capitalized terms not defined in this Amendment No. 3 shall have the meaning assigned to them in the Agreement. In the event of conflict between the terms of this Amendment No. 3 and the Agreement, the terms of this Amendment No. 3 shall prevail. All other terms and conditions of the Agreement remain unchanged.
 

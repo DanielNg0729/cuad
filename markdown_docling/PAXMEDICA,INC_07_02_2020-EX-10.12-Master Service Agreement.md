@@ -6,11 +6,11 @@
 
 ## Master Service Agreement
 
-This Master Service Agreement ('Agreement'), entered into on May 25th, 2018 by and between CRO Consulting (Pty) Limited, whose Registered Office is at OnQ House 250 Market Street Fairland Johannesburg 2170 South Africa (hereinafter referred to as "CRO") and Purinix Pharmaceuticals LLC whose Registered Office is at 1266 East Main Street, Suite 700R, Stamford, CT 06902, USA (hereinafter referred to as 'Client').
+This Master Service Agreement ("Agreement"), entered into on May 25th, 2018 by and between CRO Consulting (Pty) Limited, whose Registered Office is at OnQ House 250 Market Street Fairland Johannesburg 2170 South Africa (hereinafter referred to as "CRO") and Purinix Pharmaceuticals LLC whose Registered Office is at 1266 East Main Street, Suite 700R, Stamford, CT 06902, USA (hereinafter referred to as "Client").
 
 ## 1.0 Services
 
-- 1.1. Client requires CRO to carry out Clinical Research Services in South Africa ('Services'). CRO will carry out the tasks agreed and summarised in the Addenda to this Master Service Agreement.
+- 1.1. Client requires CRO to carry out Clinical Research Services in South Africa ("Services"). CRO will carry out the tasks agreed and summarised in the Addenda to this Master Service Agreement.
 - 1.2. This Agreement forms the basis for a working relationship between Client and CRO. This Agreement will be supplemented, in the form of Project-specific Addenda, as the need arises. The Project-specific Addenda will contain the detailed requirements of each Project for which Services are contracted to CRO by Client and all fees to be paid by Client.
 - 1.3. Client will provide CRO with the documents and information necessary as requested by CRO for the conduct of the Services.
 - 1.4. CRO agrees to perform the specific tasks set forth in the Project-specific Addenda in a professional manner, in strict accordance with the terms and conditions contained herein, relevant professional standards including in accordance with the Protocol and applicable amendments and ICH GCP Guidelines (ICH Harmonised Tripartite Guideline for Good Clinical Practice, May 1996) and all other relevant laws, rules, regulations and guidelines.
@@ -22,11 +22,10 @@ This Master Service Agreement ('Agreement'), entered into on May 25th, 2018 by a
 
 2.1
 
-Client will pay CRO for satisfactory performance of Services as agreed in each Project-specific Addendum to this Agreement.
+| Confidential  Page 1 of 7  Initials:  CL  MD  Version Jan16\_v1   |
+|-------------------------------------------------------------------|
 
-| Confidential     | Page 1 of 7   | Initials:   | CL   | MD   |
-|------------------|---------------|-------------|------|------|
-| Version Jan16_v1 |               |             |      |      |
+Client will pay CRO for satisfactory performance of Services as agreed in each Project-specific Addendum to this Agreement.
 
 ## Certain identified information has been excluded because it is both not material and would
 
@@ -60,11 +59,13 @@ Initials:
 
 - [ ] CL
 
-- [ ] MD
+MD
 
 Version Jan16\_v1
 
-## Certain identified information has been excluded because it is both not material and would likely cause competitive harm if publicly disclosed.
+## Certain identified information has been excluded because it is both not material and would
+
+## likely cause competitive harm if publicly disclosed.
 
 - 5.2. CRO reserves the right to place staff on the project, however not without initially providing a project management and resource outline to Client, including but not limited to, the current Curriculum Vitae of proposed staff. CRO will notify Client of any change in staff. Any new or replacement personnel shall be subject to Client's prior written approval, which approval shall not be unreasonably withheld.
 - 5.3. CRO will utilize CRO business cards, letterheads and facsimile templates for the purpose of the conduct of this trial.
@@ -79,15 +80,16 @@ Version Jan16\_v1
 
 (a) to disclose and assign to Client as its exclusive property all inventions and technical or business innovations specifically derived from the work assigned by Client to CRO which CRO develops or conceives, solely or in conjunction with others (1) that are based on or involve information of Client, (2) that relate to, constitute, result from, or include the work in which CRO will be engaged for Client, or (3) that are otherwise made through the use of any time, facilities or materials of Client;
 
-| Confidential     | Page 3 of 7   | Initials:   | CL   | MD   |
-|------------------|---------------|-------------|------|------|
-| Version Jan16_v1 |               |             |      |      |
+| Confidential  Page 3 of 7  Initials:  - [ ] CL  MD  Version Jan16\_v1   |
+|-------------------------------------------------------------------------|
 
-## Certain identified information has been excluded because it is both not material and would likely cause competitive harm if publicly disclosed.
+## Certain identified information has been excluded because it is both not material and would
+
+## likely cause competitive harm if publicly disclosed.
 
 (b) that all deliverables and work products in the form of works of authorship developed by CRO in the performance of Services under this Agreement shall be deemed works made for hire, and shall belong fully and exclusively to Client; and that if by operation of law such deliverables or work products are not works made for hire, CRO agrees to, and does hereby, assign to Client all right, title, and interest in such deliverables or work product, including all copyrights therein;
 
-(c)  to execute all necessary documents and provide Client proper assistance (at its expense) sufficient to enable it to obtain patent, copyright or other legal protections for any such inventions or innovations as described in paragraph 7.1(a) and (b), and to make and maintain reasonably detailed accurate records of any such inventions or innovations;
+(c) to execute all necessary documents and provide Client proper assistance (at its expense) sufficient to enable it to obtain patent, copyright or other legal protections for any such inventions or innovations as described in paragraph 7.1(a) and (b), and to make and maintain reasonably detailed accurate records of any such inventions or innovations;
 
 (d) to deliver to Client, upon termination or expiration of this Agreement, all materials which were provided to CRO under the terms of this Agreement and which relate to the business of, or belong to, Client or which were provided by Client for the use of its employees, contractors or consultants;
 
@@ -106,7 +108,7 @@ h) not to divulge or make known to any person, firm, or corporation any of the m
 
 ## 8.3. CRO will inform Client in writing immediately of any suspected fraud.
 
-Confidential Version Jan16\_v1
+Confidential
 
 Page 4 of 7
 
@@ -116,7 +118,11 @@ Initials:
 
 MD
 
-## Certain identified information has been excluded because it is both not material and would likely cause competitive harm if publicly disclosed.
+Version Jan16\_v1
+
+## Certain identified information has been excluded because it is both not material and would
+
+## likely cause competitive harm if publicly disclosed.
 
 ## 9.0 Independent Contractor Status
 
@@ -140,12 +146,12 @@ MD
 - 12.5 Any action of any kind by either party arising out of this Agreement must be commenced within five (5) years from the date the right, claim, demand, or cause of action shall first arise.
 - 12.6 This Agreement contains the complete and exclusive understanding of the parties with respect to the subject matter hereof. No waiver, alteration or modification of any of the provisions hereof will be binding unless in writing and signed by a duly authorized representative of the party to be bound. Neither the course of conduct between the parties nor trade usage will act to modify or alter the provisions of this Agreement.
 
-| 12.7 This Agreement shall be governed by the laws of the State of Connecticut, U.S.A. without regard to conflict of law principles.   | 12.7 This Agreement shall be governed by the laws of the State of Connecticut, U.S.A. without regard to conflict of law principles.   | 12.7 This Agreement shall be governed by the laws of the State of Connecticut, U.S.A. without regard to conflict of law principles.   | 12.7 This Agreement shall be governed by the laws of the State of Connecticut, U.S.A. without regard to conflict of law principles.   | 12.7 This Agreement shall be governed by the laws of the State of Connecticut, U.S.A. without regard to conflict of law principles.   |
-|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Confidential                                                                                                                          | Page 5 of 7                                                                                                                           | Initials:                                                                                                                             | CL                                                                                                                                    | MD                                                                                                                                    |
-| Version Jan16_v1                                                                                                                      |                                                                                                                                       |                                                                                                                                       |                                                                                                                                       |                                                                                                                                       |
+| 12.7  This Agreement shall be governed by the laws of the State of Connecticut, U.S.A. without regard to conflict of law principles.  Confidential  Page 5 of 7  Initials:  CL  MD  Version Jan16\_v1   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-## Certain identified information has been excluded because it is both not material and would likely cause competitive harm if publicly disclosed.
+## Certain identified information has been excluded because it is both not material and would
+
+## likely cause competitive harm if publicly disclosed.
 
 ## BANKING DETAILS
 
@@ -199,7 +205,7 @@ Initials:
 
 - [ ] CL
 
-- [ ] MD
+MD
 
 Version Jan16\_v1
 
@@ -215,21 +221,7 @@ With reference to OnQ proposal v3 13/04/2018 [***]
 
 ## Signature of Contract: 20% of Professional Fees
 
-| OnQ costs               |               |              |
-|-------------------------|---------------|--------------|
-| Monitoring              | [***]         | [***]        |
-| Office overhead         | [***]         | [***]        |
-| Data Management         | [***]         | [***]        |
-|                         | [***]         | [***]        |
-| Milestone               | Percentage    | USD(amount)  |
-| Signature of contract   |               |              |
-| SAHPRA approval         | 15%           | [***]        |
-| FPI                     | 5%            | [***]        |
-| 50% recruitment         | 20%           | [***]        |
-| 100% recruitment        | 20%           | [***]        |
-| DBlock                  | 10%           | [***]        |
-| CSR Draft               | 10%           | [***]        |
-| Acceptance of Final CSR | Final Payment | [***]        |
-| Confidential            | Page 7 of 7   | Initials: CL |
+| OnQ costs  Monitoring  [***]  [***]  Office overhead  [***]  [***]  Data Management  [***]  [***]  [***]  [***]  Milestone  Percentage  USD ( amount)  Signature of contract  SAHPRA approval  15%  [***]  FPI  5%  [***]  50% recruitment  20%  [***]  100% recruitment  20%  [***]  DB lock  10%  [***]  CSR Draft  10%  [***]  Acceptance of Final CSR  Final Payment  [***]  Confidential  Page 7 of 7  Initials:  CL  MD   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 Version Jan16\_v1

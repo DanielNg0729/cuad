@@ -1,7 +1,5 @@
 # TEARDROPGOLFCO_10_23_1996-EX-10.12-ENDORSEMENT AGREEMENT
 
-EXHIBIT 10.12
-
 ## ENDORSEMENT AGREEMENT
 
 This Endorsement Agreement is made and entered into this first (1st) day of January, 1996, by and between Teardrop Putter Corporation having its principal office at 207 WatersEdge, Shelter Cove, Hilton Head Island, South Carolina 29928 (hereinafter referred to as "TPC"), and Consolidated Artists Inc., Sommerville House, Phillips Street, St. Helier, Jersey JE1 1DE, Channel Islands, British Isles (hereinafter referred to as "Consolidated Artists").
@@ -24,71 +22,72 @@ has agreed to authorize such use upon the terms and conditions hereinafter conta
 
 NOW, THEREFORE, for and in consideration of the premises and mutual covenants herein set forth and for other good and valuable consideration, it is agreed as follows:
 
-1.    DEFINITIONS: As used herein, the terms set forth below shall be defined as follows:
-2. (a)  "Ogle Endorsement" shall mean the name, likeness, photograph, and endorsement of Ogle.
-3. (b)  "Endorsed Product" shall mean a putter manufactured, distributed, promoted, advertised and sold by TPC bearing the "Teardrop Putter" name and/or logo.
-4. (c)  "Contract Territory" shall mean the entire world.
-5. (d)  "Contract Period" shall mean that period of time commencing January 1, 1996, and concluding December 31, 1998, unless sooner terminated in accordance with the terms and conditions hereof.
-6. (e)  "Contract Year" shall mean that twelve (12)month period of time commencing each first (1st) day of January throughout the Contract Period.
-7. (f)  "Major Tournament" shall mean any of the following tournaments: the Masters, the U.S. Open, the British Open and the PGA Championship.
+1. DEFINITIONS: As used herein, the terms set forth below shall be defined as follows:
+2. (a) "Ogle Endorsement" shall mean the name, likeness, photograph, and endorsement of Ogle.
+3. (b) "Endorsed Product" shall mean a putter manufactured, distributed, promoted, advertised and sold by TPC bearing the "Teardrop Putter" name and/or logo.
+4. (c) "Contract Territory" shall mean the entire world.
+5. (d) "Contract Period" shall mean that period of time commencing January 1, 1996, and concluding December 31, 1998, unless sooner terminated in accordance with the terms and conditions hereof.
+6. (e) "Contract Year" shall mean that twelve (12)month period of time commencing each first (1st) day of January throughout the Contract Period.
+7. (f) "Major Tournament" shall mean any of the following tournaments: the Masters, the U.S. Open, the British Open and the PGA Championship.
 
 - 3 -
 
-- (g)  "PGA Tour Tournament" shall mean PGA Tour tournaments, excluding the Major Tournaments.
-- (h)  "International Tournament" shall mean European PGA Tour tournaments (excluding the British Open),Japan PGA Tour tournaments and Australian PGA Tour tournaments.
-2.    OGLE TO USE ENDORSED PRODUCT. Consolidated Artists agrees to cause Ogle to use the Endorsed Product during the Contract Period and throughout the Contract Territory whenever he is playing competitive golf or otherwise participating in golf clinics and outings.
-3.    GRANT OF ENDORSEMENT RIGHTS. Subject to the terms and conditions set forth herein, Consolidated Artists grants to TPC the exclusive right and license, within the Contract Territory and during the Contract Period, to use the Ogle Endorsement in connection with the manufacture, distribution, advertisement, promotion and sale of the Endorsed Product.
-4.    CLOTHING IDENTIFICATION. Consolidated Artists agrees to cause Ogle to wear a patch and/or an embroidered non-patch bearing the Teardrop name and/or logo on the right chest, left sleeve, and back of his golf shirt and/or sweater (near the collar) and/or rain gear whenever he is playing competitive golf, participating in golf clinics and outings or otherwise engaging in golf promotional activities during the Contract Period and throughout the Contract Territory. The expenses for the clothing and placement of the
+- (g) "PGA Tour Tournament" shall mean PGA Tour tournaments, excluding the Major Tournaments.
+- (h) "International Tournament" shall mean European PGA Tour tournaments (excluding the British Open),Japan PGA Tour tournaments and Australian PGA Tour tournaments.
+2. OGLE TO USE ENDORSED PRODUCT. Consolidated Artists agrees to cause Ogle to use the Endorsed Product during the Contract Period and throughout the Contract Territory whenever he is playing competitive golf or otherwise participating in golf clinics and outings.
+3. GRANT OF ENDORSEMENT RIGHTS. Subject to the terms and conditions set forth herein, Consolidated Artists grants to TPC the exclusive right and license, within the Contract Territory and during the Contract Period, to use the Ogle Endorsement in connection with the manufacture, distribution, advertisement, promotion and sale of the Endorsed Product.
+
+## EXHIBIT 10.12
+
+4. CLOTHING IDENTIFICATION. Consolidated Artists agrees to cause Ogle to wear a patch and/or an embroidered non-patch bearing the Teardrop name and/or logo on the right chest, left sleeve, and back of his golf shirt and/or sweater (near the collar) and/or rain gear whenever he is playing competitive golf, participating in golf clinics and outings or otherwise engaging in golf promotional activities during the Contract Period and throughout the Contract Territory. The expenses for the clothing and placement of the
 
 - 4 -
 
 patch and/or embroidered non-patch shall be borne by TPC. TPC agrees to supply Consolidated Artists or its designee with adequate quantities of said patch and embroidered non-patch at no charge to Consolidated Artists.
 
-5.    RETENTION OF ENDORSEMENT RIGHTS. Subject to the provisions of Paragraphs 2, 3 and 4 above, TPC agrees that Consolidated Artists shall retain all rights in and to the Ogle Endorsement and shall not be prevented from using or permitting or licensing others to use his name or endorsement in connection with the promotion, advertisement, or sale of any product or service other than a golf putter in the Contract Territory during the Contract Period. TPC further agrees that upon the termination of this Endorsement Agreement for any cause whatsoever, it will cease using the Ogle Endorsement, the name "Brett Ogle," or any facsimile thereof, for any promotional or advertising purposes; provided, however, that TPC shall have the right to use the Ogle Endorsement in advertisements for ad space purchased by TPC prior to the termination of this Agreement for a period of up to six (6) months following such termination. In this connection, TPC shall provide Consolidated Artists with a list of such previously purchased ad space within seven (7) days of the effective date of termination and all such advertisements released after the effective date of termination shall be subject to Consolidated Artists' prior approval pursuant to the terms of Paragraph 7 below.
+5. RETENTION OF ENDORSEMENT RIGHTS. Subject to the provisions of Paragraphs 2, 3 and 4 above, TPC agrees that Consolidated Artists shall retain all rights in and to the Ogle Endorsement and shall not be prevented from using or permitting or licensing others to use his name or endorsement in connection with the promotion, advertisement, or sale of any product or service other than a golf putter in the Contract Territory during the Contract Period. TPC further agrees that upon the termination of this Endorsement Agreement for any cause whatsoever, it will cease using the Ogle Endorsement, the name "Brett Ogle," or any facsimile thereof, for any promotional or advertising purposes; provided, however, that TPC shall have the right to use the Ogle Endorsement in advertisements for ad space purchased by TPC prior to the termination of this Agreement for a period of up to six (6) months following such termination. In this connection, TPC shall provide Consolidated Artists with a list of such previously purchased ad space within seven (7) days of the effective date of termination and all such advertisements released after the effective date of termination shall be subject to Consolidated Artists' prior approval pursuant to the terms of Paragraph 7 below.
 
 - 5 -
 
-6.    PHOTOGRAPH SHOOTS; PERSONAL APPEARANCES. Consolidated Artists agrees, if requested by TPC, to make Ogle available for one (1) day on behalf of TPC in each Contract Year during the Contract Period at times and places mutually convenient to Ogle and TPC for the purpose of taking still photographs for the preparation and production of advertising and promotional materials. TPC agrees that such photograph shoots shall not exceed five (5) hours each in duration. Further, Consolidated Artists agrees, if requested by TPC, to make Ogle available for two (2) personal appearance days on behalf of TPC in each Contract Year during the Contract Period at times and places mutually convenient to Ogle and TPC. Such personal appearances shall be limited to one (1) day and shall not exceed five (5) hours each in duration. In addition, TPC agrees to pay all reasonable and necessary expenses (including first class travel, hotel accommodations and meal expenses) incurred by Consolidated Artists in connection with such photograph shoots and personal appearances.
-7.    PROMOTIONAL AND ADVERTISING MATERIALS. TPC agrees to provide Consolidated Artists and its representative, Advantage International Management, Inc. ("Advantage"), with a copy of all advertising and promotional materials which will use or show the Ogle Endorsement for their approval. Such promotional or advertising materials shall be delivered to Advantage at least fourteen (14) days prior to their release to the general public, and TPC agrees that the same shall not be released without the
+6. PHOTOGRAPH SHOOTS; PERSONAL APPEARANCES. Consolidated Artists agrees, if requested by TPC, to make Ogle available for one (1) day on behalf of TPC in each Contract Year during the Contract Period at times and places mutually convenient to Ogle and TPC for the purpose of taking still photographs for the preparation and production of advertising and promotional materials. TPC agrees that such photograph shoots shall not exceed five (5) hours each in duration. Further, Consolidated Artists agrees, if requested by TPC, to make Ogle available for two (2) personal appearance days on behalf of TPC in each Contract Year during the Contract Period at times and places mutually convenient to Ogle and TPC. Such personal appearances shall be limited to one (1) day and shall not exceed five (5) hours each in duration. In addition, TPC agrees to pay all reasonable and necessary expenses (including first class travel, hotel accommodations and meal expenses) incurred by Consolidated Artists in connection with such photograph shoots and personal appearances.
+7. PROMOTIONAL AND ADVERTISING MATERIALS. TPC agrees to provide Consolidated Artists and its representative, Advantage International Management, Inc. ("Advantage"), with a copy of all advertising and promotional materials which will use or show the Ogle Endorsement for their approval. Such promotional or advertising materials shall be delivered to Advantage at least fourteen (14) days prior to their release to the general public, and TPC agrees that the same shall not be released without the
 
 - 6 -
 
 prior written approval of Advantage. Advantage agrees that it will not unreasonably disapprove or reject promotional or advertising materials hereunder, and that Advantage's failure to disapprove such materials within fourteen (14) days of receipt shall be deemed to be approval. In addition, TPC agrees to provide Consolidated Artists with complimentary duplicates of all promotional and/or advertising materials featuring Ogle or the Ogle Endorsement.
 
-8.    RETAINER FEE. In consideration of the rights and benefits granted to TPC hereunder, TPC agrees to pay Consolidated Artists on behalf of Ogle a retainer fee in each Contract Year during the Contract Period ("Retainer Fee") in accordance with the following schedule:
+8. RETAINER FEE. In consideration of the rights and benefits granted to TPC hereunder, TPC agrees to pay Consolidated Artists on behalf of Ogle a retainer fee in each Contract Year during the Contract Period ("Retainer Fee") in accordance with the following schedule:
 
-CONTRACT YEAR                          RETAINER FEE
+CONTRACT YEAR RETAINER FEE
 
-First (1st) Contract Year              Fifty-Five Thousand U.S. (Jan. 1, 1996-Dec. 31, 1996)           Dollars ($55,000)
+First (1st) Contract Year Fifty-Five Thousand U.S. (Jan. 1, 1996-Dec. 31, 1996) Dollars ($55,000)
 
-Second (2nd) Contract Year             Seventy Thousand U.S. (Jan. 1, 1997-Dec. 31, 1997)           Dollars (70,000)
+Second (2nd) Contract Year Seventy Thousand U.S. (Jan. 1, 1997-Dec. 31, 1997) Dollars (70,000)
 
-Third (3rd) Contract Year              Ninety Thousand U.S. (Jan. 1, 1998-Dec. 31, 1998)           Dollars ($90,000)
+Third (3rd) Contract Year Ninety Thousand U.S. (Jan. 1, 1998-Dec. 31, 1998) Dollars ($90,000)
 
 Said Retainer Fee shall be paid in four (4) equal installments on or before the first (1st) day of February, May, August and November in each Contract Year.
 
-9.    TOURNAMENT BONUSES. In addition to the Retainer Fee set forth in Paragraph 8 above, TPC agrees to pay Consolidated Artists on behalf of Ogle the
-
-- 7 -
+9. TOURNAMENT BONUSES. In addition to the Retainer Fee set forth in Paragraph 8 above, TPC agrees to pay Consolidated Artists on behalf of Ogle the
 
 tournament performances during the Contract Period (the "Tournament Bonus or Bonuses"):
 
-- (a)  Sixty Thousand U.S. Dollars ($60,000), each time Ogle wins a Major Tournament; and
-- (b)  Twenty Thousand U.S. Dollars ($20,000), each time Ogle wins a network televised US PGA Tour Tournament; and
-- (c)   Ten Thousand U.S. Dollars ($10,000) each time Ogle wins a cable televised US PGA Tour Tournament; and
-- (d)  Seven Thousand Five Hundred U.S. Dollars ($7,500) each time Ogle wins a Golf Channel televised US PGA Tour Tournament or a Golf Channel televised International Tournament; and
-- (e)  Five Thousand U.S. Dollars ($5,000) each time Ogle wins an International Tournament not televised by Golf Channel or a non-televised US PGA Tour Tournament.
+- (a) Sixty Thousand U.S. Dollars ($60,000), each time Ogle wins a Major Tournament; and
+- (b) Twenty Thousand U.S. Dollars ($20,000), each time Ogle wins a network televised US PGA Tour Tournament; and
+- (c) Ten Thousand U.S. Dollars ($10,000) each time Ogle wins a cable televised US PGA Tour Tournament; and
+- (d) Seven Thousand Five Hundred U.S. Dollars ($7,500) each time Ogle wins a Golf Channel televised US PGA Tour Tournament or a Golf Channel televised International Tournament; and
+- (e) Five Thousand U.S. Dollars ($5,000) each time Ogle wins an International Tournament not televised by Golf Channel or a non-televised US PGA Tour Tournament.
 
 TPC shall pay any Tournament Bonuses due Consolidated Artists for a Major Tournament win within sixty (60) days following TPC's receipt of an invoice from Consolidated Artists or Advantage and any Tournament Bonuses due Consolidated Artists for a network televised US PGA Tour Tournament win shall be paid within forty-five (45) days following TPC's receipt of an invoice from Consolidated Artists or Advantage. All other Tournament Bonuses due to Consolidated Artists shall be paid by TPC within thirty (30) days following TPC's receipt of an invoice from Consolidated Artists or Advantage.
 
 - 8 -
 
 10. MONEY LIST BONUS(ES). In addition to the Retainer Fee and the Tournament Bonuses set forth in Paragraphs 8 and 9 above, TPC agrees to pay Consolidated Artists on behalf of Ogle the following bonuses in each Contract Year for Ogle's position on the Official Year-End PGA Tour Money List ("Money List Bonus(es)"):
-2. (a)  Fifty Thousand U.S. Dollars ($50,000) each time Ogle finishes in first (1st) place on the Official Year-End PGA Tour Money List; and
-3. (b)  Twenty-Five Thousand U.S. Dollars ($25,000) each time Ogle finishes between second (2nd) and tenth (10th) place on the Official Year-End PGA Tour Money List; and
-4. (c)  Fifteen Thousand U.S. Dollars ($15,000) each time Ogle finishes between eleventh (11th) and twentieth (20th) place on the Official Year-End PGA Tour Money List; and
-5. (d)  Seven Thousand Five Hundred U.S. Dollars ($7,500) each time Ogle finishes between twenty-first (21st) and thirtieth (30th) place on the Official Year-End PGA Tour Money List; and
-6. (e)  Five Thousand U.S. Dollars ($5,000) each time Ogle finishes between thirty-first (31st) and fortieth (40th) place on the Official Year-End PGA Tour Money List.
+2. (a) Fifty Thousand U.S. Dollars ($50,000) each time Ogle finishes in first (1st) place on the Official Year-End PGA Tour Money List; and
+3. (b) Twenty-Five Thousand U.S. Dollars ($25,000) each time Ogle finishes between second (2nd) and tenth (10th) place on the Official Year-End PGA Tour Money List; and
+4. (c) Fifteen Thousand U.S. Dollars ($15,000) each time Ogle finishes between eleventh (11th) and twentieth (20th) place on the Official Year-End PGA Tour Money List; and
+5. (d) Seven Thousand Five Hundred U.S. Dollars ($7,500) each time Ogle finishes between twenty-first (21st) and thirtieth (30th) place on the Official Year-End PGA Tour Money List; and
+6. (e) Five Thousand U.S. Dollars ($5,000) each time Ogle finishes between thirty-first (31st) and fortieth (40th) place on the Official Year-End PGA Tour Money List.
 
 TPC shall pay any Money List Bonuses due to Consolidated Artists within thirty (30) days following TPC's receipt of an invoice from Consolidated Artists or Advantage.
 
@@ -106,21 +105,21 @@ agrees to pay Consolidated Artists the appropriate Royalty Compensation in exces
 
 14. PAYMENTS TO CONSOLIDATED ARTISTS. All payments to be made to Consolidated Artists pursuant to the terms hereof shall be made by wire transfer in U.S. Dollars to the following account:
 
-Account Name:  Advantage International Escrow Fund
+Account Name: Advantage International Escrow Fund
 
-Account #:     20068160-13
+Account #: 20068160-13
 
-ABA #:         054001547
+ABA #: 054001547
 
-Bank Name:     Franklin National Bank of Washington
+Bank Name: Franklin National Bank of Washington
 
-Address:       1722 Eye Street
+Address: 1722 Eye Street
 
 Washington, D.C. 20006
 
 U.S.A.
 
-Re:            Consolidated Artists
+Re: Consolidated Artists
 
 15. MINIMUM PLAY REQUIREMENT. TPC shall have the right to prorate the Retainer Fee due Consolidated Artists upon fourteen (14) days written notice to Consolidated Artists or Advantage in the event Ogle fails to play a minimum of seventeen (17) U.S. PGA
 
@@ -145,17 +144,17 @@ using the Ogle Endorsement, the name "Brett Ogle," or any facsimile thereof, for
 - 13 -
 
 21. SPECIAL RIGHT OF TERMINATION BY CONSOLIDATED ARTISTS. Consolidated Artists shall have the right to terminate this Agreement upon thirty (30) days prior written notice to TPC in the event of the occurrence of any of the following contingencies:
-2. (a)  If TPC is adjudicated as insolvent, declares bankruptcy or fails to continue its business of selling the Endorsed Product; or
-3. (b)  If TPC fails to make payment to Consolidated Artists of any sums due pursuant to this Agreement within thirty (30) days following the date such payment is due hereunder, provided that TPC is notified in writing of such nonpayment by Consolidated Artists or Advantage and such payment is not made within ten (10) days following such notification.
+2. (a) If TPC is adjudicated as insolvent, declares bankruptcy or fails to continue its business of selling the Endorsed Product; or
+3. (b) If TPC fails to make payment to Consolidated Artists of any sums due pursuant to this Agreement within thirty (30) days following the date such payment is due hereunder, provided that TPC is notified in writing of such nonpayment by Consolidated Artists or Advantage and such payment is not made within ten (10) days following such notification.
 
 TPC agrees that such termination shall not relieve it of its obligation to pay Consolidated Artists all compensation contemplated hereunder. Accordingly, Consolidated Artists shall not waive any of its rights at law or in equity.
 
 22. SPECIAL RIGHT OF TERMINATION BY TPC. TPC shall have the right to terminate this Agreement upon thirty (30) days prior written notice to Consolidated Artists or Advantage in the event of the occurrence of any of the following contingencies:
-2. (a)  In the event of 0gle's death during the Contract Period; or
+2. (a) In the event of 0gle's death during the Contract Period; or
 
 - 14 -
 
-- (b)  In the event Ogle is convicted of a felony involving moral turpitude.
+- (b) In the event Ogle is convicted of a felony involving moral turpitude.
 
 In the event of such termination above, the parties agree that the Retainer Fee due Consolidated Artists shall be prorated to the effective date of termination. Furthermore, TPC agrees that any Tournament Bonuses, Money List Bonuses and any Royalty Compensation earned by Ogle prior to the effective date of termination shall be paid in full within thirty (30) days of such effective date of termination.
 
@@ -169,11 +168,13 @@ assign, transfer, alienate, encumber or hypothecate any of its rights or obligat
 
 26. NOTICES. All notices required hereunder shall be sent by telefax, overnight mail or first class mail, return receipt requested, as appropriate, to the parties at the following addresses:
 
-TPC                  Mr. Fred A. Hochman President Teardrop Putter Corporation 207 WatersEdge, Shelter Cove Hilton Head Island, South Carolina 29928
+TPC Mr. Fred A. Hochman President
 
-Consolidated         Consolidated Artists, Inc. Artists              Sommerville House Phillips Street St. Helier Jersey JE1 1DE Channel Islands British Isles
+Teardrop Putter Corporation 207 WatersEdge, Shelter Cove Hilton Head Island, South Carolina 29928
 
-cc:                  Advantage International Management, Inc. 1751 Pinnacle Drive Suite 1500 McLean, Virginia 22102 Attention:  Mr. Peter Roisman
+Consolidated Consolidated Artists, Inc. Artists Sommerville House Phillips Street St. Helier Jersey JE1 1DE Channel Islands British Isles
+
+cc: Advantage International Management, Inc. 1751 Pinnacle Drive Suite 1500 McLean, Virginia 22102 Attention: Mr. Peter Roisman
 
 Advantage and TPC shall promptly notify each other in writing of any change of address.
 
@@ -195,30 +196,28 @@ IN WITNESS WHEREOF, the parties hereto have caused this Agreement to be executed
 
 TEARDROP PUTTER CORPORATION
 
-Date:  2-27-96                         BY: /s/ Brian R. Hochman
+Date: 2-27-96 BY: /s/ Brian R. Hochman
 
---------------------                  --------------------------------
+-------------------- --------------------------------
 
-Brian R. Hochman
-
-President
+Brian R. Hochman President
 
 CONSOLIDATED ARTISTS, INC.
 
-Date:  10-4-96                    By: /s/ M. M. Murray
+Date: 10-4-96 By: /s/ M. M. Murray
 
---------------------                  --------------------------------
+-------------------- --------------------------------
 
 Its: Ass Secretary
 
 -------------------------------
 
-GUARANTY
+## GUARANTY
 
 I, the undersigned, Brett Ogle, do hereby acknowledge that I have read the foregoing Agreement between Teardrop Putter Corporation ("TPC") and Consolidated Artists, Inc. ("Consolidated Artists") and am aware of the terms thereof. In this connection, I agree that I will be bound by the terms and conditions of such Agreement and that I will be entitled to the rights and benefits set forth therein, as fully as if I have been a party to such Agreement. Furthermore, in consideration of the mutual covenants and conditions and as a material inducement to TPC to enter into said Agreement with Consolidated Artists, I do hereby guarantee the performance of said Agreement by Consolidated Artists. This guaranty shall only be effective upon the execution of the Agreement by Consolidated Artists.
 
-DATE:  3/28/96                         /s/ Brett Ogle
+DATE: 3/28/96 /s/ Brett Ogle
 
---------------------               -----------------------------------
+-------------------- -----------------------------------
 
 BRETT OGLE

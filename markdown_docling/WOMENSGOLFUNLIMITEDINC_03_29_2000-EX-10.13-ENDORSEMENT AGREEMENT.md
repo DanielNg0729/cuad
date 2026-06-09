@@ -1,9 +1,5 @@
 # WOMENSGOLFUNLIMITEDINC_03_29_2000-EX-10.13-ENDORSEMENT AGREEMENT
 
-1
-
-EXECUTION COPY
-
 ENDORSEMENT AGREEMENT ---------------------
 
 This Endorsement Agreement ("Agreement") is made this 13th day of October, 1999 by and between SQUARE TWO GOLF INC., a New Jersey corporation (the "Company"), and KATHY WHITWORTH, an individual, with an address at 302 La Mancha Court, Santa Fe, New Mexico, 87501 (the "Professional").
@@ -36,6 +32,8 @@ During the Term, the Professional will provide the services described i
 
 EXECUTION COPY
 
+EXECUTION COPY
+
 - 2.2 The Professional agrees to serve as a professional golf instructor during up to ten (10) golf clinics hosted by the Company per calendar year at locations within the United States to be determined by the Company. The golf clinics shall be one or two day events.
 - 2.3 The Professional agrees to serve as a spokesperson for the Company at up to two (2) Professional Golf Association merchandise shows, including but not limited to the PGA Merchandise Shows.
 
@@ -53,6 +51,8 @@ EXECUTION COPY
 
 3
 
+4
+
 EXECUTION COPY
 
 identification of the Professional from any marketing, advertising, sale or other disposition of such Products, regardless of any use they make of the name, likeness, image or personal identification of the Professional.
@@ -69,11 +69,7 @@ identification of the Professional from any marketing, advertising, sale
 
 4.3 If the Company elects to create and market the Products, the Company will grant to the Professional options to purchase shares of the Company's capital stock ("Options"), as provided in this paragraph. On each March 31, June 30, September 30, and December 31 during the Term that the Company elects to continue the marketing and sale of the Products, the Company will grant to the Professional a number of Options (the "Quarterly Grant Number").
 
--3-
-
-4
-
-EXECUTION COPY
+-3- EXECUTION COPY
 
 The Quarterly Grant Number shall be the nearest whole number that results from the division of the number of dollars represented by one half of one percent
 
@@ -124,6 +120,8 @@ contracts on behalf of the Company. The Professional agrees that she 
 
 6
 
+7
+
 EXECUTION COPY
 
 6.5.3 Neither the Professional's grant of rights to the Company under this Agreement nor the Company's exercise of such rights will cause the infringement of any rights of third parties.
@@ -150,11 +148,7 @@ EXECUTION COPY
 
 9.1 The Professional acknowledges that any use of her name, likeness, image or personal identification by any third party in connection with the making, use, sale, marketing, promotion or advertising of golf equipment, including but not limited to golf clubs and golf bags, would cause a likelihood of confusion with the Products of the Company, during the Term and thereafter during the time the Company disposes of inventory on hand at the expiration of this Agreement. The Professional acknowledges that she will have a right, pursuant to and under the
 
--6-
-
-7
-
-EXECUTION COPY
+-6- EXECUTION COPY
 
 conditions described in Section 4.2 above, to receive a specified royalty for inventory on hand at the expiration of the initial term, and accordingly hereby grants to the Company the right to fill any orders for, assemble components of, market, advertise, promote and sell any inventory of Products in its inventory existing at the expiration or termination of this Agreement, for a period not to exceed two (2) years after such expiration or termination of the original term. To avoid any possibility of confusion of the public, trademark infringement or interference with the rights of the Company, the Professional agrees not to endorse, license or otherwise authorize the use of her name, likeness or image in connection with another company's golf clubs or golf-related clothing or equipment during the Term and for a period of two (2) years thereafter.
 
@@ -188,25 +182,8 @@ EXECUTION COPY
 
 11.5. NOTICES. Any communication (including any notice, consent, approval or instructions) provided for under this Agreement may be given to the person to whom it is addressed by delivering the same to or for such person at the address or facsimile number of such person as set out hereinafter or at such other address or number as such person shall have notified to the other party hereto, provided that a copy of any communication sent by fax shall be immediately deposited in the mail. Any communication so addressed and delivered as aforesaid shall be deemed to have been sufficiently given or made on the date on which it was delivered.
 
-If to the Company:       S2 GOLF INC.
-
-18 Gloria Lane Fairfield, New Jersey 07004 Attention:  Mr. Douglas A. Buffington Facsimile number:  (973) 227-7018
-
-With a copy to:          Mary Ann Jorgenson, Esq. Squire, Sanders &amp; Dempsey L.L.P. 4900 Key Tower 127 Public Square Cleveland, Ohio  44114 Facsimile number:  (216) 479-8776
-
-If to the Professional:  Kathy Whitworth
-
-1735 Mistletoe Flower Mound, Texas  75022 Facsimile number:  (792) 355-7021
-
-With a copy to:          Nick Lampros
-
-16615 Lark Avenue Suite 101 Los Gatos, California  95032 Facsimile number:  (408) 358-2486
-
--8-
-
-9
-
-EXECUTION COPY
+| If to the Company:       S2 GOLF INC.  18 Gloria Lane Fairfield, New Jersey 07004 Attention:  Mr. Douglas A. Buffington Facsimile number:  (973) 227-7018  With a copy to:          Mary Ann Jorgenson, Esq. Squire, Sanders &amp; Dempsey L.L.P. 4900 Key Tower 127 Public Square Cleveland, Ohio  44114 Facsimile number:  (216) 479-8776  If to the Professional:  Kathy Whitworth  1735 Mistletoe Flower Mound, Texas  75022 Facsimile number:  (792) 355-7021  With a copy to:          Nick Lampros  16615 Lark Avenue Suite 101 Los Gatos, California  95032 Facsimile number:  (408) 358-2486   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 11.6. COUNTERPARTS. This Agreement may be executed in two or more counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
 
@@ -228,11 +205,7 @@ PROFESSIONAL
 
 -9-
 
-10
-
-EXECUTION COPY
-
-EXHIBIT A
+## EXHIBIT A
 
 Intellectual Property Rights Confidentiality and Non-Use Obligations Agreement
 
@@ -254,7 +227,9 @@ With regard to such Information, whether or not labeled or specified 
 
 (iii) that is lawfully obtained by Recipient from a source independent of the Company, which source was lawfully in possession of the Information and which source had the unrestricted right to disclose or display the Information to the Recipient; or
 
-(iv) that is required by legal process to be disclosed, provided that Recipient will timely inform the Company of the requirement for disclosure, will permit the Company to attempt, by appropriate legal means, to limit such disclosure and will itself A-1
+(iv) that is required by legal process to be disclosed, provided that Recipient will timely inform the Company of the requirement for disclosure, will permit the Company to attempt, by appropriate legal means, to limit such disclosure and will itself
+
+10
 
 EXECUTION COPY
 
@@ -269,5 +244,3 @@ use appropriate efforts to limit the disclosure and maintain confidentia
 (f) Recipient further acknowledges and agrees that all new discoveries, inventions, improvements, processes, formulae, designs, drawings, training materials, original works of authorship, photos, video tapes, electronic images, documentation, trademarks and copyrights (the "Intellectual Property"), that may be developed, conceived, or made by Recipient, alone or jointly with others during her work for the Company, shall be the exclusive property of the Company and shall be deemed a work for hire. Recipient hereby assigns and agrees to assign all Recipient's rights in any Intellectual Property to the Company. Recipient hereby grants to the Company power of attorney for the purpose of assigning all Recipient's rights in Intellectual Property to the Company for the purposes of filings, registrations and other formalities deemed necessary by the Company to prosecute, protect, perfect or exploit its ownership and interests in Intellectual Property. Recipient further agrees to execute, acknowledge and deliver any documentation, instruments, specifications or disclosures necessary to assign, prosecute, protect, perfect or exploit the Company ownership of Intellectual Property.
 
 (g) Recipient acknowledges and agrees that the Company possesses valuable know-how, proprietary, confidential and trade secret Information that has been procured or developed by the Company at great expense and that its unauthorized disclosure would result in substantial damages to the Company that may not be adequately compensated by monetary relief. Accordingly, Recipient hereby consents to the jurisdiction of the Federal and County Courts in Essex County, New Jersey and agrees that the Company may seek temporary restraining orders against it or other extraordinary relief necessary to protect the Information.
-
-A-2
