@@ -1,0 +1,39 @@
+"# 3 contracts: BIOPURECORP, BizzingoInc, AIRSPANNETWORKSINC"
+headline_metric,gpt-5.4-mini,gpt-5.4,gpt-5.5
+best_f1,0.3771428571428571,0.4608294930875576,0.48
+best_f2,0.36105032822757105,0.501002004008016,0.45951859956236324
+aupr,0.24704491725768324,0.37407023006400275,0.3392434988179669
+true_positives,33,50,42
+false_positives,48,73,39
+false_negatives,61,44,52
+jaccard_similarity,0.4748667559632313,0.6037302189685707,0.23771998949303913
+est_cost_usd,0.050724,0.261019,0.455879
+
+jaccard_per_category,gpt-5.4-mini,gpt-5.4,gpt-5.5,mean
+Volume Restriction,0.0,0.0,0.0,0.0
+Covenant Not To Sue,0.0,0.158,0.0,0.053
+Expiration Date,0.07,0.0,0.196,0.089
+Warranty Duration,0.014,0.27,0.382,0.222
+Revenue/Profit Sharing,0.0,0.661,0.067,0.243
+No-Solicit Of Customers,0.0,0.296,0.451,0.249
+Audit Rights,0.265,0.321,0.242,0.276
+Non-Compete,0.358,0.52,0.0,0.293
+Post-Termination Services,0.112,0.611,0.17,0.298
+Most Favored Nation,0.0,1.0,0.0,0.333
+Minimum Commitment,0.331,0.331,0.358,0.34
+Parties,0.406,0.3,0.324,0.343
+Non-Transferable License,0.97,0.094,0.0,0.354
+Governing Law,0.052,0.425,0.706,0.394
+Affiliate License-Licensee,0.174,0.87,0.261,0.435
+License Grant,0.475,0.604,0.238,0.439
+Cap On Liability,0.211,0.546,0.616,0.458
+Renewal Term,0.475,0.475,0.475,0.475
+Unlimited/All-You-Can-Eat-License,0.851,0.149,0.447,0.482
+Effective Date,0.552,0.546,0.552,0.55
+Document Name,0.5,0.833,0.5,0.611
+Exclusivity,0.599,0.797,0.603,0.666
+Agreement Date,0.667,0.944,0.667,0.759
+Change Of Control,1.0,0.8,0.8,0.867
+Anti-Assignment,0.878,0.856,0.878,0.871
+Termination For Convenience,0.948,0.933,0.948,0.943
+Insurance,0.987,0.987,0.987,0.987
