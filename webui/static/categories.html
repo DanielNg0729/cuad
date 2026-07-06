@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CUAD Categories &mdash; Reference</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="logo"></span> CUAD&nbsp;Highlighter</div>
+    <div class="spacer"></div>
+    <nav>
+      <a href="/">&larr; Back to highlighter</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <div class="page-head">
+      <h1>The CUAD clause categories</h1>
+      <p>Each category has a colour used for highlighting. Tick <b>Show</b> to make a category
+         appear as a selectable label on the main page. Your choices are saved in this browser
+         and applied automatically. By default all are shown. You can also add your own custom
+         categories — their description is sent to the model as the extraction prompt.</p>
+    </div>
+
+    <div class="cat-tools">
+      <input class="search-box" id="search" type="text" placeholder="Filter categories…" />
+      <label class="toggle-all"><input type="checkbox" id="checkAll" checked /> Show all</label>
+      <button class="btn" id="addCat">&plus; Add category</button>
+      <button class="btn secondary" id="reset">Reset visibility</button>
+    </div>
+
+    <!-- inline add-category form (toggled by the button above) -->
+    <div class="add-cat-panel" id="addCatPanel" style="display:none;">
+      <div class="add-cat-fields">
+        <input type="text" id="ncLabel" placeholder="Label (e.g. Termination For Convenience)" autocomplete="off" />
+        <input type="text" id="ncDesc" placeholder="Description — used as the model prompt" autocomplete="off" />
+        <input type="text" id="ncAns" placeholder="Answer type (optional)" autocomplete="off" />
+      </div>
+      <div class="add-cat-actions">
+        <span class="add-cat-err" id="ncErr"></span>
+        <button class="btn secondary" id="ncCancel">Cancel</button>
+        <button class="btn" id="ncSave">Add</button>
+      </div>
+    </div>
+
+    <table class="cat-table">
+      <thead>
+        <tr>
+          <th style="width:34px;"></th>
+          <th>Category</th>
+          <th>Description</th>
+          <th>Answer format</th>
+          <th style="width:48px;">Group</th>
+          <th style="width:64px;" class="show-col">Show</th>
+        </tr>
+      </thead>
+      <tbody id="catBody"></tbody>
+    </table>
+  </main>
+
+  <script src="/static/categories.js"></script>
+</body>
+</html>

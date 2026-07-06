@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CUAD Contract Highlighter</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="logo"></span> CUAD&nbsp;Highlighter</div>
+    <div class="spacer"></div>
+    <nav>
+      <a href="/categories">All 41 categories &rarr;</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <div id="banner" class="banner"></div>
+
+    <!-- upload + model controls -->
+    <section class="controls">
+      <div class="control-row">
+        <div class="field">
+          <label>Contract PDF</label>
+          <label class="file-btn" for="file">
+            &#128206; <span id="filePick">Choose a PDF…</span>
+          </label>
+          <input type="file" id="file" accept="application/pdf,.pdf" />
+        </div>
+
+        <div class="field">
+          <label for="model">Model</label>
+          <select id="model"></select>
+        </div>
+
+        <div class="field">
+          <label for="mode" title="Full scan sends every chunk to the model. RAG embeds the chunks and, for each category, sends only the top-k most relevant chunks.">Extraction mode</label>
+          <select id="mode">
+            <option value="scan">Full scan (all chunks)</option>
+            <option value="rag">RAG (top-3 retrieval)</option>
+          </select>
+        </div>
+
+        <div class="field" style="align-self: flex-end;">
+          <button class="btn" id="analyze" disabled>Analyze</button>
+        </div>
+
+        <div class="field" style="align-self: flex-end;">
+          <button class="btn secondary hidden" id="rerun" title="Re-run with the selected model without re-parsing the PDF">Re-run model</button>
+        </div>
+
+        <div class="field" style="flex:1; align-self:flex-end;">
+          <span class="file-name" id="fileName"></span>
+        </div>
+      </div>
+      <div class="meta-bar" id="meta"></div>
+    </section>
+
+    <!-- label chips -->
+    <div class="chips-head" id="chipsHead" style="display:none;">
+      <h2>Labels</h2>
+      <span class="mini" id="chipsHint"></span>
+      <span class="link chips-head">
+        <button class="btn" id="addCategory" style="padding:5px 10px;" title="Add a custom category that the model will extract and highlight">&plus; Add category</button>
+        <button class="btn secondary" id="selectAll" style="padding:5px 10px;">Select all</button>
+        <button class="btn secondary" id="selectNone" style="padding:5px 10px;">None</button>
+      </span>
+    </div>
+    <div class="chips" id="chips"></div>
+
+    <!-- two-pane viewer (resizable via the splitter between the panes) -->
+    <section class="panes" id="panes" style="display:none;">
+      <div class="pane pdf">
+        <h3>&#9678; PDF &mdash; highlights for selected labels <span class="pane-note" id="pdfNote"></span>
+          <span class="pdf-zoom" id="pdfZoom">
+            <button id="zoomOut" title="Zoom out">&minus;</button>
+            <span id="zoomLevel">100%</span>
+            <button id="zoomIn" title="Zoom in">&plus;</button>
+            <button id="zoomReset" title="Fit to width">Fit</button>
+          </span>
+        </h3>
+        <!-- find-in-document bar (like a normal PDF search) -->
+        <div class="pdf-find" id="pdfFind">
+          <span class="find-icon">&#128269;</span>
+          <input type="text" id="pdfSearch" placeholder="Search in document…"
+                 autocomplete="off" spellcheck="false" />
+          <span class="find-count" id="findCount"></span>
+          <button id="findPrev" title="Previous match (Shift+Enter)" disabled>&#9650;</button>
+          <button id="findNext" title="Next match (Enter)" disabled>&#9660;</button>
+          <button id="findClear" title="Clear search">&times;</button>
+        </div>
+        <div class="doc pdf-scroll" id="pdfPane"></div>
+      </div>
+      <div class="splitter" id="splitter" title="Drag to resize"><span class="grip"></span></div>
+      <div class="pane snippets">
+        <h3>&#9633; Selected highlights <span class="pane-note" id="snipNote"></span>
+          <button class="btn secondary export-btn" id="exportBtn" title="Download the reviewed highlights as an Excel file">&#8681; Export to Excel</button>
+        </h3>
+        <div class="doc" id="extractPane"></div>
+      </div>
+    </section>
+
+    <div class="empty-state" id="emptyState">
+      <div class="big">&#128196;</div>
+      <p>Upload a contract PDF and pick a model, then hit <b>Analyze</b>.<br/>
+         The document is parsed to text, scanned for all 41 CUAD clause types, and shown with colour-coded highlights.</p>
+    </div>
+  </main>
+
+  <!-- loading overlay -->
+  <div class="overlay" id="overlay">
+    <div class="loader-card">
+      <div class="spinner"></div>
+      <div class="loader-title">Analyzing contract</div>
+      <div class="loader-stage" id="loaderStage">Starting…</div>
+
+      <div class="progress" id="progress">
+        <div class="progress-track">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <div class="progress-label" id="progressLabel">0%</div>
+      </div>
+
+      <ul class="loader-steps">
+        <li id="step-parse"><span class="dot"></span> Parsing PDF &rarr; markdown (docling, OCR off)</li>
+        <li id="step-extract"><span class="dot"></span> Finding 41 clause types with the model</li>
+        <li id="step-render"><span class="dot"></span> Rendering highlights</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- add-category modal -->
+  <div class="modal-overlay" id="catModal">
+    <div class="modal-card">
+      <h3 class="modal-title">Add a custom category</h3>
+      <p class="modal-sub">The <b>description</b> is sent to the model as the extraction
+        prompt — exactly like the 41 built-in categories. After adding, click
+        <b>Re-run model</b> to find and highlight it on the current document.</p>
+
+      <label class="modal-label" for="catLabel">Label</label>
+      <input type="text" id="catLabel" placeholder="e.g. Termination For Convenience" autocomplete="off" />
+
+      <label class="modal-label" for="catDesc">Description <span class="opt">(used as the prompt)</span></label>
+      <textarea id="catDesc" placeholder="Describe exactly what text the model should extract for this category…"></textarea>
+
+      <label class="modal-label" for="catAns">Answer type <span class="opt">(optional)</span></label>
+      <input type="text" id="catAns" placeholder="e.g. Date (mm/dd/yyyy), Yes/No, Entity name…" autocomplete="off" />
+
+      <div class="modal-err" id="catErr"></div>
+      <div class="modal-actions">
+        <button class="btn secondary" id="catCancel">Cancel</button>
+        <button class="btn" id="catSave">Add category</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- PDF.js (UMD build) for rendering the actual PDF in the left pane.
+       Served locally (static/vendor/) rather than a CDN, so it works offline and
+       isn't blocked by browser tracking-prevention. -->
+  <script src="/static/vendor/pdf.min.js"></script>
+  <script src="/static/pdfview.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>

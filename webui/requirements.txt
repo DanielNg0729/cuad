@@ -1,0 +1,10 @@
+flask
+python-dotenv
+pandas
+numpy
+pydantic
+langchain-openai
+langchain-groq
+docling
+tiktoken
+openpyxl
