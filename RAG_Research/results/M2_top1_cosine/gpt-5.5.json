@@ -1,0 +1,1600 @@
+{
+  "method": "M2_top1_cosine",
+  "method_description": "Label-centric RAG: single best chunk per category by cosine similarity.",
+  "model": "gpt-5.5",
+  "retrieval": {
+    "search": "cosine",
+    "top_k": 1,
+    "llm_check": false,
+    "embed_model": "text-embedding-3-small"
+  },
+  "contracts": [
+    "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement"
+  ],
+  "n_llm_calls_ok": 123,
+  "n_llm_calls_failed": 0,
+  "tokens": {
+    "input": 213628,
+    "output": 26242,
+    "embed": 0
+  },
+  "cost_usd": 0.529455,
+  "micro": {
+    "tp": 30,
+    "fp": 33,
+    "fn": 64,
+    "precision": 0.4762,
+    "recall": 0.3191,
+    "f1": 0.3822,
+    "f2": 0.3417
+  },
+  "metrics": {
+    "category": "all",
+    "aupr": 0.23556231003039516,
+    "prec_at_80_recall": 0.0,
+    "prec_at_90_recall": 0.0,
+    "best_f1": 0.38216560509554137,
+    "best_f2": 0.34168564920273353,
+    "best_f1_conf": 0.99,
+    "true_positives": 30,
+    "false_positives": 33,
+    "false_negatives": 64,
+    "jaccard_category": "License Grant",
+    "jaccard_similarity": 0.0,
+    "jaccard_per_category": {
+      "Affiliate License-Licensee": 0.0,
+      "Agreement Date": 0.6666666666666666,
+      "Anti-Assignment": 0.5396825396825397,
+      "Audit Rights": 0.6,
+      "Cap On Liability": 0.3270544982347984,
+      "Change Of Control": 0.7777777777777778,
+      "Covenant Not To Sue": 0.0,
+      "Document Name": 0.0,
+      "Effective Date": 0.3020833333333333,
+      "Exclusivity": 0.5352657004830917,
+      "Expiration Date": 0.1372549019607843,
+      "Governing Law": 0.0,
+      "Insurance": 0.8269230769230769,
+      "License Grant": 0.0,
+      "Minimum Commitment": 0.3308283989318472,
+      "Most Favored Nation": 0.0,
+      "No-Solicit Of Customers": 0.0,
+      "Non-Compete": 0.36817776661556795,
+      "Non-Transferable License": 0.0,
+      "Parties": 0.5303030303030303,
+      "Post-Termination Services": 0.6111111111111112,
+      "Renewal Term": 0.0,
+      "Revenue/Profit Sharing": 0.10204081632653061,
+      "Termination For Convenience": 0.9482758620689655,
+      "Unlimited/All-You-Can-Eat-License": 0.0,
+      "Volume Restriction": 0.05128205128205129,
+      "Warranty Duration": 0.20868092691622103
+    }
+  },
+  "by_category_counts": {
+    "Document Name": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 3
+    },
+    "Parties": {
+      "tp": 9,
+      "fp": 0,
+      "fn": 2
+    },
+    "Agreement Date": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 1
+    },
+    "Effective Date": {
+      "tp": 1,
+      "fp": 1,
+      "fn": 3
+    },
+    "Expiration Date": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 3
+    },
+    "Renewal Term": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 1
+    },
+    "Notice Period To Terminate Renewal": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "Governing Law": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 3
+    },
+    "Most Favored Nation": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1
+    },
+    "Non-Compete": {
+      "tp": 1,
+      "fp": 1,
+      "fn": 4
+    },
+    "Exclusivity": {
+      "tp": 1,
+      "fp": 2,
+      "fn": 2
+    },
+    "No-Solicit Of Customers": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 2
+    },
+    "Competitive Restriction Exception": {
+      "tp": 0,
+      "fp": 2,
+      "fn": 0
+    },
+    "No-Solicit Of Employees": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "Non-Disparagement": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "Termination For Convenience": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0
+    },
+    "Rofr/Rofo/Rofn": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "Change Of Control": {
+      "tp": 1,
+      "fp": 1,
+      "fn": 0
+    },
+    "Anti-Assignment": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 1
+    },
+    "Revenue/Profit Sharing": {
+      "tp": 0,
+      "fp": 3,
+      "fn": 2
+    },
+    "Price Restrictions": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "Minimum Commitment": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 3
+    },
+    "Volume Restriction": {
+      "tp": 0,
+      "fp": 2,
+      "fn": 3
+    },
+    "Ip Ownership Assignment": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "Joint Ip Ownership": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "License Grant": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 5
+    },
+    "Non-Transferable License": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1
+    },
+    "Affiliate License-Licensor": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "Affiliate License-Licensee": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1
+    },
+    "Unlimited/All-You-Can-Eat-License": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1
+    },
+    "Irrevocable Or Perpetual License": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "Source Code Escrow": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "Post-Termination Services": {
+      "tp": 1,
+      "fp": 5,
+      "fn": 1
+    },
+    "Audit Rights": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 2
+    },
+    "Uncapped Liability": {
+      "tp": 0,
+      "fp": 5,
+      "fn": 0
+    },
+    "Cap On Liability": {
+      "tp": 3,
+      "fp": 2,
+      "fn": 11
+    },
+    "Liquidated Damages": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "Warranty Duration": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 4
+    },
+    "Insurance": {
+      "tp": 2,
+      "fp": 3,
+      "fn": 0
+    },
+    "Covenant Not To Sue": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 4
+    },
+    "Third Party Beneficiary": {
+      "tp": 0,
+      "fp": 3,
+      "fn": 0
+    }
+  },
+  "by_contract": {
+    "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement": {
+      "Document Name": {
+        "ground_truth": [
+          "Distributor Agreement"
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "Distributor Agreement"
+        ],
+        "fp": []
+      },
+      "Parties": {
+        "ground_truth": [
+          "Airspan",
+          "Distributor",
+          "GLS LLC",
+          "Airspan Networks Incorporated"
+        ],
+        "predictions": [
+          "Airspan Networks Inc.",
+          "GLS LLC"
+        ],
+        "tp": [
+          "Airspan",
+          "GLS LLC",
+          "Airspan Networks Incorporated"
+        ],
+        "fn": [
+          "Distributor"
+        ],
+        "fp": []
+      },
+      "Agreement Date": {
+        "ground_truth": [
+          "31st day of March, 2000"
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "31st day of March, 2000"
+        ],
+        "fp": []
+      },
+      "Effective Date": {
+        "ground_truth": [
+          "31st day of March, 2000"
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "31st day of March, 2000"
+        ],
+        "fp": []
+      },
+      "Expiration Date": {
+        "ground_truth": [
+          "This Agreement shall remain in effect for sixty (60) months from the Effective Date (the \"Initial Term\")."
+        ],
+        "predictions": [
+          "sixty (60) months from the Effective Date"
+        ],
+        "tp": [],
+        "fn": [
+          "This Agreement shall remain in effect for sixty (60) months from the Effective Date (the \"Initial Term\")."
+        ],
+        "fp": [
+          "sixty (60) months from the Effective Date"
+        ]
+      },
+      "Renewal Term": {
+        "ground_truth": [],
+        "predictions": [
+          "After the Initial Term, the term of the Agreement may be extended by a further period of five (5) years by mutual written agreement by the parties in the form of an amendment to this Agreement."
+        ],
+        "tp": [],
+        "fn": [],
+        "fp": [
+          "After the Initial Term, the term of the Agreement may be extended by a further period of five (5) years by mutual written agreement by the parties in the form of an amendment to this Agreement."
+        ]
+      },
+      "Notice Period To Terminate Renewal": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Governing Law": {
+        "ground_truth": [
+          "South Dakota",
+          "This Agreement shall be construed in accordance with and governed by the laws of the State of South Dakota."
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "South Dakota",
+          "This Agreement shall be construed in accordance with and governed by the laws of the State of South Dakota."
+        ],
+        "fp": []
+      },
+      "Most Favored Nation": {
+        "ground_truth": [
+          "Airspan warrants that during the term of this Agreement, the prices at      which Airspan sells to Distributor products supplied under this Agreement      shall be no less favorable to the Distributor than those prices at which      Airspan sells, at substantially the same time in the United States, similar      products and pursuant to similar terms and conditions as those by which      Airspan sells Products to the Distributor under this Agreement."
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "Airspan warrants that during the term of this Agreement, the prices at      which Airspan sells to Distributor products supplied under this Agreement      shall be no less favorable to the Distributor than those prices at which      Airspan sells, at substantially the same time in the United States, similar      products and pursuant to similar terms and conditions as those by which      Airspan sells Products to the Distributor under this Agreement."
+        ],
+        "fp": []
+      },
+      "Non-Compete": {
+        "ground_truth": [
+          "During the term of this Agreement Distributor agrees that neither it      nor any organization or entity controlled or directed by it will, without      Airspan's prior, written consent, represent a manufacturer or supplier of      products similar in design or performance to or which are of such a nature      as to be competitive with any products contained in the Airspan Products.",
+          "During the performance of this Agreement and for three (3) months after termination of services under this Agreement, Airspan will not offer products or services to third parties which compete with the products or services provided by Distributor under this Agreement, or otherwise use the knowledge acquired from Distributor in order to compete with Distributor its customers",
+          "Distributor will give Airspan thirty (30) days' prior, written notice of each new potential representation role being considered by Distributor, and Distributor will not undertake such representation without Airspan's prior, written consent, such consent not to be unreasonably withheld.",
+          "During the term of this Agreement, and for a period of three (3) months following the expiration or termination of this Agreement, Distributor agrees that neither it nor any organization or entity controlled or directed by it will, without Airspan's prior, written consent, represent a manufacturer or supplier of products similar in design or performance to or which are of such a nature as to be competitive with any products contained in the Airspan Products, nor will Distributor market or otherwise promote the sale of such products.",
+          "Except as\n\n\n\n\n\nprovided above, in no event will Airspan consent to Distributor's consultation for or representation of a manufacturer or supplier, which is directly or indirectly, a competitor of Airspan."
+        ],
+        "predictions": [
+          "during the performance of this Agreement and for three (3) months after termination of services under this Agreement, Distributor will not offer services to third parties which compete with the services provided by Airspan under this Agreement, or otherwise use the knowledge acquired from Airspan in order to compete with Airspan or its customers.  Notwithstanding anything to the contrary above, Distributor is not precluded from any activities which concern product sectors or industries other than those that concern products or services similar to those offered by Airspan in connection with this Agreement.  Nothing in this paragraph will be construed to prevent Distributor from providing service to existing customers of Distributor which would result in their interruption of service to the public.",
+          "During the performance of this Agreement and for three (3) months after termination of services under this Agreement, Airspan will not offer products or services to third parties which compete with the products or services provided by Distributor under this Agreement, or otherwise use the knowledge acquired from Distributor in order to compete with Distributor its customers"
+        ],
+        "tp": [
+          "During the performance of this Agreement and for three (3) months after termination of services under this Agreement, Airspan will not offer products or services to third parties which compete with the products or services provided by Distributor under this Agreement, or otherwise use the knowledge acquired from Distributor in order to compete with Distributor its customers"
+        ],
+        "fn": [
+          "During the term of this Agreement Distributor agrees that neither it      nor any organization or entity controlled or directed by it will, without      Airspan's prior, written consent, represent a manufacturer or supplier of      products similar in design or performance to or which are of such a nature      as to be competitive with any products contained in the Airspan Products.",
+          "Distributor will give Airspan thirty (30) days' prior, written notice of each new potential representation role being considered by Distributor, and Distributor will not undertake such representation without Airspan's prior, written consent, such consent not to be unreasonably withheld.",
+          "During the term of this Agreement, and for a period of three (3) months following the expiration or termination of this Agreement, Distributor agrees that neither it nor any organization or entity controlled or directed by it will, without Airspan's prior, written consent, represent a manufacturer or supplier of products similar in design or performance to or which are of such a nature as to be competitive with any products contained in the Airspan Products, nor will Distributor market or otherwise promote the sale of such products.",
+          "Except as\n\n\n\n\n\nprovided above, in no event will Airspan consent to Distributor's consultation for or representation of a manufacturer or supplier, which is directly or indirectly, a competitor of Airspan."
+        ],
+        "fp": []
+      },
+      "Exclusivity": {
+        "ground_truth": [
+          "Subject to the provisions of this Agreement, Airspan hereby appoints Distributor as an independent, exclusive distributor to assist Airspan in marketing the Airspan Products to customers in the Territory, and Distributor hereby accepts such appointment as of the Effective Date of this Agreement."
+        ],
+        "predictions": [
+          "during the performance of this Agreement and for three (3) months after termination of services under this Agreement, Distributor will not offer services to third parties which compete with the services provided by Airspan under this Agreement, or otherwise use the knowledge acquired from Airspan in order to compete with Airspan or its customers.",
+          "During the performance of this Agreement and for three (3) months after termination of services under this Agreement, Airspan will not offer products or services to third parties which compete with the products or services provided by Distributor under this Agreement, or otherwise use the knowledge acquired from Distributor in order to compete with Distributor its customers"
+        ],
+        "tp": [],
+        "fn": [
+          "Subject to the provisions of this Agreement, Airspan hereby appoints Distributor as an independent, exclusive distributor to assist Airspan in marketing the Airspan Products to customers in the Territory, and Distributor hereby accepts such appointment as of the Effective Date of this Agreement."
+        ],
+        "fp": [
+          "during the performance of this Agreement and for three (3) months after termination of services under this Agreement, Distributor will not offer services to third parties which compete with the services provided by Airspan under this Agreement, or otherwise use the knowledge acquired from Airspan in order to compete with Airspan or its customers.",
+          "During the performance of this Agreement and for three (3) months after termination of services under this Agreement, Airspan will not offer products or services to third parties which compete with the products or services provided by Distributor under this Agreement, or otherwise use the knowledge acquired from Distributor in order to compete with Distributor its customers"
+        ]
+      },
+      "No-Solicit Of Customers": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Competitive Restriction Exception": {
+        "ground_truth": [],
+        "predictions": [
+          "Notwithstanding anything to the contrary above, Distributor is not precluded from any activities which concern product sectors or industries other than those that concern products or services similar to those offered by Airspan in connection with this Agreement.",
+          "Nothing in this paragraph will be construed to prevent Distributor from providing service to existing customers of Distributor which would result in their interruption of service to the public."
+        ],
+        "tp": [],
+        "fn": [],
+        "fp": [
+          "Notwithstanding anything to the contrary above, Distributor is not precluded from any activities which concern product sectors or industries other than those that concern products or services similar to those offered by Airspan in connection with this Agreement.",
+          "Nothing in this paragraph will be construed to prevent Distributor from providing service to existing customers of Distributor which would result in their interruption of service to the public."
+        ]
+      },
+      "No-Solicit Of Employees": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Non-Disparagement": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Termination For Convenience": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Rofr/Rofo/Rofn": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Change Of Control": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Anti-Assignment": {
+        "ground_truth": [
+          "Neither party may assign this Agreement or subcontract its obligations under this Agreement to another party without the other party's prior, written consent executed by a duly authorized officer."
+        ],
+        "predictions": [
+          "21.3  Neither party may assign this Agreement or subcontract its obligations under this Agreement to another party without the other party's prior, written consent executed by a duly authorized officer.  The parties agree that if said assignment is to a subsidiary or affiliate organization, said consent to assignment will not be unreasonably withheld."
+        ],
+        "tp": [
+          "Neither party may assign this Agreement or subcontract its obligations under this Agreement to another party without the other party's prior, written consent executed by a duly authorized officer."
+        ],
+        "fn": [],
+        "fp": []
+      },
+      "Revenue/Profit Sharing": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Price Restrictions": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Minimum Commitment": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Volume Restriction": {
+        "ground_truth": [
+          "Airspan shall provide a single technical course in the English language for up to two (2) qualified technicians of Distributor during the first year of this Agreement."
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "Airspan shall provide a single technical course in the English language for up to two (2) qualified technicians of Distributor during the first year of this Agreement."
+        ],
+        "fp": []
+      },
+      "Ip Ownership Assignment": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Joint Ip Ownership": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "License Grant": {
+        "ground_truth": [
+          "Distributor's appointment as a distributor of the Airspan Products grants to Distributor only a license to resell the",
+          "Airspan grants Distributor, and Distributor hereby accepts, a nonexclusive, non-transferable license to use, and to sublicense as set forth below, Software provided by Airspan hereunder only on a single System or unit of Equipment, as may be applicable.",
+          "Airspan Products to Distributor's customers in the Territory, and does not transfer any right, title, or interest in any of the Airspan Software to Distributor."
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "Distributor's appointment as a distributor of the Airspan Products grants to Distributor only a license to resell the",
+          "Airspan grants Distributor, and Distributor hereby accepts, a nonexclusive, non-transferable license to use, and to sublicense as set forth below, Software provided by Airspan hereunder only on a single System or unit of Equipment, as may be applicable.",
+          "Airspan Products to Distributor's customers in the Territory, and does not transfer any right, title, or interest in any of the Airspan Software to Distributor."
+        ],
+        "fp": []
+      },
+      "Non-Transferable License": {
+        "ground_truth": [
+          "Airspan grants Distributor, and Distributor hereby accepts, a nonexclusive, non-transferable license to use, and to sublicense as set forth below, Software provided by Airspan hereunder only on a single System or unit of Equipment, as may be applicable."
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "Airspan grants Distributor, and Distributor hereby accepts, a nonexclusive, non-transferable license to use, and to sublicense as set forth below, Software provided by Airspan hereunder only on a single System or unit of Equipment, as may be applicable."
+        ],
+        "fp": []
+      },
+      "Affiliate License-Licensor": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Affiliate License-Licensee": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Unlimited/All-You-Can-Eat-License": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Irrevocable Or Perpetual License": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Source Code Escrow": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Post-Termination Services": {
+        "ground_truth": [
+          "For at least two (2) years after termination of this Agreement,      Distributor will maintain its records, contracts, and accounts relating to      distribution of Airspan Products, and will permit examination thereof by      authorized representatives of Airspan at all reasonable times.",
+          "Airspan will recognize payments due to Distributor for orders received up to ninety (90) days after the termination or expiration of this Agreement."
+        ],
+        "predictions": [
+          "13.4 In the event of termination by either party for any reason, Distributor shall provide Airspan with lists of existing customers as well as other information necessary for an orderly changeover of representation in the Territory.",
+          "13.5  Upon termination, Distributor shall immediately return to Airspan all Confidential Information, and Distributor agrees that neither it nor any company or organization controlled or directed by it shall divulge the contents of such material to any person at any time, notwithstanding the termination of this Agreement.",
+          "Airspan will recognize payments due to Distributor for orders received up to ninety (90) days after the termination or expiration of this Agreement.",
+          "13.8  This Section 13.8, as well as the provisions of Sections 9, 10, 11, 16, 17 and 18, shall survive the termination of this Agreement."
+        ],
+        "tp": [
+          "Airspan will recognize payments due to Distributor for orders received up to ninety (90) days after the termination or expiration of this Agreement."
+        ],
+        "fn": [
+          "For at least two (2) years after termination of this Agreement,      Distributor will maintain its records, contracts, and accounts relating to      distribution of Airspan Products, and will permit examination thereof by      authorized representatives of Airspan at all reasonable times."
+        ],
+        "fp": [
+          "13.4 In the event of termination by either party for any reason, Distributor shall provide Airspan with lists of existing customers as well as other information necessary for an orderly changeover of representation in the Territory.",
+          "13.5  Upon termination, Distributor shall immediately return to Airspan all Confidential Information, and Distributor agrees that neither it nor any company or organization controlled or directed by it shall divulge the contents of such material to any person at any time, notwithstanding the termination of this Agreement.",
+          "13.8  This Section 13.8, as well as the provisions of Sections 9, 10, 11, 16, 17 and 18, shall survive the termination of this Agreement."
+        ]
+      },
+      "Audit Rights": {
+        "ground_truth": [
+          "For at least two (2) years after termination of this Agreement,      Distributor will maintain its records, contracts, and accounts relating to      distribution of Airspan Products, and will permit examination thereof by      authorized representatives of Airspan at all reasonable times."
+        ],
+        "predictions": [
+          "For at least two (2) years after termination of this Agreement, Distributor will maintain its records, contracts, and accounts relating to distribution of Airspan Products, and will permit examination thereof by\n\nauthorized representatives of Airspan at all reasonable times."
+        ],
+        "tp": [
+          "For at least two (2) years after termination of this Agreement,      Distributor will maintain its records, contracts, and accounts relating to      distribution of Airspan Products, and will permit examination thereof by      authorized representatives of Airspan at all reasonable times."
+        ],
+        "fn": [],
+        "fp": []
+      },
+      "Uncapped Liability": {
+        "ground_truth": [],
+        "predictions": [
+          "10.10  Distributor agrees that any breach of the provisions of this Section by Distributor or Distributor's personnel, agents, or subcontractors, or any third party providing products or services to Distributor will cause immediate and irreparable injury to Airspan and that, in the event of such breach, Airspan shall be entitled to injunctive relief and any and all other remedies available at law or in equity."
+        ],
+        "tp": [],
+        "fn": [],
+        "fp": [
+          "10.10  Distributor agrees that any breach of the provisions of this Section by Distributor or Distributor's personnel, agents, or subcontractors, or any third party providing products or services to Distributor will cause immediate and irreparable injury to Airspan and that, in the event of such breach, Airspan shall be entitled to injunctive relief and any and all other remedies available at law or in equity."
+        ]
+      },
+      "Cap On Liability": {
+        "ground_truth": [
+          "In any event, Airspan shall not be liable      for any direct, indirect, consequential, or special losses or damages      (including, but not limited to, loss of income or profit and loss of data)      that may be suffered by the Distributor or by any other person for failure      to deliver or for any delay or error in delivery of Equipment or Software      for any reason whatsoever.",
+          "Airspan shall not be liable to Distributor on account of termination or expiration of this Agreement for reimbursement or damages for loss of goodwill, prospective profits, or anticipated orders, or on account of any expenditures, investments, leases, or commitments made by either party, or for any other reason whatsoever based upon or growing out of such termination or expiration.",
+          "Without prejudice to Sections 16.3 and 16.4, the liability of the Airspan Parties, taken as a whole, for each event or series of connected events\n\n\n\n\n\narising out of or in connection with this Agreement, any purchase order placed pursuant to this Agreement, or any other collateral contract, or from or in connection with the Equipment or Software or the use thereof, or the inability to use them either separately or in combination with other equipment or software, or from any other cause, whether caused by negligence, breach of contract, strict liability, breach of warranty, on grounds of failure of essential purpose, or otherwise, shall in no circumstance exceed the total amount payable by Distributor to Airspan under this Agreement for the provision of",
+          "WITHOUT PREJUDICE TO SECTION 16.4, NEITHER Airspan, NOR ANY OF ITS OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, REPRESENTATIVES, SHAREHOLDERS, OR AFFILIATES (Airspan AND SUCH OTHER PERSONS, THE \"Airspan PARTIES\"), SHALL HAVE ANY LIABILITY TO DISTRIBUTOR FOR LOSS OF PROFITS, INCOME, REVENUE OR DATA, OR INCIDENTAL, CONSEQUENTIAL, INDIRECT OR PUNITIVE DAMAGES OR LOSSES, ARISING FROM OR IN CONNECTION WITH THIS AGREEMENT, ANY PURCHASE ORDER PLACED PURSUANT TO THIS AGREEMENT OR ANY OTHER COLLATERAL CONTRACT, OR FROM OR IN CONNECTION WITH THE EQUIPMENT OR THE SOFTWARE OR THE USE THEREOF OR THE INABILITY TO USE THEM EITHER SEPARATELY OR IN COMBINATION WITH OTHER EQUIPMENT OR SOFTWARE, OR FROM ANY OTHER CAUSE, WHETHER CAUSED BY NEGLIGENCE, BREACH OF CONTRACT, STRICT LIABILITY, BREACH OF WARRANTY, ON GROUNDS OF FAILURE OF ESSENTIAL PURPOSE OR OTHERWISE.",
+          "Airspan shall not be liable to Distributor for damages of any kind, including incidental or consequential damages, on account of the termination of this agreement in accordance with this section 13.",
+          "Airspan's obligation and Distributor's sole remedy under this warranty are limited to the replacement or repair, at Airspan's option, of the defective Equipment or Software within the Initial Warranty Period.",
+          "the Equipment or Software which gave rise to the loss or damage or in connection with which the loss or damage was incurred.",
+          "And Distributor, taken as a whole, shall be liable for physical damage to Airspan's property resulting from Distributor's negligence under or in connection with this Agreement up to a maximum aggregate amount of one million US Dollars (US$1,000,000).",
+          "Airspan Parties, taken as a whole, shall be liable for physical damage to Distributor's property resulting from Airspan's negligence under or in connection with this Agreement up to a maximum aggregate amount of one million US Dollars (US$1,000,000)."
+        ],
+        "predictions": [
+          "without liability to Distributor on account of the method of allocation chosen or its implementation.",
+          "Airspan shall not be liable for any direct, indirect, consequential, or special losses or damages (including, but not limited to, loss of income or profit and loss of data) that may be suffered by the Distributor or by any other person for failure to deliver or for any delay or error in delivery of Equipment or Software for any reason whatsoever.",
+          "Airspan shall not suffer any liability for non-performance, defective performance, or late performance under this Agreement due to causes beyond its control and without its fault or negligence such as, but not limited to, acts of God, war (including civil war), civil unrest, acts of government, fire, floods, explosions, the elements, epidemics, quarantine, restrictions, strikes, lockouts, plant shutdown, material shortages, or delays in transportation or delays of its suppliers or subcontractors for like cause."
+        ],
+        "tp": [
+          "In any event, Airspan shall not be liable      for any direct, indirect, consequential, or special losses or damages      (including, but not limited to, loss of income or profit and loss of data)      that may be suffered by the Distributor or by any other person for failure      to deliver or for any delay or error in delivery of Equipment or Software      for any reason whatsoever."
+        ],
+        "fn": [
+          "Airspan shall not be liable to Distributor on account of termination or expiration of this Agreement for reimbursement or damages for loss of goodwill, prospective profits, or anticipated orders, or on account of any expenditures, investments, leases, or commitments made by either party, or for any other reason whatsoever based upon or growing out of such termination or expiration.",
+          "Without prejudice to Sections 16.3 and 16.4, the liability of the Airspan Parties, taken as a whole, for each event or series of connected events\n\n\n\n\n\narising out of or in connection with this Agreement, any purchase order placed pursuant to this Agreement, or any other collateral contract, or from or in connection with the Equipment or Software or the use thereof, or the inability to use them either separately or in combination with other equipment or software, or from any other cause, whether caused by negligence, breach of contract, strict liability, breach of warranty, on grounds of failure of essential purpose, or otherwise, shall in no circumstance exceed the total amount payable by Distributor to Airspan under this Agreement for the provision of",
+          "WITHOUT PREJUDICE TO SECTION 16.4, NEITHER Airspan, NOR ANY OF ITS OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, REPRESENTATIVES, SHAREHOLDERS, OR AFFILIATES (Airspan AND SUCH OTHER PERSONS, THE \"Airspan PARTIES\"), SHALL HAVE ANY LIABILITY TO DISTRIBUTOR FOR LOSS OF PROFITS, INCOME, REVENUE OR DATA, OR INCIDENTAL, CONSEQUENTIAL, INDIRECT OR PUNITIVE DAMAGES OR LOSSES, ARISING FROM OR IN CONNECTION WITH THIS AGREEMENT, ANY PURCHASE ORDER PLACED PURSUANT TO THIS AGREEMENT OR ANY OTHER COLLATERAL CONTRACT, OR FROM OR IN CONNECTION WITH THE EQUIPMENT OR THE SOFTWARE OR THE USE THEREOF OR THE INABILITY TO USE THEM EITHER SEPARATELY OR IN COMBINATION WITH OTHER EQUIPMENT OR SOFTWARE, OR FROM ANY OTHER CAUSE, WHETHER CAUSED BY NEGLIGENCE, BREACH OF CONTRACT, STRICT LIABILITY, BREACH OF WARRANTY, ON GROUNDS OF FAILURE OF ESSENTIAL PURPOSE OR OTHERWISE.",
+          "Airspan shall not be liable to Distributor for damages of any kind, including incidental or consequential damages, on account of the termination of this agreement in accordance with this section 13.",
+          "Airspan's obligation and Distributor's sole remedy under this warranty are limited to the replacement or repair, at Airspan's option, of the defective Equipment or Software within the Initial Warranty Period.",
+          "the Equipment or Software which gave rise to the loss or damage or in connection with which the loss or damage was incurred.",
+          "And Distributor, taken as a whole, shall be liable for physical damage to Airspan's property resulting from Distributor's negligence under or in connection with this Agreement up to a maximum aggregate amount of one million US Dollars (US$1,000,000).",
+          "Airspan Parties, taken as a whole, shall be liable for physical damage to Distributor's property resulting from Airspan's negligence under or in connection with this Agreement up to a maximum aggregate amount of one million US Dollars (US$1,000,000)."
+        ],
+        "fp": [
+          "without liability to Distributor on account of the method of allocation chosen or its implementation.",
+          "Airspan shall not suffer any liability for non-performance, defective performance, or late performance under this Agreement due to causes beyond its control and without its fault or negligence such as, but not limited to, acts of God, war (including civil war), civil unrest, acts of government, fire, floods, explosions, the elements, epidemics, quarantine, restrictions, strikes, lockouts, plant shutdown, material shortages, or delays in transportation or delays of its suppliers or subcontractors for like cause."
+        ]
+      },
+      "Liquidated Damages": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Warranty Duration": {
+        "ground_truth": [
+          "Airspan's obligation and Distributor's sole remedy under this warranty are limited to the replacement or repair, at Airspan's option, of the defective Equipment or Software within the Initial Warranty Period.",
+          "Subject to the provisions of this warranty clause, defective parts or components must be returned by Distributor to Airspan's designated facility located within the contiguous 48 states in the United States, freight prepaid, within the Initial Warranty Period, and said defective parts will be repaired or replaced by Airspan at no charge to Distributor.",
+          "The warranty period for any item of Equipment and related Software shall be twelve (12) months from the date of delivery of such Equipment and related Software to Distributor as set forth in Paragraph 8.1 (hereinafter, this period of time shall be referred to as the \"Initial Warranty Period.\")",
+          "Airspan warrants that, following repair or replacement, the repaired or replaced Equipment or Software by Airspan shall be free from defects in materials and faulty workmanship and that the Software will conform in all material respects to Airspan's published specifications therefor for ninety (90) days from date of shipment from Airspan to Distributor or until the end of the Initial Warranty Period, whichever is longer."
+        ],
+        "predictions": [
+          "twelve (12) months from the date of delivery of such Equipment and related Software to Distributor as set forth in Paragraph 8.1"
+        ],
+        "tp": [
+          "The warranty period for any item of Equipment and related Software shall be twelve (12) months from the date of delivery of such Equipment and related Software to Distributor as set forth in Paragraph 8.1 (hereinafter, this period of time shall be referred to as the \"Initial Warranty Period.\")"
+        ],
+        "fn": [
+          "Airspan's obligation and Distributor's sole remedy under this warranty are limited to the replacement or repair, at Airspan's option, of the defective Equipment or Software within the Initial Warranty Period.",
+          "Subject to the provisions of this warranty clause, defective parts or components must be returned by Distributor to Airspan's designated facility located within the contiguous 48 states in the United States, freight prepaid, within the Initial Warranty Period, and said defective parts will be repaired or replaced by Airspan at no charge to Distributor.",
+          "Airspan warrants that, following repair or replacement, the repaired or replaced Equipment or Software by Airspan shall be free from defects in materials and faulty workmanship and that the Software will conform in all material respects to Airspan's published specifications therefor for ninety (90) days from date of shipment from Airspan to Distributor or until the end of the Initial Warranty Period, whichever is longer."
+        ],
+        "fp": []
+      },
+      "Insurance": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Covenant Not To Sue": {
+        "ground_truth": [
+          "Distributor admits Airspan's exclusive ownership of the name \"Airspan Networks Incorporated\", \"Airspan Communications Ltd.\", \"ANI\", \"ACL\", and any abbreviations or derivations thereof and all of Airspan's Trademarks (whether registered or not).",
+          "Distributor acknowledges Airspan's exclusive right, title, and interest in and to any trademarks, trade names, logos and designations which Airspan may at any time have adopted, used, or registered in the United States of America and in the Territory (the \"Trademarks\"), and will not at any time do or cause to be done any act or thing contesting or in any way impairing or tending to impair any part of said right, title, and interest.",
+          "In connection with any reference to the Trademarks, Distributor shall not in any manner represent that it has an ownership interest in the Trademarks or registration(s) thereof, and Distributor acknowledges that no action by it or on its behalf shall create in Distributor's favor any right, title, or interest in or to the Trademarks.",
+          "Distributor recognizes the validity of Airspan's copyright in any written material to which Airspan shall have made a claim to copyright protection, and Distributor specifically recognizes Airspan's exclusive right to copyright protection and/or registration of any translation of any advertising, promotional, or descriptive material furnished to Distributor by Airspan."
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "Distributor admits Airspan's exclusive ownership of the name \"Airspan Networks Incorporated\", \"Airspan Communications Ltd.\", \"ANI\", \"ACL\", and any abbreviations or derivations thereof and all of Airspan's Trademarks (whether registered or not).",
+          "Distributor acknowledges Airspan's exclusive right, title, and interest in and to any trademarks, trade names, logos and designations which Airspan may at any time have adopted, used, or registered in the United States of America and in the Territory (the \"Trademarks\"), and will not at any time do or cause to be done any act or thing contesting or in any way impairing or tending to impair any part of said right, title, and interest.",
+          "In connection with any reference to the Trademarks, Distributor shall not in any manner represent that it has an ownership interest in the Trademarks or registration(s) thereof, and Distributor acknowledges that no action by it or on its behalf shall create in Distributor's favor any right, title, or interest in or to the Trademarks.",
+          "Distributor recognizes the validity of Airspan's copyright in any written material to which Airspan shall have made a claim to copyright protection, and Distributor specifically recognizes Airspan's exclusive right to copyright protection and/or registration of any translation of any advertising, promotional, or descriptive material furnished to Distributor by Airspan."
+        ],
+        "fp": []
+      },
+      "Third Party Beneficiary": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      }
+    },
+    "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT": {
+      "Document Name": {
+        "ground_truth": [
+          "AGENCY AGREEMENT"
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "AGENCY AGREEMENT"
+        ],
+        "fp": []
+      },
+      "Parties": {
+        "ground_truth": [
+          "Agent",
+          "Biopure Corporation",
+          "Company"
+        ],
+        "predictions": [
+          "the Agent",
+          "the Company"
+        ],
+        "tp": [
+          "Agent",
+          "Company"
+        ],
+        "fn": [
+          "Biopure Corporation"
+        ],
+        "fp": []
+      },
+      "Agreement Date": {
+        "ground_truth": [
+          "March 29, 1999"
+        ],
+        "predictions": [
+          "March 29, 1999"
+        ],
+        "tp": [
+          "March 29, 1999"
+        ],
+        "fn": [],
+        "fp": []
+      },
+      "Effective Date": {
+        "ground_truth": [
+          "March 29, 1999",
+          "This Agreement will become effective as of the date first written above and will continue in effect thereafter until terminated pursuant to Paragraph 4.2 below"
+        ],
+        "predictions": [
+          "the date first written above"
+        ],
+        "tp": [],
+        "fn": [
+          "March 29, 1999",
+          "This Agreement will become effective as of the date first written above and will continue in effect thereafter until terminated pursuant to Paragraph 4.2 below"
+        ],
+        "fp": [
+          "the date first written above"
+        ]
+      },
+      "Expiration Date": {
+        "ground_truth": [
+          "This Agreement will become effective as of the date first written above and will continue in effect thereafter until terminated pursuant to Paragraph 4.2 below."
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "This Agreement will become effective as of the date first written above and will continue in effect thereafter until terminated pursuant to Paragraph 4.2 below."
+        ],
+        "fp": []
+      },
+      "Renewal Term": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Notice Period To Terminate Renewal": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Governing Law": {
+        "ground_truth": [
+          "This Agreement and all related business transactions will be governed by the laws of the Commonwealth of Massachusetts (without reference to principles of conflicts or choice of law which would cause the application of the internal laws of any other jurisdiction)."
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "This Agreement and all related business transactions will be governed by the laws of the Commonwealth of Massachusetts (without reference to principles of conflicts or choice of law which would cause the application of the internal laws of any other jurisdiction)."
+        ],
+        "fp": []
+      },
+      "Most Favored Nation": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Non-Compete": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Exclusivity": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "No-Solicit Of Customers": {
+        "ground_truth": [
+          "Except as otherwise expressly provided in the Business Plan, the Agent will at its sole expense",
+          "(e) not solicit or accept orders for the Products other than from       Customers within the Territory after the Agent Launch Date; and not       knowingly, or knowingly permit others to, distribute or resell Products       outside the Territory or for end use by other than duly licensed       veterinarians;"
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "Except as otherwise expressly provided in the Business Plan, the Agent will at its sole expense",
+          "(e) not solicit or accept orders for the Products other than from       Customers within the Territory after the Agent Launch Date; and not       knowingly, or knowingly permit others to, distribute or resell Products       outside the Territory or for end use by other than duly licensed       veterinarians;"
+        ],
+        "fp": []
+      },
+      "Competitive Restriction Exception": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "No-Solicit Of Employees": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Non-Disparagement": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Termination For Convenience": {
+        "ground_truth": [
+          "Either party may, at its option, terminate this Agreement       without cause, effective at any time after January 31, 1999, upon giving       at least ninety (90) days prior written notice of such termination to the       other party."
+        ],
+        "predictions": [
+          "Either party may, at its option, terminate this Agreement without cause, effective at any time after January 31, 1999, upon giving at least ninety (90) days prior written notice of such termination to the other party."
+        ],
+        "tp": [
+          "Either party may, at its option, terminate this Agreement       without cause, effective at any time after January 31, 1999, upon giving       at least ninety (90) days prior written notice of such termination to the       other party."
+        ],
+        "fn": [],
+        "fp": []
+      },
+      "Rofr/Rofo/Rofn": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Change Of Control": {
+        "ground_truth": [
+          "In the event of any material change in the organization,       ownership, management or control of the business of the Agent, the Company       may, at its option, terminate this Agreement upon giving written notice of       termination to the Agent."
+        ],
+        "predictions": [
+          "(b) In the event of any material change in the organization, ownership, management or control of the business of the Agent, the Company may, at its option, terminate this Agreement upon giving written notice of termination to the Agent. The Agent will promptly advise the Company in writing of any event described in this Paragraph 4.2(b).",
+          "(f) In the event the Company terminates, sells or otherwise transfers its veterinary products business in its entirety, the Company may\n\n-12-\n\nterminate this Agreement upon giving at least ninety (90) days prior written notice of such termination to the Agent."
+        ],
+        "tp": [
+          "In the event of any material change in the organization,       ownership, management or control of the business of the Agent, the Company       may, at its option, terminate this Agreement upon giving written notice of       termination to the Agent."
+        ],
+        "fn": [],
+        "fp": [
+          "(f) In the event the Company terminates, sells or otherwise transfers its veterinary products business in its entirety, the Company may\n\n-12-\n\nterminate this Agreement upon giving at least ninety (90) days prior written notice of such termination to the Agent."
+        ]
+      },
+      "Anti-Assignment": {
+        "ground_truth": [
+          "Neither party will not assign or otherwise transfer any of its rights or obligations under this Agreement without the express prior written consent of the other party."
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "Neither party will not assign or otherwise transfer any of its rights or obligations under this Agreement without the express prior written consent of the other party."
+        ],
+        "fp": []
+      },
+      "Revenue/Profit Sharing": {
+        "ground_truth": [
+          "The       Company will compensate the Agent an additional two (2) percent through a       discount off of the current price or promotional price of the Product       times the total monthly units shipped at that price to the Customer       excluding any taxes, and/or shipping and handling charges incurred by the       Company, so as to compensate the Agent's sales representatives."
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "The       Company will compensate the Agent an additional two (2) percent through a       discount off of the current price or promotional price of the Product       times the total monthly units shipped at that price to the Customer       excluding any taxes, and/or shipping and handling charges incurred by the       Company, so as to compensate the Agent's sales representatives."
+        ],
+        "fp": []
+      },
+      "Price Restrictions": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Minimum Commitment": {
+        "ground_truth": [
+          "Except as otherwise expressly provided in the Business Plan, the Agent will at its sole expense",
+          "All orders will be shipped to the Customer in minimum quantities of one box (two (2) bags).",
+          "(i) make all field sales representatives of the Agent available to       work with field sales representatives of the Company at least two (2) full       business days per agreement year.\n\n         (j) maintain sales and promotion of the Company's Products so as to       meet or exceed the previous years annual sales within the same competitive       environment.",
+          "(h) make all field sales personnel of the Agent available for at       least four (4) hours, and telesales personnel available for at least one       (1) hour, of initial Products sales and marketing training by the Company,       and for such supplemental training by the Company as the Company may deem       appropriate from time to time, in each case, at such times and locations       as may be mutually agreed upon by the Company and the Agent."
+        ],
+        "predictions": [
+          "All orders will be shipped to the Customer in minimum quantities of one box (two (2) bags)."
+        ],
+        "tp": [
+          "All orders will be shipped to the Customer in minimum quantities of one box (two (2) bags)."
+        ],
+        "fn": [
+          "Except as otherwise expressly provided in the Business Plan, the Agent will at its sole expense",
+          "(i) make all field sales representatives of the Agent available to       work with field sales representatives of the Company at least two (2) full       business days per agreement year.\n\n         (j) maintain sales and promotion of the Company's Products so as to       meet or exceed the previous years annual sales within the same competitive       environment.",
+          "(h) make all field sales personnel of the Agent available for at       least four (4) hours, and telesales personnel available for at least one       (1) hour, of initial Products sales and marketing training by the Company,       and for such supplemental training by the Company as the Company may deem       appropriate from time to time, in each case, at such times and locations       as may be mutually agreed upon by the Company and the Agent."
+        ],
+        "fp": []
+      },
+      "Volume Restriction": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Ip Ownership Assignment": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Joint Ip Ownership": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "License Grant": {
+        "ground_truth": [],
+        "predictions": [
+          "Such use will not give the Agent any interest in the Trademarks, except the right to display the Trademarks as expressly provided herein."
+        ],
+        "tp": [],
+        "fn": [],
+        "fp": [
+          "Such use will not give the Agent any interest in the Trademarks, except the right to display the Trademarks as expressly provided herein."
+        ]
+      },
+      "Non-Transferable License": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Affiliate License-Licensor": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Affiliate License-Licensee": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Unlimited/All-You-Can-Eat-License": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Irrevocable Or Perpetual License": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Source Code Escrow": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Post-Termination Services": {
+        "ground_truth": [],
+        "predictions": [
+          "4.3. Effect of Termination. Upon the termination of this Agreement for any reason:\n\n(a) the Agent will immediately discontinue making any representations regarding its status as an agent for the Company and will immediately cease conducting any activities with respect to the promotion, sale or distribution of the Products;\n\n(b) all amounts owed by either party to the other will become immediately due and payable as indicated in section 2.3;\n\n(c) any then unfulfilled Product orders hereunder may be completed by the Company or transferred to another Agent in the Company's discretion. Any termination of this Agreement will be without prejudice to the settlement of the rights created and obligations incurred hereunder prior to the time of such termination. In no event will either party be liable for special or consequential damages arising out of the breach or the termination of this Agreement. The provisions of this Paragraph 4.3 and of Paragraphs 3.5, 3.6, and 3.7 will survive the termination of this Agreement."
+        ],
+        "tp": [],
+        "fn": [],
+        "fp": [
+          "4.3. Effect of Termination. Upon the termination of this Agreement for any reason:\n\n(a) the Agent will immediately discontinue making any representations regarding its status as an agent for the Company and will immediately cease conducting any activities with respect to the promotion, sale or distribution of the Products;\n\n(b) all amounts owed by either party to the other will become immediately due and payable as indicated in section 2.3;\n\n(c) any then unfulfilled Product orders hereunder may be completed by the Company or transferred to another Agent in the Company's discretion. Any termination of this Agreement will be without prejudice to the settlement of the rights created and obligations incurred hereunder prior to the time of such termination. In no event will either party be liable for special or consequential damages arising out of the breach or the termination of this Agreement. The provisions of this Paragraph 4.3 and of Paragraphs 3.5, 3.6, and 3.7 will survive the termination of this Agreement."
+        ]
+      },
+      "Audit Rights": {
+        "ground_truth": [
+          "Except as otherwise expressly provided in the Business Plan, the Agent will at its sole expense",
+          "(f) meet with the Company at least once each quarter (starting with       the quarter in which the Agent Launch Date occurs), at a mutually       agreeable time and place to discuss and review the Agent's activities       hereunder, at which meeting the Agent will make available to the Company       information concerning the Agent's sale and marketing of the Products in       the Territory during the quarter and year-to-date, such information to       include details of sales efforts, Product sales volume and such other       information as may be mutually agreed upon in each Business Plan;"
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "Except as otherwise expressly provided in the Business Plan, the Agent will at its sole expense",
+          "(f) meet with the Company at least once each quarter (starting with       the quarter in which the Agent Launch Date occurs), at a mutually       agreeable time and place to discuss and review the Agent's activities       hereunder, at which meeting the Agent will make available to the Company       information concerning the Agent's sale and marketing of the Products in       the Territory during the quarter and year-to-date, such information to       include details of sales efforts, Product sales volume and such other       information as may be mutually agreed upon in each Business Plan;"
+        ],
+        "fp": []
+      },
+      "Uncapped Liability": {
+        "ground_truth": [],
+        "predictions": [
+          "the Agent will indemnify the Company (and its officers, directors, employees, agents and affiliates) and hold it (and them) harmless from and against all loss, damage, liability, cost or expense of any nature whatsoever, including, without limitation, any and all reasonable attorneys fees and court costs (together, a \"Loss\"), arising out of or in connection with (i) the inaccuracy or breach of any representation, warranty or obligation of the Agent hereunder and/or (ii) the activities of the Agent in connection with the promotion, sale or collection of payment of the Products in violation of this Agreement, law or any other duty or obligation of the Agent.",
+          "the Company will indemnify the Agent (and its officers, directors, employees, agents and affiliates) and hold it (and them) harmless from and against any Loss arising out of or in connection with the inaccuracy or breach of any representation, warranty or obligation of the Company hereunder."
+        ],
+        "tp": [],
+        "fn": [],
+        "fp": [
+          "the Agent will indemnify the Company (and its officers, directors, employees, agents and affiliates) and hold it (and them) harmless from and against all loss, damage, liability, cost or expense of any nature whatsoever, including, without limitation, any and all reasonable attorneys fees and court costs (together, a \"Loss\"), arising out of or in connection with (i) the inaccuracy or breach of any representation, warranty or obligation of the Agent hereunder and/or (ii) the activities of the Agent in connection with the promotion, sale or collection of payment of the Products in violation of this Agreement, law or any other duty or obligation of the Agent.",
+          "the Company will indemnify the Agent (and its officers, directors, employees, agents and affiliates) and hold it (and them) harmless from and against any Loss arising out of or in connection with the inaccuracy or breach of any representation, warranty or obligation of the Company hereunder."
+        ]
+      },
+      "Cap On Liability": {
+        "ground_truth": [
+          "In no       way should the Agent be liable for incidental or consequential damages.",
+          "In no event will the Company be liable for incidental or consequential damages.",
+          "Subject to Subparagraph (c) below, the Agent will indemnify the       Company (and its officers, directors, employees, agents and affiliates)       and hold it (and them) harmless from and against all loss, damage,       liability, cost or expense of any nature whatsoever, including, without       limitation, any and all reasonable attorneys fees and court costs       (together, a \"Loss\"), arising out of or in connection with (i) the       inaccuracy or breach of any representation, warranty or obligation of the       Agent hereunder and/or (ii) the activities of the Agent in connection with       the promotion, sale or collection of payment of the Products in violation       of this Agreement, law or any other duty or obligation of the Agent.",
+          "In no event will either party be       liable for special or consequential damages arising out of the breach or       the termination of this Agreement.",
+          "The Customer's exclusive remedy for a breach of any of the foregoing warranties will be the replacement, at the delivery point thereof, freight prepaid, of any Product furnished hereunder that fails to meet the foregoing standards."
+        ],
+        "predictions": [
+          "In no way should the Agent be liable for incidental or consequential damages."
+        ],
+        "tp": [
+          "In no       way should the Agent be liable for incidental or consequential damages.",
+          "In no event will the Company be liable for incidental or consequential damages."
+        ],
+        "fn": [
+          "Subject to Subparagraph (c) below, the Agent will indemnify the       Company (and its officers, directors, employees, agents and affiliates)       and hold it (and them) harmless from and against all loss, damage,       liability, cost or expense of any nature whatsoever, including, without       limitation, any and all reasonable attorneys fees and court costs       (together, a \"Loss\"), arising out of or in connection with (i) the       inaccuracy or breach of any representation, warranty or obligation of the       Agent hereunder and/or (ii) the activities of the Agent in connection with       the promotion, sale or collection of payment of the Products in violation       of this Agreement, law or any other duty or obligation of the Agent.",
+          "In no event will either party be       liable for special or consequential damages arising out of the breach or       the termination of this Agreement.",
+          "The Customer's exclusive remedy for a breach of any of the foregoing warranties will be the replacement, at the delivery point thereof, freight prepaid, of any Product furnished hereunder that fails to meet the foregoing standards."
+        ],
+        "fp": []
+      },
+      "Liquidated Damages": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Warranty Duration": {
+        "ground_truth": [
+          "The Company hereby warrants that all Products sold to the\n\n\n\n\n\nCustomer hereunder, at the time of shipment to the Customer, (a) will be merchantable and of generally commercially salable quality; and (b) will have a then remaining shelf life of at least twelve (12) months. The Company further    8\n\n                                    -7-\n\nwarrants that the Products have been manufactured, labeled and packaged, and when in the Company's possession or under its control, have been handled, stored and shipped, in compliance with all applicable federal, state and local laws. The Customer's exclusive remedy for a breach of any of the foregoing warranties will be the replacement, at the delivery point thereof, freight prepaid, of any Product furnished hereunder that fails to meet the foregoing standards. In no event will the Company be liable for incidental or consequential damages. All claims by the Customer and/or Agent under this Paragraph 2.6 must be submitted in accordance with the Company's published bulletins concerning such claims, as such bulletins may be amended by the Company from time to time and furnished to the Agent."
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "The Company hereby warrants that all Products sold to the\n\n\n\n\n\nCustomer hereunder, at the time of shipment to the Customer, (a) will be merchantable and of generally commercially salable quality; and (b) will have a then remaining shelf life of at least twelve (12) months. The Company further    8\n\n                                    -7-\n\nwarrants that the Products have been manufactured, labeled and packaged, and when in the Company's possession or under its control, have been handled, stored and shipped, in compliance with all applicable federal, state and local laws. The Customer's exclusive remedy for a breach of any of the foregoing warranties will be the replacement, at the delivery point thereof, freight prepaid, of any Product furnished hereunder that fails to meet the foregoing standards. In no event will the Company be liable for incidental or consequential damages. All claims by the Customer and/or Agent under this Paragraph 2.6 must be submitted in accordance with the Company's published bulletins concerning such claims, as such bulletins may be amended by the Company from time to time and furnished to the Agent."
+        ],
+        "fp": []
+      },
+      "Insurance": {
+        "ground_truth": [
+          "The Company and the Agent will each maintain, at their own expense, insurance with reputable insurers, such insurance to be in such form and amounts as are customary in the case of entities of established reputation engaged in the same or similar businesses and similarly situated, provided that such insurance will in any event include commercial general liability and umbrella liability insurance (including product liability coverage) for property damage, bodily injury and personal injury in an amount not less than Five Million Dollars ($5,000,000) combined single amount per occurrence and in the aggregate. Each such liability insurance policy of the Agent will name the Company (as its interest may appear) as an additional insured under the policy and provide for at least thirty (30) days prior written notice to the Company of any cancellation, modification or amendment of the policy. Each product liability insurance policy of the Company will name the Agent (as its interest may appear) as an additional insured under the policy and provide for at least thirty (30) days prior written notice to the Agent of any cancellation, modification, or amendment of this policy. Each party will furnish to the other upon request a Certificate of Insurance or other documentation reasonably satisfactory to the other evidencing compliance with this Paragraph 3.3."
+        ],
+        "predictions": [
+          "The Company and the Agent will each maintain, at their own expense, insurance with reputable insurers, such insurance to be in such form and amounts as are customary in the case of entities of established reputation engaged in the same or similar businesses and similarly situated, provided that such insurance will in any event include commercial general liability and umbrella liability insurance (including product liability coverage) for property damage, bodily injury and personal injury in an amount not less than Five Million Dollars ($5,000,000) combined single amount per occurrence and in the aggregate.",
+          "Each such liability insurance policy of the Agent will name the Company (as its interest may appear) as an additional insured under the policy and provide for at least thirty (30) days prior written notice to the Company of any cancellation, modification or amendment of the policy.",
+          "Each product liability insurance policy of the Company will name the Agent (as its interest may appear) as an additional insured under the policy and provide for at least thirty (30) days prior written notice to the Agent of any cancellation, modification, or amendment of this policy.",
+          "Each party will furnish to the other upon request a Certificate of Insurance or other documentation reasonably satisfactory to the other evidencing compliance with this Paragraph 3.3."
+        ],
+        "tp": [
+          "The Company and the Agent will each maintain, at their own expense, insurance with reputable insurers, such insurance to be in such form and amounts as are customary in the case of entities of established reputation engaged in the same or similar businesses and similarly situated, provided that such insurance will in any event include commercial general liability and umbrella liability insurance (including product liability coverage) for property damage, bodily injury and personal injury in an amount not less than Five Million Dollars ($5,000,000) combined single amount per occurrence and in the aggregate. Each such liability insurance policy of the Agent will name the Company (as its interest may appear) as an additional insured under the policy and provide for at least thirty (30) days prior written notice to the Company of any cancellation, modification or amendment of the policy. Each product liability insurance policy of the Company will name the Agent (as its interest may appear) as an additional insured under the policy and provide for at least thirty (30) days prior written notice to the Agent of any cancellation, modification, or amendment of this policy. Each party will furnish to the other upon request a Certificate of Insurance or other documentation reasonably satisfactory to the other evidencing compliance with this Paragraph 3.3."
+        ],
+        "fn": [],
+        "fp": [
+          "Each such liability insurance policy of the Agent will name the Company (as its interest may appear) as an additional insured under the policy and provide for at least thirty (30) days prior written notice to the Company of any cancellation, modification or amendment of the policy.",
+          "Each product liability insurance policy of the Company will name the Agent (as its interest may appear) as an additional insured under the policy and provide for at least thirty (30) days prior written notice to the Agent of any cancellation, modification, or amendment of this policy.",
+          "Each party will furnish to the other upon request a Certificate of Insurance or other documentation reasonably satisfactory to the other evidencing compliance with this Paragraph 3.3."
+        ]
+      },
+      "Covenant Not To Sue": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Third Party Beneficiary": {
+        "ground_truth": [],
+        "predictions": [
+          "the Agent will indemnify the Company (and its officers, directors, employees, agents and affiliates) and hold it (and them) harmless from and against all loss, damage, liability, cost or expense of any nature whatsoever, including, without limitation, any and all reasonable attorneys fees and court costs (together, a \"Loss\"), arising out of or in connection with (i) the inaccuracy or breach of any representation, warranty or obligation of the Agent hereunder and/or (ii) the activities of the Agent in connection with the promotion, sale or collection of payment of the Products in violation of this Agreement, law or any other duty or obligation of the Agent.",
+          "the Company will indemnify the Agent (and its officers, directors, employees, agents and affiliates) and hold it (and them) harmless from and against any Loss arising out of or in connection with the inaccuracy or breach of any representation, warranty or obligation of the Company hereunder."
+        ],
+        "tp": [],
+        "fn": [],
+        "fp": [
+          "the Agent will indemnify the Company (and its officers, directors, employees, agents and affiliates) and hold it (and them) harmless from and against all loss, damage, liability, cost or expense of any nature whatsoever, including, without limitation, any and all reasonable attorneys fees and court costs (together, a \"Loss\"), arising out of or in connection with (i) the inaccuracy or breach of any representation, warranty or obligation of the Agent hereunder and/or (ii) the activities of the Agent in connection with the promotion, sale or collection of payment of the Products in violation of this Agreement, law or any other duty or obligation of the Agent.",
+          "the Company will indemnify the Agent (and its officers, directors, employees, agents and affiliates) and hold it (and them) harmless from and against any Loss arising out of or in connection with the inaccuracy or breach of any representation, warranty or obligation of the Company hereunder."
+        ]
+      }
+    },
+    "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement": {
+      "Document Name": {
+        "ground_truth": [
+          "CELEBRITY ENDORSEMENT AGREEMENT"
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "CELEBRITY ENDORSEMENT AGREEMENT"
+        ],
+        "fp": []
+      },
+      "Parties": {
+        "ground_truth": [
+          "Bizzingo",
+          "Theismann",
+          "Bizzingo, Inc.",
+          "Joseph Theismann"
+        ],
+        "predictions": [
+          "Theismann",
+          "Bizzingo, Inc."
+        ],
+        "tp": [
+          "Bizzingo",
+          "Theismann",
+          "Bizzingo, Inc.",
+          "Joseph Theismann"
+        ],
+        "fn": [],
+        "fp": []
+      },
+      "Agreement Date": {
+        "ground_truth": [
+          "March 14, 2012"
+        ],
+        "predictions": [
+          "March 14, 2012"
+        ],
+        "tp": [
+          "March 14, 2012"
+        ],
+        "fn": [],
+        "fp": []
+      },
+      "Effective Date": {
+        "ground_truth": [
+          "March 1, 2012"
+        ],
+        "predictions": [
+          "March 1, 2012"
+        ],
+        "tp": [
+          "March 1, 2012"
+        ],
+        "fn": [],
+        "fp": []
+      },
+      "Expiration Date": {
+        "ground_truth": [
+          "Unless sooner terminated under the provisions hereof, this Agreement shall commence on the Effective Date and continue for a period  of one (1) year (\"Term\"). provided however, that the Parties may extend the Term for an additional year period by entering into an written  addendum of the Agreement extending such term."
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "Unless sooner terminated under the provisions hereof, this Agreement shall commence on the Effective Date and continue for a period  of one (1) year (\"Term\"). provided however, that the Parties may extend the Term for an additional year period by entering into an written  addendum of the Agreement extending such term."
+        ],
+        "fp": []
+      },
+      "Renewal Term": {
+        "ground_truth": [
+          "Unless sooner terminated under the provisions hereof, this Agreement shall commence on the Effective Date and continue for a period  of one (1) year (\"Term\"). provided however, that the Parties may extend the Term for an additional year period by entering into an written  addendum of the Agreement extending such term."
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "Unless sooner terminated under the provisions hereof, this Agreement shall commence on the Effective Date and continue for a period  of one (1) year (\"Term\"). provided however, that the Parties may extend the Term for an additional year period by entering into an written  addendum of the Agreement extending such term."
+        ],
+        "fp": []
+      },
+      "Notice Period To Terminate Renewal": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Governing Law": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Most Favored Nation": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Non-Compete": {
+        "ground_truth": [],
+        "predictions": [
+          "during the term and for a period of one (1) year thereafter, Theismann shall not use, permit the use of, or license to others the Property in connection with the advertisement, promotion, and sale of any network or Internet service, including but limited to all computer/video games, CD-ROMs, and/or interactive video of any form, except for a pre-existing license by Theismann."
+        ],
+        "tp": [],
+        "fn": [],
+        "fp": [
+          "during the term and for a period of one (1) year thereafter, Theismann shall not use, permit the use of, or license to others the Property in connection with the advertisement, promotion, and sale of any network or Internet service, including but limited to all computer/video games, CD-ROMs, and/or interactive video of any form, except for a pre-existing license by Theismann."
+        ]
+      },
+      "Exclusivity": {
+        "ground_truth": [
+          "Notwithstanding the foregoing, during the term and for a period of one (1) year thereafter, Theismann shall not use,  permit the use of, or license to others the Property in connection with the advertisement, promotion, and sale of any network or Internet service,  including but limited to all computer/video games, CD-ROMs, and/or interactive video of any form, except for a pre-existing license by Theismann.",
+          "Theismann represents and warrants that, except as otherwise disclosed herein, he has not granted nor will he grant during the Term  and for a period of one (1) year thereafter to any other party any right, permission, or license to use the Property in connection with  the advertisement, sale, or promotion of the Network or in connection with networks that are identical or substantially similar to the  Network."
+        ],
+        "predictions": [
+          "Notwithstanding the foregoing, during the term and for a period of one (1) year thereafter, Theismann shall not use, permit the use of, or license to others the Property in connection with the advertisement, promotion, and sale of any network or Internet service, including but limited to all computer/video games, CD-ROMs, and/or interactive video of any form, except for a pre-existing license by Theismann."
+        ],
+        "tp": [
+          "Notwithstanding the foregoing, during the term and for a period of one (1) year thereafter, Theismann shall not use,  permit the use of, or license to others the Property in connection with the advertisement, promotion, and sale of any network or Internet service,  including but limited to all computer/video games, CD-ROMs, and/or interactive video of any form, except for a pre-existing license by Theismann."
+        ],
+        "fn": [
+          "Theismann represents and warrants that, except as otherwise disclosed herein, he has not granted nor will he grant during the Term  and for a period of one (1) year thereafter to any other party any right, permission, or license to use the Property in connection with  the advertisement, sale, or promotion of the Network or in connection with networks that are identical or substantially similar to the  Network."
+        ],
+        "fp": []
+      },
+      "No-Solicit Of Customers": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Competitive Restriction Exception": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "No-Solicit Of Employees": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Non-Disparagement": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Termination For Convenience": {
+        "ground_truth": [
+          "Theismann shall have the right to terminate this Agreement at any time upon thirty (30) days' written notice to Bizzingo, such  termination to become effective at the conclusion of such 30-day period."
+        ],
+        "predictions": [
+          "Theismann shall have the right to terminate this Agreement at any time upon thirty (30) days' written notice to Bizzingo, such termination to become effective at the conclusion of such 30 -day period."
+        ],
+        "tp": [
+          "Theismann shall have the right to terminate this Agreement at any time upon thirty (30) days' written notice to Bizzingo, such  termination to become effective at the conclusion of such 30-day period."
+        ],
+        "fn": [],
+        "fp": []
+      },
+      "Rofr/Rofo/Rofn": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Change Of Control": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Anti-Assignment": {
+        "ground_truth": [
+          "Neither party may assign this Agreement or the rights and obligations thereunder to any third party without the prior  express written approval of the other party which shall not be unreasonably withheld."
+        ],
+        "predictions": [
+          "Neither party may assign this Agreement or the rights and obligations thereunder to any third party without the prior express written approval of the other party which shall not be unreasonably withheld."
+        ],
+        "tp": [
+          "Neither party may assign this Agreement or the rights and obligations thereunder to any third party without the prior  express written approval of the other party which shall not be unreasonably withheld."
+        ],
+        "fn": [],
+        "fp": []
+      },
+      "Revenue/Profit Sharing": {
+        "ground_truth": [
+          "The Royalty payable under the Agreement shall be in the form of one (1) common stock purchase warrant of Bizzingo (as further  described herein) for each Activated User (as defined above) that occurs during a Royalty Period determined on the last day of each Royalty  Period during the Term."
+        ],
+        "predictions": [
+          "Bizzingo, subject to the other terms and conditions herein, agrees to pay to Theismann during the Term the royalty recited in Schedule A (the \" Royalty \" ).",
+          "The Royalty owed Theismann shall be calculated on a quarterly calendar basis ( \" Royalty Period\") commencing on the first (1st) day of June, September, December, and March, except that the first and last calendar quarters may be \"short\" depending on the effective date of this Agreement. Payment of the Royalty shall be made no later than 45 days after the termination of the preceding full calendar quarter. The foregoing notwithstanding, if this Agreement is terminated in accordance with the provisions herein during a Royalty Period, the Royalty shall be calculated up to and including the Termination Date and payment of the Royalty shall be made as provided herein.",
+          "For each Royalty Period, Bizzingo shall provide Theismann with a written royalty statement in a form acceptable to Theismann certified by a duly authorized officer of Bizzingo."
+        ],
+        "tp": [],
+        "fn": [
+          "The Royalty payable under the Agreement shall be in the form of one (1) common stock purchase warrant of Bizzingo (as further  described herein) for each Activated User (as defined above) that occurs during a Royalty Period determined on the last day of each Royalty  Period during the Term."
+        ],
+        "fp": [
+          "Bizzingo, subject to the other terms and conditions herein, agrees to pay to Theismann during the Term the royalty recited in Schedule A (the \" Royalty \" ).",
+          "The Royalty owed Theismann shall be calculated on a quarterly calendar basis ( \" Royalty Period\") commencing on the first (1st) day of June, September, December, and March, except that the first and last calendar quarters may be \"short\" depending on the effective date of this Agreement. Payment of the Royalty shall be made no later than 45 days after the termination of the preceding full calendar quarter. The foregoing notwithstanding, if this Agreement is terminated in accordance with the provisions herein during a Royalty Period, the Royalty shall be calculated up to and including the Termination Date and payment of the Royalty shall be made as provided herein.",
+          "For each Royalty Period, Bizzingo shall provide Theismann with a written royalty statement in a form acceptable to Theismann certified by a duly authorized officer of Bizzingo."
+        ]
+      },
+      "Price Restrictions": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Minimum Commitment": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Volume Restriction": {
+        "ground_truth": [
+          "Make himself available for four (4) sessions for production of photographs, or radio, television, video or other multi-media  programming for use in Bizzingo's advertising or promotional materials, with each such session not exceeding eight (8) hours.",
+          "Make four (4) public appearance for the purpose of promoting the Network, which may include autograph sessions, dinner  appearances, and/or other appearances not described in 4(a) above, with each such session not exceeding two (2) hours."
+        ],
+        "predictions": [
+          "The Royalty payable under the Agreement shall be in the form of one (1) common stock purchase warrant of Bizzingo (as further described herein) for each Activated User (as defined above) that occurs during a Royalty Period determined on the last day of each Royalty Period during the Term.",
+          "It being the intent of the parties that no more than one (1) common stock purchase warrant shall be issued per Activated User, and by way of example, if on the last day of the first and second Royalty Periods, the Network has 500,000 and 1,500,000 Activated Users, respectively, Theismann shall receive 500,000 common stock purchase warrants for the first Royalty Period and an additional 1,000,000 common stock purchase warrants for the second Royalty Period."
+        ],
+        "tp": [],
+        "fn": [
+          "Make himself available for four (4) sessions for production of photographs, or radio, television, video or other multi-media  programming for use in Bizzingo's advertising or promotional materials, with each such session not exceeding eight (8) hours.",
+          "Make four (4) public appearance for the purpose of promoting the Network, which may include autograph sessions, dinner  appearances, and/or other appearances not described in 4(a) above, with each such session not exceeding two (2) hours."
+        ],
+        "fp": [
+          "The Royalty payable under the Agreement shall be in the form of one (1) common stock purchase warrant of Bizzingo (as further described herein) for each Activated User (as defined above) that occurs during a Royalty Period determined on the last day of each Royalty Period during the Term.",
+          "It being the intent of the parties that no more than one (1) common stock purchase warrant shall be issued per Activated User, and by way of example, if on the last day of the first and second Royalty Periods, the Network has 500,000 and 1,500,000 Activated Users, respectively, Theismann shall receive 500,000 common stock purchase warrants for the first Royalty Period and an additional 1,000,000 common stock purchase warrants for the second Royalty Period."
+        ]
+      },
+      "Ip Ownership Assignment": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Joint Ip Ownership": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "License Grant": {
+        "ground_truth": [
+          "Subject to the terms and conditions set forth herein, Theismann hereby grants to Bizzingo and its affiliates the unlimited  right and privilege during the Term (as defined herein) and within the Territory to use the Property (as defined herein) in connection with the  advertisement, promotion, and sale of the Network in the Territory whether through film, television, radio, print and Internet media, including the right to use  the Property in or on the Network. I",
+          "It being understood and agreed that Bizzingo shall have the right to exhibit commercials, infomercials, advertisements and  otherwise make use of all Property on a worldwide basis and that Bizzingo and its affiliates shall be the sole owner of all commercials, promotional materials and  other items produced or created hereunder and all related rights worldwide, including, without limitation, copyright, trademark and intellectual property rights,  subject however to the terms and conditions herein."
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "Subject to the terms and conditions set forth herein, Theismann hereby grants to Bizzingo and its affiliates the unlimited  right and privilege during the Term (as defined herein) and within the Territory to use the Property (as defined herein) in connection with the  advertisement, promotion, and sale of the Network in the Territory whether through film, television, radio, print and Internet media, including the right to use  the Property in or on the Network. I",
+          "It being understood and agreed that Bizzingo shall have the right to exhibit commercials, infomercials, advertisements and  otherwise make use of all Property on a worldwide basis and that Bizzingo and its affiliates shall be the sole owner of all commercials, promotional materials and  other items produced or created hereunder and all related rights worldwide, including, without limitation, copyright, trademark and intellectual property rights,  subject however to the terms and conditions herein."
+        ],
+        "fp": []
+      },
+      "Non-Transferable License": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Affiliate License-Licensor": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Affiliate License-Licensee": {
+        "ground_truth": [
+          "Subject to the terms and conditions set forth herein, Theismann hereby grants to Bizzingo and its affiliates the unlimited  right and privilege during the Term (as defined herein) and within the Territory to use the Property (as defined herein) in connection with the  advertisement, promotion, and sale of the Network in the Territory whether through film, television, radio, print and Internet media, including the right to use  the Property in or on the Network"
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "Subject to the terms and conditions set forth herein, Theismann hereby grants to Bizzingo and its affiliates the unlimited  right and privilege during the Term (as defined herein) and within the Territory to use the Property (as defined herein) in connection with the  advertisement, promotion, and sale of the Network in the Territory whether through film, television, radio, print and Internet media, including the right to use  the Property in or on the Network"
+        ],
+        "fp": []
+      },
+      "Unlimited/All-You-Can-Eat-License": {
+        "ground_truth": [
+          "Subject to the terms and conditions set forth herein, Theismann hereby grants to Bizzingo and its affiliates the unlimited  right and privilege during the Term (as defined herein) and within the Territory to use the Property (as defined herein) in connection with the  advertisement, promotion, and sale of the Network in the Territory whether through film, television, radio, print and Internet media, including the right to use  the Property in or on the Network. I"
+        ],
+        "predictions": [],
+        "tp": [],
+        "fn": [
+          "Subject to the terms and conditions set forth herein, Theismann hereby grants to Bizzingo and its affiliates the unlimited  right and privilege during the Term (as defined herein) and within the Territory to use the Property (as defined herein) in connection with the  advertisement, promotion, and sale of the Network in the Territory whether through film, television, radio, print and Internet media, including the right to use  the Property in or on the Network. I"
+        ],
+        "fp": []
+      },
+      "Irrevocable Or Perpetual License": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Source Code Escrow": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Post-Termination Services": {
+        "ground_truth": [],
+        "predictions": [
+          "during the term and for a period of one (1) year thereafter, Theismann shall not use, permit the use of, or license to others the Property in connection with the advertisement, promotion, and sale of any network or Internet service, including but limited to all computer/video games, CD-ROMs, and/or interactive video of any form, except for a pre-existing license by Theismann."
+        ],
+        "tp": [],
+        "fn": [],
+        "fp": [
+          "during the term and for a period of one (1) year thereafter, Theismann shall not use, permit the use of, or license to others the Property in connection with the advertisement, promotion, and sale of any network or Internet service, including but limited to all computer/video games, CD-ROMs, and/or interactive video of any form, except for a pre-existing license by Theismann."
+        ]
+      },
+      "Audit Rights": {
+        "ground_truth": [
+          "All books and records relative to Bizzingo's obligations hereunder shall be maintained and made accessible to Theismann for inspection at a  location in the United States for at least one year after termination of this Agreement.",
+          "Theismann or his representatives, at his cost and expense, shall have the right, upon reasonable notice and during  normal business hours, to inspect Bizzingo's books and records and all other documents and material in Bizzingo's possession or control with  respect to the determination of Royalties payable hereunder. Theismann shall have free and full access thereto for such purposes and may make  copies thereof."
+        ],
+        "predictions": [
+          "Theismann or his representatives, at his cost and expense, shall have the right, upon reasonable notice and during normal business hours, to inspect Bizzingo's books and records and all other documents and material in Bizzingo's possession or control with respect to the determination of Royalties payable hereunder. Theismann shall have free and full access thereto for such purposes and may make copies thereof.",
+          "All books and records relative to Bizzingo's obligations hereunder shall be maintained and made accessible to Theismann for inspection at a location in the United States for at least one year after termination of this Agreement."
+        ],
+        "tp": [
+          "All books and records relative to Bizzingo's obligations hereunder shall be maintained and made accessible to Theismann for inspection at a  location in the United States for at least one year after termination of this Agreement.",
+          "Theismann or his representatives, at his cost and expense, shall have the right, upon reasonable notice and during  normal business hours, to inspect Bizzingo's books and records and all other documents and material in Bizzingo's possession or control with  respect to the determination of Royalties payable hereunder. Theismann shall have free and full access thereto for such purposes and may make  copies thereof."
+        ],
+        "fn": [],
+        "fp": []
+      },
+      "Uncapped Liability": {
+        "ground_truth": [],
+        "predictions": [
+          "Bizzingo agrees to defend, indemnify, and hold Theismann harmless against all costs, expenses, and losses (including reasonable attorney fees and costs) incurred through claims of third parties against Theismann based on the manufacture or sale of the Network including, but not limited to, actions founded on network liability.",
+          "Theismann agrees to defend, indemnify, and hold Bizzingo, and its officers, directors, agents, and employees, harmless against all costs, expenses, and losses (including reasonable attorney fees and costs) incurred through claims of third parties against Bizzingo based on a breach by Theismann of any representation and/or warranty made in this Agreement or with respect to any third-party claims for infringement involving the use of the Property by Bizzingo."
+        ],
+        "tp": [],
+        "fn": [],
+        "fp": [
+          "Bizzingo agrees to defend, indemnify, and hold Theismann harmless against all costs, expenses, and losses (including reasonable attorney fees and costs) incurred through claims of third parties against Theismann based on the manufacture or sale of the Network including, but not limited to, actions founded on network liability.",
+          "Theismann agrees to defend, indemnify, and hold Bizzingo, and its officers, directors, agents, and employees, harmless against all costs, expenses, and losses (including reasonable attorney fees and costs) incurred through claims of third parties against Bizzingo based on a breach by Theismann of any representation and/or warranty made in this Agreement or with respect to any third-party claims for infringement involving the use of the Property by Bizzingo."
+        ]
+      },
+      "Cap On Liability": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Liquidated Damages": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Warranty Duration": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Insurance": {
+        "ground_truth": [
+          "In this regarding, within thirty (30) days from the  execution of this Agreement, Bizzingo will secure an insurance policy with limits of $5,000,000 per event and $ 5,000,000 umbrella,  naming Theismann as an additional insured, covering the losses and claims stated in this sub-paragraph d."
+        ],
+        "predictions": [
+          "In this regarding, within thirty (30) days from the execution of this Agreement, Bizzingo will secure an insurance policy with limits of $5,000,000 per event and $ 5,000,000 umbrella, naming Theismann as an additional insured, covering the losses and claims stated in this sub-paragraph d."
+        ],
+        "tp": [
+          "In this regarding, within thirty (30) days from the  execution of this Agreement, Bizzingo will secure an insurance policy with limits of $5,000,000 per event and $ 5,000,000 umbrella,  naming Theismann as an additional insured, covering the losses and claims stated in this sub-paragraph d."
+        ],
+        "fn": [],
+        "fp": []
+      },
+      "Covenant Not To Sue": {
+        "ground_truth": [],
+        "predictions": [],
+        "tp": [],
+        "fn": [],
+        "fp": []
+      },
+      "Third Party Beneficiary": {
+        "ground_truth": [],
+        "predictions": [
+          "The provisions of the Agreement shall be binding upon and shall inure to the benefit of the Parties hereto, their heirs, administrators, successors and assigns."
+        ],
+        "tp": [],
+        "fn": [],
+        "fp": [
+          "The provisions of the Agreement shall be binding upon and shall inure to the benefit of the Parties hereto, their heirs, administrators, successors and assigns."
+        ]
+      }
+    }
+  }
+}

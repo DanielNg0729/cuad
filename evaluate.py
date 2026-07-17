@@ -62,14 +62,27 @@ def get_questions_from_csv(csv_path="category_descriptions.csv"):
     return out
 
 
-def get_answers(test_json_dict):
-    """Flatten SQuAD-style ground truth into {qa_id: [answer_text, ...]}."""
+def get_answers(test_json_dict, contract_ids=None):
+    """Flatten SQuAD-style ground truth into {qa_id: [answer_text, ...]}.
+
+    If `contract_ids` is given (a list of contract titles, full or substring),
+    only QAs belonging to matching contracts are kept. Each qa id has the form
+    "<contract title>__<Category>", so we match on the contract's title.
+    """
     results = {}
     for contract in test_json_dict["data"]:
+        title = contract["title"]
+        if contract_ids and not any(cid in title for cid in contract_ids):
+            continue
         for para in contract["paragraphs"]:
             for qa in para["qas"]:
                 results[qa["id"]] = [a["text"] for a in qa["answers"]]
     return results
+
+
+def list_contract_ids(test_json_dict):
+    """Return the list of contract titles (== contract IDs) in the test set."""
+    return [contract["title"] for contract in test_json_dict["data"]]
 
 
 def get_preds(nbest_preds_dict, conf):
@@ -90,27 +103,34 @@ def get_preds(nbest_preds_dict, conf):
 
 def get_jaccard(gt: str, pred: str) -> float:
     """Token-level Jaccard. Lowercases, strips light punctuation, splits on
-    whitespace. Identical to the original CUAD implementation."""
+    whitespace. Splits on *any* whitespace run (str.split()) so that
+    non-breaking spaces (U+00A0) and other unicode whitespace — common in
+    text extracted from PDFs — tokenize the same as ordinary spaces."""
     for token in [".", ",", ";", ":"]:
         gt = gt.replace(token, "")
         pred = pred.replace(token, "")
     gt = gt.lower().replace("/", " ")
     pred = pred.lower().replace("/", " ")
-    gt_words = set(gt.split(" "))
-    pred_words = set(pred.split(" "))
+    gt_words = set(gt.split())
+    pred_words = set(pred.split())
     if not gt_words and not pred_words:
         return 0.0
     return len(gt_words & pred_words) / len(gt_words | pred_words)
 
 
+def _norm_ws(s: str) -> str:
+    """Collapse any whitespace run (incl. non-breaking spaces) to single spaces."""
+    return " ".join(s.split())
+
+
 def _is_match(ans: str, pred: str, substr_ok: bool) -> bool:
-    if substr_ok and ans in pred:
+    if substr_ok and _norm_ws(ans) in _norm_ws(pred):
         return True
     return get_jaccard(ans, pred) >= IOU_THRESH
 
 
-def compute_precision_recall(gt_dict, preds_dict, category=None):
-    """Count tp/fp/fn across all (or one) categories and return (P, R)."""
+def compute_counts(gt_dict, preds_dict, category=None):
+    """Count tp/fp/fn across all (or one) categories and return them."""
     tp = fp = fn = 0
     for key, answers in gt_dict.items():
         if category and not key.endswith(f"__{category}"):
@@ -135,6 +155,12 @@ def compute_precision_recall(gt_dict, preds_dict, category=None):
             if not any(_is_match(a, p, substr_ok) for a in answers):
                 fp += 1
 
+    return tp, fp, fn
+
+
+def compute_precision_recall(gt_dict, preds_dict, category=None):
+    """Return (precision, recall) for the given confidence-thresholded preds."""
+    tp, fp, fn = compute_counts(gt_dict, preds_dict, category=category)
     precision = tp / (tp + fp) if (tp + fp) else np.nan
     recall    = tp / (tp + fn) if (tp + fn) else np.nan
     return precision, recall
@@ -217,6 +243,28 @@ def compute_jaccard_for_category(pred_dict, gt_dict, category, conf=0.0):
     return float(np.mean(scores)) if scores else 0.0
 
 
+def compute_jaccard_per_category(pred_dict, gt_dict, category=None, conf=0.0):
+    """Mean best-match Jaccard for *every* category -> {category: score}.
+
+    Same per-answer logic as compute_jaccard_for_category, but reported once
+    per category instead of for a single chosen one. If `category` is given,
+    only that category is included (so it honours the --category filter).
+    """
+    thresholded = get_preds(pred_dict, conf)
+    per_cat = {}
+    for key, answers in gt_dict.items():
+        if not answers:
+            continue
+        cat = key.rsplit("__", 1)[1]
+        if category and cat != category:
+            continue
+        bucket = per_cat.setdefault(cat, [])
+        preds = thresholded.get(key, [])
+        for ans in answers:
+            bucket.append(max((get_jaccard(ans, p) for p in preds), default=0.0))
+    return {cat: float(np.mean(s)) for cat, s in sorted(per_cat.items())}
+
+
 # ---------------------------------------------------------------------------
 # Top-level driver
 # ---------------------------------------------------------------------------
@@ -233,15 +281,28 @@ def evaluate(pred_dict, gt_dict, category=None, jaccard_category=None):
 
     jaccard_cat = jaccard_category or category or DEFAULT_JACCARD_CATEGORY
 
+    best_f1, best_f1_conf = get_best_fbeta(precisions, recalls, confs, beta=1)
+    best_f2, _            = get_best_fbeta(precisions, recalls, confs, beta=2)
+
+    # TP/FP/FN are threshold-dependent; report them at the confidence threshold
+    # that maximises F1 (the operating point implied by "best_f1").
+    thresholded = get_preds(pred_dict, best_f1_conf)
+    tp, fp, fn = compute_counts(gt_dict, thresholded, category=category)
+
     return {
         "category":           category or "all",
         "aupr":               get_aupr(precisions, recalls),
         "prec_at_80_recall":  get_prec_at_recall(precisions, recalls, 0.80),
         "prec_at_90_recall":  get_prec_at_recall(precisions, recalls, 0.90),
-        "best_f1":            get_best_fbeta(precisions, recalls, confs, beta=1)[0],
-        "best_f2":            get_best_fbeta(precisions, recalls, confs, beta=2)[0],
+        "best_f1":            best_f1,
+        "best_f2":            best_f2,
+        "best_f1_conf":       best_f1_conf,
+        "true_positives":     tp,
+        "false_positives":    fp,
+        "false_negatives":    fn,
         "jaccard_category":   jaccard_cat,
         "jaccard_similarity": compute_jaccard_for_category(pred_dict, gt_dict, jaccard_cat),
+        "jaccard_per_category": compute_jaccard_per_category(pred_dict, gt_dict, category),
     }
 
 
@@ -268,10 +329,22 @@ def print_results(results: dict):
     print(f"  AUPR                        {results['aupr']:.4f}")
     print(f"  Precision @ 80% recall      {results['prec_at_80_recall']:.4f}")
     print(f"  Precision @ 90% recall      {results['prec_at_90_recall']:.4f}")
-    print(f"  Best F1                     {results['best_f1']:.4f}")
+    print(f"  Best F1                     {results['best_f1']:.4f}  (@ conf {results['best_f1_conf']:.2f})")
     print(f"  Best F2                     {results['best_f2']:.4f}")
+    print(f"  True Positives              {results['true_positives']}")
+    print(f"  False Positives             {results['false_positives']}")
+    print(f"  False Negatives             {results['false_negatives']}")
     print(f"  Jaccard ({results['jaccard_category']}){' ' * max(1, 20 - len(results['jaccard_category']))}"
           f"{results['jaccard_similarity']:.4f}")
+
+    per_cat = results.get("jaccard_per_category") or {}
+    if per_cat:
+        print("\n  Jaccard per category:")
+        width = max(len(c) for c in per_cat)
+        for cat, score in per_cat.items():
+            print(f"    {cat:<{width}}  {score:.4f}")
+        print(f"    {'-' * width}  ------")
+        print(f"    {'MEAN (macro)':<{width}}  {np.mean(list(per_cat.values())):.4f}")
 
 
 # ---------------------------------------------------------------------------
@@ -291,10 +364,33 @@ if __name__ == "__main__":
     ap.add_argument("--jaccard_category", default=None,
                     help="Category used for the Jaccard metric. Defaults to "
                          f"--category when specific, else '{DEFAULT_JACCARD_CATEGORY}'.")
+    ap.add_argument("--contract_ids", nargs="+", default=None,
+                    help="One or more contract IDs (titles, full or substring) to "
+                         "evaluate. Omit to evaluate all 102 contracts. "
+                         'Example: --contract_ids LohaCompanyltd "Supply Agreement"')
+    ap.add_argument("--list_contracts", action="store_true",
+                    help="Print all available contract IDs and exit.")
     args = ap.parse_args()
 
+    test_data = load_json(args.data)
+
+    if args.list_contracts:
+        for cid in list_contract_ids(test_data):
+            print(cid)
+        raise SystemExit(0)
+
     Path(args.save_dir).mkdir(parents=True, exist_ok=True)
-    gt_dict = get_answers(load_json(args.data))
+    gt_dict = get_answers(test_data, contract_ids=args.contract_ids)
+
+    if not gt_dict:
+        raise SystemExit(
+            f"No contracts matched {args.contract_ids!r}. "
+            "Use --list_contracts to see valid IDs."
+        )
+
+    if args.contract_ids:
+        n_matched = len({k.rsplit('__', 1)[0] for k in gt_dict})
+        print(f"Evaluating {n_matched} contract(s) matching {args.contract_ids}")
 
     category = None if args.category.lower() == "all" else args.category
     results = get_results(args.model_path, gt_dict,
@@ -302,7 +398,10 @@ if __name__ == "__main__":
                           jaccard_category=args.jaccard_category,
                           verbose=True)
 
-    suffix = "all" if category is None else category.replace(" ", "_")
+    cat_suffix = "all" if category is None else category.replace(" ", "_")
+    contract_suffix = "" if not args.contract_ids else "__" + str(len(
+        {k.rsplit('__', 1)[0] for k in gt_dict})) + "contracts"
+    suffix = cat_suffix + contract_suffix
     save_path = os.path.join(args.save_dir, f"{results['name']}__{suffix}.json")
     with open(save_path, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2)

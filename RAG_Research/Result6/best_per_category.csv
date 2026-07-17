@@ -1,0 +1,32 @@
+﻿category,gold_answers,best_F1_method,best_F1,best_Jaccard_method,best_Jaccard
+Affiliate License-Licensee,1,H_bm15_cos8,1.0,H_bm15_cos8,1.0
+Agreement Date,6,M1_top2_cosine,0.7143,M1_top2_cosine,0.7917
+Anti-Assignment,8,H_bm15_cos8,1.0,H_bm15_cos3,0.9543
+Audit Rights,10,M1_top2_cosine,0.5882,H_bm10_cos8,0.5161
+Cap On Liability,16,M6_section_hybrid_bm25_cosine,0.5833,H_bm15_cos5,0.559
+Change Of Control,3,M2_top1_cosine,0.5,H_bm10_cos8,0.6435
+Competitive Restriction Exception,2,H_bm5_cos1,0.4,H_bm10_cos8,0.6528
+Covenant Not To Sue,5,H_bm10_cos8,0.6667,H_bm10_cos8,0.6686
+Document Name,6,M3_top1_cosine_llmcheck,0.6667,M1_top2_cosine,0.463
+Effective Date,7,M1_top2_cosine,0.6,H_bm10_cos8,0.4911
+Exclusivity,5,H_bm5_cos5,0.8,H_bm10_cos8,0.7947
+Expiration Date,6,M2_top1_cosine,0.25,H_bm10_cos8,0.3833
+Governing Law,6,H_bm15_cos3,0.8,H_bm15_cos3,0.6863
+Insurance,8,M1_top2_cosine,0.875,M1_top2_cosine,0.9033
+Ip Ownership Assignment,4,M3_top1_cosine_llmcheck,0.4,M1_top2_cosine,0.5546
+Irrevocable Or Perpetual License,1,H_bm10_cos8,1.0,H_bm10_cos8,0.5882
+License Grant,8,H_bm15_cos5,0.4286,H_bm10_cos8,0.4973
+Minimum Commitment,9,M5_section_top2_cosine,0.3636,H_bm15_cos2,0.3057
+Most Favored Nation,1,H_bm10_cos2,1.0,H_bm10_cos2,1.0
+No-Solicit Of Customers,3,H_bm10_cos8,0.5714,H_bm10_cos8,0.6714
+No-Solicit Of Employees,1,H_bm10_cos2,1.0,H_bm10_cos2,1.0
+Non-Compete,6,H_bm10_cos1,0.4444,H_bm10_cos8,0.4744
+Non-Transferable License,1,M4_top1_bm25,0.6667,H_bm10_cos1,0.875
+Parties,28,M1_top2_cosine,0.8333,M4_top1_bm25,0.4863
+Post-Termination Services,6,M7_section_hybrid_top5,0.25,H_bm10_cos8,0.7601
+Renewal Term,1,M1_top2_cosine,0.5,M1_top2_cosine,0.55
+Revenue/Profit Sharing,4,H_bm15_cos8,0.3636,M1_top2_cosine,0.4913
+Termination For Convenience,3,H_bm10_cos2,1.0,H_bm10_cos2,1.0
+Unlimited/All-You-Can-Eat-License,1,H_bm10_cos2,1.0,H_bm5_cos3,0.9787
+Volume Restriction,8,H_bm5_cos5,0.0,H_bm5_cos5,0.0717
+Warranty Duration,5,H_bm10_cos1,0.2857,H_bm15_cos2,0.3818

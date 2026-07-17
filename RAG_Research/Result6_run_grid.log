@@ -1,0 +1,84 @@
+Chunk source: section_chunking.json
+Contracts (6):
+  - BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT  (37 chunks)
+  - BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreeme  (20 chunks)
+  - AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement  (62 chunks)
+  - AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT  (36 chunks)
+  - Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING A  (40 chunks)
+  - DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT  (25 chunks)
+Embedding 41 categories + chunks for 6 contract(s)...
+  embeddings ready (0 tokens billed this run)
+
+  [H_bm5_cos1] model=gpt-5.4
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done
+      180/246 category calls done
+      200/246 category calls done
+      220/246 category calls done
+      240/246 category calls done
+      246/246 category calls done
+    TP=42 FP=48 FN=137 | P=0.467 R=0.235 F1=0.312 | AUPR=0.172 bestF1=0.312 | $0.2105 | 0.6 min
+
+  [H_bm5_cos2] model=gpt-5.4
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done
+      180/246 category calls done
+      200/246 category calls done
+      220/246 category calls done
+      240/246 category calls done
+      246/246 category calls done
+    TP=61 FP=80 FN=118 | P=0.433 R=0.341 F1=0.381 | AUPR=0.244 bestF1=0.381 | $0.3132 | 2.2 min
+
+  [H_bm5_cos3] model=gpt-5.4
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done
+      180/246 category calls done
+      200/246 category calls done
+      220/246 category calls done
+      240/246 category calls done
+      246/246 category calls done
+    TP=70 FP=100 FN=109 | P=0.412 R=0.391 F1=0.401 | AUPR=0.276 bestF1=0.401 | $0.3987 | 10.2 min
+
+  [H_bm5_cos5] model=gpt-5.4
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done
+      180/246 category calls done
+      200/246 category calls done
+      220/246 category calls done
+      240/246 category calls done
+      246/246 category calls done
+    TP=82 FP=120 FN=97 | P=0.406 R=0.458 F1=0.430 | AUPR=0.322 bestF1=0.430 | $0.5774 | 5.5 min
+
+  [H_bm10_cos1] model=gpt-5.4
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done

@@ -1,0 +1,65 @@
+{
+  "model": "gpt-5.4",
+  "contracts": [
+    "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT"
+  ],
+  "coverage": {
+    "gold_total": 179,
+    "in_some_chunk": 178,
+    "unreachable": 1,
+    "coverage_rate": 0.9944,
+    "unreachable_examples": [
+      {
+        "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+        "category": "Minimum Commitment",
+        "gold": "Fleet shall ensure that it has sufficient experienced production staff"
+      }
+    ]
+  },
+  "stages": [
+    {
+      "method": "M1_top2_cosine",
+      "reachable": 178,
+      "retrieved_ok": 114,
+      "retrieval_miss": 64,
+      "r_recall": 0.6404494382022472,
+      "extracted_ok": 78,
+      "extraction_miss": 36,
+      "x_recall": 0.6842105263157895,
+      "fp_zero_gt": 44,
+      "fp_with_gt": 65,
+      "total_fp": 109
+    },
+    {
+      "method": "M2_top1_cosine",
+      "reachable": 178,
+      "retrieved_ok": 87,
+      "retrieval_miss": 91,
+      "r_recall": 0.4887640449438202,
+      "extracted_ok": 58,
+      "extraction_miss": 29,
+      "x_recall": 0.6666666666666666,
+      "fp_zero_gt": 29,
+      "fp_with_gt": 50,
+      "total_fp": 79
+    },
+    {
+      "method": "M4_top1_bm25",
+      "reachable": 178,
+      "retrieved_ok": 95,
+      "retrieval_miss": 83,
+      "r_recall": 0.5337078651685393,
+      "extracted_ok": 56,
+      "extraction_miss": 39,
+      "x_recall": 0.5894736842105263,
+      "fp_zero_gt": 50,
+      "fp_with_gt": 41,
+      "total_fp": 91
+    }
+  ]
+}

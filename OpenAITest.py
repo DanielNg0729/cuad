@@ -35,7 +35,10 @@ from langchain_openai import ChatOpenAI
 from pydantic import Field, create_model
 
 CATEGORY_CSV = "category_descriptions.csv"
-MAX_TOKENS = 1200
+# None = no output cap -- let the model use its full budget. Reasoning models
+# (gpt-5.x) spend hidden tokens before answering and truncate under a small cap,
+# so we don't limit by default. Pass --max_tokens to cap it if you want.
+MAX_TOKENS = None
 CONCURRENCY = 4            # parallel in-flight calls; lower it if you hit rate limits
 
 SYSTEM_PROMPT = (
@@ -73,11 +76,36 @@ def build_schema(categories: dict[str, str]):
 
 def build_chain(model: str, schema, max_tokens: int = MAX_TOKENS):
     # ChatOpenAI picks up OPENAI_API_KEY from the environment on its own.
-    llm = ChatOpenAI(model=model, temperature=0, max_tokens=max_tokens)
+    # Only pass max_tokens when actually set; None lets the model use its full budget.
+    kwargs = {"model": model, "temperature": 0}
+    if max_tokens:
+        kwargs["max_tokens"] = max_tokens
+    llm = ChatOpenAI(**kwargs)
     prompt = ChatPromptTemplate.from_messages(
         [("system", SYSTEM_PROMPT), ("human", USER_PROMPT)]
     )
-    return prompt | llm.with_structured_output(schema)
+    # include_raw=True returns {"raw": AIMessage, "parsed": <schema>|None, ...} so we
+    # can read raw.usage_metadata for token accounting without a separate callback.
+    return prompt | llm.with_structured_output(schema, include_raw=True)
+
+
+# --- Cost accounting --------------------------------------------------------
+
+# USD per 1M tokens (input, output). Edit to match the rates on your account;
+# unknown models fall back to "default" and the printed cost is an estimate.
+PRICING = {
+    "gpt-4o-mini":   (0.15, 0.60),
+    "gpt-5-mini":    (0.25, 2.00),
+    "gpt-5.4-mini":  (0.25, 2.00),
+    "gpt-5.4":       (1.25, 10.00),
+    "gpt-5.5":       (1.25, 10.00),
+    "default":       (1.25, 10.00),
+}
+
+
+def estimate_cost(model: str, in_tokens: int, out_tokens: int) -> float:
+    pin, pout = PRICING.get(model, PRICING["default"])
+    return in_tokens / 1e6 * pin + out_tokens / 1e6 * pout
 
 
 # --- Extraction -------------------------------------------------------------
@@ -135,14 +163,24 @@ async def extract_contract(chain, field_to_label, chunks: list[str],
     results = await asyncio.gather(*(process(i, c) for i, c in enumerate(chunks)))
 
     preds = {label: [] for label in labels}
+    usage = {"input": 0, "output": 0}
     for chunk, res in zip(chunks, results):
         if isinstance(res, Exception) or res is None:
             continue
+        # include_raw=True -> res is {"raw": AIMessage, "parsed": <schema>|None}.
+        raw = res.get("raw")
+        parsed = res.get("parsed")
+        um = getattr(raw, "usage_metadata", None) if raw is not None else None
+        if um:
+            usage["input"] += um.get("input_tokens", 0)
+            usage["output"] += um.get("output_tokens", 0)
+        if parsed is None:
+            continue
         for fname, label in field_to_label.items():
-            span = validate_span(getattr(res, fname, None), chunk)
+            span = validate_span(getattr(parsed, fname, None), chunk)
             if span:
                 preds[label].append(span)
-    return preds
+    return preds, usage
 
 
 # --- Runner -----------------------------------------------------------------
@@ -160,6 +198,26 @@ def pick_contract(contracts: list[dict], contract_id: str) -> dict:
     )
 
 
+def pick_contracts(contracts: list[dict], contract_ids: list[str]) -> list[dict]:
+    """Select every contract matching one of `contract_ids` (exact or substring),
+    preserving the order the IDs were given. Bails on any ID that matches nothing."""
+    selected, seen = [], set()
+    for cid in contract_ids:
+        matches = [c for c in contracts
+                   if c["contract_id"] == cid or cid in c["contract_id"]]
+        if not matches:
+            sample = "\n  ".join(c["contract_id"] for c in contracts[:5])
+            raise SystemExit(
+                f"Contract ID {cid!r} matched no contract "
+                f"({len(contracts)} available). First few valid IDs:\n  {sample}"
+            )
+        for c in matches:
+            if c["contract_id"] not in seen:
+                seen.add(c["contract_id"])
+                selected.append(c)
+    return selected
+
+
 def load_checkpoint(path: Path) -> dict:
     """Resume an interrupted run: the checkpoint IS the nbest dict so far."""
     if path.exists():
@@ -169,7 +227,8 @@ def load_checkpoint(path: Path) -> dict:
 
 
 def save_checkpoint(nbest: dict, path: Path):
-    path.write_text(json.dumps(nbest, indent=2), encoding="utf-8")
+    # ensure_ascii=False keeps spans readable (real chars, not \uXXXX escapes).
+    path.write_text(json.dumps(nbest, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
 async def run(args):
@@ -180,8 +239,11 @@ async def run(args):
 
     contracts = json.loads(Path(args.data).read_text(encoding="utf-8"))["data"]
 
-    # --doc lets you process a single contract (by ID) instead of the whole set.
-    if args.doc is not None:
+    # --docs (plural) processes a chosen subset into ONE output file; --doc keeps
+    # the original single-contract behaviour. --docs takes precedence if both given.
+    if args.docs:
+        contracts = pick_contracts(contracts, args.docs)
+    elif args.doc is not None:
         contracts = [pick_contract(contracts, args.doc)]
 
     out_dir = Path(args.out)
@@ -193,6 +255,7 @@ async def run(args):
           f"| concurrency={args.concurrency} | already done: {len(nbest)} QAs")
 
     t0, done = time.time(), 0
+    total_usage = {"input": 0, "output": 0}
     for ci, contract in enumerate(contracts):
         cid = contract["contract_id"]
         chunks = contract["chunks"]
@@ -208,9 +271,11 @@ async def run(args):
 
         print(f"\n[{ci + 1}/{len(contracts)}] {cid[:60]} "
               f"({sum(len(c) for c in chunks):,} chars)")
-        preds = await extract_contract(
+        preds, usage = await extract_contract(
             chain, field_to_label, chunks, label_set, args.concurrency,
         )
+        total_usage["input"] += usage["input"]
+        total_usage["output"] += usage["output"]
 
         for label in label_set:
             spans = list(dict.fromkeys(preds.get(label, [])))  # dedupe, keep order
@@ -226,9 +291,25 @@ async def run(args):
         print(f"  {hits}/{len(label_set)} labels hit, {done} QAs total")
 
     out_path = out_dir / "nbest_predictions_.json"
-    out_path.write_text(json.dumps(nbest, indent=2), encoding="utf-8")
+    out_path.write_text(json.dumps(nbest, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"\nWrote {len(nbest)} QA predictions to {out_path}")
     print(f"Total time: {(time.time() - t0) / 60:.1f} min")
+
+    tin, tout = total_usage["input"], total_usage["output"]
+    cost = estimate_cost(args.model, tin, tout)
+    rate = PRICING.get(args.model, PRICING["default"])
+    print(f"\n--- Token usage & cost (model={args.model}) ---")
+    print(f"  input tokens : {tin:,}")
+    print(f"  output tokens: {tout:,}")
+    print(f"  total tokens : {tin + tout:,}")
+    print(f"  rate (USD/1M): in ${rate[0]:.2f}, out ${rate[1]:.2f}"
+          f"{'  [default/estimate]' if args.model not in PRICING else ''}")
+    print(f"  ESTIMATED COST: ${cost:.4f}")
+    # Machine-readable sidecar so the numbers can be aggregated across models.
+    (out_dir / "usage.json").write_text(json.dumps(
+        {"model": args.model, "input_tokens": tin, "output_tokens": tout,
+         "estimated_cost_usd": round(cost, 6)}, indent=2), encoding="utf-8")
+
     if checkpoint_path.exists():       # finished cleanly -> drop the checkpoint
         checkpoint_path.unlink()
     print(f"Next: python evaluate.py --model_path {out_dir}")
@@ -245,9 +326,13 @@ if __name__ == "__main__":
     ap.add_argument("--model", default="gpt-4o-mini")
     ap.add_argument("--doc", default=None,
                     help="Process only the contract with this ID.")
+    ap.add_argument("--docs", nargs="+", default=None,
+                    help="Process several contracts (IDs, exact or substring) into "
+                         "ONE output file. Takes precedence over --doc.")
     ap.add_argument("--out", default=None, help="Output dir (default trained_models/<model>).")
     ap.add_argument("--concurrency", type=int, default=CONCURRENCY)
-    ap.add_argument("--max_tokens", type=int, default=MAX_TOKENS)
+    ap.add_argument("--max_tokens", type=int, default=MAX_TOKENS,
+                    help="Output token cap (default: none -- model uses its full budget).")
     args = ap.parse_args()
 
     if args.out is None:

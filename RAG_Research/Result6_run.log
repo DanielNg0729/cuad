@@ -1,0 +1,90 @@
+Contracts (6):
+  - BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT  (7 chunks)
+  - BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreeme  (12 chunks)
+  - AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement  (6 chunks)
+  - AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT  (13 chunks)
+  - Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING A  (9 chunks)
+  - DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT  (13 chunks)
+Embedding 41 categories + chunks for 6 contract(s)...
+  embeddings ready (23,038 tokens billed this run)
+
+  [M1_top2_cosine] model=gpt-5.4
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done
+      180/246 category calls done
+      200/246 category calls done
+      220/246 category calls done
+      240/246 category calls done
+      246/246 category calls done
+    TP=78 FP=109 FN=101 | P=0.417 R=0.436 F1=0.426 | AUPR=0.309 bestF1=0.426 | $1.1770 | 0.5 min
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done
+      180/246 category calls done
+      200/246 category calls done
+      220/246 category calls done
+      240/246 category calls done
+      246/246 category calls done
+
+  [M2_top1_cosine] model=gpt-5.4
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done
+      180/246 category calls done
+      200/246 category calls done
+      220/246 category calls done
+      240/246 category calls done
+      246/246 category calls done
+    TP=60 FP=79 FN=119 | P=0.432 R=0.335 F1=0.377 | AUPR=0.240 bestF1=0.377 | $0.6194 | 0.4 min
+
+  [M3_top1_cosine_llmcheck] model=gpt-5.4
+      checked BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEM
+      checked BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-
+      checked AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distrib
+      checked AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28
+      checked Columbia Laboratories, (Bermuda) Ltd. - AMEND
+      checked DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSU
+    TP=48 FP=34 FN=131 | P=0.585 R=0.268 F1=0.368 | AUPR=0.213 bestF1=0.368 | $0.9399 | 2.3 min
+
+  [M4_top1_bm25] model=gpt-5.4
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done
+      180/246 category calls done
+      200/246 category calls done
+      220/246 category calls done
+      240/246 category calls done
+      246/246 category calls done
+    TP=56 FP=91 FN=123 | P=0.381 R=0.313 F1=0.344 | AUPR=0.216 bestF1=0.344 | $1.0114 | 0.5 min
+
+============================================================================================
+method                    model         TP  FP  FN      P      R     F1   AUPR    bF1  Jac-LG     cost
+============================================================================================
+M1_top2_cosine            gpt-5.4       78 109 101  0.417  0.436  0.426  0.309  0.426   0.175   $1.177
+M2_top1_cosine            gpt-5.4       60  79 119  0.432  0.335  0.377  0.240  0.377   0.046   $0.619
+M3_top1_cosine_llmcheck   gpt-5.4       48  34 131  0.585  0.268  0.368  0.213  0.368   0.201   $0.940
+M4_top1_bm25              gpt-5.4       56  91 123  0.381  0.313  0.344  0.216  0.344   0.309   $1.011
+============================================================================================
+Grand API cost this run: $3.7477
+Wrote D:\Internship\AStar\CuadNew\cuad\RAG_Research\Result6\results/summary.json and per-method result JSONs.

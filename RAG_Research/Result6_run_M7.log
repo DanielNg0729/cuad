@@ -1,0 +1,34 @@
+Chunk source: section_chunking.json
+Contracts (6):
+  - BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT  (37 chunks)
+  - BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreeme  (20 chunks)
+  - AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement  (62 chunks)
+  - AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT  (36 chunks)
+  - Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING A  (40 chunks)
+  - DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT  (25 chunks)
+Embedding 41 categories + chunks for 6 contract(s)...
+  embeddings ready (0 tokens billed this run)
+
+  [M7_section_hybrid_top5] model=gpt-5.4
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done
+      180/246 category calls done
+      200/246 category calls done
+      220/246 category calls done
+      240/246 category calls done
+      246/246 category calls done
+    TP=76 FP=131 FN=103 | P=0.367 R=0.425 F1=0.394 | AUPR=0.290 bestF1=0.394 | $0.5758 | 0.5 min
+
+============================================================================================
+method                    model         TP  FP  FN      P      R     F1   AUPR    bF1  Jac-LG     cost
+============================================================================================
+M7_section_hybrid_top5    gpt-5.4       76 131 103  0.367  0.425  0.394  0.290  0.394   0.421   $0.576
+============================================================================================
+Grand API cost this run: $0.5758
+Wrote D:\Internship\AStar\CuadNew\cuad\RAG_Research\Result6\results/summary.json and per-method result JSONs.

@@ -1,0 +1,8 @@
+﻿method,chunking,search,k,hybrid_n,n_chunks,coverage,R_at_k,reach_covxRk,X_given_R,end2end_recall,note
+M1_top2_cosine,markdown,cosine,2,,60,0.933,0.623,0.581,0.712,0.436,
+M2_top1_cosine,markdown,cosine,1,,60,0.933,0.485,0.453,0.679,0.335,
+M3_top1_cosine_llmcheck,markdown,cosine,1,,60,0.933,0.485,0.453,0.383,0.268,retrieval bypassed by full-contract check
+M4_top1_bm25,markdown,bm25,1,,60,0.933,0.521,0.486,0.621,0.313,
+M5_section_top2_cosine,section,cosine,2,,220,0.989,0.429,0.425,0.697,0.313,
+M6_section_hybrid_bm25_cosine,section,hybrid,3,10,220,0.989,0.548,0.542,0.691,0.38,
+M7_section_hybrid_top5,section,hybrid,5,10,220,0.989,0.655,0.648,0.647,0.425,
