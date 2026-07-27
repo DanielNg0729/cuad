@@ -7,7 +7,6 @@ M5_section_top2_cosine,section,cosine,2,,220,56,80,123,0.4118,0.3128,0.3556,0.32
 H_bm5_cos1,section,hybrid,1,5,220,42,48,137,0.4667,0.2346,0.3123,0.2605,0.1721,0.3123,0.3027,1.0,Most Favored Nation,0.0,Affiliate License-Licensee,0.9888,0.322,0.210509
 H_bm5_cos2,section,hybrid,2,5,220,61,80,118,0.4326,0.3408,0.3813,0.3559,0.2441,0.3813,0.4045,1.0,Termination For Convenience,0.0,Agreement Date,0.9888,0.4859,0.313191
 H_bm5_cos3,section,hybrid,3,5,220,70,100,109,0.4118,0.3911,0.4011,0.395,0.276,0.4011,0.4405,1.0,Most Favored Nation,0.0,Renewal Term,0.9888,0.5876,0.398684
-H_bm5_cos5,section,hybrid,5,5,220,82,120,97,0.4059,0.4581,0.4304,0.4466,0.322,0.4304,0.5266,1.0,Most Favored Nation,0.0,Renewal Term,0.9888,0.6384,0.577377
 H_bm10_cos1,section,hybrid,1,10,220,36,51,143,0.4138,0.2011,0.2707,0.2242,0.1422,0.2707,0.2599,0.9902,Termination For Convenience,0.0,Affiliate License-Licensee,0.9888,0.2881,0.208193
 H_bm10_cos2,section,hybrid,2,10,220,57,75,122,0.4318,0.3184,0.3666,0.3361,0.228,0.3666,0.3743,1.0,Most Favored Nation,0.0,Affiliate License-Licensee,0.9888,0.4407,0.309878
 M6_section_hybrid_bm25_cosine,section,hybrid,3,10,220,68,97,111,0.4121,0.3799,0.3953,0.3859,0.2682,0.3953,0.39,1.0,No-Solicit Of Employees,0.0,Affiliate License-Licensee,0.9888,0.548,0.407834

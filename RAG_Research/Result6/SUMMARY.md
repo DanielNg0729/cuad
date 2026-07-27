@@ -69,26 +69,31 @@ Reading the table:
 ### Hybrid retrieval grid — BM25 prefilter {5,10,15} × cosine-rerank k {1,2,3,5,8}
 
 Full grid on the section chunks (gpt-5.4). Three pivot tables live in the Excel
-(`Hybrid_grid` sheet); the machine-readable form is `master_summary.csv`. k=8 for
-prefilter=5 is capped at 5 candidates, so it repeats the k=5 row.
+(`Hybrid_grid` sheet); the machine-readable form is `master_summary.csv`.
 
-Best cells by F1:
+> **Degenerate configs removed.** A hybrid where cosine-k equals the BM25 prefilter (e.g.
+> BM25→5 then cosine→5) returns exactly the BM25 top-k *set* — the cosine rerank only
+> reorders it and we keep all of it — so it is not a hybrid at all, just BM25 top-k
+> mislabeled. `H_bm5_cos5` was such a case (and was, misleadingly, the top scorer). It has
+> been dropped. That leaves the bm5 table with k=1,2,3 only (k≥5 would be degenerate for a
+> prefilter of 5).
+
+Best cells by F1 (after removing the degenerate config):
 
 | config | F1 | P | R | Jac.avg | R@k |
 |--------|---:|--:|--:|--------:|----:|
-| **H_bm5_cos5** (BM25→5, cosine→5) | **0.430** | 0.406 | 0.458 | 0.527 | 0.64 |
-| M1 markdown top-2 (reference) | 0.426 | 0.417 | 0.436 | 0.435 | 0.62 |
+| **M1 markdown top-2 (reference)** | **0.426** | 0.417 | 0.436 | 0.435 | 0.62 |
 | H_bm15_cos8 | 0.417 | 0.356 | 0.503 | 0.539 | 0.76 |
 | H_bm10_cos8 | 0.413 | 0.356 | 0.492 | 0.549 | 0.75 |
+| H_bm5_cos3 | 0.401 | 0.412 | 0.391 | 0.441 | 0.59 |
 
 Takeaways:
-- **`H_bm5_cos5` is the new overall best (F1 0.430), edging out M1** — and it does so on the
-  section chunks at 5 chunks of context, i.e. a *narrow* BM25 net (top-5) reranked by cosine.
-  A tight prefilter keeps precision up while cosine picks the best 5; wider prefilters
-  (10/15) add recall but bleed precision.
+- **No hybrid config beats M1 (markdown top-2, F1 0.426).** The best genuine hybrids are the
+  recall-heavy k=8 runs (H_bm15_cos8 = 0.417, H_bm10_cos8 = 0.413) — higher recall than M1
+  but lower precision, so they land just short on F1.
 - **Within every prefilter, raising k trades precision for recall** exactly as M7 showed:
   R@k climbs monotonically (bm15: 0.31→0.76 from k=1→8) and recall with it, but precision
-  falls and F1 plateaus around 0.40–0.43. Without abstention you cannot convert the extra
+  falls and F1 plateaus around 0.40–0.42. Without abstention you cannot convert the extra
   recall into F1.
 - **Prefilter size barely matters at fixed k** (bm5/bm10/bm15 give near-identical F1 per k) —
   because with cosine reranking, what reaches the model is the cosine-best k regardless of

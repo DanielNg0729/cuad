@@ -9,7 +9,7 @@ Competitive Restriction Exception,2,H_bm5_cos1,0.4,H_bm10_cos8,0.6528
 Covenant Not To Sue,5,H_bm10_cos8,0.6667,H_bm10_cos8,0.6686
 Document Name,6,M3_top1_cosine_llmcheck,0.6667,M1_top2_cosine,0.463
 Effective Date,7,M1_top2_cosine,0.6,H_bm10_cos8,0.4911
-Exclusivity,5,H_bm5_cos5,0.8,H_bm10_cos8,0.7947
+Exclusivity,5,H_bm5_cos3,0.75,H_bm10_cos8,0.7947
 Expiration Date,6,M2_top1_cosine,0.25,H_bm10_cos8,0.3833
 Governing Law,6,H_bm15_cos3,0.8,H_bm15_cos3,0.6863
 Insurance,8,M1_top2_cosine,0.875,M1_top2_cosine,0.9033
@@ -28,5 +28,5 @@ Renewal Term,1,M1_top2_cosine,0.5,M1_top2_cosine,0.55
 Revenue/Profit Sharing,4,H_bm15_cos8,0.3636,M1_top2_cosine,0.4913
 Termination For Convenience,3,H_bm10_cos2,1.0,H_bm10_cos2,1.0
 Unlimited/All-You-Can-Eat-License,1,H_bm10_cos2,1.0,H_bm5_cos3,0.9787
-Volume Restriction,8,H_bm5_cos5,0.0,H_bm5_cos5,0.0717
+Volume Restriction,8,H_bm10_cos1,0.0,H_bm10_cos1,0.0
 Warranty Duration,5,H_bm10_cos1,0.2857,H_bm15_cos2,0.3818
