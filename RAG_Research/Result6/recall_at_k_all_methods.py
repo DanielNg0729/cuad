@@ -43,7 +43,9 @@ RESULTS = HERE / "results"
 MODEL = "gpt-5.4"
 ORDER = ["M1_top2_cosine", "M2_top1_cosine", "M3_top1_cosine_llmcheck",
          "M4_top1_bm25", "M5_section_top2_cosine", "M6_section_hybrid_bm25_cosine",
-         "M7_section_hybrid_top5"]
+         "M7_section_hybrid_top5",
+         # Ablation: hybrid vs single-scorer retrieval at equal top-3 budget.
+         "H_bm5_cos3", "M8_section_bm25_top3", "M9_section_cosine_top3"]
 CHUNK_FILES = {"markdown": ROOT / "test_chunking.json",
                "section":  HERE / "section_chunking.json"}
 CONTRACTS = [
@@ -98,12 +100,16 @@ def main():
 
     rows = []
     for mk in ORDER:
+        pred_path = RESULTS / mk / f"{MODEL}.json"
+        if not pred_path.exists():
+            print(f"(skipping {mk}: {pred_path} not found yet)")
+            continue
         cfg = METHODS[mk]
         sub = subs["section" if cfg.get("chunking") == "section" else "markdown"]
         search, k, hn = cfg["search"], cfg["top_k"], cfg.get("hybrid_n", 10)
         chunkmap, sims, bm, gold = sub["chunkmap"], sub["sims"], sub["bm"], sub["gold"]
 
-        preds = json.loads((RESULTS / mk / f"{MODEL}.json").read_text(encoding="utf-8"))["by_contract"]
+        preds = json.loads(pred_path.read_text(encoding="utf-8"))["by_contract"]
 
         retrieved = extracted = 0
         for cid, label, g, hits in gold:
@@ -120,7 +126,7 @@ def main():
         r_at_k = retrieved / reachable if reachable else 0.0
         reach = retrieved / total_gold
         x_given_r = extracted / retrieved if retrieved else 0.0
-        end2end = json.loads((RESULTS / mk / f"{MODEL}.json").read_text(encoding="utf-8"))["micro"]["recall"]
+        end2end = json.loads(pred_path.read_text(encoding="utf-8"))["micro"]["recall"]
 
         rows.append({
             "method": mk, "chunking": cfg.get("chunking", "markdown"),

@@ -1,0 +1,42 @@
+﻿category,total_fn,retrieval_miss,extraction_miss,retrieval_share,abstained_returned_nothing,dominant
+Document Name,54,37,17,0.6852,31,retrieval
+Agreement Date,39,36,3,0.9231,10,retrieval
+Expiration Date,34,6,28,0.1765,12,extraction
+License Grant,34,12,22,0.3529,9,extraction
+Effective Date,31,19,12,0.6129,3,retrieval
+Revenue/Profit Sharing,26,16,10,0.6154,12,retrieval
+Cap On Liability,23,5,18,0.2174,13,extraction
+Anti-Assignment,20,4,16,0.2,12,extraction
+Minimum Commitment,20,6,14,0.3,13,extraction
+Exclusivity,19,11,8,0.5789,10,retrieval
+Covenant Not To Sue,15,11,4,0.7333,13,retrieval
+Volume Restriction,15,9,6,0.6,11,retrieval
+Governing Law,14,5,9,0.3571,9,extraction
+Ip Ownership Assignment,13,6,7,0.4615,5,extraction
+Audit Rights,12,3,9,0.25,7,extraction
+Rofr/Rofo/Rofn,12,4,8,0.3333,4,extraction
+Irrevocable Or Perpetual License,11,1,10,0.0909,2,extraction
+Non-Transferable License,11,2,9,0.1818,1,extraction
+Change Of Control,10,3,7,0.3,3,extraction
+Termination For Convenience,10,1,9,0.1,7,extraction
+Non-Compete,9,4,5,0.4444,3,extraction
+Notice Period To Terminate Renewal,9,1,8,0.1111,0,extraction
+Post-Termination Services,9,5,4,0.5556,0,retrieval
+Affiliate License-Licensee,8,1,7,0.125,3,extraction
+Liquidated Damages,8,2,6,0.25,2,extraction
+Uncapped Liability,8,0,8,0.0,3,extraction
+Competitive Restriction Exception,7,3,4,0.4286,0,extraction
+Renewal Term,7,2,5,0.2857,3,extraction
+Warranty Duration,7,3,4,0.4286,5,extraction
+Affiliate License-Licensor,6,2,4,0.3333,4,extraction
+Parties,6,3,3,0.5,2,tied
+Insurance,5,0,5,0.0,1,extraction
+Non-Disparagement,5,3,2,0.6,4,retrieval
+No-Solicit Of Customers,4,0,4,0.0,3,extraction
+Joint Ip Ownership,3,1,2,0.3333,3,extraction
+No-Solicit Of Employees,3,0,3,0.0,1,extraction
+Third Party Beneficiary,3,2,1,0.6667,2,retrieval
+Most Favored Nation,2,1,1,0.5,2,tied
+Unlimited/All-You-Can-Eat-License,2,0,2,0.0,0,extraction
+Price Restrictions,0,0,0,0.0,0,tied
+Source Code Escrow,0,0,0,0.0,0,tied

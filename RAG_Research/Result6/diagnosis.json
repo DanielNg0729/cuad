@@ -9,21 +9,42 @@
     "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT"
   ],
   "coverage": {
-    "gold_total": 179,
-    "in_some_chunk": 178,
-    "unreachable": 1,
-    "coverage_rate": 0.9944,
-    "unreachable_examples": [
-      {
-        "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
-        "category": "Minimum Commitment",
-        "gold": "Fleet shall ensure that it has sufficient experienced production staff"
-      }
-    ]
+    "markdown": {
+      "gold_total": 179,
+      "in_some_chunk": 178,
+      "unreachable": 1,
+      "coverage_rate": 0.9944,
+      "unreachable_examples": [
+        {
+          "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+          "category": "Minimum Commitment",
+          "gold": "Fleet shall ensure that it has sufficient experienced production staff"
+        }
+      ]
+    },
+    "section": {
+      "gold_total": 179,
+      "in_some_chunk": 177,
+      "unreachable": 2,
+      "coverage_rate": 0.9888,
+      "unreachable_examples": [
+        {
+          "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+          "category": "Minimum Commitment",
+          "gold": "Diplomat agrees to pay KI, Inc. the minimum royalties set forth below "
+        },
+        {
+          "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+          "category": "Insurance",
+          "gold": "KI, Inc. shall be entitled to a copy of the\n\n\n\n\n\nthen prevailing certi"
+        }
+      ]
+    }
   },
   "stages": [
     {
       "method": "M1_top2_cosine",
+      "chunking": "markdown",
       "reachable": 178,
       "retrieved_ok": 114,
       "retrieval_miss": 64,
@@ -37,6 +58,7 @@
     },
     {
       "method": "M2_top1_cosine",
+      "chunking": "markdown",
       "reachable": 178,
       "retrieved_ok": 87,
       "retrieval_miss": 91,
@@ -50,6 +72,7 @@
     },
     {
       "method": "M4_top1_bm25",
+      "chunking": "markdown",
       "reachable": 178,
       "retrieved_ok": 95,
       "retrieval_miss": 83,
@@ -60,6 +83,20 @@
       "fp_zero_gt": 50,
       "fp_with_gt": 41,
       "total_fp": 91
+    },
+    {
+      "method": "H_bm5_cos3",
+      "chunking": "section",
+      "reachable": 177,
+      "retrieved_ok": 107,
+      "retrieval_miss": 70,
+      "r_recall": 0.6045197740112994,
+      "extracted_ok": 68,
+      "extraction_miss": 39,
+      "x_recall": 0.6355140186915887,
+      "fp_zero_gt": 45,
+      "fp_with_gt": 55,
+      "total_fp": 100
     }
   ]
 }

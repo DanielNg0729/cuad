@@ -1,0 +1,145 @@
+Building BM25 index (embedder-agnostic)...
+Embedding categories + chunks for embedders: ['bge3', 'openai', 'qwen3'] (OpenAI reuses the shared project cache; Ollama models reuse/build a local cache here, free either way)...
+  gold total=179  reachable=177  coverage=0.9888
+
+=== ARM: bm25_top5 (search=bm25, top_k=5, hybrid_n=None, embedder=None) ===
+  already have D:\Internship\AStar\CuadNew\cuad\RAG_Research\Result6\TestAblation\results\bm25_top5\gpt-5.4.json -- loading from disk, no new LLM spend
+
+=== ARM: bm25_top10 (search=bm25, top_k=10, hybrid_n=None, embedder=None) ===
+  already have D:\Internship\AStar\CuadNew\cuad\RAG_Research\Result6\TestAblation\results\bm25_top10\gpt-5.4.json -- loading from disk, no new LLM spend
+
+=== ARM: openai_cosine_top5 (search=cosine, top_k=5, hybrid_n=None, embedder=openai) ===
+  already have D:\Internship\AStar\CuadNew\cuad\RAG_Research\Result6\TestAblation\results\openai_cosine_top5\gpt-5.4.json -- loading from disk, no new LLM spend
+
+=== ARM: openai_hybrid_bm10_cos5 (search=hybrid, top_k=5, hybrid_n=10, embedder=openai) ===
+  already have D:\Internship\AStar\CuadNew\cuad\RAG_Research\Result6\TestAblation\results\openai_hybrid_bm10_cos5\gpt-5.4.json -- loading from disk, no new LLM spend
+
+=== ARM: qwen3_cosine_top5 (search=cosine, top_k=5, hybrid_n=None, embedder=qwen3) ===
+  already have D:\Internship\AStar\CuadNew\cuad\RAG_Research\Result6\TestAblation\results\qwen3_cosine_top5\gpt-5.4.json -- loading from disk, no new LLM spend
+
+=== ARM: qwen3_hybrid_bm10_cos5 (search=hybrid, top_k=5, hybrid_n=10, embedder=qwen3) ===
+  already have D:\Internship\AStar\CuadNew\cuad\RAG_Research\Result6\TestAblation\results\qwen3_hybrid_bm10_cos5\gpt-5.4.json -- loading from disk, no new LLM spend
+
+=== ARM: bge3_cosine_top5 (search=cosine, top_k=5, hybrid_n=None, embedder=bge3) ===
+  already have D:\Internship\AStar\CuadNew\cuad\RAG_Research\Result6\TestAblation\results\bge3_cosine_top5\gpt-5.4.json -- loading from disk, no new LLM spend
+
+=== ARM: bge3_hybrid_bm10_cos5 (search=hybrid, top_k=5, hybrid_n=10, embedder=bge3) ===
+  already have D:\Internship\AStar\CuadNew\cuad\RAG_Research\Result6\TestAblation\results\bge3_hybrid_bm10_cos5\gpt-5.4.json -- loading from disk, no new LLM spend
+
+=== ARM: openai_cosine_top8 (search=cosine, top_k=8, hybrid_n=None, embedder=openai) ===
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done
+      180/246 category calls done
+      200/246 category calls done
+      220/246 category calls done
+      240/246 category calls done
+      246/246 category calls done
+    TP=83 FP=159 FN=96 | P=0.343 R=0.464 F1=0.394 | R@k=0.763 | cost=$0.8164 (NEW) | 0.5 min
+
+=== ARM: qwen3_cosine_top8 (search=cosine, top_k=8, hybrid_n=None, embedder=qwen3) ===
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done
+      180/246 category calls done
+      200/246 category calls done
+      220/246 category calls done
+      240/246 category calls done
+      246/246 category calls done
+    TP=90 FP=144 FN=89 | P=0.385 R=0.503 F1=0.436 | R@k=0.785 | cost=$0.7894 (NEW) | 0.5 min
+
+=== ARM: bge3_cosine_top8 (search=cosine, top_k=8, hybrid_n=None, embedder=bge3) ===
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done
+      180/246 category calls done
+      200/246 category calls done
+      220/246 category calls done
+      240/246 category calls done
+      246/246 category calls done
+    TP=81 FP=133 FN=98 | P=0.379 R=0.453 F1=0.412 | R@k=0.746 | cost=$0.8090 (NEW) | 0.5 min
+
+=== ARM: openai_hybrid_bm10_cos8 (search=hybrid, top_k=8, hybrid_n=10, embedder=openai) ===
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done
+      180/246 category calls done
+      200/246 category calls done
+      220/246 category calls done
+      240/246 category calls done
+      246/246 category calls done
+    TP=90 FP=153 FN=89 | P=0.370 R=0.503 F1=0.427 | R@k=0.768 | cost=$0.8337 (NEW) | 0.5 min
+
+=== ARM: qwen3_hybrid_bm10_cos8 (search=hybrid, top_k=8, hybrid_n=10, embedder=qwen3) ===
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done
+      180/246 category calls done
+      200/246 category calls done
+      220/246 category calls done
+      240/246 category calls done
+      246/246 category calls done
+    TP=90 FP=159 FN=89 | P=0.361 R=0.503 F1=0.421 | R@k=0.768 | cost=$0.8332 (NEW) | 0.5 min
+
+=== ARM: bge3_hybrid_bm10_cos8 (search=hybrid, top_k=8, hybrid_n=10, embedder=bge3) ===
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done
+      180/246 category calls done
+      200/246 category calls done
+      220/246 category calls done
+      240/246 category calls done
+      246/246 category calls done
+    TP=89 FP=149 FN=90 | P=0.374 R=0.497 F1=0.427 | R@k=0.763 | cost=$0.8309 (NEW) | 0.5 min
+
+====================================================================================================
+arm                         embedder          P      R     F1     F2   AUPR  Jac.avg    R@k     cost
+----------------------------------------------------------------------------------------------------
+bm25_top5                   n/a (lexical)  0.365  0.408  0.385  0.399  0.278    0.455  0.655   $0.574
+bm25_top10                  n/a (lexical)  0.341  0.486  0.401  0.448  0.326    0.535  0.802   $0.997
+openai_cosine_top5          openai        0.376  0.441  0.406  0.427  0.304    0.513  0.661   $0.571
+openai_hybrid_bm10_cos5     openai        0.367  0.425  0.394  0.412  0.290    0.480  0.678   $0.576
+qwen3_cosine_top5           qwen3         0.396  0.486  0.436  0.465  0.339    0.538  0.729   $0.563
+qwen3_hybrid_bm10_cos5      qwen3         0.381  0.475  0.423  0.453  0.328    0.544  0.701   $0.582
+bge3_cosine_top5            bge3          0.445  0.453  0.449  0.451  0.327    0.494  0.684   $0.552
+bge3_hybrid_bm10_cos5       bge3          0.397  0.464  0.428  0.449  0.324    0.480  0.718   $0.581
+openai_cosine_top8          openai        0.343  0.464  0.394  0.433  0.311    0.533  0.763   $0.816
+qwen3_cosine_top8           qwen3         0.385  0.503  0.436  0.474  0.348    0.559  0.785   $0.789
+bge3_cosine_top8            bge3          0.379  0.453  0.412  0.435  0.312    0.518  0.746   $0.809
+openai_hybrid_bm10_cos8     openai        0.370  0.503  0.426  0.469  0.344    0.525  0.768   $0.834
+qwen3_hybrid_bm10_cos8      qwen3         0.361  0.503  0.421  0.466  0.342    0.558  0.768   $0.833
+bge3_hybrid_bm10_cos8       bge3          0.374  0.497  0.427  0.467  0.342    0.523  0.763   $0.831
+====================================================================================================
+NEW spend this run: $4.9126  (arm C reused M7's existing predictions -- $0 new)
+
+Wrote D:\Internship\AStar\CuadNew\cuad\RAG_Research\Result6\TestAblation\ablation_summary.csv, ablation_summary.json, and results/<arm>/gpt-5.4.json (each with retrieved chunk text under by_contract.*.context)

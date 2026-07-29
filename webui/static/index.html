@@ -35,10 +35,11 @@
         </div>
 
         <div class="field">
-          <label for="mode" title="Full scan sends every chunk to the model. RAG embeds the chunks and, for each category, sends only the top-k most relevant chunks.">Extraction mode</label>
+          <label for="mode" title="Full scan sends every chunk to the model. RAG embeds the chunks and, for each category, sends only the top-k most relevant chunks. Hybrid retrieves by BM25 (lexical) top-5 then reranks by cosine similarity to a final top-5.">Extraction mode</label>
           <select id="mode">
             <option value="scan">Full scan (all chunks)</option>
             <option value="rag">RAG (top-3 retrieval)</option>
+            <option value="hybrid">Hybrid (BM25 top-5 + cosine top-5)</option>
           </select>
         </div>
 

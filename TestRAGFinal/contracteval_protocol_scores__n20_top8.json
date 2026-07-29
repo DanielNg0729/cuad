@@ -1,0 +1,155 @@
+{
+  "source_result": "TestRAGFinal/results/qwen3_rrf_n20_top8__all102/gpt-4.1.json",
+  "model": "gpt-4.1",
+  "arm": "qwen3_rrf_n20_top8",
+  "n_contracts": 102,
+  "native_metrics": {
+    "note": "this project's own scorer: per-GOLD-SPAN counting, token-Jaccard >= 0.5",
+    "tp": 1357,
+    "fp": 1720,
+    "fn": 1286,
+    "precision": 0.441,
+    "recall": 0.5134,
+    "f1": 0.4745,
+    "f2": 0.4971,
+    "aupr": 0.3699,
+    "jaccard_similarity": 0.476,
+    "r_at_k": 0.7695,
+    "coverage": 0.9883
+  },
+  "contracteval_protocol": {
+    "note": "ContractEval Sec 3.4: per-(contract,question) counting, prediction must FULLY COVER the gold span, empty label + abstention = TN",
+    "lenient_any_gold_covered": {
+      "mode": "lenient",
+      "tp": 777,
+      "tn": 2518,
+      "fp": 420,
+      "fn": 467,
+      "n_pairs": 4182,
+      "n_positive": 1244,
+      "n_negative": 2938,
+      "positive_share": 0.2975,
+      "precision": 0.6491,
+      "recall": 0.6246,
+      "f1": 0.6366,
+      "f2": 0.6294,
+      "jaccard_positive": 0.4881,
+      "accuracy": 0.7879,
+      "false_no_related_clause_rate_all": 0.0493,
+      "false_no_related_clause_rate_positive": 0.1656,
+      "n_false_no_related_clause": 206,
+      "n_answered_but_not_covering": 261
+    },
+    "strict_all_golds_covered": {
+      "mode": "strict",
+      "tp": 543,
+      "tn": 2518,
+      "fp": 420,
+      "fn": 701,
+      "n_pairs": 4182,
+      "n_positive": 1244,
+      "n_negative": 2938,
+      "positive_share": 0.2975,
+      "precision": 0.5639,
+      "recall": 0.4365,
+      "f1": 0.4921,
+      "f2": 0.4571,
+      "jaccard_positive": 0.4881,
+      "accuracy": 0.7319,
+      "false_no_related_clause_rate_all": 0.0493,
+      "false_no_related_clause_rate_positive": 0.1656,
+      "n_false_no_related_clause": 206,
+      "n_answered_but_not_covering": 495
+    }
+  },
+  "paper_reference_table3": {
+    "GPT 4.1": [
+      0.641,
+      0.672,
+      0.472,
+      0.071
+    ],
+    "GPT 4.1 mini": [
+      0.644,
+      0.678,
+      0.435,
+      0.072
+    ],
+    "Claude Sonnet 4": [
+      0.523,
+      0.578,
+      0.458,
+      0.025
+    ],
+    "Gemini 2.5 Pro Preview": [
+      0.497,
+      0.604,
+      0.506,
+      0.011
+    ]
+  },
+  "cost_usd": 18.200458,
+  "tokens": {
+    "input": 8302021,
+    "output": 199552
+  },
+  "paper_reference_table3_derived": {
+    "GPT 4.1": {
+      "precision_derived": 0.5952,
+      "recall_derived": 0.6944,
+      "f1": 0.641,
+      "f2": 0.672,
+      "jaccard": 0.472,
+      "false_rate": 0.071
+    },
+    "GPT 4.1 mini": {
+      "precision_derived": 0.5943,
+      "recall_derived": 0.7027,
+      "f1": 0.644,
+      "f2": 0.678,
+      "jaccard": 0.435,
+      "false_rate": 0.072
+    },
+    "Claude Sonnet 4": {
+      "precision_derived": 0.4514,
+      "recall_derived": 0.6216,
+      "f1": 0.523,
+      "f2": 0.578,
+      "jaccard": 0.458,
+      "false_rate": 0.025
+    },
+    "Gemini 2.5 Pro Preview": {
+      "precision_derived": 0.3837,
+      "recall_derived": 0.7052,
+      "f1": 0.497,
+      "f2": 0.604,
+      "jaccard": 0.506,
+      "false_rate": 0.011
+    }
+  },
+  "headline": {
+    "paper_gpt41_full_document": {
+      "f1": 0.641,
+      "f2": 0.672,
+      "jaccard": 0.472,
+      "false_rate": 0.071,
+      "approx_cost_usd": 50
+    },
+    "ours_gpt41_rag_lenient": {
+      "f1": 0.6366,
+      "f2": 0.6294,
+      "jaccard": 0.4881,
+      "false_rate": 0.0493,
+      "cost_usd": 18.200458
+    },
+    "ours_gpt41_rag_strict": {
+      "f1": 0.4921,
+      "f2": 0.4571,
+      "jaccard": 0.4881,
+      "false_rate": 0.0493,
+      "cost_usd": 18.200458
+    },
+    "delta_f1_lenient": -0.0044,
+    "delta_f1_strict": -0.1489
+  }
+}

@@ -64,6 +64,7 @@ _MODEL_BY_ID = {m["id"]: m for m in MODELS}
 # mirrors OpenAITest.py. Unknown models fall back to "default".
 PRICING = {
     "gpt-4o-mini":             (0.15, 0.60),
+    "gpt-4.1":                 (2.00, 8.00),
     "gpt-5.4-mini":            (0.25, 2.00),
     "gpt-5.4":                 (1.25, 10.00),
     "gpt-5.5":                 (1.25, 10.00),

@@ -1,0 +1,11 @@
+﻿arm,embedder,chunking,search,k,shortlist_n,rrf_k,n_chunks,tp,fp,fn,precision,recall,f1,f2,aupr,best_f1,best_f2,jaccard_avg,jaccard_best,jaccard_best_cat,jaccard_worst,jaccard_worst_cat,coverage,R_at_k,cost_usd,new_spend_usd
+openai_rrf_n10_top5,openai,section,rrf,5,10,60,220,81,134,98,0.3767,0.4525,0.4112,0.435,0.3115,0.4112,0.435,0.5419,1.0,Most Favored Nation,0.0,Renewal Term,0.9888,0.7119,0.586474,0.0
+openai_rrf_n15_top5,openai,section,rrf,5,15,60,220,80,151,99,0.3463,0.4469,0.3902,0.4224,0.3009,0.3902,0.4224,0.5357,1.0,Most Favored Nation,0.0,Renewal Term,0.9888,0.7006,0.595174,0.0
+qwen3_rrf_n10_top5,qwen3,section,rrf,5,10,60,220,92,132,87,0.4107,0.514,0.4566,0.4894,0.3625,0.4566,0.4894,0.5475,1.0,Most Favored Nation,0.0,Renewal Term,0.9888,0.7119,0.576906,0.0
+qwen3_rrf_n15_top5,qwen3,section,rrf,5,15,60,220,86,122,93,0.4135,0.4804,0.4444,0.4654,0.3395,0.4444,0.4654,0.5291,1.0,No-Solicit Of Employees,0.0,Renewal Term,0.9888,0.7062,0.58775,0.0
+bge3_rrf_n10_top5,bge3,section,rrf,5,10,60,220,81,119,98,0.405,0.4525,0.4274,0.4421,0.3179,0.4274,0.4421,0.4959,1.0,Most Favored Nation,0.0,Renewal Term,0.9888,0.6949,0.571836,0.0
+bge3_rrf_n15_top5,bge3,section,rrf,5,15,60,220,82,121,97,0.4039,0.4581,0.4293,0.4461,0.3216,0.4293,0.4461,0.4796,1.0,Most Favored Nation,0.0,Renewal Term,0.9888,0.6949,0.573975,0.0
+qwen3_rrf_n20_top5,qwen3,section,rrf,5,20,60,220,89,126,90,0.414,0.4972,0.4518,0.478,0.3515,0.4518,0.478,0.5426,1.0,Most Favored Nation,0.0,Renewal Term,0.9888,0.7062,0.580854,0.580854
+qwen3_rrf_n25_top5,qwen3,section,rrf,5,25,60,220,88,127,91,0.4093,0.4916,0.4467,0.4726,0.3464,0.4467,0.4726,0.5241,1.0,Affiliate License-Licensee,0.0,Renewal Term,0.9888,0.7119,0.584492,0.584492
+bge3_rrf_n20_top5,bge3,section,rrf,5,20,60,220,80,118,99,0.404,0.4469,0.4244,0.4376,0.3138,0.4244,0.4376,0.492,1.0,Most Favored Nation,0.0,Renewal Term,0.9888,0.6949,0.576759,0.576759
+bge3_rrf_n25_top5,bge3,section,rrf,5,25,60,220,83,117,96,0.415,0.4637,0.438,0.4531,0.3281,0.438,0.4531,0.5235,1.0,Most Favored Nation,0.0,Renewal Term,0.9888,0.6949,0.579699,0.579699

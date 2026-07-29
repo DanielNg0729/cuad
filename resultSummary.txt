@@ -1,0 +1,95 @@
+python OpenAITest.py --doc "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement" --model gpt-5.4
+OpenAI eval | model=gpt-5.4 | 1 contract(s) | concurrency=4 | already done: 0 QAs
+  [ 98] INGEVITYCORP_05_16_2016-EX-10.5-INTELLECTUAL PROPERTY AGREEMENT  (16 chunks)
+[1/1] AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement (69,272 chars)31 chunks)
+  6 chunks to processntertainmentLtd_20070221_F-1_EX-99.4_645553_EX-99.4_Content License Agreement  (17 chunks)
+    chunk 4/6 (4,207 chars) -> OK9_2020-EX-10.(XIV)-MASTER SERVICES AGREEMENT  (5 chunks)
+    chunk 2/6 (6,073 chars) -> OKad> 
+    chunk 1/6 (16,387 chars) -> OK
+    chunk 5/6 (3,074 chars) -> OK
+    chunk 3/6 (18,542 chars) -> OK
+    chunk 6/6 (20,989 chars) -> OK
+  23/41 labels hit, 41 QAs total
+
+Wrote 41 QA predictions to trained_models\gpt-5.4__openai\nbest_predictions_.json
+Total time: 0.2 min
+Next: python evaluate.py --model_path trained_models\gpt-5.4__openai
+PS D:\Internship\AStar\CuadNew\cuad> python OpenAITest.py --doc "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement" --model gpt-5.5
+OpenAI eval | model=gpt-5.5 | 1 contract(s) | concurrency=4 | already done: 0 QAs
+
+[1/1] AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement (69,272 chars)
+  6 chunks to process
+    chunk 2/6 (6,073 chars) -> OK
+    chunk 3/6 (18,542 chars) -> OK
+    chunk 1/6 (16,387 chars) -> OK
+    chunk 4/6 (4,207 chars) -> OK
+    chunk 5/6 (3,074 chars) -> OK
+    chunk 6/6 (20,989 chars) -> OK
+  14/41 labels hit, 41 QAs total
+
+Wrote 41 QA predictions to trained_models\gpt-5.5__openai\nbest_predictions_.json
+Total time: 1.4 min
+Next: python evaluate.py --model_path trained_models\gpt-5.5__openai
+PS D:\Internship\AStar\CuadNew\cuad> python OpenAITest.py --doc "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement" --model gpt-5.4-mini
+OpenAI eval | model=gpt-5.4-mini | 1 contract(s) | concurrency=4 | already done: 0 QAs
+
+[1/1] AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement (69,272 chars)
+  6 chunks to process
+    chunk 4/6 (4,207 chars) -> OK
+    chunk 2/6 (6,073 chars) -> OK
+    chunk 1/6 (16,387 chars) -> OK
+    chunk 3/6 (18,542 chars) -> OK
+    chunk 5/6 (3,074 chars) -> OK
+    chunk 6/6 (20,989 chars) -> OK
+  1/41 labels hit, 41 QAs total
+
+Wrote 41 QA predictions to trained_models\gpt-5.4-mini__openai\nbest_predictions_.json
+Total time: 0.1 min
+Next: python evaluate.py --model_path trained_models\gpt-5.4-mini__openai
+PS D:\Internship\AStar\CuadNew\cuad> python OpenAITest.py --doc "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement" --model gpt-5.4-mini --max_token 8000
+OpenAI eval | model=gpt-5.4-mini | 1 contract(s) | concurrency=4 | already done: 0 QAs
+
+[1/1] AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement (69,272 chars)
+  6 chunks to process
+    chunk 2/6 (6,073 chars) -> OK
+    chunk 4/6 (4,207 chars) -> OK
+    chunk 1/6 (16,387 chars) -> OK
+    chunk 5/6 (3,074 chars) -> OK
+    chunk 3/6 (18,542 chars) -> OK
+    chunk 6/6 (20,989 chars) -> OK
+  7/41 labels hit, 41 QAs total
+
+Wrote 41 QA predictions to trained_models\gpt-5.4-mini__openai\nbest_predictions_.json
+Total time: 0.1 min
+Next: python evaluate.py --model_path trained_models\gpt-5.4-mini__openai
+PS D:\Internship\AStar\CuadNew\cuad> python OpenAITest.py --doc "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement" --model gpt-4o-mini                  
+OpenAI eval | model=gpt-4o-mini | 1 contract(s) | concurrency=4 | already done: 0 QAs
+
+[1/1] AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement (69,272 chars)
+  6 chunks to process
+    chunk 2/6 (6,073 chars) -> OK
+    chunk 4/6 (4,207 chars) -> OK
+    chunk 3/6 (18,542 chars) -> OK
+    chunk 1/6 (16,387 chars) -> OK
+    chunk 5/6 (3,074 chars) -> OK
+    chunk 6/6 (20,989 chars) -> OK
+  1/41 labels hit, 41 QAs total
+
+Wrote 41 QA predictions to trained_models\gpt-4o-mini__openai\nbest_predictions_.json
+Total time: 0.2 min
+Next: python evaluate.py --model_path trained_models\gpt-4o-mini__openai
+PS D:\Internship\AStar\CuadNew\cuad> python OpenAITest.py --doc "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement" --model gpt-5.4-mini
+OpenAI eval | model=gpt-5.4-mini | 1 contract(s) | concurrency=4 | already done: 0 QAs
+
+[1/1] AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement (69,272 chars)
+  6 chunks to process
+    chunk 2/6 (6,073 chars) -> OK
+    chunk 4/6 (4,207 chars) -> OK
+    chunk 1/6 (16,387 chars) -> OK
+    chunk 3/6 (18,542 chars) -> OK
+    chunk 5/6 (3,074 chars) -> OK
+    chunk 6/6 (20,989 chars) -> OK
+  0/41 labels hit, 41 QAs total
+
+Wrote 41 QA predictions to trained_models\gpt-5.4-mini__openai\nbest_predictions_.json
+Total time: 0.1 min

@@ -1,0 +1,1248 @@
+[
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Document Name",
+    "gold": "AGENCY AGREEMENT",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Parties",
+    "gold": "Agent",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Parties",
+    "gold": "Biopure Corporation",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Parties",
+    "gold": "Company",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Agreement Date",
+    "gold": "March 29, 1999",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Effective Date",
+    "gold": "March 29, 1999",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Effective Date",
+    "gold": "This Agreement will become effective as of the date first written above and will continue in effect thereafter until terminated pursuant to Paragraph 4.2 below",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Expiration Date",
+    "gold": "This Agreement will become effective as of the date first written above and will continue in effect thereafter until terminated pursuant to Paragraph 4.2 below.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Governing Law",
+    "gold": "This Agreement and all related business transactions will be governed by the laws of the Commonwealth of Massachusetts (without reference to principles of conflicts or choice of law which would cause the application of the internal laws of any other jurisdiction).",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "No-Solicit Of Customers",
+    "gold": "Except as otherwise expressly provided in the Business Plan, the Agent will at its sole expense",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "No-Solicit Of Customers",
+    "gold": "(e) not solicit or accept orders for the Products other than from       Customers within the Territory after the Agent Launch Date; and not       knowingly, or knowingly permit others to, distribute or resell Products       outside the Territory or for end use by other than duly licensed       veterinarians;",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Termination For Convenience",
+    "gold": "Either party may, at its option, terminate this Agreement       without cause, effective at any time after January 31, 1999, upon giving       at least ninety (90) days prior written notice of such termination to the       other party.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Change Of Control",
+    "gold": "In the event of any material change in the organization,       ownership, management or control of the business of the Agent, the Company       may, at its option, terminate this Agreement upon giving written notice of       termination to the Agent.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Anti-Assignment",
+    "gold": "Neither party will not assign or otherwise transfer any of its rights or obligations under this Agreement without the express prior written consent of the other party.",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Revenue/Profit Sharing",
+    "gold": "The       Company will compensate the Agent an additional two (2) percent through a       discount off of the current price or promotional price of the Product       times the total monthly units shipped at that price to the Customer       excluding any taxes, and/or shipping and handling charges incurred by the       Company, so as to compensate the Agent's sales representatives.",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Minimum Commitment",
+    "gold": "Except as otherwise expressly provided in the Business Plan, the Agent will at its sole expense",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Minimum Commitment",
+    "gold": "All orders will be shipped to the Customer in minimum quantities of one box (two (2) bags).",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Minimum Commitment",
+    "gold": "(i) make all field sales representatives of the Agent available to       work with field sales representatives of the Company at least two (2) full       business days per agreement year.\n\n         (j) maintain sales and promotion of the Company's Products so as to       meet or exceed the previous years annual sales within the same competitive       environment.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Minimum Commitment",
+    "gold": "(h) make all field sales personnel of the Agent available for at       least four (4) hours, and telesales personnel available for at least one       (1) hour, of initial Products sales and marketing training by the Company,       and for such supplemental training by the Company as the Company may deem       appropriate from time to time, in each case, at such times and locations       as may be mutually agreed upon by the Company and the Agent.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Audit Rights",
+    "gold": "Except as otherwise expressly provided in the Business Plan, the Agent will at its sole expense",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Audit Rights",
+    "gold": "(f) meet with the Company at least once each quarter (starting with       the quarter in which the Agent Launch Date occurs), at a mutually       agreeable time and place to discuss and review the Agent's activities       hereunder, at which meeting the Agent will make available to the Company       information concerning the Agent's sale and marketing of the Products in       the Territory during the quarter and year-to-date, such information to       include details of sales efforts, Product sales volume and such other       information as may be mutually agreed upon in each Business Plan;",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Cap On Liability",
+    "gold": "In no       way should the Agent be liable for incidental or consequential damages.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Cap On Liability",
+    "gold": "In no event will the Company be liable for incidental or consequential damages.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Cap On Liability",
+    "gold": "Subject to Subparagraph (c) below, the Agent will indemnify the       Company (and its officers, directors, employees, agents and affiliates)       and hold it (and them) harmless from and against all loss, damage,       liability, cost or expense of any nature whatsoever, including, without       limitation, any and all reasonable attorneys fees and court costs       (together, a \"Loss\"), arising out of or in connection with (i) the       inaccuracy or breach of any representation, warranty or obligation of the       Agent hereunder and/or (ii) the activities of the Agent in connection with       the promotion, sale or collection of payment of the Products in violation       of this Agreement, law or any other duty or obligation of the Agent.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Cap On Liability",
+    "gold": "In no event will either party be       liable for special or consequential damages arising out of the breach or       the termination of this Agreement.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Cap On Liability",
+    "gold": "The Customer's exclusive remedy for a breach of any of the foregoing warranties will be the replacement, at the delivery point thereof, freight prepaid, of any Product furnished hereunder that fails to meet the foregoing standards.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Warranty Duration",
+    "gold": "The Company hereby warrants that all Products sold to the\n\n\n\n\n\nCustomer hereunder, at the time of shipment to the Customer, (a) will be merchantable and of generally commercially salable quality; and (b) will have a then remaining shelf life of at least twelve (12) months. The Company further    8\n\n                                    -7-\n\nwarrants that the Products have been manufactured, labeled and packaged, and when in the Company's possession or under its control, have been handled, stored and shipped, in compliance with all applicable federal, state and local laws. The Customer's exclusive remedy for a breach of any of the foregoing warranties will be the replacement, at the delivery point thereof, freight prepaid, of any Product furnished hereunder that fails to meet the foregoing standards. In no event will the Company be liable for incidental or consequential damages. All claims by the Customer and/or Agent under this Paragraph 2.6 must be submitted in accordance with the Company's published bulletins concerning such claims, as such bulletins may be amended by the Company from time to time and furnished to the Agent.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT",
+    "category": "Insurance",
+    "gold": "The Company and the Agent will each maintain, at their own expense, insurance with reputable insurers, such insurance to be in such form and amounts as are customary in the case of entities of established reputation engaged in the same or similar businesses and similarly situated, provided that such insurance will in any event include commercial general liability and umbrella liability insurance (including product liability coverage) for property damage, bodily injury and personal injury in an amount not less than Five Million Dollars ($5,000,000) combined single amount per occurrence and in the aggregate. Each such liability insurance policy of the Agent will name the Company (as its interest may appear) as an additional insured under the policy and provide for at least thirty (30) days prior written notice to the Company of any cancellation, modification or amendment of the policy. Each product liability insurance policy of the Company will name the Agent (as its interest may appear) as an additional insured under the policy and provide for at least thirty (30) days prior written notice to the Agent of any cancellation, modification, or amendment of this policy. Each party will furnish to the other upon request a Certificate of Insurance or other documentation reasonably satisfactory to the other evidencing compliance with this Paragraph 3.3.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Document Name",
+    "gold": "CELEBRITY ENDORSEMENT AGREEMENT",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Parties",
+    "gold": "Bizzingo",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Parties",
+    "gold": "Theismann",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Parties",
+    "gold": "Bizzingo, Inc.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Parties",
+    "gold": "Joseph Theismann",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Agreement Date",
+    "gold": "March 14, 2012",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Effective Date",
+    "gold": "March 1, 2012",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Expiration Date",
+    "gold": "Unless sooner terminated under the provisions hereof, this Agreement shall commence on the Effective Date and continue for a period  of one (1) year (\"Term\"). provided however, that the Parties may extend the Term for an additional year period by entering into an written  addendum of the Agreement extending such term.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Renewal Term",
+    "gold": "Unless sooner terminated under the provisions hereof, this Agreement shall commence on the Effective Date and continue for a period  of one (1) year (\"Term\"). provided however, that the Parties may extend the Term for an additional year period by entering into an written  addendum of the Agreement extending such term.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Exclusivity",
+    "gold": "Notwithstanding the foregoing, during the term and for a period of one (1) year thereafter, Theismann shall not use,  permit the use of, or license to others the Property in connection with the advertisement, promotion, and sale of any network or Internet service,  including but limited to all computer/video games, CD-ROMs, and/or interactive video of any form, except for a pre-existing license by Theismann.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Exclusivity",
+    "gold": "Theismann represents and warrants that, except as otherwise disclosed herein, he has not granted nor will he grant during the Term  and for a period of one (1) year thereafter to any other party any right, permission, or license to use the Property in connection with  the advertisement, sale, or promotion of the Network or in connection with networks that are identical or substantially similar to the  Network.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Termination For Convenience",
+    "gold": "Theismann shall have the right to terminate this Agreement at any time upon thirty (30) days' written notice to Bizzingo, such  termination to become effective at the conclusion of such 30-day period.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Anti-Assignment",
+    "gold": "Neither party may assign this Agreement or the rights and obligations thereunder to any third party without the prior  express written approval of the other party which shall not be unreasonably withheld.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Revenue/Profit Sharing",
+    "gold": "The Royalty payable under the Agreement shall be in the form of one (1) common stock purchase warrant of Bizzingo (as further  described herein) for each Activated User (as defined above) that occurs during a Royalty Period determined on the last day of each Royalty  Period during the Term.",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Volume Restriction",
+    "gold": "Make himself available for four (4) sessions for production of photographs, or radio, television, video or other multi-media  programming for use in Bizzingo's advertising or promotional materials, with each such session not exceeding eight (8) hours.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Volume Restriction",
+    "gold": "Make four (4) public appearance for the purpose of promoting the Network, which may include autograph sessions, dinner  appearances, and/or other appearances not described in 4(a) above, with each such session not exceeding two (2) hours.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "License Grant",
+    "gold": "Subject to the terms and conditions set forth herein, Theismann hereby grants to Bizzingo and its affiliates the unlimited  right and privilege during the Term (as defined herein) and within the Territory to use the Property (as defined herein) in connection with the  advertisement, promotion, and sale of the Network in the Territory whether through film, television, radio, print and Internet media, including the right to use  the Property in or on the Network. I",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "License Grant",
+    "gold": "It being understood and agreed that Bizzingo shall have the right to exhibit commercials, infomercials, advertisements and  otherwise make use of all Property on a worldwide basis and that Bizzingo and its affiliates shall be the sole owner of all commercials, promotional materials and  other items produced or created hereunder and all related rights worldwide, including, without limitation, copyright, trademark and intellectual property rights,  subject however to the terms and conditions herein.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Affiliate License-Licensee",
+    "gold": "Subject to the terms and conditions set forth herein, Theismann hereby grants to Bizzingo and its affiliates the unlimited  right and privilege during the Term (as defined herein) and within the Territory to use the Property (as defined herein) in connection with the  advertisement, promotion, and sale of the Network in the Territory whether through film, television, radio, print and Internet media, including the right to use  the Property in or on the Network",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Unlimited/All-You-Can-Eat-License",
+    "gold": "Subject to the terms and conditions set forth herein, Theismann hereby grants to Bizzingo and its affiliates the unlimited  right and privilege during the Term (as defined herein) and within the Territory to use the Property (as defined herein) in connection with the  advertisement, promotion, and sale of the Network in the Territory whether through film, television, radio, print and Internet media, including the right to use  the Property in or on the Network. I",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Audit Rights",
+    "gold": "All books and records relative to Bizzingo's obligations hereunder shall be maintained and made accessible to Theismann for inspection at a  location in the United States for at least one year after termination of this Agreement.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Audit Rights",
+    "gold": "Theismann or his representatives, at his cost and expense, shall have the right, upon reasonable notice and during  normal business hours, to inspect Bizzingo's books and records and all other documents and material in Bizzingo's possession or control with  respect to the determination of Royalties payable hereunder. Theismann shall have free and full access thereto for such purposes and may make  copies thereof.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+    "category": "Insurance",
+    "gold": "In this regarding, within thirty (30) days from the  execution of this Agreement, Bizzingo will secure an insurance policy with limits of $5,000,000 per event and $ 5,000,000 umbrella,  naming Theismann as an additional insured, covering the losses and claims stated in this sub-paragraph d.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Document Name",
+    "gold": "Distributor Agreement",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Parties",
+    "gold": "Airspan",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Parties",
+    "gold": "Distributor",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Parties",
+    "gold": "GLS LLC",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Parties",
+    "gold": "Airspan Networks Incorporated",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Agreement Date",
+    "gold": "31st day of March, 2000",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Effective Date",
+    "gold": "31st day of March, 2000",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Expiration Date",
+    "gold": "This Agreement shall remain in effect for sixty (60) months from the Effective Date (the \"Initial Term\").",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Governing Law",
+    "gold": "South Dakota",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Governing Law",
+    "gold": "This Agreement shall be construed in accordance with and governed by the laws of the State of South Dakota.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Most Favored Nation",
+    "gold": "Airspan warrants that during the term of this Agreement, the prices at      which Airspan sells to Distributor products supplied under this Agreement      shall be no less favorable to the Distributor than those prices at which      Airspan sells, at substantially the same time in the United States, similar      products and pursuant to similar terms and conditions as those by which      Airspan sells Products to the Distributor under this Agreement.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Non-Compete",
+    "gold": "During the term of this Agreement Distributor agrees that neither it      nor any organization or entity controlled or directed by it will, without      Airspan's prior, written consent, represent a manufacturer or supplier of      products similar in design or performance to or which are of such a nature      as to be competitive with any products contained in the Airspan Products.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Non-Compete",
+    "gold": "During the performance of this Agreement and for three (3) months after termination of services under this Agreement, Airspan will not offer products or services to third parties which compete with the products or services provided by Distributor under this Agreement, or otherwise use the knowledge acquired from Distributor in order to compete with Distributor its customers",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Non-Compete",
+    "gold": "Distributor will give Airspan thirty (30) days' prior, written notice of each new potential representation role being considered by Distributor, and Distributor will not undertake such representation without Airspan's prior, written consent, such consent not to be unreasonably withheld.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Non-Compete",
+    "gold": "During the term of this Agreement, and for a period of three (3) months following the expiration or termination of this Agreement, Distributor agrees that neither it nor any organization or entity controlled or directed by it will, without Airspan's prior, written consent, represent a manufacturer or supplier of products similar in design or performance to or which are of such a nature as to be competitive with any products contained in the Airspan Products, nor will Distributor market or otherwise promote the sale of such products.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Non-Compete",
+    "gold": "Except as\n\n\n\n\n\nprovided above, in no event will Airspan consent to Distributor's consultation for or representation of a manufacturer or supplier, which is directly or indirectly, a competitor of Airspan.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Exclusivity",
+    "gold": "Subject to the provisions of this Agreement, Airspan hereby appoints Distributor as an independent, exclusive distributor to assist Airspan in marketing the Airspan Products to customers in the Territory, and Distributor hereby accepts such appointment as of the Effective Date of this Agreement.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Anti-Assignment",
+    "gold": "Neither party may assign this Agreement or subcontract its obligations under this Agreement to another party without the other party's prior, written consent executed by a duly authorized officer.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Volume Restriction",
+    "gold": "Airspan shall provide a single technical course in the English language for up to two (2) qualified technicians of Distributor during the first year of this Agreement.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "License Grant",
+    "gold": "Distributor's appointment as a distributor of the Airspan Products grants to Distributor only a license to resell the",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "License Grant",
+    "gold": "Airspan grants Distributor, and Distributor hereby accepts, a nonexclusive, non-transferable license to use, and to sublicense as set forth below, Software provided by Airspan hereunder only on a single System or unit of Equipment, as may be applicable.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "License Grant",
+    "gold": "Airspan Products to Distributor's customers in the Territory, and does not transfer any right, title, or interest in any of the Airspan Software to Distributor.",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Non-Transferable License",
+    "gold": "Airspan grants Distributor, and Distributor hereby accepts, a nonexclusive, non-transferable license to use, and to sublicense as set forth below, Software provided by Airspan hereunder only on a single System or unit of Equipment, as may be applicable.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Post-Termination Services",
+    "gold": "For at least two (2) years after termination of this Agreement,      Distributor will maintain its records, contracts, and accounts relating to      distribution of Airspan Products, and will permit examination thereof by      authorized representatives of Airspan at all reasonable times.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Post-Termination Services",
+    "gold": "Airspan will recognize payments due to Distributor for orders received up to ninety (90) days after the termination or expiration of this Agreement.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Audit Rights",
+    "gold": "For at least two (2) years after termination of this Agreement,      Distributor will maintain its records, contracts, and accounts relating to      distribution of Airspan Products, and will permit examination thereof by      authorized representatives of Airspan at all reasonable times.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Cap On Liability",
+    "gold": "In any event, Airspan shall not be liable      for any direct, indirect, consequential, or special losses or damages      (including, but not limited to, loss of income or profit and loss of data)      that may be suffered by the Distributor or by any other person for failure      to deliver or for any delay or error in delivery of Equipment or Software      for any reason whatsoever.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Cap On Liability",
+    "gold": "Airspan shall not be liable to Distributor on account of termination or expiration of this Agreement for reimbursement or damages for loss of goodwill, prospective profits, or anticipated orders, or on account of any expenditures, investments, leases, or commitments made by either party, or for any other reason whatsoever based upon or growing out of such termination or expiration.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Cap On Liability",
+    "gold": "Without prejudice to Sections 16.3 and 16.4, the liability of the Airspan Parties, taken as a whole, for each event or series of connected events\n\n\n\n\n\narising out of or in connection with this Agreement, any purchase order placed pursuant to this Agreement, or any other collateral contract, or from or in connection with the Equipment or Software or the use thereof, or the inability to use them either separately or in combination with other equipment or software, or from any other cause, whether caused by negligence, breach of contract, strict liability, breach of warranty, on grounds of failure of essential purpose, or otherwise, shall in no circumstance exceed the total amount payable by Distributor to Airspan under this Agreement for the provision of",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Cap On Liability",
+    "gold": "WITHOUT PREJUDICE TO SECTION 16.4, NEITHER Airspan, NOR ANY OF ITS OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, REPRESENTATIVES, SHAREHOLDERS, OR AFFILIATES (Airspan AND SUCH OTHER PERSONS, THE \"Airspan PARTIES\"), SHALL HAVE ANY LIABILITY TO DISTRIBUTOR FOR LOSS OF PROFITS, INCOME, REVENUE OR DATA, OR INCIDENTAL, CONSEQUENTIAL, INDIRECT OR PUNITIVE DAMAGES OR LOSSES, ARISING FROM OR IN CONNECTION WITH THIS AGREEMENT, ANY PURCHASE ORDER PLACED PURSUANT TO THIS AGREEMENT OR ANY OTHER COLLATERAL CONTRACT, OR FROM OR IN CONNECTION WITH THE EQUIPMENT OR THE SOFTWARE OR THE USE THEREOF OR THE INABILITY TO USE THEM EITHER SEPARATELY OR IN COMBINATION WITH OTHER EQUIPMENT OR SOFTWARE, OR FROM ANY OTHER CAUSE, WHETHER CAUSED BY NEGLIGENCE, BREACH OF CONTRACT, STRICT LIABILITY, BREACH OF WARRANTY, ON GROUNDS OF FAILURE OF ESSENTIAL PURPOSE OR OTHERWISE.",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Cap On Liability",
+    "gold": "Airspan shall not be liable to Distributor for damages of any kind, including incidental or consequential damages, on account of the termination of this agreement in accordance with this section 13.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Cap On Liability",
+    "gold": "Airspan's obligation and Distributor's sole remedy under this warranty are limited to the replacement or repair, at Airspan's option, of the defective Equipment or Software within the Initial Warranty Period.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Cap On Liability",
+    "gold": "the Equipment or Software which gave rise to the loss or damage or in connection with which the loss or damage was incurred.",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Cap On Liability",
+    "gold": "And Distributor, taken as a whole, shall be liable for physical damage to Airspan's property resulting from Distributor's negligence under or in connection with this Agreement up to a maximum aggregate amount of one million US Dollars (US$1,000,000).",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Cap On Liability",
+    "gold": "Airspan Parties, taken as a whole, shall be liable for physical damage to Distributor's property resulting from Airspan's negligence under or in connection with this Agreement up to a maximum aggregate amount of one million US Dollars (US$1,000,000).",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Warranty Duration",
+    "gold": "Airspan's obligation and Distributor's sole remedy under this warranty are limited to the replacement or repair, at Airspan's option, of the defective Equipment or Software within the Initial Warranty Period.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Warranty Duration",
+    "gold": "Subject to the provisions of this warranty clause, defective parts or components must be returned by Distributor to Airspan's designated facility located within the contiguous 48 states in the United States, freight prepaid, within the Initial Warranty Period, and said defective parts will be repaired or replaced by Airspan at no charge to Distributor.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Warranty Duration",
+    "gold": "The warranty period for any item of Equipment and related Software shall be twelve (12) months from the date of delivery of such Equipment and related Software to Distributor as set forth in Paragraph 8.1 (hereinafter, this period of time shall be referred to as the \"Initial Warranty Period.\")",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Warranty Duration",
+    "gold": "Airspan warrants that, following repair or replacement, the repaired or replaced Equipment or Software by Airspan shall be free from defects in materials and faulty workmanship and that the Software will conform in all material respects to Airspan's published specifications therefor for ninety (90) days from date of shipment from Airspan to Distributor or until the end of the Initial Warranty Period, whichever is longer.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Covenant Not To Sue",
+    "gold": "Distributor admits Airspan's exclusive ownership of the name \"Airspan Networks Incorporated\", \"Airspan Communications Ltd.\", \"ANI\", \"ACL\", and any abbreviations or derivations thereof and all of Airspan's Trademarks (whether registered or not).",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Covenant Not To Sue",
+    "gold": "Distributor acknowledges Airspan's exclusive right, title, and interest in and to any trademarks, trade names, logos and designations which Airspan may at any time have adopted, used, or registered in the United States of America and in the Territory (the \"Trademarks\"), and will not at any time do or cause to be done any act or thing contesting or in any way impairing or tending to impair any part of said right, title, and interest.",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Covenant Not To Sue",
+    "gold": "In connection with any reference to the Trademarks, Distributor shall not in any manner represent that it has an ownership interest in the Trademarks or registration(s) thereof, and Distributor acknowledges that no action by it or on its behalf shall create in Distributor's favor any right, title, or interest in or to the Trademarks.",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "category": "Covenant Not To Sue",
+    "gold": "Distributor recognizes the validity of Airspan's copyright in any written material to which Airspan shall have made a claim to copyright protection, and Distributor specifically recognizes Airspan's exclusive right to copyright protection and/or registration of any translation of any advertising, promotional, or descriptive material furnished to Distributor by Airspan.",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Document Name",
+    "gold": "Endorsement Agreement",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Parties",
+    "gold": "Diplomat Ambassador Eyewear Group",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Parties",
+    "gold": "Kathy Ireland",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Parties",
+    "gold": "KI Inc.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Parties",
+    "gold": "The Sterling/Winters Co.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Parties",
+    "gold": "KI",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Parties",
+    "gold": "Diplomat",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Parties",
+    "gold": "Kathy Ireland, Inc.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Parties",
+    "gold": "SW",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Agreement Date",
+    "gold": "August 24, 1995",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Effective Date",
+    "gold": "August 1, 1995",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Expiration Date",
+    "gold": "The term of the license hereby granted shall commence August 1, 1995 and continue until January 30, 2000, unless sooner terminated in the manner provided in the immediately succeeding sentence or as otherwise provided in this Agreement.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Governing Law",
+    "gold": "This Agreement shall be governed by and       construed in accordance with the laws of the State of California without       regard to conflict of law principles.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Exclusivity",
+    "gold": "Nothing in this Agreement shall be construed to prevent KI, Inc. from granting any other licenses for the use of KI's name or likeness, or from utilizing KI's name and likeness in any manner whatsoever, except that KI, Inc. agrees that except as provided herein it will grant no other licenses for the territory to which this license extends for the use of KI's name and likeness in connection with the sale of the products described in subparagraphs 2.(a)(1) and (2) of this Agreement effective during the term of this Agreement.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Exclusivity",
+    "gold": "The license hereby granted shall be exclusive as to the products described in subparagraphs 2.(a)(1) and (2) of this Agreement, but nonexclusive as to all other products covered by this Agreement.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Competitive Restriction Exception",
+    "gold": "Nothing in this Agreement shall be construed to prevent KI, Inc. from granting any other licenses for the use of KI's name or likeness, or from utilizing KI's name and likeness in any manner whatsoever, except that KI, Inc. agrees that except as provided herein it will grant no other licenses for the territory to which this license extends for the use of KI's name and likeness in connection with the sale of the products described in subparagraphs 2.(a)(1) and (2) of this Agreement effective during the term of this Agreement.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Competitive Restriction Exception",
+    "gold": "The license hereby granted shall be exclusive as to the products described in subparagraphs 2.(a)(1) and (2) of this Agreement, but nonexclusive as to all other products covered by this Agreement.",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Anti-Assignment",
+    "gold": "KI, Inc. may assign its rights hereunder, but shall furnish written notice of such assignment to Diplomat.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Anti-Assignment",
+    "gold": "This Agreement and all rights and duties hereunder are personal to Diplomat and shall not, without the written consent of KI, Inc., be assigned, mortgaged, sublicensed or otherwise encumbered by Diplomat or by operation of law.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Revenue/Profit Sharing",
+    "gold": "Diplomat agrees to pay KI, Inc. as royalty a sum equal to  % of the net wholesale volume of the products covered by this Agreement by Diplomat and its affiliated, associated, or subsidiary companies.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Revenue/Profit Sharing",
+    "gold": "In the       event any sale is made at a special price to any of Diplomat's       subsidiaries or to any other person, firm or corporation related in any       manner to Diplomat or its officers, directors or major stockholders, there       shall be a royalty paid on such sales based upon the price generally       charged the trade by Diplomat.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Minimum Commitment",
+    "gold": "Diplomat agrees to pay KI, Inc. the minimum royalties set forth below as a minimum guarantee against royalties to be paid to KI, Inc. under subparagraph 3.(a), above:\n\n                  (1) 1st License Year (8/1/95 - 1/30/97):     $                   (2) 2nd License Year (2/1/97 - 1/30/98):     $                   (3) 3rd License Year (2/1/98 - 1/30/99):     $                   (4) 4th License Year (2/1/99 - 1/30/2000):   $",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Minimum Commitment",
+    "gold": "The minimum royalty for the 1st License Year shall be paid as follows: $ upon the signing of the Deal Memo dated August 24, 1995, the balance of $ to be paid in six (6) equal, consecutive, monthly installments of $ commencing with the month in which this Agreement is signed.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Minimum Commitment",
+    "gold": "No part of the minimum royalty for the first License Year shall in any event be repayable to Diplomat.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Volume Restriction",
+    "gold": "The photo sessions shall be up to two (2) consecutive days in duration, each day to consist of no more than eight (8) working hours.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Volume Restriction",
+    "gold": "KI will participate in up to two (2) photo sessions per License Year during the period of this Agreement on behalf of Diplomat at a mutually acceptable time and place.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Volume Restriction",
+    "gold": "The video production sessions shall be up to two (2) consecutive days",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Volume Restriction",
+    "gold": "KI will participate in the production of up to one (1) product information/sales video per License Year during the period of this Agreement on behalf of Diplomat at a mutually acceptable time and place.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Volume Restriction",
+    "gold": "in duration, each day to consist of no more than eight (8) working hours.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "License Grant",
+    "gold": "(2) optical cases, optical eye chains, eye pins, and lens cleaning kits sold only in optical retailers; and\n\n                        (3) such other optical accessories as the parties shall agree.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "License Grant",
+    "gold": "Upon the terms and conditions set forth in this Agreement, KI, Inc. hereby grants to Diplomat and Diplomat hereby accepts the right, license and privilege of utilizing KI's name and likeness solely upon and in connection with the manufacture, sale and distribution of the following products:\n\n                        (1) sunglasses, eyeglasses, readers and ophthalmic frames;",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Post-Termination Services",
+    "gold": "Upon the termination of this license,       notwithstanding anything to the contrary herein, all royalties on sales       theretofore made shall become immediately due and payable and no minimum       royalties shall be repayable.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Post-Termination Services",
+    "gold": "Upon and after the termination of the license, and except as otherwise provided in this Agreement, Diplomat may dispose of products covered by this Agreement which are on hand, or in process at the time notice of termination is received, for a period of one hundred and twenty (120) days after notice of termination, provided advances and royalties with respect to that period are paid and statements are furnished for that period in accordance with paragraph 3.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Audit Rights",
+    "gold": "subject matter and terms of this Agreement, and shall have free and full access thereto for said purposes and for the purpose of making extracts therefrom.",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Audit Rights",
+    "gold": "KI, Inc. and its duly-authorized representatives shall have the right, upon reasonable notice and at reasonable hours of the day, to visit the offices of Diplomat one time each calendar quarter for the purpose of examining said books of account and records, and all other documents and materials in the possession or under the control of Diplomat, with respect to the",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Insurance",
+    "gold": "As proof of such insurance, a fully paid certificate of insurance naming KI, Inc. and KI as an insured party will be submitted to KI, Inc. by Diplomat for KI, Inc.'s prior approval before any product is distributed or sold, and at the latest within thirty (30) days after the date first written above.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Insurance",
+    "gold": "KI, Inc. shall be entitled to a copy of the\n\n\n\n\n\nthen prevailing certificate of insurance, which shall be furnished KI, Inc. by Diplomat.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Insurance",
+    "gold": "Any proposed change in certificates of insurance shall be submitted to KI, Inc. for its prior approval.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Insurance",
+    "gold": "Diplomat agrees that it will obtain, at its own expense, product liability insurance from a recognized insurance company which is qualified to do business in the State of California providing adequate protection (at least in the amount of $         ) for KI, Inc., KI and Diplomat against any claims, suits, loss or damage arising out of any alleged defects in the products.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT",
+    "category": "Covenant Not To Sue",
+    "gold": "Diplomat agrees that it will not at any time during the term of this Agreement or thereafter attack (i) KI, Inc.'s title to, or rights in and to, KI's name or (ii) the validity of this license.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Document Name",
+    "gold": "AMENDMENT NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Parties",
+    "gold": "Fleet",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Parties",
+    "gold": "Fleet Laboratories Limited",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Parties",
+    "gold": "Columbia",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Parties",
+    "gold": "Columbia Laboratories, (Bermuda) Ltd.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Agreement Date",
+    "gold": "2018",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Effective Date",
+    "gold": "2018",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Expiration Date",
+    "gold": "Unless terminated earlier pursuant to Section 12.2 below, the initial term of this Agreement shall expire on 31 December 2024 (the \"Initial Term\") unless the Parties mutually agree in writing any extension to the Initial Term.",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Governing Law",
+    "gold": "This Amendment and and any dispute or claim (including non-contractual disputes or claims) arising out of or in connection with it or its subject matter or formation shall be governed by and construed in accordance with the laws of England.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Change Of Control",
+    "gold": "(ii) a Change of Control Event with respect to Fleet occurs;",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Change Of Control",
+    "gold": "Columbia shall have the right to terminate this Agreement upon [***] notice to Fleet in the event:",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Anti-Assignment",
+    "gold": "Neither party shall, without the prior written consent (not to be unreasonably withheld or delayed) of the other party having been obtained, assign or transfer this Agreement to any person or entity, in whole or in part (and any attempt to do so shall be void), provided that, each party may assign or transfer this Agreement without such consent to any Affiliate or to any successor by merger of such party, or upon a sale or other transfer of all or substantially all of such party's assets or business to which the subject matter of this Agreement pertains, provided that the acquirer of the business confirms to the Supplier in writing its agreement to be bound by all of the terms and conditions of this Agreement and that the assignor shall remain liable for the obligations hereunder.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Anti-Assignment",
+    "gold": "Notwithstanding the foregoing, it shall not be deemed unreasonable for Columbia to withhold consent, to any proposed or attempted assignment (including by merger or sale) by Fleet to a party which is not an Affiliate, if Columbia is not reasonably satisfied that the assignee possesses the management, finances, personnel, capabilities and facilities to perform fully the obligations of Fleet hereunder.",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Minimum Commitment",
+    "gold": "The amounts set forth for the [***] in each Production Schedule shall constitute a firm purchase order and shall be binding upon Columbia (each a \"Purchase Order\") unless otherwise agreed in writing by both parties.",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Post-Termination Services",
+    "gold": "Upon termination of this Agreement, Fleet agrees to perform its obligations under this Agreement until the earlier of [***].",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Audit Rights",
+    "gold": "Columbia or any other person appointed by Columbia shall have the right, in connection with any such audit, to inspect and obtain copies of any records or other documents and materials associated with or related to the manufacture of the Product.",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Audit Rights",
+    "gold": "Columbia QA, any other person appointed by Columbia, Columbia's customer, and/or any Regulatory Authority may conduct inspections and audits of Fleet's manufacturing facility, Columbia Equipment, quality control laboratories, and other quality systems relating to the manufacture and storage of the Product according to Columbia's reasonable procedures upon reasonable prior written notice, during normal business hours, provided, however, that Columbia QA, any other person appointed by Columbia and/or any Regulatory Authority may conduct a \"For Cause\" audit during normal business hours upon three (3) business days prior written notice to Fleet.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Audit Rights",
+    "gold": "Any such audit undertaken by Columbia QA or any other person appointed by Columbia shall be at Columbia's sole cost and expense.",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Insurance",
+    "gold": "Fleet and Columbia shall maintain comprehensive general liability insurance, including product liability insurance against claims regarding the manufacture of Product under this Agreement and sufficient cover to meet its liabilities under this Agreement in respect of the Columbia Equipment, with insurers having an AM Best rating within the top 2 categories at the time (at the date of this Agreement known as \"superior\" or \"excellent\") or reasonably comparable coverage, in such amounts as it customarily maintains for similar products and activities, but in no event less than [***] per individual claim and [***] in the aggregate.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT",
+    "category": "Insurance",
+    "gold": "Each party shall maintain such insurance during the Term and thereafter for so long as it customarily maintains insurance for itself for similar products and activities (but in no event less than [***] following termination or expiration).",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Document Name",
+    "gold": "Consulting Agreement",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Parties",
+    "gold": "Driven Deliveries, Inc.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Parties",
+    "gold": "TruckThat LLC",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Parties",
+    "gold": "Company and Consultant shall sometimes be referred to herein singularly as a \"Party\" or collectively as the \"Parties\" to this Agreement.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Parties",
+    "gold": "Company",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Parties",
+    "gold": "Consultant",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Agreement Date",
+    "gold": "May 1, 2019",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Effective Date",
+    "gold": "May 1, 2019",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Expiration Date",
+    "gold": "The initial term of this Agreement shall be the sooner of six (6) months from the Effective Date, or replacement of this Agreement with a subsequent agreement between the Parties.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Governing Law",
+    "gold": "This Agreement shall be governed by the laws of the State of California, without regard to the conflicts of law provisions of any jurisdiction.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Non-Compete",
+    "gold": "Consultant does not presently perform or intend to perform, during the term of this Agreement, consulting or other services for, or engage in or intend to engage in an employment relationship with, companies who businesses or proposed businesses in any way involve products or services which would be competitive with the Company's products or services, or those products or services proposed or in development by the Company during the term of this Agreement.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "No-Solicit Of Customers",
+    "gold": "Consultant also expressly agrees that he will not, without the prior written consent of the Company, either directly or indirectly on his own behalf, or in the service or on behalf of others, solicit, divert, or attempt to solicit or divert any customer, client, supplier or vendor of the Company for a period of five (5) years for any reason, and without limitation for the purpose of harming the Company or of obtaining and disseminating its trade secrets, or other proprietary and confidential information",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "No-Solicit Of Employees",
+    "gold": "Consultant expressly agrees that he will not, without the prior written consent of the Company, either directly or indirectly on his own behalf, or in the service or on behalf of others, solicit, divert or hire away, or attempt to solicit, divert or hire away any person employed by the Company for a period of five (5) years for any reason, and without limitation for the purpose of harming the Company or of obtaining and disseminating its trade secrets, or other proprietary and confidential information.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Termination For Convenience",
+    "gold": "Either Party may terminate this Agreement, with or without cause, upon giving the other party thirty (30) days prior written notice of such termination pursuant to Section 12.7 of this Agreement.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Anti-Assignment",
+    "gold": "Except as may otherwise be provided in this Agreement, Consultant may not sell, assign or delegate any rights or obligations under this Agreement.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Ip Ownership Assignment",
+    "gold": "Consultant agrees to assist Company, or its designee, at the Company's expense, in every proper way to secure the Company's rights in Inventions in any and all countries, including the disclosure to the Company of all pertinent information and data with respect thereto, the execution of all applications, specifications, oaths, assignments and all other instruments that the Company may deem necessary in order to apply for, register, obtain, maintain, defend, and enforce such rights, and in order to deliver, assign and convey to the Company, its successors, assigns and nominees the sole and exclusive right, title, and interest in and to all Inventions and testifying in a suit or other proceeding relating to such Inventions.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Ip Ownership Assignment",
+    "gold": "Consultant agrees that, if the Company is unable because of Consultant's unavailability, dissolution, mental or physical incapacity, or for any other reason, to secure Consultant's signature with respect to any Inventions, including, without limitation, for the purpose of applying for or pursuing any application for any United States or foreign patents or mask work or copyright registrations covering the Inventions assigned to the Company in Section 3.1, then Consultant hereby irrevocably designates and appoints the Company and its duly authorized officers and agents as Consultant's agent and attorney-in-fact, to act for and on Consultant's behalf to execute and file any papers and oaths and to do all other lawfully permitted acts with respect to such Inventions to further the prosecution and issuance of patents, copyright and mask work registrations with the same legal force and effect as if executed by Consultant. T",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Ip Ownership Assignment",
+    "gold": "Consultant agrees to keep and maintain adequate, current, accurate, and authentic written records of all Inventions made by Consultant (solely or jointly with others) during the term of this Agreement, and for a period of three (3) years thereafter. The records will be in the form of notes, sketches, drawings, electronic files, reports, or any other format that is customary in the industry and/or otherwise specified by the Company. Such records are and remain the sole property of the Company at all times and upon Company's request, Consultant shall deliver (or cause to be delivered) the same.",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Ip Ownership Assignment",
+    "gold": "Consultant agrees that all right, title, and interest in and to any material, notes, records, drawings, designs, inventions, improvements, developments, discoveries and trade secrets conceived, discovered, authored, invented, developed or reduced to practice by Consultant, solely or in collaboration with others, whether or not patentable or copyrightable, during the term of this Agreement and arising out of, or in connection with, performing the Services under this Agreement and any copyrights, patents, trade secrets, mask work rights or other intellectual property rights relating to the foregoing (collectively, \"Inventions\"), are the sole property of the Company. Consultant also agrees to promptly make full written disclosure to the Company of any Inventions and to deliver and assign (or cause to be assigned) and irrevocably assigns fully to the Company all right, title and interest in and to the Inventions. Without limiting the foregoing, all Inventions shall be deemed Confidential Information of the Company",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "License Grant",
+    "gold": "Subject to Section 3.1, Consultant agrees that if, in the course of performing the Services, Consultant incorporates into any Invention or utilizes in the performance of the Services any pre-existing invention, discovery, original works of authorship, development, improvements, trade secret, concept, or other proprietary information or intellectual property right owned by Consultant or in which Consultant has an interest (\"Prior Inventions\"), (i) Consultant will provide the Company with prior written notice and (ii) the Company is hereby granted a nonexclusive, royalty-free, perpetual, irrevocable, transferable, worldwide license (with the right to grant and authorize sublicenses) to make, have made, use, import, offer for sale, sell, reproduce, distribute, modify, adapt, prepare derivative works of, display, perform, and otherwise exploit such Prior Inventions, without restriction, including, without limitation, as part of or in connection with such Invention, and to practice any method related thereto.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Irrevocable Or Perpetual License",
+    "gold": "Subject to Section 3.1, Consultant agrees that if, in the course of performing the Services, Consultant incorporates into any Invention or utilizes in the performance of the Services any pre-existing invention, discovery, original works of authorship, development, improvements, trade secret, concept, or other proprietary information or intellectual property right owned by Consultant or in which Consultant has an interest (\"Prior Inventions\"), (i) Consultant will provide the Company with prior written notice and (ii) the Company is hereby granted a nonexclusive, royalty-free, perpetual, irrevocable, transferable, worldwide license (with the right to grant and authorize sublicenses) to make, have made, use, import, offer for sale, sell, reproduce, distribute, modify, adapt, prepare derivative works of, display, perform, and otherwise exploit such Prior Inventions, without restriction, including, without limitation, as part of or in connection with such Invention, and to practice any method related thereto.",
+    "retrieved": true,
+    "extracted": true
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Post-Termination Services",
+    "gold": "Consultant agrees to keep and maintain adequate, current, accurate, and authentic written records of all Inventions made by Consultant (solely or jointly with others) during the term of this Agreement, and for a period of three (3) years thereafter.",
+    "retrieved": false,
+    "extracted": null
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Cap On Liability",
+    "gold": "IN NO EVENT SHALL COMPANY BE LIABLE TO CONSULTANT OR TO ANY OTHER PARTY FOR ANY INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES, OR DAMAGES FOR LOST PROFITS OR LOSS OF BUSINESS, HOWEVER CAUSED AND UNDER ANY THEORY OF LIABILITY, WHETHER BASED IN CONTRACT, TORT (INCLUDING NEGLIGENCE) OR OTHER THEORY OF LIABILITY, REGARDLESS OF WHETHER COMPANY WAS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND NOTWITHSTANDING THE FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.",
+    "retrieved": true,
+    "extracted": false
+  },
+  {
+    "contract": "DRIVENDELIVERIES,INC_05_22_2020-EX-10.4-CONSULTING AGREEMENT",
+    "category": "Cap On Liability",
+    "gold": "IN NO EVENT SHALL COMPANY'S AGGREGATE LIABILITY ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT EXCEED THE AMOUNTS PAID BY COMPANY TO CONSULTANT UNDER THIS AGREEMENT FOR THE SERVICES, DELIVERABLES OR INVENTION GIVING RISE TO SUCH LIABILITY.",
+    "retrieved": true,
+    "extracted": true
+  }
+]

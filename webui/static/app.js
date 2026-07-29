@@ -143,7 +143,7 @@ function pollJob(jobId) {
         setIndeterminate(false);
         const pct = j.total ? Math.round((j.completed / j.total) * 100) : 0;
         const failTxt = j.failed ? ` · ${j.failed} failed` : "";
-        const unit = j.mode === "rag" ? "category" : "chunk";
+        const unit = (j.mode === "rag" || j.mode === "hybrid") ? "category" : "chunk";
         setProgress(pct, `${unit} ${j.completed} / ${j.total}${failTxt}`);
         if (j.finished) {
           if (j.error) return reject(new Error(j.error));
@@ -162,7 +162,7 @@ function pollJob(jobId) {
 async function runAnalyze(needParse) {
   banner("");
   const model = el("model").value;
-  const mode = el("mode").value;   // "scan" (all chunks) or "rag" (top-k)
+  const mode = el("mode").value;   // "scan" (all chunks), "rag" (cosine top-k), or "hybrid"
   showOverlay(true);
   ["parse", "extract", "render"].forEach((s) => setStep(s, ""));
   setIndeterminate(true);
@@ -207,7 +207,8 @@ async function runAnalyze(needParse) {
 
     // Start the background extraction job, then poll it for live progress.
     setStep("extract", "active");
-    const modeTxt = mode === "rag" ? " · RAG (top-3 retrieval)" : "";
+    const modeTxt = mode === "rag" ? " · RAG (top-3 retrieval)"
+      : mode === "hybrid" ? " · Hybrid (BM25 top-5 + cosine top-5)" : "";
     stageText("Running " + el("model").selectedOptions[0].textContent + " over the contract" + modeTxt + "…");
     const er = await fetch("/api/extract", {
       method: "POST",
@@ -299,13 +300,17 @@ function onResultsReady(result) {
     Object.values(state.spansByLabel).reduce((a, s) => a + s.length, 0);
   const cost = (result.estimated_cost_usd ?? 0).toFixed(4);
   const usage = result.usage || { input: 0, output: 0 };
-  const isRag = result.mode === "rag";
-  // scan: how many chunks succeeded. rag: how many category calls succeeded.
+  const isHybrid = result.mode === "hybrid";
+  const isRag = result.mode === "rag" || isHybrid;
+  // scan: how many chunks succeeded. rag/hybrid: how many category calls succeeded.
   const unitsTxt = result.n_failed
     ? `${result.n_ok}/${isRag ? result.n_labels : result.n_chunks} <span style="color:#a23a3a">(${result.n_failed} failed)</span>`
     : `${isRag ? result.n_labels : result.n_chunks}`;
+  const modeLabel = isHybrid
+    ? `Hybrid · BM25-${result.hybrid_n} &rarr; cosine-${result.top_k}`
+    : `RAG · top-${result.top_k}`;
   const modeSpan = isRag
-    ? `<span>Mode: <b>RAG · top-${result.top_k}</b></span>` +
+    ? `<span>Mode: <b>${modeLabel}</b></span>` +
       `<span>Categories queried: <b>${unitsTxt}</b></span>`
     : `<span>Mode: <b>Full scan</b></span>` +
       `<span>Chunks ok: <b>${unitsTxt}</b></span>`;

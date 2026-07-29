@@ -1,0 +1,15 @@
+{
+  "category": "all",
+  "aupr": 0.0,
+  "prec_at_80_recall": 0.0,
+  "prec_at_90_recall": 0.0,
+  "best_f1": 0.0,
+  "best_f2": 0.0,
+  "best_f1_conf": 0.0,
+  "true_positives": 0,
+  "false_positives": 0,
+  "false_negatives": 43,
+  "jaccard_category": "License Grant",
+  "jaccard_similarity": 0.0,
+  "name": "gpt-5.4-mini__openai"
+}

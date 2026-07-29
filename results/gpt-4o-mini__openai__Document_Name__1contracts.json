@@ -1,0 +1,11 @@
+{
+  "category": "Document Name",
+  "aupr": 1.0,
+  "prec_at_80_recall": 1.0,
+  "prec_at_90_recall": 1.0,
+  "best_f1": 1.0,
+  "best_f2": 1.0,
+  "jaccard_category": "Document Name",
+  "jaccard_similarity": 0.5,
+  "name": "gpt-4o-mini__openai"
+}

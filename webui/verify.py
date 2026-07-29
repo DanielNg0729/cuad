@@ -73,18 +73,23 @@ def _context_for(text: str, answer: str) -> str:
 
 
 def verify_label(label: str, description: str, answers: list[dict],
-                 text: str, model_id: str) -> list[dict]:
+                 text: str, model_id: str, shared_context: str | None = None) -> list[dict]:
     """Verify every answer for one category in a single model call.
 
     answers: [{"id", "text"}]. Returns [{"id", "verdict", "reason"}] aligned to
     the input by index. On a model/parse failure every answer comes back
-    'unsure' with the error as the reason, so the UI still gets a result."""
+    'unsure' with the error as the reason, so the UI still gets a result.
+
+    `shared_context`: if given, every answer is shown this SAME context instead
+    of its own +/- char window -- e.g. the exact top-k chunks retrieval handed
+    the extractor for this label (RAG/hybrid mode), so the verifier judges each
+    answer against the evidence the extractor actually had."""
     if not answers:
         return []
 
     blocks = []
     for i, a in enumerate(answers):
-        ctx = _context_for(text, a["text"])
+        ctx = shared_context if shared_context is not None else _context_for(text, a["text"])
         blocks.append(f'[{i}] ANSWER: "{a["text"]}"\n    CONTEXT: "{ctx}"')
     payload = {"label": label, "description": description, "answers": "\n\n".join(blocks)}
 

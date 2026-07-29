@@ -1,0 +1,103 @@
+Building BM25 index (shared across all embedders -- lexical, embedder-agnostic)...
+Embedding categories + chunks for embedders: ['openai', 'qwen3', 'bge3'] (OpenAI reuses the shared project cache; Ollama models reuse/build a local cache here, free either way)...
+  gold total=179  reachable=177  coverage=0.9888
+
+=== ARM: openai_rrf_n10_top5 (embedder=openai, shortlist_n=10, top_k=5) ===
+  already have D:\Internship\AStar\CuadNew\cuad\RAG_Research\Result6\TestRerank\results\openai_rrf_n10_top5\gpt-5.4.json -- loading from disk, no new LLM spend
+
+=== ARM: openai_rrf_n15_top5 (embedder=openai, shortlist_n=15, top_k=5) ===
+  already have D:\Internship\AStar\CuadNew\cuad\RAG_Research\Result6\TestRerank\results\openai_rrf_n15_top5\gpt-5.4.json -- loading from disk, no new LLM spend
+
+=== ARM: qwen3_rrf_n10_top5 (embedder=qwen3, shortlist_n=10, top_k=5) ===
+  already have D:\Internship\AStar\CuadNew\cuad\RAG_Research\Result6\TestRerank\results\qwen3_rrf_n10_top5\gpt-5.4.json -- loading from disk, no new LLM spend
+
+=== ARM: qwen3_rrf_n15_top5 (embedder=qwen3, shortlist_n=15, top_k=5) ===
+  already have D:\Internship\AStar\CuadNew\cuad\RAG_Research\Result6\TestRerank\results\qwen3_rrf_n15_top5\gpt-5.4.json -- loading from disk, no new LLM spend
+
+=== ARM: bge3_rrf_n10_top5 (embedder=bge3, shortlist_n=10, top_k=5) ===
+  already have D:\Internship\AStar\CuadNew\cuad\RAG_Research\Result6\TestRerank\results\bge3_rrf_n10_top5\gpt-5.4.json -- loading from disk, no new LLM spend
+
+=== ARM: bge3_rrf_n15_top5 (embedder=bge3, shortlist_n=15, top_k=5) ===
+  already have D:\Internship\AStar\CuadNew\cuad\RAG_Research\Result6\TestRerank\results\bge3_rrf_n15_top5\gpt-5.4.json -- loading from disk, no new LLM spend
+
+=== ARM: qwen3_rrf_n20_top5 (embedder=qwen3, shortlist_n=20, top_k=5) ===
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done
+      180/246 category calls done
+      200/246 category calls done
+      220/246 category calls done
+      240/246 category calls done
+      246/246 category calls done
+    TP=89 FP=126 FN=90 | P=0.414 R=0.497 F1=0.452 | R@k=0.706 | cost=$0.5809 (NEW) | 0.5 min
+
+=== ARM: qwen3_rrf_n25_top5 (embedder=qwen3, shortlist_n=25, top_k=5) ===
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done
+      180/246 category calls done
+      200/246 category calls done
+      220/246 category calls done
+      240/246 category calls done
+      246/246 category calls done
+    TP=88 FP=127 FN=91 | P=0.409 R=0.492 F1=0.447 | R@k=0.712 | cost=$0.5845 (NEW) | 0.5 min
+
+=== ARM: bge3_rrf_n20_top5 (embedder=bge3, shortlist_n=20, top_k=5) ===
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done
+      180/246 category calls done
+      200/246 category calls done
+      220/246 category calls done
+      240/246 category calls done
+      246/246 category calls done
+    TP=80 FP=118 FN=99 | P=0.404 R=0.447 F1=0.424 | R@k=0.695 | cost=$0.5768 (NEW) | 0.5 min
+
+=== ARM: bge3_rrf_n25_top5 (embedder=bge3, shortlist_n=25, top_k=5) ===
+      20/246 category calls done
+      40/246 category calls done
+      60/246 category calls done
+      80/246 category calls done
+      100/246 category calls done
+      120/246 category calls done
+      140/246 category calls done
+      160/246 category calls done
+      180/246 category calls done
+      200/246 category calls done
+      220/246 category calls done
+      240/246 category calls done
+      246/246 category calls done
+    TP=83 FP=117 FN=96 | P=0.415 R=0.464 F1=0.438 | R@k=0.695 | cost=$0.5797 (NEW) | 0.5 min
+
+====================================================================================================
+arm                         embedder        P      R     F1     F2   AUPR  Jac.avg    R@k     cost
+----------------------------------------------------------------------------------------------------
+openai_rrf_n10_top5         openai      0.377  0.453  0.411  0.435  0.311    0.542  0.712   $0.586
+openai_rrf_n15_top5         openai      0.346  0.447  0.390  0.422  0.301    0.536  0.701   $0.595
+qwen3_rrf_n10_top5          qwen3       0.411  0.514  0.457  0.489  0.362    0.547  0.712   $0.577
+qwen3_rrf_n15_top5          qwen3       0.413  0.480  0.444  0.465  0.340    0.529  0.706   $0.588
+bge3_rrf_n10_top5           bge3        0.405  0.453  0.427  0.442  0.318    0.496  0.695   $0.572
+bge3_rrf_n15_top5           bge3        0.404  0.458  0.429  0.446  0.322    0.480  0.695   $0.574
+qwen3_rrf_n20_top5          qwen3       0.414  0.497  0.452  0.478  0.351    0.543  0.706   $0.581
+qwen3_rrf_n25_top5          qwen3       0.409  0.492  0.447  0.473  0.346    0.524  0.712   $0.584
+bge3_rrf_n20_top5           bge3        0.404  0.447  0.424  0.438  0.314    0.492  0.695   $0.577
+bge3_rrf_n25_top5           bge3        0.415  0.464  0.438  0.453  0.328    0.523  0.695   $0.580
+====================================================================================================
+NEW spend this run: $2.3218
+
+Wrote D:\Internship\AStar\CuadNew\cuad\RAG_Research\Result6\TestRerank\rerank_summary.csv, rerank_summary.json, and results/<arm>/gpt-5.4.json (each with retrieved_chunks index->text map)

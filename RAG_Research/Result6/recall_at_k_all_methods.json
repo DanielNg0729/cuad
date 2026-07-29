@@ -96,5 +96,19 @@
     "X_given_R": 0.647,
     "end2end_recall": 0.425,
     "note": ""
+  },
+  {
+    "method": "H_bm5_cos3",
+    "chunking": "section",
+    "search": "hybrid",
+    "k": 3,
+    "hybrid_n": 5,
+    "n_chunks": 220,
+    "coverage": 0.989,
+    "R_at_k": 0.588,
+    "reach_covxRk": 0.581,
+    "X_given_R": 0.644,
+    "end2end_recall": 0.391,
+    "note": ""
   }
 ]

@@ -13,3 +13,19 @@ venv/
 # Run outputs
 trained_models/
 *.xlsx
+
+# RAG_Research embedding cache (regenerated on demand)
+RAG_Research/.cache/
+TestRAGFinal/.cache/
+
+# Source contract PDFs (~98 MB). Public CUAD data, re-downloadable from
+# https://www.atticusprojectai.org/cuad -- kept out of the repo for size.
+dataset/
+
+# Full-scale result JSONs are 50-75 MB each. The .gz form (3-5 MB) IS committed
+# and holds identical content -- gunzip to restore.
+TestRAGFinal/results/**/*.json
+!TestRAGFinal/results/**/*.json.gz
+
+# Word/Office lock files
+~$*

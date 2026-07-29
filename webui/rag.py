@@ -7,7 +7,8 @@ the model once, asking for all 41 categories at the same time. This module is
 
     1. embed every chunk once            (OpenAI text-embedding-3-small)
     2. embed every category              ("<label>. <description>")
-    3. for each category, cosine-rank the chunks and keep the top-k
+    3. for each category, rank the chunks and keep the top-k -- either plain
+       cosine, or "hybrid" (BM25 lexical prefilter, then cosine-rerank)
     4. ask the model about that ONE category over just those k chunks
 
 So instead of "N chunk calls, each covering 41 fields" we do "41 label calls,
@@ -23,6 +24,8 @@ from __future__ import annotations
 
 import asyncio
 import concurrent.futures
+import math
+import re
 import time
 from typing import Optional
 
@@ -34,6 +37,12 @@ import extract  # reuse categories, chain wiring, span validation, offsets, pric
 EMBED_MODEL = "text-embedding-3-small"
 EMBED_PRICE_PER_1M = 0.02          # USD / 1M tokens for text-embedding-3-small
 DEFAULT_TOP_K = 3
+# Hybrid retrieval ("hybrid 5-5"): BM25 prefilter to the top 5 chunks (lexical
+# recall), then cosine-rerank that shortlist and keep the top 5 (dense
+# precision). Matches H_bm5_cos5 from RAG_Research/Result6, the best-scoring
+# retriever found there (F1 0.430, beating plain cosine and plain BM25).
+HYBRID_BM25_N = 5
+HYBRID_TOP_K = 5
 # RAG fires ONE call per category (~41), so it parallelises far more than the
 # scan path (a handful of chunk calls). Each call is small and independent, so a
 # higher ceiling than extract.CONCURRENCY (4) is safe and ~4x faster in practice
@@ -211,27 +220,89 @@ def embed_texts(texts: list[str], model: str = EMBED_MODEL,
     return arr / norms, total_tokens
 
 
+# --- BM25 (dependency-free) --------------------------------------------------
+
+def _tok(s: str) -> list[str]:
+    return re.findall(r"[a-z0-9]+", (s or "").lower())
+
+
+class BM25:
+    """Textbook Okapi BM25 over a small chunk corpus (a handful of docs)."""
+
+    def __init__(self, corpus: list[list[str]], k1: float = 1.5, b: float = 0.75):
+        self.docs, self.k1, self.b = corpus, k1, b
+        self.N = len(corpus)
+        self.avgdl = (sum(len(d) for d in corpus) / self.N) if self.N else 0.0
+        df: dict[str, int] = {}
+        for d in corpus:
+            for w in set(d):
+                df[w] = df.get(w, 0) + 1
+        self.idf = {w: math.log(1 + (self.N - n + 0.5) / (n + 0.5)) for w, n in df.items()}
+        self.tf = [{} for _ in corpus]
+        for i, d in enumerate(corpus):
+            for w in d:
+                self.tf[i][w] = self.tf[i].get(w, 0) + 1
+
+    def scores(self, query: list[str]) -> np.ndarray:
+        out = np.zeros(self.N, dtype="float32")
+        for i in range(self.N):
+            dl = len(self.docs[i])
+            s = 0.0
+            for w in query:
+                f = self.tf[i].get(w, 0)
+                if not f:
+                    continue
+                idf = self.idf.get(w, 0.0)
+                s += idf * f * (self.k1 + 1) / (f + self.k1 * (1 - self.b + self.b * dl / (self.avgdl or 1)))
+            out[i] = s
+        return out
+
+
 # --- retrieval + per-label extraction --------------------------------------
+
+def _retrieve_idxs(search: str, top_k: int, n_chunks: int, ci: int, sims: np.ndarray,
+                   bm25: Optional["BM25"], query_tokens: Optional[list[list[str]]],
+                   hybrid_n: int) -> list[int]:
+    """Indices of the chunks to send to the model for category `ci`.
+
+    'cosine' = plain cosine top-k. 'hybrid' = BM25 prefilter to the top
+    `hybrid_n` chunks (lexical recall), then cosine-rerank that shortlist and
+    keep the top_k (dense precision)."""
+    k = min(top_k, n_chunks)
+    if k == 0:
+        return []
+    if search == "hybrid":
+        bm_row = bm25.scores(query_tokens[ci])
+        cand = [int(x) for x in np.argsort(-bm_row)[:min(hybrid_n, n_chunks)]]
+        cos = sims[ci] if sims.size else np.zeros(n_chunks)
+        cand.sort(key=lambda i: -float(cos[i]))       # rerank the BM25 shortlist by cosine
+        return cand[:k]
+    row = sims[ci] if sims.size else np.zeros(n_chunks)
+    return [int(x) for x in np.argsort(-row)[:k]]
+
 
 async def _rag_async(categories: list[dict], chunks: list[str], sims: np.ndarray,
                      top_k: int, model_id: str, concurrency: int,
-                     progress_cb=None) -> tuple[dict[str, list[str]], dict, dict]:
-    """For each category (capped by `concurrency`): take its top-k chunks by cosine
-    similarity, ask the model for verbatim spans, keep the ones that really appear."""
+                     progress_cb=None, search: str = "cosine",
+                     bm25: Optional["BM25"] = None,
+                     query_tokens: Optional[list[list[str]]] = None,
+                     hybrid_n: int = HYBRID_BM25_N) -> tuple[dict[str, list[str]], dict, dict]:
+    """For each category (capped by `concurrency`): retrieve its top-k chunks
+    (cosine, or BM25-prefilter + cosine-rerank when search='hybrid'), ask the
+    model for verbatim spans, keep the ones that really appear."""
     chain = extract.build_chain(model_id, LabelExtraction,
                                 system_prompt=RAG_SYSTEM, user_prompt=RAG_USER)
     sem = asyncio.Semaphore(concurrency)
     n = len(categories)
-    print(f"[rag] model={model_id} | {n} categor(ies) | top_k={top_k} | "
-          f"{len(chunks)} chunk(s) | concurrency={concurrency}", flush=True)
+    print(f"[rag] model={model_id} | {n} categor(ies) | search={search} | top_k={top_k}"
+          + (f" | bm25_n={hybrid_n}" if search == "hybrid" else "")
+          + f" | {len(chunks)} chunk(s) | concurrency={concurrency}", flush=True)
 
     prog = {"completed": 0, "ok": 0, "failed": 0}
 
     async def process(ci: int, cat: dict):
         async with sem:
-            row = sims[ci] if sims.size else np.zeros(0)
-            k = min(top_k, len(chunks))
-            idxs = list(np.argsort(-row)[:k]) if k else []
+            idxs = _retrieve_idxs(search, top_k, len(chunks), ci, sims, bm25, query_tokens, hybrid_n)
             context = "\n\n---\n\n".join(chunks[i] for i in idxs)
             try:
                 res = await extract._call_with_retry(
@@ -244,7 +315,7 @@ async def _rag_async(categories: list[dict], chunks: list[str], sims: np.ndarray
             prog["ok" if ok else "failed"] += 1
             status = "OK" if ok else f"FAILED: {str(res)[:100]}"
             print(f"  [{prog['completed']}/{n}] {cat['label'][:40]:40} "
-                  f"top{k} -> {status}", flush=True)
+                  f"top{len(idxs)} -> {status}", flush=True)
             if progress_cb:
                 try:
                     progress_cb(prog["completed"], n, prog["ok"], prog["failed"])
@@ -286,10 +357,14 @@ async def _rag_async(categories: list[dict], chunks: list[str], sims: np.ndarray
 def rag_extract(text: str, chunks: list[str], model_id: str,
                 categories: Optional[list[dict]] = None, top_k: int = DEFAULT_TOP_K,
                 chunk_embeddings: Optional[np.ndarray] = None,
-                concurrency: int = RAG_CONCURRENCY, progress_cb=None) -> dict:
+                concurrency: int = RAG_CONCURRENCY, progress_cb=None,
+                search: str = "cosine", hybrid_n: int = HYBRID_BM25_N) -> dict:
     """RAG extraction for one already-parsed document. Same return shape as
     extract.extract(), plus mode/top_k/embed metadata.
 
+    `search`: "cosine" (default, plain cosine top-k) or "hybrid" (BM25
+    prefilter to the top `hybrid_n` chunks, then cosine-rerank down to
+    `top_k` -- the "hybrid 5-5" method when hybrid_n=top_k=5).
     `chunk_embeddings` lets the caller pass a cached (n_chunks, d) matrix so
     re-runs skip re-embedding; if None, chunks are embedded here.
     progress_cb(completed, total, ok, failed) fires as each category finishes."""
@@ -305,13 +380,20 @@ def rag_extract(text: str, chunks: list[str], model_id: str,
     embed_tokens += lt
 
     # (n_labels, n_chunks) cosine-similarity matrix; both sides are L2-normalised.
+    # Needed even in hybrid mode, since hybrid reranks the BM25 shortlist by cosine.
     if chunk_embeddings.size and label_emb.size:
         sims = label_emb @ chunk_embeddings.T
     else:
         sims = np.zeros((len(categories), len(chunks)), dtype="float32")
 
+    bm25, query_tokens = None, None
+    if search == "hybrid":
+        bm25 = BM25([_tok(c) for c in chunks])
+        query_tokens = [_tok(f'{c["label"]} {c["description"]}') for c in categories]
+
     preds, usage, stats = asyncio.run(
-        _rag_async(categories, chunks, sims, top_k, model_id, concurrency, progress_cb)
+        _rag_async(categories, chunks, sims, top_k, model_id, concurrency, progress_cb,
+                  search=search, bm25=bm25, query_tokens=query_tokens, hybrid_n=hybrid_n)
     )
 
     entities = extract._build_entities(text, preds)
@@ -322,7 +404,8 @@ def rag_extract(text: str, chunks: list[str], model_id: str,
     embed_cost = embed_tokens / 1e6 * EMBED_PRICE_PER_1M
     cost = llm_cost + embed_cost
 
-    print(f"[rag] done in {time.time() - t0:.1f}s | model={model_id} | top_k={top_k}", flush=True)
+    print(f"[rag] done in {time.time() - t0:.1f}s | model={model_id} | search={search} | "
+          f"top_k={top_k}" + (f" | bm25_n={hybrid_n}" if search == "hybrid" else ""), flush=True)
     print(f"  label calls OK/failed : {stats['n_ok']}/{stats['n_failed']}", flush=True)
     print(f"  clause types hit      : {len(spans_by_label)}/{len(categories)}   "
           f"highlights: {len(entities)}", flush=True)
@@ -338,8 +421,10 @@ def rag_extract(text: str, chunks: list[str], model_id: str,
         "spans_by_label": spans_by_label,
         "usage": usage,
         "model": model_id,
-        "mode": "rag",
+        "mode": "hybrid" if search == "hybrid" else "rag",
+        "search": search,
         "top_k": top_k,
+        "hybrid_n": hybrid_n if search == "hybrid" else None,
         "n_chunks": len(chunks),
         "n_labels": len(categories),
         "n_ok": stats["n_ok"],
@@ -349,3 +434,39 @@ def rag_extract(text: str, chunks: list[str], model_id: str,
         "estimated_cost_usd": round(cost, 6),
         "n_entities": len(entities),
     }
+
+
+def retrieve_context_for_label(label: str, description: str, chunks: list[str],
+                               chunk_embeddings: np.ndarray, search: str, top_k: int,
+                               hybrid_n: int = HYBRID_BM25_N,
+                               bm25: Optional["BM25"] = None) -> tuple[str, Optional["BM25"]]:
+    """Re-run retrieval for ONE label with the same scorer/top_k the document was
+    last extracted with, so a later AI-verify pass sees exactly the chunks the
+    extractor saw instead of a generic +/- char window around each answer.
+
+    `search` is "cosine" (RAG mode) or "hybrid" (BM25 top-`hybrid_n` prefilter,
+    cosine-rerank to `top_k`). `bm25` lets the caller pass a cached index (built
+    over `chunks`, which don't change for a given doc) so repeated verify calls
+    don't rebuild it; if None and search=='hybrid', one is built here and handed
+    back for the caller to cache.
+
+    Returns (context, bm25) -- bm25 is None when search != 'hybrid'."""
+    n_chunks = len(chunks)
+    if n_chunks == 0:
+        return "", bm25
+    label_emb, _ = embed_texts([f"{label}. {description}"])
+    if label_emb.size and chunk_embeddings.size:
+        row = (label_emb @ chunk_embeddings.T)[0]
+    else:
+        row = np.zeros(n_chunks, dtype="float32")
+    sims = row[None, :]
+
+    if search == "hybrid":
+        if bm25 is None:
+            bm25 = BM25([_tok(c) for c in chunks])
+        query_tokens = [_tok(f"{label} {description}")]
+        idxs = _retrieve_idxs("hybrid", top_k, n_chunks, 0, sims, bm25, query_tokens, hybrid_n)
+    else:
+        idxs = _retrieve_idxs("cosine", top_k, n_chunks, 0, sims, None, None, hybrid_n)
+
+    return "\n\n---\n\n".join(chunks[i] for i in idxs), bm25

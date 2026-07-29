@@ -113,6 +113,19 @@ METHODS = {
         "desc": "Section chunking + HYBRID retrieval: BM25 prefilter to top-10 chunks, then "
                 "cosine-rerank to top-5 (wider final budget than M6's top-3).",
     },
+    # Ablation: same final budget (3 chunks/category) on the SAME section chunking,
+    # isolating what the hybrid rerank in H_bm5_cos3 actually buys over either
+    # single-scorer retriever alone.
+    "M8_section_bm25_top3": {
+        "search": "bm25", "top_k": 3, "check": False, "chunking": "section",
+        "desc": "Section chunking + BM25-only top-3 chunks per category (lexical, no "
+                "cosine rerank). Ablation baseline for H_bm5_cos3 at equal top-3 budget.",
+    },
+    "M9_section_cosine_top3": {
+        "search": "cosine", "top_k": 3, "check": False, "chunking": "section",
+        "desc": "Section chunking + cosine-only top-3 chunks per category (dense, no BM25 "
+                "prefilter). Ablation baseline for H_bm5_cos3 at equal top-3 budget.",
+    },
 }
 
 # Hybrid GRID on the section chunks: BM25 prefilter in {5, 10, 15} x cosine-rerank k in

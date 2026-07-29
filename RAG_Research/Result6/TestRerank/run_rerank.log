@@ -1,0 +1,14 @@
+Building BM25 index...
+Embedding categories + chunks for embedders: ['bge3', 'qwen3']...
+  gold total=179  reachable=177  coverage=0.9888
+
+Loading reranker tomaarsen/Qwen3-Reranker-0.6B-seq-cls (CUDA if available)...
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785132091.544242    7488 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785132093.411489    7488 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From D:\python\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+  loaded on cuda in 3.0s
+
+=== ARM: qwen3_rrf_n10_rerank_top5 (embedder=qwen3, RRF shortlist N=10, reranked final top-5) ===

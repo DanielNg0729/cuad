@@ -1,0 +1,18 @@
+{
+  "category": "License Grant",
+  "aupr": 0.4666666666666666,
+  "prec_at_80_recall": 0.0,
+  "prec_at_90_recall": 0.0,
+  "best_f1": 0.5,
+  "best_f2": 0.5882352941176471,
+  "best_f1_conf": 0.99,
+  "true_positives": 2,
+  "false_positives": 3,
+  "false_negatives": 1,
+  "jaccard_category": "License Grant",
+  "jaccard_similarity": 0.6676767676767676,
+  "jaccard_per_category": {
+    "License Grant": 0.6676767676767676
+  },
+  "name": "gpt-5.4__openai"
+}

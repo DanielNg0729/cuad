@@ -95,6 +95,7 @@ def build_chain(model: str, schema, max_tokens: int = MAX_TOKENS):
 # unknown models fall back to "default" and the printed cost is an estimate.
 PRICING = {
     "gpt-4o-mini":   (0.15, 0.60),
+    "gpt-4.1":       (2.00, 8.00),
     "gpt-5-mini":    (0.25, 2.00),
     "gpt-5.4-mini":  (0.25, 2.00),
     "gpt-5.4":       (1.25, 10.00),

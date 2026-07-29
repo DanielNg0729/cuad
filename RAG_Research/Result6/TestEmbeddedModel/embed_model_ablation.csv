@@ -1,0 +1,16 @@
+﻿embedder,config,search,top_k,hybrid_n,coverage,reachable,retrieved,R_at_5,embed_wall_seconds
+openai_text-embedding-3-small,cosine_top5,cosine,5,,0.9888,177,117,0.661,0.0
+openai_text-embedding-3-small,hybrid_bm5_cos5,hybrid,5,5,0.9888,177,116,0.6554,0.0
+openai_text-embedding-3-small,hybrid_bm10_cos5,hybrid,5,10,0.9888,177,120,0.678,0.0
+ollama_qwen3-embedding-0.6b,cosine_top5,cosine,5,,0.9888,177,129,0.7288,33.6
+ollama_qwen3-embedding-0.6b,hybrid_bm5_cos5,hybrid,5,5,0.9888,177,116,0.6554,33.6
+ollama_qwen3-embedding-0.6b,hybrid_bm10_cos5,hybrid,5,10,0.9888,177,124,0.7006,33.6
+ollama_bge-m3,cosine_top5,cosine,5,,0.9888,177,121,0.6836,15.7
+ollama_bge-m3,hybrid_bm5_cos5,hybrid,5,5,0.9888,177,116,0.6554,15.7
+ollama_bge-m3,hybrid_bm10_cos5,hybrid,5,10,0.9888,177,127,0.7175,15.7
+ollama_nomic-embed-text,cosine_top5,cosine,5,,0.9888,177,117,0.661,9.0
+ollama_nomic-embed-text,hybrid_bm5_cos5,hybrid,5,5,0.9888,177,116,0.6554,9.0
+ollama_nomic-embed-text,hybrid_bm10_cos5,hybrid,5,10,0.9888,177,113,0.6384,9.0
+ollama_mxbai-embed-large,cosine_top5,cosine,5,,0.9888,177,107,0.6045,18.8
+ollama_mxbai-embed-large,hybrid_bm5_cos5,hybrid,5,5,0.9888,177,116,0.6554,18.8
+ollama_mxbai-embed-large,hybrid_bm10_cos5,hybrid,5,10,0.9888,177,111,0.6271,18.8

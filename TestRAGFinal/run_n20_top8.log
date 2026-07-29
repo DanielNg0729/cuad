@@ -1,0 +1,592 @@
+CompareContractEval | arm=qwen3_rrf_n20_top8 | model=gpt-4.1 | 102 contracts | 4141 section chunks
+  ground truth: 4182 (contract, category) pairs, 2643 gold answers
+Building per-contract BM25 indexes...
+Embedding 41 categories + 4141 chunks with qwen3-embedding:0.6b (local, free; cached on disk)...
+    embedded 20/102 contracts (0.0 min)
+    embedded 40/102 contracts (0.0 min)
+    embedded 60/102 contracts (0.0 min)
+    embedded 80/102 contracts (0.0 min)
+    embedded 100/102 contracts (0.0 min)
+    embedded 102/102 contracts (0.0 min)
+  embedding done in 0.0 min (no API cost)
+
+  gold total=2643  reachable=2612  coverage=0.9883
+
+  4182 LLM calls queued | 36.46M context chars | projected ~9.62M in / ~251k out | projected cost ~$21.24
+
+Calling gpt-4.1 at concurrency 12...
+      20/4182 category calls done
+      40/4182 category calls done
+      60/4182 category calls done
+      80/4182 category calls done
+      100/4182 category calls done
+      120/4182 category calls done
+      140/4182 category calls done
+      160/4182 category calls done
+      180/4182 category calls done
+      200/4182 category calls done
+      220/4182 category calls done
+      240/4182 category calls done
+      260/4182 category calls done
+      280/4182 category calls done
+      300/4182 category calls done
+      320/4182 category calls done
+      340/4182 category calls done
+      360/4182 category calls done
+      380/4182 category calls done
+      400/4182 category calls done
+      420/4182 category calls done
+      440/4182 category calls done
+      460/4182 category calls done
+      480/4182 category calls done
+      500/4182 category calls done
+      520/4182 category calls done
+      540/4182 category calls done
+      560/4182 category calls done
+      580/4182 category calls done
+      600/4182 category calls done
+      620/4182 category calls done
+      640/4182 category calls done
+      660/4182 category calls done
+      680/4182 category calls done
+      700/4182 category calls done
+      720/4182 category calls done
+      740/4182 category calls done
+      760/4182 category calls done
+      780/4182 category calls done
+      800/4182 category calls done
+      820/4182 category calls done
+      840/4182 category calls done
+      860/4182 category calls done
+      880/4182 category calls done
+      900/4182 category calls done
+      920/4182 category calls done
+      940/4182 category calls done
+      960/4182 category calls done
+      980/4182 category calls done
+      1000/4182 category calls done
+      1020/4182 category calls done
+      1040/4182 category calls done
+      1060/4182 category calls done
+      1080/4182 category calls done
+      1100/4182 category calls done
+      1120/4182 category calls done
+      1140/4182 category calls done
+      1160/4182 category calls done
+      1180/4182 category calls done
+      1200/4182 category calls done
+      1220/4182 category calls done
+      1240/4182 category calls done
+      1260/4182 category calls done
+      1280/4182 category calls done
+      1300/4182 category calls done
+      1320/4182 category calls done
+      1340/4182 category calls done
+      1360/4182 category calls done
+      1380/4182 category calls done
+      1400/4182 category calls done
+      1420/4182 category calls done
+      1440/4182 category calls done
+      1460/4182 category calls done
+      1480/4182 category calls done
+      1500/4182 category calls done
+      1520/4182 category calls done
+      1540/4182 category calls done
+      1560/4182 category calls done
+      1580/4182 category calls done
+      1600/4182 category calls done
+      1620/4182 category calls done
+      1640/4182 category calls done
+      1660/4182 category calls done
+      1680/4182 category calls done
+      1700/4182 category calls done
+      1720/4182 category calls done
+      1740/4182 category calls done
+      1760/4182 category calls done
+      1780/4182 category calls done
+      1800/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      1820/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 3)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 3)
+    rate-limited, sleeping 2.0s (attempt 3)
+    rate-limited, sleeping 2.0s (attempt 3)
+    rate-limited, sleeping 2.0s (attempt 3)
+    rate-limited, sleeping 2.0s (attempt 3)
+    rate-limited, sleeping 2.0s (attempt 3)
+    rate-limited, sleeping 2.0s (attempt 4)
+    rate-limited, sleeping 2.0s (attempt 4)
+    rate-limited, sleeping 2.0s (attempt 1)
+      1840/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 4)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      1860/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      1880/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      1900/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      1920/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      1940/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      1960/4182 category calls done
+      1980/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2000/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2020/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2040/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      2060/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2080/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2100/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2120/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 2)
+      2140/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2160/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      2180/4182 category calls done
+      2200/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2220/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2240/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      2260/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2280/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2300/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2320/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      2340/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2360/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2380/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      2400/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      2420/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2440/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      2460/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2480/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2500/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2520/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2540/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2560/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 2)
+      2580/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      2600/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2620/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 2)
+      2640/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2660/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2680/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 2)
+      2700/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2720/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2740/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2760/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2780/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 3)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2800/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      2820/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2840/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2860/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2880/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      2900/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      2920/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 2)
+      2940/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2960/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+      2980/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3000/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3020/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3040/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3060/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      3080/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3100/4182 category calls done
+      3120/4182 category calls done
+      3140/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3160/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3180/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3200/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3220/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3240/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3260/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3280/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3300/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3320/4182 category calls done
+      3340/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3360/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3380/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3400/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3420/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3440/4182 category calls done
+      3460/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3480/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3500/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3520/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      3540/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3560/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3580/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 3)
+      3600/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      3620/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3640/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3660/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3680/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3700/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3720/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3740/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3760/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      3780/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3800/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      3820/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      3840/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 2)
+      3860/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3880/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 3)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3900/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3920/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3940/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3960/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      3980/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 2)
+    rate-limited, sleeping 2.0s (attempt 2)
+      4000/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      4020/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      4040/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      4060/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+      4080/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 2)
+      4100/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      4120/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      4140/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      4160/4182 category calls done
+    rate-limited, sleeping 2.0s (attempt 1)
+    rate-limited, sleeping 2.0s (attempt 1)
+      4180/4182 category calls done
+      4182/4182 category calls done
+  4182 ok / 0 failed | 8,302,021 in + 199,552 out tokens | $18.2005 | 11.4 min
+
+============================================================================================
+model      contracts    TP    FP    FN       P       R      F1      F2    AUPR     Jac    R@k
+--------------------------------------------------------------------------------------------
+gpt-4.1          102  1357  1720  1286   0.441   0.513   0.474   0.497   0.370   0.497  0.769
+============================================================================================
+cost $18.2005 | 11.4 min | D:\Internship\AStar\CuadNew\cuad\TestRAGFinal\results\qwen3_rrf_n20_top8__all102\gpt-4.1.json (78.4 MB)

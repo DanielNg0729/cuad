@@ -1,0 +1,15 @@
+﻿arm,embedder,chunking,search,k,bm25_prefilter,n_chunks,tp,fp,fn,precision,recall,f1,f2,aupr,best_f1,best_f2,jaccard_avg,jaccard_best,jaccard_best_cat,jaccard_worst,jaccard_worst_cat,coverage,R_at_k,cost_usd,new_spend_usd
+bm25_top5,n/a (lexical),section,bm25,5,,220,73,127,106,0.365,0.4078,0.3852,0.3985,0.2783,0.3852,0.3985,0.4553,0.9902,Termination For Convenience,0.0,Renewal Term,0.9888,0.6554,0.573981,0.0
+bm25_top10,n/a (lexical),section,bm25,10,,220,87,168,92,0.3412,0.486,0.4009,0.448,0.3259,0.4009,0.448,0.5352,1.0,Most Favored Nation,0.0,Renewal Term,0.9888,0.8023,0.997003,0.0
+openai_cosine_top5,openai,section,cosine,5,,220,79,131,100,0.3762,0.4413,0.4062,0.4266,0.3037,0.4062,0.4266,0.5134,1.0,No-Solicit Of Employees,0.0,Irrevocable Or Perpetual License,0.9888,0.661,0.570819,0.0
+openai_hybrid_bm10_cos5,openai,section,hybrid,5,10,220,76,131,103,0.3671,0.4246,0.3938,0.4117,0.2902,0.3938,0.4117,0.4801,1.0,No-Solicit Of Employees,0.0,Renewal Term,0.9888,0.678,0.575844,0.0
+qwen3_cosine_top5,qwen3,section,cosine,5,,220,87,133,92,0.3955,0.486,0.4361,0.4647,0.3391,0.4361,0.4647,0.5378,1.0,No-Solicit Of Employees,0.0,Renewal Term,0.9888,0.7288,0.563334,0.0
+qwen3_hybrid_bm10_cos5,qwen3,section,hybrid,5,10,220,85,138,94,0.3812,0.4749,0.4229,0.4526,0.3279,0.4229,0.4526,0.5444,1.0,Most Favored Nation,0.0,Renewal Term,0.9888,0.7006,0.58185,0.0
+bge3_cosine_top5,bge3,section,cosine,5,,220,81,101,98,0.4451,0.4525,0.4488,0.451,0.327,0.4488,0.451,0.4942,1.0,Most Favored Nation,0.0,Volume Restriction,0.9888,0.6836,0.551749,0.0
+bge3_hybrid_bm10_cos5,bge3,section,hybrid,5,10,220,83,126,96,0.3971,0.4637,0.4278,0.4486,0.3239,0.4278,0.4486,0.4805,1.0,Most Favored Nation,0.0,Renewal Term,0.9888,0.7175,0.581101,0.0
+openai_cosine_top8,openai,section,cosine,8,,220,83,159,96,0.343,0.4637,0.3943,0.4332,0.3114,0.3943,0.4332,0.5332,1.0,No-Solicit Of Employees,0.0,Volume Restriction,0.9888,0.7627,0.816361,0.816361
+qwen3_cosine_top8,qwen3,section,cosine,8,,220,90,144,89,0.3846,0.5028,0.4358,0.4737,0.3481,0.4358,0.4737,0.5595,1.0,Affiliate License-Licensee,0.0149,Volume Restriction,0.9888,0.7853,0.789426,0.789426
+bge3_cosine_top8,bge3,section,cosine,8,,220,81,133,98,0.3785,0.4525,0.4122,0.4355,0.3119,0.4122,0.4355,0.5185,1.0,Most Favored Nation,0.0149,Volume Restriction,0.9888,0.7458,0.809038,0.809038
+openai_hybrid_bm10_cos8,openai,section,hybrid,8,10,220,90,153,89,0.3704,0.5028,0.4265,0.4692,0.3445,0.4265,0.4692,0.5255,1.0,No-Solicit Of Employees,0.0,Renewal Term,0.9888,0.7684,0.833726,0.833726
+qwen3_hybrid_bm10_cos8,qwen3,section,hybrid,8,10,220,90,159,89,0.3614,0.5028,0.4206,0.4663,0.3423,0.4206,0.4663,0.5577,1.0,Affiliate License-Licensee,0.0,Renewal Term,0.9888,0.7684,0.833164,0.833164
+bge3_hybrid_bm10_cos8,bge3,section,hybrid,8,10,220,89,149,90,0.3739,0.4972,0.4269,0.4665,0.3416,0.4269,0.4665,0.5231,1.0,Most Favored Nation,0.0,Renewal Term,0.9888,0.7627,0.83089,0.83089

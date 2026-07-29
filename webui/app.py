@@ -174,9 +174,10 @@ def _run_extract_job(job_id: str, doc: dict, model_id: str, mode: str):
         job.update(completed=completed, total=total, ok=ok, failed=failed)
 
     try:
-        if mode == "rag":
+        if mode in ("rag", "hybrid"):
             # Embed the chunks once and cache the matrix on the doc, so switching
             # the LLM or re-running RAG doesn't pay to re-embed the same chunks.
+            # (Hybrid mode still needs these: it cosine-reranks its BM25 shortlist.)
             emb = doc.get("chunk_emb")
             if emb is None:
                 job.update(stage="embedding", completed=0, total=len(doc["chunks"]),
@@ -189,12 +190,27 @@ def _run_extract_job(job_id: str, doc: dict, model_id: str, mode: str):
             # switch to the per-category extraction phase (its own progress scale)
             job.update(stage="extracting", completed=0,
                        total=len(extract.load_categories()))
-            result = rag.rag_extract(doc["text"], doc["chunks"], model_id,
-                                     chunk_embeddings=emb, progress_cb=progress)
+            if mode == "hybrid":
+                result = rag.rag_extract(doc["text"], doc["chunks"], model_id,
+                                         chunk_embeddings=emb, progress_cb=progress,
+                                         search="hybrid", top_k=rag.HYBRID_TOP_K,
+                                         hybrid_n=rag.HYBRID_BM25_N)
+            else:
+                result = rag.rag_extract(doc["text"], doc["chunks"], model_id,
+                                         chunk_embeddings=emb, progress_cb=progress)
             unit, total = "categor(y/ies)", result.get("n_labels", 0)
+            # Remember how this label's chunks were retrieved, so a later "AI
+            # verify" pass for the same label can silently reuse the exact same
+            # top-k retrieval instead of a generic +/- char window (see api_verify).
+            doc["retrieval_meta"] = {
+                "search": result.get("search", "cosine"),
+                "top_k": result.get("top_k", rag.DEFAULT_TOP_K),
+                "hybrid_n": result.get("hybrid_n"),
+            }
         else:
             result = extract.extract(doc["text"], doc["chunks"], model_id, progress_cb=progress)
             unit, total = "chunk(s)", result.get("n_chunks", 0)
+            doc["retrieval_meta"] = None   # full scan: no per-label retrieval to mirror
 
         if result.get("n_ok", 0) == 0 and result.get("n_failed", 0) > 0:
             # everything failed -> the model never really ran (dead id, bad key)
@@ -222,18 +238,19 @@ def api_extract():
     data = request.get_json(silent=True) or {}
     doc_id = data.get("doc_id")
     model_id = data.get("model")
-    mode = data.get("mode", "scan")   # "scan" (all chunks) or "rag" (top-k retrieval)
+    mode = data.get("mode", "scan")   # "scan" (all chunks), "rag" (cosine top-k), or
+                                       # "hybrid" (BM25 top-5 -> cosine top-5)
 
     doc = _DOCS.get(doc_id)
     if doc is None:
         return jsonify({"error": "Unknown or expired doc_id. Re-upload the PDF."}), 404
     if model_id not in {m["id"] for m in extract.MODELS}:
         return jsonify({"error": f"Unknown model: {model_id!r}"}), 400
-    if mode not in {"scan", "rag"}:
+    if mode not in {"scan", "rag", "hybrid"}:
         return jsonify({"error": f"Unknown mode: {mode!r}"}), 400
 
-    # progress denominator: chunks for a full scan, categories for RAG.
-    total = len(extract.load_categories()) if mode == "rag" else len(doc["chunks"])
+    # progress denominator: chunks for a full scan, categories for RAG/hybrid.
+    total = len(doc["chunks"]) if mode == "scan" else len(extract.load_categories())
 
     job_id = uuid.uuid4().hex
     if len(_JOBS) >= MAX_JOBS:
@@ -405,10 +422,28 @@ def api_verify(doc_id):
     if not items:
         return jsonify({"items": [], "message": "No answers to verify for this label."})
 
+    # If the document was last extracted with RAG/hybrid, silently reuse that
+    # SAME top-k retrieval for this label instead of a generic +/- char window,
+    # so the verifier judges answers against exactly what the extractor saw.
+    shared_context = None
+    meta = doc.get("retrieval_meta")
+    if meta and doc.get("chunk_emb") is not None:
+        try:
+            shared_context, bm25 = rag.retrieve_context_for_label(
+                label, desc, doc["chunks"], doc["chunk_emb"],
+                search=meta["search"], top_k=meta["top_k"],
+                hybrid_n=meta.get("hybrid_n") or rag.HYBRID_BM25_N,
+                bm25=doc.get("bm25"),
+            )
+            if bm25 is not None:
+                doc["bm25"] = bm25   # cache so later verify calls on this doc skip rebuilding it
+        except Exception:  # noqa: BLE001
+            shared_context = None   # fall back to the per-answer window below
+
     try:
         verdicts = verify.verify_label(
             label, desc, [{"id": it["id"], "text": it["text"]} for it in items],
-            doc["text"], model_id,
+            doc["text"], model_id, shared_context=shared_context,
         )
     except Exception as e:  # noqa: BLE001
         return jsonify({"error": f"Verification failed: {e}"}), 500
