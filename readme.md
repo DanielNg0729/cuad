@@ -230,6 +230,4 @@ document hierarchy — which is also an upstream cause of the uneven-chunk probl
    [arXiv:2103.06268](https://arxiv.org/abs/2103.06268)
 2. Liu, Li, Ma, Zhao & Du (2025). *ContractEval: Benchmarking LLMs for Clause-Level Legal Risk
    Identification in Commercial Contracts.* [arXiv:2508.03080](https://arxiv.org/abs/2508.03080)
-3. Cormack, Clarke & Büttcher (2009). *Reciprocal Rank Fusion Outperforms Condorcet and
-   Individual Rank Learning Methods.* SIGIR.
-4. Chen et al. (2024). *BGE M3-Embedding.* [arXiv:2402.03216](https://arxiv.org/abs/2402.03216)
+3. Chen et al. (2024). *BGE M3-Embedding.* [arXiv:2402.03216](https://arxiv.org/abs/2402.03216)
